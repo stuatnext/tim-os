@@ -71,14 +71,34 @@ npm run agents:run
 - **Voice & focus** — tune the AI: set this week's focus, add voice tuning notes.
 - **Agent runs** — observability for every agent execution.
 
-## Production
+## Deploy to Vercel (recommended)
 
-The repo deploys cleanly to Cloud Run alongside Tim's existing press kit. Recommended setup:
+The repo is Vercel-ready: Postgres-by-default, prompt caching configured, cron jobs in `vercel.json`.
 
-1. Swap Prisma to Postgres (Cloud SQL).
-2. Set `ANTHROPIC_API_KEY`, `AGENT_SECRET`, `DATABASE_URL` as Cloud Run env vars.
-3. Wire **Cloud Scheduler** jobs to the cron-callable endpoints above.
-4. Optional: front the dashboard with IAP so only Tim and Stuart can hit it.
+1. **Import the repo into Vercel.** vercel.com/new → pick `stuatnext/tim-os` → Framework: Next.js (auto-detected).
+2. **Add a Postgres database.** In the Vercel project: **Storage → Create → Neon (Postgres)** (free tier is enough). Vercel auto-wires `DATABASE_URL`.
+3. **Set environment variables** (Settings → Environment Variables):
+   - `ANTHROPIC_API_KEY` — from console.anthropic.com
+   - `AGENT_SECRET` — any random string; protects the cron-callable endpoints
+4. **Deploy.** First build runs `prisma generate && prisma db push && next build` — schema lands in Postgres automatically.
+5. **Seed the database.** Once deployed:
+   ```bash
+   curl -X POST -H "Authorization: Bearer YOUR_AGENT_SECRET" \
+     https://your-app.vercel.app/api/admin/seed
+   ```
+6. **Open the dashboard** at the Vercel URL. First action: click **Refresh feeds**, then **Summarise new items** on the Intelligence page, then **Generate brief** on the home page.
+
+Vercel Cron is preconfigured (`vercel.json`):
+- Feeds refresh every 2 hours
+- Summariser runs 15 min after each refresh
+- Opportunity ranker daily at 01:00 UTC
+- Weekly brief Sundays at 22:00 UTC (Monday morning Singapore time)
+
+Vercel Hobby tier limits function execution to 60s. For longer batches (e.g. Opus brief generation over many news items), upgrade to Pro or chunk the work.
+
+## Deploy to Cloud Run
+
+For deployment alongside Tim's existing press kit on GCP, see the Dockerfile pattern in `next.config.ts` and use Cloud SQL for Postgres + Cloud Scheduler for cron.
 
 ## Files of interest
 

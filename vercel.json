@@ -1,0 +1,8 @@
+{
+  "crons": [
+    { "path": "/api/feeds/refresh", "schedule": "0 */2 * * *" },
+    { "path": "/api/agents/summarise", "schedule": "15 */2 * * *" },
+    { "path": "/api/agents/rank-opportunities", "schedule": "0 1 * * *" },
+    { "path": "/api/agents/brief", "schedule": "0 22 * * 0" }
+  ]
+}

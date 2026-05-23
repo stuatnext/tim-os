@@ -1,12 +1,13 @@
 // Tim OS — data model
-// SQLite by default for fast dev; swap provider to "postgresql" for prod.
+// Postgres for prod (Vercel + Neon/Supabase/Vercel Postgres).
+// For local SQLite dev, change provider to "sqlite" and DATABASE_URL to "file:./prisma/dev.db".
 
 generator client {
   provider = "prisma-client-js"
 }
 
 datasource db {
-  provider = "sqlite"
+  provider = "postgresql"
   url      = env("DATABASE_URL")
 }
 

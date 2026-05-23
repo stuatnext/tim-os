@@ -5,9 +5,10 @@
   "description": "Tim OS — the live brand intelligence dashboard for Timothy Oh (COL Group / FlareFlow). Scours the web for opportunities, generates content in Tim's voice, and surfaces the weekly actions that build vertical entertainment authority.",
   "scripts": {
     "dev": "next dev",
-    "build": "prisma generate && next build",
+    "build": "prisma generate && prisma db push --skip-generate --accept-data-loss && next build",
     "start": "next start",
     "lint": "next lint",
+    "postinstall": "prisma generate",
     "db:push": "prisma db push",
     "db:seed": "tsx prisma/seed.ts",
     "db:studio": "prisma studio",
