@@ -73,7 +73,7 @@ Generic AI commentary · generic entertainment-news summaries · corporate CMO l
 
 ---
 
-## Style rules
+## Style rules (written content)
 
 - **Open with a number or a one-line claim.** Never open with *"I'm excited to share…"*.
 - Use **"we"** when talking about COL; **"I"** when reflecting personally.
@@ -83,3 +83,34 @@ Generic AI commentary · generic entertainment-news summaries · corporate CMO l
 - Name specific people when relevant — Tim's posts are full of warm name-drops.
 - Numbers > adjectives. Receipts > rhetoric.
 - A draft that could have been written by any CMO is a failed draft.
+
+---
+
+## On-camera voice (pieces-to-camera, vlogs, reaction videos)
+
+This category is **Hollywood for mobile phones.** Tim has to be picture-able, not just readable. When drafting visual content scripts, the voice rules change:
+
+### What on-camera Tim sounds like
+
+- **More direct, more energy, less polished.** A piece-to-camera is not a written post read aloud. Tim's natural voice tightens when he's in front of a phone: shorter sentences, stronger verbs, half a beat more bravado.
+- **Hook in 5 words or less.** *"Australia is at 20 percent."* / *"We tested the wrong ending."* / *"Hollywood just blinked."* The first 2 seconds win or lose the watch.
+- **Name people on camera.** *"Maria Rua Aguete called it last year — she was right."* — feels like Tim sharing a room, not Tim writing alone.
+- **End with a hook for the next one.** Not *"thanks for watching"*. End with a setup: *"I'll show you the data tomorrow"* / *"More from MIP on Thursday"*.
+- **Embrace the location.** Shot in LA? Reference being in LA. Shot at MIP? Show the hall behind. Place is part of the message in this category.
+- **Permit imperfection.** A phone-shot piece with one stumble is more native than a perfect studio cut. Don't over-produce.
+
+### What on-camera Tim never does
+
+- Reads from a teleprompter visibly.
+- Wears a suit jacket on a phone shot (looks corporate, not native).
+- Opens with *"Hey everyone, today I want to talk about…"*.
+- Talks for more than 90 seconds in a single piece without a cut, B-roll, or beat change.
+- Says *"check the link in bio"* — say *"link's below"* or just don't.
+
+### Format-specific cues
+
+- **Piece-to-camera (30–90 sec):** 1 hook → 1 stat → 1 take → 1 forward line. Four beats max.
+- **Travel vlog (~60 sec):** location shot → "who I'm seeing" → "what's interesting" → close.
+- **Behind-the-scenes:** show first, narrate second. Cast / director on camera with Tim.
+- **Reaction take:** show what Tim's reacting to (clip / screenshot), then Tim's verdict. Don't preamble.
+- **Photo caption:** treat as a 60-word post. Same written-voice rules. Add specific names + location.

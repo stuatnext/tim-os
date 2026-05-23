@@ -162,7 +162,19 @@ export type RelationshipTarget = {
 export type ContentIdea = {
   id: string;
   platform: "linkedin" | "x" | "newsletter" | "podcast-pitch";
-  format: "post" | "article" | "thread" | "newsletter" | "reply" | "comment";
+  format:
+    | "post"
+    | "article"
+    | "thread"
+    | "newsletter"
+    | "reply"
+    | "comment"
+    | "piece-to-camera"
+    | "vlog"
+    | "bts"
+    | "reaction"
+    | "photo-caption"
+    | "livestream";
   title: string;             // headline-style internal label
   hook: string;              // opening line under 14 words
   coreArgument: string;      // the central claim in one sentence

@@ -4,6 +4,20 @@
 
 A run that only surfaces three Variety articles is a failed run.
 
+## The frame: Hollywood for mobile phones
+
+Vertical drama / microdrama is **Hollywood for mobile phones**. This space is built on **appearances** as much as substance. The Hollywood mogul template is the reference, not the SaaS-CMO template.
+
+What that means for Tim OS:
+
+- **Tim should be SEEN, not just READ.** A LinkedIn paragraph is the floor, not the ceiling. Pieces-to-camera, vlogs from MIP / APOS / LA / NEM Dubrovnik, behind-the-scenes from FlareFlow shoots, reaction takes on competitor content — all matter more than a 400-word think-piece.
+- **Recognisability is a goal in itself.** Tim should be the face people associate with global vertical drama. That requires repeated visual presence: same person, same voice, same physical settings (studio, set, conference green room) — a visual identity, not just a verbal one.
+- **Daily presence beats weekly thought leadership.** Mobile-first audiences expect cadence. One sharp 30-second piece-to-camera per day beats one 800-word LinkedIn post per week — and *also* gets reshared by the trade press.
+- **Performance is part of the job.** Charisma, energy, vibe, taste. The CMOs of Disney, Netflix, A24, Warner are visible humans with point of view. Tim should be that for vertical.
+- **Appearances aren't shallow when the category is appearance.** Microdrama IS performance. A leader who only writes is a leader the industry can't picture. Make sure Tim is picture-able.
+
+When in doubt: **does this surface make Tim more visible, more recognisable, more performance-forward?** If yes, push it. If no, deprioritise.
+
 ---
 
 ## Environment network policy (read first if `npm run feeds` returns no items)
@@ -61,6 +75,10 @@ Each routine run should sweep across **all** the categories below — not just n
 | 18 | COL positioning opportunities | Trade announcements, deal narrative, B2B signal |
 | 19 | Reputation watch | Things being said about Tim, COL, ReelShort, FlareFlow that need defending or correcting |
 | 20 | "What to ignore" | Genre noise. The discipline of saying no. |
+| 21 | **Visual / on-camera content** | Piece-to-camera scripts, travel vlogs (LA, MIP, APOS, NEM), behind-the-scenes from FlareFlow shoots, reaction videos to competitor / Hollywood content, photo opps. **At least one per week.** |
+| 22 | **Critical mentions + contrarian framings** | People dunking on microdrama as "Hollywood's death" / "TikTok slop" / "Chinese soft power" — pieces Tim can publicly engage with rather than ignore. Co-opt the criticism. |
+| 23 | **Out-of-the-box plays** | Unconventional moves: collabs with non-microdrama creators (gaming, comedy, cooking, music), IRL pop-ups, brand activations, live screenings, vertical-drama-meets-X mashups. The "what would a real mogul do" surface. |
+| 24 | **Partner discovery** (beyond known) | New entrants worth a DM — indie production houses entering vertical, agency CMOs commissioning vertical pilots, talent agents repping vertical-native creators, app launches in adjacent spaces, regional studios in markets where COL is light. |
 
 If a run produces nothing in a category that should have produced something, the run is incomplete.
 
@@ -102,8 +120,76 @@ This is the **master source map** — every place Tim's signals can come from. I
 ### Microdrama-specific outlets
 
 - **Drama Box / ReelShort / FlareFlow / ShortMax / GoodShort / DramaWave / NetShort / PineDrama** — press rooms, blog, social.
-- **WeChat / Weibo via translation** — search "短剧 出海" (microdrama going global), competitor names in Chinese.
+- **WeChat / Weibo via translation** — search "短剧 出海" (microdrama going global), competitor names in Chinese. **Do this every run** — half the global vertical-drama conversation happens here.
 - **Sensor Tower microdrama app rankings** — published quarterly.
+
+### Independent newsletters + Substacks (paid + free)
+
+These ship faster than trade press and break stories the trades pick up later. **[Web]** for all.
+
+- **Puck** (Matthew Belloni's *The Town* + Dylan Byers + Eriq Gardner) — Hollywood insider business.
+- **Stratechery** (Ben Thompson) — strategy framing pieces; quote him in Tim's content.
+- **Matthew Ball** (mattball.substack.com) — metaverse / consumer-tech long reads; cites vertical occasionally.
+- **Hamilton Nolan** — labour / media commentary; useful for critical takes.
+- **Screentime** (Lucas Shaw, Bloomberg) — weekly Hollywood + streaming newsletter; Tim's most-likely Bloomberg byline.
+- **Marketing Brew + Morning Brew Daily** — brand-side coverage of where ad dollars go.
+- **The Hustle**, **Trapital** (Dan Runcie — music + culture business), **Big Technology** (Alex Kantrowitz) — adjacent business.
+- **The Information** — Kaya Yurieff / Sahil Patel on apps + creator economy.
+
+### YouTube + creator commentary
+
+People analysing the space on camera. Look for moments where Tim could appear as a guest, or where their take is a stitch-able reaction surface.
+
+- **Cleo Abram** — explainer journalism; tech / media adjacent.
+- **MKBHD / Marques Brownlee** — devices but increasingly media commentary.
+- **Colin & Samir** — creator economy; already on Tim's pitch list.
+- **Modern MBA** — long-form business analysis (microdrama deserves an episode).
+- **Asianometry** — semis + Asia industry; cited in *Stratechery*.
+- **The Town's video clips** (Puck's YouTube) — short, shareable.
+
+### Reddit communities + qualitative audience
+
+For unfiltered audience perception (and critical mentions).
+
+- **r/microdrama** — small but active; the actual audience.
+- **r/television**, **r/cordcutters**, **r/streaming** — Hollywood-side discourse where microdrama gets dunked on / praised.
+- **r/marketing** — brand-side reactions to vertical campaigns.
+- **r/ChineseStreamingService**, **r/cdrama** — bridge to the Chinese-content fanbase Tim's titles serve.
+- **TikTok / Instagram search** for "ReelShort", "FlareFlow", "DramaBox" — what audiences are saying in their own voices, not trade press.
+
+### App store + chart intelligence
+
+The realest signal in mobile-first content. **[Web]** all.
+
+- **Apple App Store — Top Grossing Entertainment** chart positions for ReelShort, DramaBox, ShortMax, GoodShort weekly.
+- **Google Play — Top Grossing Entertainment** same.
+- **Sensor Tower public reports** — quarterly mobile-app revenue.
+- **data.ai** (formerly App Annie) — top apps + revenue trends.
+- **App Store reviews** — sample 20 recent reviews of ReelShort + DramaBox each run; surface any pattern that's a content angle (e.g. "too many ads" → Tim's "we built monetisation that respects users" post).
+
+### Academic + industry research
+
+- **Omdia** (Maria Rua Aguete) — Tim's primary data anchor; check for new sizings.
+- **Ampere Analysis**, **Parrot Analytics**, **MIDiA Research** — quarterly content / streaming reports.
+- **S&P Global Market Intelligence** — public-company filings, M&A.
+- **Nielsen / Comscore** — incidental mentions when they cover short-form.
+- **PwC + Deloitte media outlooks** (annual) — for keynote-ready stats.
+
+### VC + investor blogs
+
+- **a16z** (Andreessen Horowitz blog) — Connie Chan (consumer/China) is Tim's specific target.
+- **Sequoia Capital India**, **Lightspeed APAC**, **Khosla Ventures** — esp. their China + creator-economy theses.
+- **TechCrunch fundraise tracker**, **Crunchbase News** — competitor cap raises.
+- **Public-comp tracker** (S&P 300364 / Crazy Maple ticker) — COL stock + competitor public valuations.
+
+### Brand industry trades (separate from entertainment trades)
+
+Brand CMOs read different publications than Hollywood execs. Cover both.
+
+- **AdAge**, **Adweek**, **Marketing Brew**, **AdExchanger**, **The Drum**, **WARC**.
+- **Cannes Lions winners archive** (last 3 years) — vertical-drama angles for the brand-creative jury.
+- **Campaign Asia**, **Mumbrella Asia**, **Marketing-Interactive SG** — APAC brand-side.
+- **Effie Awards** + **Cannes Lions Effectiveness** — for the ROI-on-vertical case study Tim can build.
 
 ### Platform / streamer signals
 
@@ -277,17 +363,99 @@ Each run, identify 1–2 DMs where:
 ### Reputation watch
 
 - Search "Tim Oh" / "Timothy Oh" / "COL Group" / "ReelShort" / "FlareFlow" — any negative coverage, factual error, or unattributed Tim quote needs flagging in the brief.
-- Watch for "microdrama dying" / "vertical video saturated" narratives — opportunity for counter-POV.
+- **Mandarin search:** "汤皓" / "COL集团" / "ReelShort" via Weibo / Baidu News.
+- Watch for "microdrama dying" / "vertical video saturated" / "AI slop" / "Chinese soft power" narratives — opportunity for counter-POV.
+- Check **Glassdoor / Maimai** quarterly for COL employee chatter that could surface in press.
+
+### Visual / on-camera content opportunities (Category 21)
+
+The radar must produce **at least one visual content idea per run** — Tim is in Hollywood for mobile phones, he can't stay text-only.
+
+**Format library** (rotate, don't repeat):
+
+- **Piece-to-camera** (30–90 sec): Tim talking to a phone, no edit, no music. One claim, one stat, one provocation. *"Why Australia is converting at 20%. Three reasons."*
+- **Travel vlog beats**: LA trip, MIP, APOS, NEM, ATF, MIPCOM, FILMART. Daily ~60-sec packages — "Day 1, here's who I'm seeing, here's what's interesting." Tim plus location + people. **Always shoot when travelling.**
+- **Behind-the-scenes from FlareFlow shoots**: Tim on set, with cast, with directors. The "vertical mogul actually makes the stuff" surface. Hengqin-Macau studio especially.
+- **Reaction takes**: Tim watching DramaBox / Netflix vertical experiments / a brand microdrama campaign — sub-90-sec verdict. Stitchable, repostable.
+- **Documentary-style explainers**: 2–3 min, slightly produced — "How a 90-second drama is made", "The 77-minute session, explained", "Why Australia broke our model".
+- **Photo opps with caption**: Tim with Maria Rua Aguete, with Latif Sim, with Manjyot Sandhu, with cast. A photo + 60-word caption is a post.
+- **Stage / panel pre-record**: Tim's panel opener delivered to camera before the event — gives the trade press a B-roll quote and extends the panel's life past the room.
+- **Livestream / Spaces / Discord office hours**: monthly cadence, 30 min, vertical-content Q&A. Builds the "Tim is the place you go to learn this category" effect.
+
+**Production reality:** Tim has a phone and a CTO (Enoch Chen). That's enough. No film crew required for 80% of these. The phone-shot-piece-to-camera is *more* native to vertical than a polished corporate video. Embrace it.
+
+**Cadence target:** 1 weekly piece on LinkedIn / X, daily packages when travelling, monthly long-form.
+
+### Critical mentions + contrarian framings (Category 22)
+
+Every run, surface what people are saying **against** microdrama / vertical / Tim's frame. Don't ignore — engage.
+
+**Critical voices to monitor:**
+
+- **Hamilton Nolan**, **Jacob Silverman**, **Max Read** — left-media tech / culture skeptics.
+- **The Hollywood Reporter** opinion pieces criticising "TikTok-ification" of film.
+- **The Atlantic / New Yorker / NYT Magazine** — when they cover microdrama it's usually critical / framing-as-decline.
+- **Letterboxd discourse** + film-Twitter — auteur-side dismissals.
+- **Academic media studies** — Henry Jenkins (USC), Aymar Jean Christian — sometimes write thoughtfully on short-form.
+- **YouTube essayists**: Lindsay Ellis, Patrick Willems, others — when they cover the category it's frame-shaping.
+- **Chinese press critical of 短剧 出海**: when Chinese government / state press critique microdrama exports as "low quality" / "embarrassment abroad", Tim has to know.
+
+**How to engage critical mentions:**
+
+- **Co-opt, don't defend.** If someone calls microdrama "TikTok slop", Tim's move is *"They're not wrong about the worst examples — here's what separates the top decile."*
+- **Steelman first**, then reply. Tim quoting a critic's actual frame and answering it lands harder than a counter-thread that pretends the critique didn't exist.
+- **Pull critics into the conversation.** Inviting a skeptic onto a panel / podcast (or appearing on theirs) converts criticism into authority.
+- **Never get into a defensive thread.** One response per critique, on Tim's home turf (LinkedIn / newsletter / podcast). Then move on.
+
+### Out-of-the-box plays (Category 23)
+
+The "what would a real mogul do" surface. Each run, propose at least one move that is **not** a press pitch / LinkedIn post / award submission.
+
+**Examples:**
+
+- **Live screening + Q&A in LA / NYC / London** — book a venue, screen the season-finale of a FlareFlow original, Tim on stage. Cinema-style.
+- **Collab series with a non-microdrama creator** — a gaming streamer, a comedian, a chef. They get vertical-drama production; Tim gets their audience. *"Microdrama meets Gordon Ramsay" / "Microdrama meets Hasan Piker."*
+- **A vertical-drama parody of a prestige drama** — Tim commissions a 90-second cut of *Succession* in vertical format as a stunt; releases the receipts on engagement.
+- **Pop-up vertical-drama bar** at MIPCOM / Cannes — physical activation, Instagram-able.
+- **A "Vertical Wrapped" annual data dump** — Spotify-Wrapped-style year-end summary of what the world watched, when, where.
+- **Brand mash-up campaign** — *"What if Crocs commissioned a microdrama?"* — Tim builds the pitch deck for it publicly.
+- **A Vertical Mogul podcast** — Tim interviews competitor founders + brand CMOs + creators in vertical. Owns the conversation by hosting it.
+- **A signature physical thing** — Tim's jacket / glasses / colour palette. Recognisable on sight at trade events.
+- **A book proposal** — "The Vertical Decade" / "Built for the Phone" — even a public proposal generates coverage before the book exists.
+- **A "Top 50 in Vertical" list** Tim publishes annually — instant industry-organising mechanism.
+
+**Rule:** at least one out-of-the-box play per quarterly cycle should be *taken seriously enough to scope*, not just floated.
+
+### Partner discovery (Category 24)
+
+Look beyond the known competitor cluster. Each run, surface 1–2 specific named potential partners.
+
+**Where to find them:**
+
+- **App store charts** — any entertainment / video app in Top 100 Grossing that's not a household name is worth a 5-min look.
+- **TechCrunch / Crunchbase fundraises** in adjacent spaces (creator tools, short-form video, AI dubbing, mobile gaming, live shopping).
+- **AngelList / Wellfound** — vertical-content / short-form startups hiring.
+- **MIPCOM / NATPE / FILMART exhibitor lists** — every regional distributor is a potential partner.
+- **YouTube + TikTok creators with 1–10M followers** in adjacent vertical-friendly genres (true crime, BookTok, mythology, romance) — these are talent pools, not just audiences.
+- **Agencies + management cos** that have started repping vertical-native creators — UTA, CAA, WME, Talent X, Underscore Talent.
+- **Indie production houses** in markets where COL is light: Brazil, Mexico, Turkey, Egypt, Vietnam, Indonesia.
+- **Talent guilds + unions** as their stance on vertical evolves (SAG-AFTRA, etc.) — partnership-with-the-formal-industry signals.
+- **Hardware partners** — Samsung, OPPO, Xiaomi (phone preinstalls); TCL / Hisense (TV-vertical hybrid surfaces).
+- **Music labels + sync agencies** — Sony Music Publishing, Universal Music Group — sync deals could massively raise vertical-drama production value.
+
+**Partner-fit heuristic:** does this org have audience or capability that COL doesn't? If yes, propose a specific reason for the first conversation.
 
 ---
 
 ## How to use this in a run
 
 1. At the top of the run, **read this file in full**.
-2. As you process intelligence + draft content + build the brief, **walk through the 20 categories above** as a checklist.
+2. As you process intelligence + draft content + build the brief, **walk through the 24 categories above** as a checklist. Categories 21–24 (visual / critical / out-of-the-box / partner discovery) are the highest-priority additions — without them Tim stays a text-only CMO, not a vertical mogul.
 3. If a category produced no signal this run, **say so explicitly** in the brief's "what changed" section. Silence is data.
 4. Every public-facing opportunity (Pitch / Post / Comment / DM) should be **named with a specific person or outlet** — not "pitch a podcast", but "pitch *The Town* via Belloni's `tips@puck.news` with the Vertical 2.0 angle and the 238M-day stat."
-5. Maintain proportion. A weekly brief should feel like a media-mogul's intelligence packet, not a clipping service.
+5. **Respect the time budget.** Tim has ~5–8 hours of proactive brand time per week. "Act on this week" must be capped at **3 items maximum**, each with a rough time estimate. More than 3 = nothing gets done, and the brief loses authority.
+6. **One visual content idea per run is mandatory.** Category 21 is not optional. If you can't propose a specific shootable moment (piece-to-camera topic, vlog beat, BTS shot, reaction take), the radar walk is incomplete.
+7. Maintain proportion. A weekly brief should feel like a media-mogul's intelligence packet, not a clipping service.
 
 ---
 

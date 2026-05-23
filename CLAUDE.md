@@ -57,26 +57,28 @@ Walk the 20 categories in `OPPORTUNITY_RADAR.md` as a checklist. If a category p
 
 ### 3. Draft content
 
-Produce 1–3 fresh `ContentIdea` entries in `content.json` with `status: "draft"`. Each one must have **all** of the fields defined by the `ContentIdea` type in `src/lib/store.ts`:
+Produce 2–3 fresh `ContentIdea` entries in `content.json` with `status: "draft"`. **At least one must be a visual / on-camera format** — this category is Hollywood for mobile phones; written-only drafts are not enough. Walk Category 21 in `OPPORTUNITY_RADAR.md` for format ideas (piece-to-camera, travel vlog beat, BTS, reaction take, photo caption).
 
-- `platform` — usually `"linkedin"`, occasionally `"x"` or `"newsletter"`.
-- `format` — `"post"`, `"article"`, `"thread"`, `"comment"`, etc.
+Each `ContentIdea` must have **all** of the fields defined by the type in `src/lib/store.ts`:
+
+- `platform` — `"linkedin"`, `"x"`, `"newsletter"`, `"podcast-pitch"`.
+- `format` — `"post"`, `"article"`, `"thread"`, `"comment"`, **`"piece-to-camera"`, `"vlog"`, `"bts"`, `"reaction"`, `"photo-caption"`**, etc. The type union in `store.ts` was extended for this — use the visual values where they fit.
 - `title` — internal label, not a headline.
-- `hook` — opening line, **under 14 words**, never "I'm excited to share…".
+- `hook` — opening line, **under 14 words**, never "I'm excited to share…". For visual formats, the hook is the first 5 words on camera.
 - `coreArgument` — one sentence.
 - `whyNow` — the time peg.
 - `sourceEvidence` — links + receipts. Required.
 - `timPOV` — Tim's specific take. Quote-able, sharp.
 - `colRelevance` — how this serves COL.
-- `supportingPoints` — 2–5 bullets.
+- `supportingPoints` — 2–5 bullets. **For visual drafts, write these as shot beats** ("Open: Tim outside the MIP entrance, foot traffic behind. → Beat 1: name a stat. → Beat 2: name a person. → Close: forward line.").
 - `risk` — what could go wrong, for Tim or COL.
-- `body` — the full draft, written in Tim's voice (see `VOICE.md`).
+- `body` — the full draft, written in Tim's voice. For visual formats, write the script in spoken form — read `VOICE.md` "On-camera voice" rules first.
 - `rationale` — why this works for Tim.
 - `predictedEngagement` — `"low" / "medium" / "high"`.
 - `sourceItemId` — if it ties to an `intelligence.json` item.
 - `createdAt` — ISO.
 
-If a draft could have been written by any CMO, **delete it and try again.** The voice rules in `VOICE.md` are not aspirational — they are the gate.
+If a draft could have been written by any CMO, **delete it and try again.** If a draft is text-only when there's a clear shootable moment available, **also delete and try again.** The voice rules in `VOICE.md` are not aspirational — they are the gate.
 
 ### 4. Weekly brief (Sun/Mon UTC, or on request)
 
@@ -84,7 +86,7 @@ Append a new `Brief` entry to `briefs.json` (latest first). It MUST contain all 
 
 1. `headline` — one-line strategic priority for the week.
 2. `whatChanged` — a paragraph summarising what's new vs the last brief. Reference categories that produced nothing.
-3. `topOpportunities` — up to 5 `Opportunity` records, fully scored.
+3. `topOpportunities` — up to 5 `Opportunity` records, fully scored. **The 3 highest-priority actionable ones (action ∈ {Act now, Pitch, Post, Comment, DM}) become Tim's "Act on this week" surface in the dashboard — cap proactive recommendations at 3 to respect his ~5–8 hr/week brand budget (see `knowledge/STRATEGIC_PROFILE.md`).** Each opportunity's `why` should include a rough time estimate (e.g. *"30 min to record + 5 min to caption"*).
 4. `topPeople` — up to 5 `RelationshipTarget` records (who Tim should build a relationship with).
 5. `bestMediaAngle` — the single best pitch this week, with target outlet and evidence.
 6. `bestLinkedInAngle` — hook + angle + why.
@@ -133,7 +135,11 @@ After producing the brief, verify all of these:
 - [ ] Did the run produce **at least one practical opportunity** (action ≠ Watch/Park/Ignore)?
 - [ ] Did it identify **who Tim should build a relationship with** (≥1 named person in `topPeople`)?
 - [ ] Did it create **at least one content angle that sounds like Tim**, not generic CMO copy?
-- [ ] Did it **walk the OPPORTUNITY_RADAR categories** and call out any that produced nothing?
+- [ ] Did it create **at least one visual / on-camera content idea** (Category 21 in OPPORTUNITY_RADAR — piece-to-camera, vlog beat, BTS, reaction, photo caption)? Text-only runs are incomplete in this category.
+- [ ] Did it **walk all 24 OPPORTUNITY_RADAR categories** and call out any that produced nothing? Categories 21–24 (visual / critical / out-of-the-box / partner discovery) are non-optional.
+- [ ] Are there **no more than 3 items** in the "Act on this week" surface (top actionable opportunities)? More than 3 means nothing gets done.
+- [ ] Does each actionable opportunity carry a **rough time estimate**?
+- [ ] Did the run surface **at least one critical mention / contrarian framing** worth engaging (Category 22)?
 - [ ] Did it avoid generic entertainment commentary?
 - [ ] Did it include **source links + date checked** for every market claim?
 - [ ] Did it avoid confidential or invented claims, fake journalist interest, made-up quotes?
