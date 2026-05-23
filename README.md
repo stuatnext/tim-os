@@ -28,7 +28,7 @@ There's no separate AI-agent pipeline, no Anthropic SDK consumer, no model orche
 
 Key properties:
 
-- **No database, no server, no Vercel.** State is JSON in `data/state/`. Output is one HTML file in `docs/`.
+- **No database, no server, no Vercel.** State is JSON in `data/state/`. Output is one HTML file in `docs/`, served from GitHub Pages.
 - **Every change is a git commit.** Full audit trail — `git log data/state/briefs.json` is the brief history.
 - **Mutations** ("approve draft", "mark posted", "change this week's focus") happen by chatting with Claude Code; it edits the JSON files; the next render reflects them.
 - **No `ANTHROPIC_API_KEY` needed.** The "model" doing the thinking is Claude Code's own session — no SDK calls.
