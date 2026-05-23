@@ -1,43 +1,45 @@
 # Tim OS
 
-A **Claude Code routine** that runs Tim's brand-intelligence pipeline on a schedule, then commits an updated static HTML dashboard that's served from GitHub Pages.
+A **Claude Code routine** that does brand-intelligence work for **Timothy Oh** — Global CMO & GM of COL Group International (ReelShort / FlareFlow) — and renders a static dashboard served from GitHub Pages.
 
-Built for **Timothy Oh** — Global CMO & GM of COL Group International (ReelShort / FlareFlow).
+There's no separate AI-agent pipeline, no Anthropic SDK consumer, no model orchestration. When the scheduled routine fires, Claude Code itself runs in a session, does the work, edits the JSON state files, runs the render, commits, and pushes.
 
 ## How it works
 
 ```
-              ┌────────────────────────────────────────┐
-   Scheduled  │ Claude Code routine (Sun 22:00 UTC)    │
-   trigger    │                                        │
-              │  1. refresh-feeds  → RSS scrape         │
-              │  2. summarise      → Haiku 4.5          │
-              │  3. rank-opps      → Sonnet 4.6         │
-              │  4. content        → Sonnet 4.6         │
-              │  5. weekly-brief   → Opus 4.7           │
-              │  6. render         → docs/index.html    │
-              │  7. git commit + push                   │
-              └────────────────────────────────────────┘
+              ┌────────────────────────────────────────────┐
+   Scheduled  │ Claude Code routine (e.g. Sun 22:00 UTC)   │
+   trigger    │                                            │
+              │   1. Read knowledge/* + data/state/*       │
+              │   2. npm run feeds  (deterministic RSS)    │
+              │   3. Triage intelligence in-session        │
+              │   4. Score + classify opportunities        │
+              │   5. Draft content in Tim's voice          │
+              │   6. Write the weekly brief                │
+              │   7. npm run render                        │
+              │   8. git commit + push                     │
+              └────────────────────────────────────────────┘
                                 ↓
                 ┌──────────────────────────────────┐
-                │ GitHub Pages serves docs/        │
-                │ Tim opens timothyoh.github.io/   │
+                │ GitHub Pages serves /docs        │
+                │ Tim opens the dashboard URL      │
                 └──────────────────────────────────┘
 ```
 
-- **No database, no server, no Vercel** — state is JSON in `data/state/`, output is a single HTML file in `docs/`.
-- **Every change is a git commit** — full audit trail of what the AI said, when, and why.
-- **Mutations** ("approve draft", "mark posted", "change this week's focus") happen by chatting with Claude Code — it edits the JSON files; the next routine run regenerates the HTML.
-- **Prompt caching wired in** — Tim's profile and voice bank are `cache_control: ephemeral` on every Claude call, so cached calls pay 10% on those tokens.
+Key properties:
 
-## Tiered model selection
+- **No database, no server, no Vercel.** State is JSON in `data/state/`. Output is one HTML file in `docs/`.
+- **Every change is a git commit.** Full audit trail — `git log data/state/briefs.json` is the brief history.
+- **Mutations** ("approve draft", "mark posted", "change this week's focus") happen by chatting with Claude Code; it edits the JSON files; the next render reflects them.
+- **No `ANTHROPIC_API_KEY` needed.** The "model" doing the thinking is Claude Code's own session — no SDK calls.
 
-| Agent | Model | Why |
-|---|---|---|
-| RSS summariser | `claude-haiku-4-5-20251001` | High-volume, cheap, fast triage |
-| Opportunity ranker | `claude-sonnet-4-6` | Reasoning over fit, priority |
-| Content generator | `claude-sonnet-4-6` | Voice-calibrated drafting |
-| Weekly brief | `claude-opus-4-7` | The Monday artifact Tim reads |
+## Routine instructions
+
+The contract Claude Code follows on every run lives in [`CLAUDE.md`](./CLAUDE.md). The strategic + voice + radar context lives in [`knowledge/`](./knowledge):
+
+- [`knowledge/STRATEGIC_PROFILE.md`](./knowledge/STRATEGIC_PROFILE.md) — who Tim is, the objective, the 10-axis scoring model, the 8-class action classifier, the hard guardrails.
+- [`knowledge/VOICE.md`](./knowledge/VOICE.md) — verbatim Tim quotes + style rules.
+- [`knowledge/OPPORTUNITY_RADAR.md`](./knowledge/OPPORTUNITY_RADAR.md) — the comprehensive map of where Tim's opportunities come from (20 categories, with named sources per category).
 
 ## Setup
 
@@ -45,86 +47,71 @@ Built for **Timothy Oh** — Global CMO & GM of COL Group International (ReelSho
 
 ```bash
 npm install
-cp .env.example .env.local && vi .env.local   # set ANTHROPIC_API_KEY
-npm run init                                   # hydrate JSON state from seed data
+npm run init     # hydrate data/state/*.json from curated seed data, then render
 ```
 
 This produces `data/state/*.json` and a first `docs/index.html`.
 
 ### 2. Enable GitHub Pages
 
-Repo Settings → Pages → Source: **Deploy from a branch** → Branch: `main` / folder: `/docs`. Tim's dashboard is now at `https://stuatnext.github.io/tim-os/`.
+Repo Settings → Pages → Source: **Deploy from a branch** → Branch: `main` / folder: `/docs`. The dashboard is then live at `https://stuatnext.github.io/tim-os/`.
 
 ### 3. Wire up the Claude Code routine
 
-In Claude Code on the web, create a **scheduled trigger** (routine) on this repo:
+In Claude Code on the web, create a **scheduled trigger** on this repo:
 
-- **Schedule:** `0 22 * * 0` (Sunday 22:00 UTC ≈ Monday 06:00 SGT)
-- **Prompt:** *"Run the Tim OS pipeline. See `CLAUDE.md` for the exact steps."*
+- **Schedule:** `0 22 * * 0` (Sunday 22:00 UTC ≈ Monday 06:00 SGT) for the weekly brief.
+- **Prompt:** *"Run the weekly Tim OS routine. Follow `CLAUDE.md`."*
 
-The routine will inherit your `ANTHROPIC_API_KEY` from the Claude Code environment — no separate provisioning needed.
-
-You can also create a more frequent routine (e.g. every 4 hours, `0 */4 * * *`) that runs `npm run pipeline -- --no-brief` to keep the intelligence feed fresh without re-running Opus.
+For mid-week refreshes that skip the weekly brief, add a second routine on a more frequent schedule (e.g. `0 */6 * * *`) with the prompt *"Mid-week intelligence refresh for Tim OS. Follow `CLAUDE.md` — no brief."*
 
 ## CLI reference
 
 ```bash
-npm run init           # one-time: seed JSON state + render HTML
-npm run pipeline       # full sequence: feeds → summarise → rank → content → brief → render
-npm run pipeline -- --no-brief    # skip the Opus brief (between Mondays)
-npm run pipeline -- --brief       # force brief regen (mid-week)
-npm run render         # re-render HTML only (after manual JSON edits)
-
-npm run agent:feeds       # one stage at a time
-npm run agent:summarise
-npm run agent:rank
-npm run agent:content
-npm run agent:brief
+npm run init       # one-time: seed JSON state + first render
+npm run feeds      # pull curated RSS sources into intelligence.json (status: "new")
+npm run render     # re-emit docs/index.html from current state
 ```
+
+That's it. Everything else — summarising, scoring, drafting, the brief — is Claude Code's job in-session.
 
 ## File layout
 
 ```
 tim-os/
+├── CLAUDE.md                       # routine contract (read by Claude Code on every run)
+├── README.md                       # this file
+├── knowledge/                      # curated source-of-truth — don't auto-edit
+│   ├── STRATEGIC_PROFILE.md
+│   ├── VOICE.md
+│   └── OPPORTUNITY_RADAR.md
 ├── docs/
-│   └── index.html              # generated dashboard (served by GitHub Pages)
-├── data/state/                  # state files — every change is a git commit
-│   ├── settings.json            # weekly focus, voice tuning, campaign goals
-│   ├── contacts.json            # Tim's network
-│   ├── awards.json              # award pipeline
-│   ├── speaking.json            # events
-│   ├── media.json               # press targets
-│   ├── press.json               # coverage record
-│   ├── intelligence.json        # RSS items with AI enrichment
-│   ├── content.json             # generated LinkedIn drafts
-│   ├── briefs.json              # weekly briefs (latest first)
-│   └── runs.json                # agent execution log
+│   └── index.html                  # generated dashboard (GitHub Pages serves this)
+├── data/state/                     # state — every change is a git commit
+│   ├── settings.json               # weekly focus, voice tuning, quarter goals
+│   ├── contacts.json               # Tim's network
+│   ├── awards.json                 # award pipeline
+│   ├── speaking.json               # events
+│   ├── media.json                  # press targets
+│   ├── press.json                  # coverage record
+│   ├── intelligence.json           # RSS items + Claude Code's triage
+│   ├── content.json                # generated drafts
+│   ├── briefs.json                 # weekly briefs (latest first)
+│   └── runs.json                   # routine execution log
 ├── src/
 │   ├── lib/
-│   │   ├── anthropic.ts         # SDK client + model tier selection
-│   │   ├── context.ts           # cached system prompt builder
-│   │   ├── store.ts             # JSON file CRUD
-│   │   └── data/                # CURATED knowledge — never auto-edited
-│   │       ├── tim-profile.ts   # cached system prompt body
-│   │       ├── voice-bank.ts    # verbatim quotes for voice calibration
-│   │       ├── feed-sources.ts  # RSS sources + priority keywords
-│   │       └── seed-*.ts        # initial state for contacts/awards/etc.
-│   ├── agents/
-│   │   ├── refresh-feeds.ts
-│   │   ├── summarise.ts
-│   │   ├── rank-opportunities.ts
-│   │   ├── generate-content.ts
-│   │   └── brief.ts
+│   │   ├── store.ts                # JSON CRUD + type definitions
+│   │   ├── feeds.ts                # deterministic RSS fetch
+│   │   └── data/                   # curated knowledge — never auto-edited
+│   │       ├── feed-sources.ts     # RSS sources + priority keywords
+│   │       └── seed-*.ts           # initial state for contacts/awards/etc.
 │   └── render/
-│       ├── index.ts             # HTML renderer
-│       └── styles.ts            # inline CSS
-├── scripts/
-│   ├── init.ts                  # hydrate state + first render
-│   ├── run-pipeline.ts          # the routine's entry point
-│   ├── render-only.ts           # render without running agents
-│   └── agents.ts                # one-stage CLI
-├── CLAUDE.md                    # instructions for the routine
-└── README.md
+│       ├── index.ts                # HTML renderer
+│       └── styles.ts               # inline CSS
+└── scripts/
+    ├── init.ts                     # seed state + first render
+    ├── fetch-feeds.ts              # `npm run feeds`
+    └── render-only.ts              # `npm run render`
 ```
 
 ## Mutations workflow
@@ -135,8 +122,8 @@ The HTML is read-only. To change state — approve a draft, mark an award submit
 > *"Set this week's focus to: pitch The Town, push LA recap content."*
 > *"Move the Cannes Lions submission to status=submitted."*
 
-Claude edits the relevant JSON file, commits, pushes. Next routine run re-renders the HTML.
+Claude Code edits the JSON, runs `npm run render`, commits, pushes. The dashboard updates on next GitHub Pages publish.
 
 ## Editing curated knowledge
 
-The files in `src/lib/data/` are the **curated** layer — Tim's profile, voice bank, feed sources, seed data. They never get auto-edited. Update them via PR like any other source code.
+The files in `knowledge/` and `src/lib/data/` are the curated layer — Tim's profile, voice bank, opportunity radar, RSS sources, seed data. They're never auto-edited by the routine. Update them via PR like any other source code.

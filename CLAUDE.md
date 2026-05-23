@@ -1,98 +1,168 @@
 # Tim OS — Routine instructions
 
-You're running on a schedule for **Tim OS**, the brand intelligence dashboard for Timothy Oh (Global CMO & GM, COL Group International).
+**This repo is a Claude Code routine. You are the brain.**
 
-## Strategic objective (the why)
+There is no separate AI-agent pipeline. There is no Anthropic SDK consumer. No `npm run pipeline`. No Haiku/Sonnet/Opus split. When the routine fires, *you* (Claude Code, running in a scheduled session) do the brand-intelligence work for Timothy Oh in-session, then run the deterministic helpers (`npm run feeds`, `npm run render`), edit the JSON state files, commit, and push.
 
-Tim OS exists to position Timothy Oh as a **visible, sharp and characterful global voice in vertical drama, microdrama and next-generation entertainment**.
+Tim OS exists to make **Timothy Oh** — Global CMO & GM of COL Group International (ReelShort / FlareFlow) — **the vertical media mogul**. Every run is judged against that bar.
 
-The goal is not generic marketing content. The goal is to help Tim become known as:
+## Start-of-run protocol (do this every time)
 
-1. A vertical media mogul.
-2. A bridge between Asian content engines and global entertainment markets.
-3. A commercial operator who understands monetisation, distribution, IP, creators and audience behaviour.
-4. A media personality with taste, humour, confidence and point of view.
-5. A leader who can make COL Group International more visible, more connected and more commercially valuable.
+1. Read these three files in full before doing anything else:
+   - `knowledge/STRATEGIC_PROFILE.md` — who Tim is, the objective, the scoring model, the action classifier, the hard guardrails.
+   - `knowledge/VOICE.md` — verbatim Tim quotes + style rules. Do not draft anything in Tim's voice without this loaded.
+   - `knowledge/OPPORTUNITY_RADAR.md` — the comprehensive map of where Tim's opportunities come from. Walk it like a checklist.
+2. Read the current state under `data/state/`:
+   - `settings.json` — `weeklyFocus`, `voiceTuning`, `campaignGoals.thisQuarter`.
+   - `briefs.json` (latest entry) — what you said last time.
+   - `runs.json` (latest few) — what was tried, what was low-value, what changed.
+   - `contacts.json`, `awards.json`, `speaking.json`, `media.json`, `press.json`, `content.json`, `intelligence.json` — the working state.
+3. Decide which run mode this is:
+   - **Weekly brief** (default Sun/Mon UTC, or whenever the user requests it).
+   - **Mid-week intelligence refresh** (no brief — just keep intelligence + content current).
+   - **Mutation only** (user asked you to approve / dismiss / mark posted — no intelligence sweep, just edit state and re-render).
 
-Every run should answer:
-- **What should Tim know?**
-- **Who should Tim build a relationship with?**
-- **Where should Tim be seen?**
-- **What should Tim say?**
-- **What opportunity should COL act on?**
-- **What should be ignored?**
-
-## What to detect & score
-
-The agents look for signals across the full opportunity-types list (media interviews, journalist coverage, podcast guests, conferences/panels, awards, creator collabs, streamer/studio/platform relationships, investor narratives, LinkedIn angles, comment opportunities on other people's posts, microdrama trend signals, vertical commercial signals, US/Asia/global market signals, COL positioning, competitor movement, people Tim should meet/support/message).
-
-Every opportunity is scored 1-5 on the 10 axes (Tim authority fit, COL commercial upside, microdrama relevance, media coverage potential, relationship value, personality fit, timeliness, evidence strength, ease of action, reputation risk) and classified into one of: **Act now · Pitch · Post · Comment · DM · Watch · Park · Ignore**.
-
-Scoring rules and voice rules are in `src/lib/data/tim-profile.ts` (cached system prompt) and `src/lib/data/voice-bank.ts` (cached voice). Re-read them mentally before each agent call.
-
-## Standard run
+## Standard weekly run
 
 ```bash
 npm install --silent --no-audit --no-fund
-npm run pipeline
+npm run feeds            # deterministic: RSS pull into data/state/intelligence.json (status: "new")
 ```
 
-The pipeline does all of:
-1. **refresh-feeds** — pulls Variety, Deadline, THR, Campaign Asia and others, filtered to Tim's beat
-2. **summarise** (Haiku 4.5) — scores each new item 0–100 for relevance, proposes an angle/action
-3. **rank-opportunities** (Sonnet 4.6) — 10-axis scoring + 8-class action on awards / speaking / media
-4. **generate-content** (Sonnet 4.6) — content ideas with full required fields (title, hook, coreArgument, whyNow, sourceEvidence, timPOV, colRelevance, supportingPoints, risk, body)
-5. **weekly-brief** (Opus 4.7) — only Sun/Mon UTC; produces the 12 required dashboard outputs
-6. **render** — re-emits `docs/index.html`
+Then, **in-session** (this is your job, not a script's):
 
-## Run quality check (must pass before commit)
+### 1. Triage new intelligence
 
-After the pipeline, verify:
+For every item in `intelligence.json` with `status: "new"` and no `aiSummary`:
 
-- [ ] Did the run produce at least one practical opportunity?
-- [ ] Did it identify who Tim should build a relationship with?
-- [ ] Did it create at least one content angle that sounds like Tim (not generic)?
-- [ ] Did it avoid generic entertainment commentary?
-- [ ] Did it include source links for market claims?
-- [ ] Did it avoid confidential or invented claims?
-- [ ] Did it show what changed since the last run?
+- Read the title + snippet.
+- Write a 60–100-word **neutral** summary (no spin, no corporate gloss) into `aiSummary`.
+- Tag with `topics` (free-form, lowercase).
+- Score `relevanceScore` 0–100 against Tim's beat using the rubric in `STRATEGIC_PROFILE.md` (90–100 = direct COL/ReelShort/FlareFlow/Tim mention; 70–89 = competitor or major streamer entering vertical; 50–69 = vertical content broadly; 30–49 = adjacent; 0–29 = ignore).
+- Write a one-sentence `hook` — either the angle Tim could take, or the suggested action ("Comment with X angle", "Pitch journalist Y", "Watch — not actionable").
+- Set `status: "reviewed"`.
 
-If any answer is no, **mark the latest brief run as `low-value` in `data/state/runs.json`** with `lowValueReason: "<why>"` and skip the commit, OR commit with the low-value flag visible in the dashboard footer.
+Be ruthless. Most general entertainment news scores ≤30. A run that "reviews" 30 items but only 4 are above 50 is healthy.
 
-## Commit + push
+### 2. Rank opportunities
+
+Sweep `awards.json`, `speaking.json`, `media.json` AND the high-relevance items from `intelligence.json`. For each opportunity (existing or newly inferred):
+
+- Score on **all 10 axes** in `STRATEGIC_PROFILE.md` (1–5 each).
+- Classify into exactly one of the 8 actions: **Act now / Pitch / Post / Comment / DM / Watch / Park / Ignore**.
+- Tag `evidence` as **strong / moderate / weak**. If `weak`, the action must be `Watch`, `Park`, or `Ignore` — never `Act now` or `Pitch`.
+- Write the rationale into `fitRationale` (awards/speaking) or `pitchAngle` (media), or into the brief's `topOpportunities` array.
+
+Walk the 20 categories in `OPPORTUNITY_RADAR.md` as a checklist. If a category produced nothing, that's a finding — surface it in the brief's "what changed" section.
+
+### 3. Draft content
+
+Produce 1–3 fresh `ContentIdea` entries in `content.json` with `status: "draft"`. Each one must have **all** of the fields defined by the `ContentIdea` type in `src/lib/store.ts`:
+
+- `platform` — usually `"linkedin"`, occasionally `"x"` or `"newsletter"`.
+- `format` — `"post"`, `"article"`, `"thread"`, `"comment"`, etc.
+- `title` — internal label, not a headline.
+- `hook` — opening line, **under 14 words**, never "I'm excited to share…".
+- `coreArgument` — one sentence.
+- `whyNow` — the time peg.
+- `sourceEvidence` — links + receipts. Required.
+- `timPOV` — Tim's specific take. Quote-able, sharp.
+- `colRelevance` — how this serves COL.
+- `supportingPoints` — 2–5 bullets.
+- `risk` — what could go wrong, for Tim or COL.
+- `body` — the full draft, written in Tim's voice (see `VOICE.md`).
+- `rationale` — why this works for Tim.
+- `predictedEngagement` — `"low" / "medium" / "high"`.
+- `sourceItemId` — if it ties to an `intelligence.json` item.
+- `createdAt` — ISO.
+
+If a draft could have been written by any CMO, **delete it and try again.** The voice rules in `VOICE.md` are not aspirational — they are the gate.
+
+### 4. Weekly brief (Sun/Mon UTC, or on request)
+
+Append a new `Brief` entry to `briefs.json` (latest first). It MUST contain all the fields defined by the `Brief` type in `src/lib/store.ts`:
+
+1. `headline` — one-line strategic priority for the week.
+2. `whatChanged` — a paragraph summarising what's new vs the last brief. Reference categories that produced nothing.
+3. `topOpportunities` — up to 5 `Opportunity` records, fully scored.
+4. `topPeople` — up to 5 `RelationshipTarget` records (who Tim should build a relationship with).
+5. `bestMediaAngle` — the single best pitch this week, with target outlet and evidence.
+6. `bestLinkedInAngle` — hook + angle + why.
+7. `bestCommentOpportunity` — target post URL, target author, suggested comment, why, risk.
+8. `bestRelationshipMove` — one `RelationshipTarget` flagged as the priority touch.
+9. `bestColOpportunity` — COL-level (not just Tim-level) move, with commercial upside and next step.
+10. `risingTrend` — trend, evidence, implication.
+11. `thingToIgnore` — one item Tim should explicitly **not** act on, with reason.
+12. `reputationRisk` — risk + mitigation.
+13. `suggestedAction` — for Stuart or Tim, with urgency.
+
+Plus the metadata fields: `id`, `weekOf` (use `mondayOf()` from `store.ts`), `createdAt`, `model` (set to the model running this session, e.g. `claude-opus-4-7`), `tokens` (best-effort or `{input:0, output:0, cacheRead:0, cacheWrite:0}` — footer telemetry, not critical).
+
+### 5. Log the run
+
+Append a record to `data/state/runs.json` (it's capped at 200 most recent):
+
+```json
+{
+  "id": "<cuid>",
+  "agent": "weekly-brief" | "intelligence-only" | "mutation",
+  "status": "success" | "failure" | "low-value",
+  "startedAt": "<iso>",
+  "finishedAt": "<iso>",
+  "itemsCreated": <n>,
+  "itemsUpdated": <n>,
+  "lowValueReason": "<reason if low-value>"
+}
+```
+
+### 6. Render + commit + push
 
 ```bash
-git add data/state docs index.html
+npm run render            # rebuild docs/index.html from current state
+git add data/state docs
 git commit -m "routine: weekly refresh $(date -u +%Y-%m-%d)"
 git push origin HEAD
 ```
 
-`HEAD` pushes whatever branch the routine is on (the repo's default branch). If `git status` shows no changes, skip the commit.
+`HEAD` pushes whatever branch the routine is on. If `git status` is clean after edits, skip the commit.
+
+## Run quality check (must pass before commit)
+
+After producing the brief, verify all of these:
+
+- [ ] Did the run produce **at least one practical opportunity** (action ≠ Watch/Park/Ignore)?
+- [ ] Did it identify **who Tim should build a relationship with** (≥1 named person in `topPeople`)?
+- [ ] Did it create **at least one content angle that sounds like Tim**, not generic CMO copy?
+- [ ] Did it **walk the OPPORTUNITY_RADAR categories** and call out any that produced nothing?
+- [ ] Did it avoid generic entertainment commentary?
+- [ ] Did it include **source links + date checked** for every market claim?
+- [ ] Did it avoid confidential or invented claims, fake journalist interest, made-up quotes?
+- [ ] Did it show **what changed since the last run** (concrete diff, not "lots happened")?
+
+If any answer is no, **mark the latest run in `runs.json` as `low-value`** with a clear `lowValueReason`. Either skip the commit, or commit with the low-value flag visible.
 
 ## Variations
 
-- **Mid-week intelligence-only run** (e.g. a 4-hourly routine): `npm run pipeline -- --no-brief` — keeps news/opps fresh without burning Opus.
-- **Force brief regen** (Stuart asked): `npm run pipeline -- --brief`.
-- **Render-only** (after manual JSON edit): `npm run render`.
+| Need | What to do |
+|---|---|
+| Mid-week intelligence refresh (no brief) | Run `npm run feeds`, do steps 1–3 only, log run with `agent: "intelligence-only"`, render, commit. |
+| Force brief regen on a non-brief day | Do steps 1–6 in full. |
+| Render-only (after manual JSON edit) | `npm run render` then commit. |
+| Mutation from Stuart or Tim (approve / dismiss / mark posted / update focus) | Edit the JSON file directly, render, commit with `edit: <what>`. No intelligence sweep needed. |
 
-## Mutations from Stuart / Tim
+## Mutations workflow
 
-When asked to **approve / dismiss / mark posted / update focus**, edit the relevant JSON file under `data/state/` directly. Then:
+Common requests and the file to edit:
 
-```bash
-npm run render          # rebuild index.html
-git add data/state docs index.html
-git commit -m "edit: <what you did>"
-git push origin HEAD
-```
+- **Approve / dismiss / mark posted a draft** → `data/state/content.json` (set `status`).
+- **Update weekly focus / voice tuning / quarter goals** → `data/state/settings.json`.
+- **Mark award submitted / shortlisted / won** → `data/state/awards.json`.
+- **Mark speaking event applied / confirmed** → `data/state/speaking.json`.
+- **Mark media target pitched / responded / published** → `data/state/media.json`.
 
-Common edits:
-- `data/state/settings.json` — `weeklyFocus`, `voiceTuning`, `campaignGoals.thisQuarter`.
-- `data/state/content.json` — set `status` to `approved` / `posted` / `dismissed`.
-- `data/state/awards.json` — set `status` to `submitted` / `shortlisted` / `won`.
-- `data/state/speaking.json` — set `status` to `applied` / `confirmed`.
+Then `npm run render && git add data/state docs && git commit -m "edit: <what>" && git push origin HEAD`.
 
-## Hard guardrails (every agent call inherits these via the cached profile)
+## Hard guardrails (every output)
 
 - Never invent journalist interest.
 - Never invent quotes.
@@ -101,17 +171,22 @@ Common edits:
 - Always separate facts, inference, and recommended action.
 - Always include source links for public claims.
 - Always include date checked.
-- Flag weak evidence (`evidence: "weak"` and `action: "Watch"` or `"Park"`).
+- Flag weak evidence and downgrade the action accordingly.
 - Do not expose confidential COL information.
 
 ## Knowledge layer (don't auto-edit)
 
-`src/lib/data/*.ts` — Tim's profile, voice bank, RSS sources, seed data. These are curated source code, not state. Only modify when Stuart explicitly asks.
+These are curated source-of-truth files — only modify when Stuart explicitly asks:
+
+- `knowledge/STRATEGIC_PROFILE.md`
+- `knowledge/VOICE.md`
+- `knowledge/OPPORTUNITY_RADAR.md`
+- `src/lib/data/feed-sources.ts`
+- `src/lib/data/seed-*.ts`
 
 ## Failure handling
 
-Each agent stage is independent. If one fails (e.g. Anthropic API blip), the others still run, and the run is logged to `data/state/runs.json` with status `failure`. Next routine run picks up where the last left off.
-
-If `npm install` fails: check `package.json` against `package-lock.json`; flag to Stuart and stop.
-
-If `git push` is rejected (someone pushed first): `git pull --rebase origin HEAD`, then push again.
+- **`npm install` fails** — check `package.json` vs `package-lock.json`; flag to Stuart and stop.
+- **`npm run feeds` fails on one source** — that's fine, errors are returned in the result; carry on with what came through.
+- **`git push` rejected** (someone pushed first) — `git pull --rebase origin HEAD` then push again.
+- **You can't honestly produce a brief that passes the quality check** — log the run as `low-value` with the reason, commit only the partial state changes, and surface the gap in the next run's `whatChanged`.

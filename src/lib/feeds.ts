@@ -1,14 +1,14 @@
 /**
- * RSS FEED REFRESH
+ * RSS feed refresh — pure ingestion, no LLM.
  *
  * Polls curated industry feeds, keyword-filters to Tim's beat, deduplicates
- * against existing items, and appends new ones to intelligence.json.
- *
- * Pure ingestion — no AI calls. Cheap to run frequently.
+ * against existing items, and appends new ones to intelligence.json with
+ * status="new". The routine (Claude Code) then reads those new items and
+ * scores / hooks / classifies them in-session.
  */
 import Parser from "rss-parser";
-import { FEED_SOURCES, PRIORITY_KEYWORDS } from "../lib/data/feed-sources";
-import { store, cuid, nowIso, type IndustryItem } from "../lib/store";
+import { FEED_SOURCES, PRIORITY_KEYWORDS } from "./data/feed-sources";
+import { store, cuid, nowIso, type IndustryItem } from "./store";
 
 const parser: Parser = new Parser({ timeout: 10_000 });
 
