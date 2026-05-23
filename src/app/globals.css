@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html, body {
+  background: theme("colors.paper");
+  color: theme("colors.ink");
+  font-family: theme("fontFamily.sans");
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a { color: inherit; }
+
+::selection { background: theme("colors.accent"); color: white; }
+
+.prose-tim p { margin-bottom: 0.6rem; line-height: 1.65; }
+.prose-tim strong { font-weight: 600; }

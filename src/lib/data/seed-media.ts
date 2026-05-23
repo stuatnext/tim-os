@@ -1,0 +1,152 @@
+export type SeedMedia = {
+  outlet: string;
+  journalist?: string;
+  contact?: string;
+  tier: number;
+  beat?: string;
+  pitchAngle?: string;
+  status: string;
+  notes?: string;
+};
+
+export const SEED_MEDIA_TARGETS: SeedMedia[] = [
+  // ===== Tier 1 — Global =====
+  {
+    outlet: "The Town with Matthew Belloni",
+    journalist: "Matthew Belloni",
+    contact: "matthew@puck.news",
+    tier: 1,
+    beat: "Entertainment business",
+    pitchAngle: "B2B distribution counterpart to DramaBox. Tim has the rails Hollywood is about to need.",
+    status: "identified",
+    notes: "Highest-priority single pitch. Send this week.",
+  },
+  {
+    outlet: "Puck",
+    journalist: "Dylan Byers",
+    contact: "@dylanbyers",
+    tier: 1,
+    beat: "Media business",
+    pitchAngle: "The $11B industry Hollywood didn't see coming. Story tip.",
+    status: "identified",
+  },
+  {
+    outlet: "Bloomberg Screentime",
+    journalist: "Lucas Shaw",
+    contact: "lshaw31@bloomberg.net",
+    tier: 1,
+    beat: "Streaming + entertainment",
+    pitchAngle: "Infrastructure-over-content thesis. 35.7 min/day vs Netflix's 24.8.",
+    status: "identified",
+  },
+  {
+    outlet: "Business Insider",
+    journalist: "Lucia Moses / Drake Whateley",
+    contact: "lmoses@insider.com",
+    tier: 1,
+    beat: "Media + creators",
+    pitchAngle: "How a Singaporean built the global rails for vertical drama.",
+    status: "identified",
+  },
+  {
+    outlet: "Variety",
+    journalist: "Patrick Frater",
+    tier: 1,
+    beat: "International TV/film",
+    pitchAngle: "Vertical 2.0 framing exclusive. From format to category.",
+    status: "responded",
+    notes: "Multiple exclusives already. Maintain cadence.",
+  },
+  {
+    outlet: "Deadline",
+    tier: 1,
+    beat: "Deal coverage",
+    pitchAngle: "Major partnership reveals (MENA, UK, LatAm).",
+    status: "responded",
+  },
+  {
+    outlet: "The Hollywood Reporter",
+    tier: 1,
+    beat: "Entertainment",
+    pitchAngle: "MIP London panel covered. Follow up with Vertical 2.0 op-ed.",
+    status: "responded",
+  },
+
+  // ===== Tier 2 — Trade =====
+  {
+    outlet: "ContentAsia",
+    journalist: "Janine Stein",
+    tier: 2,
+    beat: "Asian content business",
+    pitchAngle: "Ongoing exclusives. Janine breaks every COL update.",
+    status: "responded",
+    notes: "Most consistent relationship.",
+  },
+  {
+    outlet: "ScreenMDM",
+    journalist: "Mansha Daswani",
+    tier: 2,
+    beat: "Micro-drama trade",
+    pitchAngle: "Continued coverage. Video and print.",
+    status: "responded",
+  },
+  {
+    outlet: "Campaign Asia-Pacific",
+    tier: 2,
+    beat: "Marketing",
+    pitchAngle: "Branded micro-drama category — P&G, Unilever, Crocs.",
+    status: "responded",
+  },
+  {
+    outlet: "TVBIZZ",
+    journalist: "Yako Molhov",
+    tier: 2,
+    beat: "International TV",
+    pitchAngle: "Vertical 2.0 follow-up to 'Not a Trend, A Behavioural Shift'.",
+    status: "responded",
+  },
+
+  // ===== Tier 3 — Pods/creator econ =====
+  {
+    outlet: "My First Million",
+    journalist: "Shaan Puri / Sam Parr",
+    contact: "@ShaanVP",
+    tier: 2,
+    beat: "Founder economics",
+    pitchAngle: "$250K → $15M per title. 77-min sessions. Coin-based monetisation.",
+    status: "identified",
+  },
+  {
+    outlet: "The Colin & Samir Show",
+    journalist: "Colin Rosenblum / Samir Chaudry",
+    contact: "colinandsamir.com",
+    tier: 2,
+    beat: "Creator economy",
+    pitchAngle: "Microdrama in a Box: any creator can launch a platform in 30 days.",
+    status: "identified",
+  },
+  {
+    outlet: "Decoder (The Verge)",
+    journalist: "Nilay Patel",
+    tier: 2,
+    beat: "Platform economics",
+    pitchAngle: "Shopify of micro-drama. Org chart story.",
+    status: "identified",
+  },
+  {
+    outlet: "Vitrina LeaderSpeak",
+    journalist: "Atul Phadnis",
+    tier: 2,
+    beat: "Media tech",
+    pitchAngle: "Follow-up episode focused on Vertical 2.0.",
+    status: "responded",
+  },
+  {
+    outlet: "Analyse Asia",
+    journalist: "Bernard Leong",
+    tier: 2,
+    beat: "Asia tech / business",
+    pitchAngle: "Singapore-based; 500+ eps. East-West translation story.",
+    status: "identified",
+  },
+];
