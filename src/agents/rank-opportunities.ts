@@ -1,8 +1,9 @@
 /**
  * OPPORTUNITY RANKER (Sonnet 4.6)
  *
- * Re-scores awards, speaking events, and media targets against Tim's current
- * campaign goals. Sets fitScore + fitRationale.
+ * Re-scores awards, speaking events, and media targets using the 10-axis
+ * scoring model and the 8-class action classifier. Writes back fitScore
+ * (a simple 0-100 aggregate of the axes) plus a fitRationale and action.
  */
 import { z } from "zod";
 import { anthropic, MODELS } from "../lib/anthropic";
@@ -10,32 +11,67 @@ import { cachedSystem, getCampaignContext } from "../lib/context";
 import { store } from "../lib/store";
 
 const ScoreSchema = z.object({
-  fitScore: z.number().min(0).max(100),
-  fitRationale: z.string(),
+  scores: z.object({
+    timAuthorityFit: z.number().int().min(1).max(5),
+    colCommercialUpside: z.number().int().min(1).max(5),
+    microdramaRelevance: z.number().int().min(1).max(5),
+    mediaCoveragePotential: z.number().int().min(1).max(5),
+    relationshipValue: z.number().int().min(1).max(5),
+    personalityFit: z.number().int().min(1).max(5),
+    timeliness: z.number().int().min(1).max(5),
+    evidenceStrength: z.number().int().min(1).max(5),
+    easeOfAction: z.number().int().min(1).max(5),
+    reputationRisk: z.number().int().min(1).max(5),
+  }),
+  action: z.enum(["Act now", "Pitch", "Post", "Comment", "DM", "Watch", "Park", "Ignore"]),
+  rationale: z.string(),
   priority: z.enum(["urgent", "high", "medium", "low"]).optional(),
 });
 
 const INSTRUCTIONS = `
-Re-score opportunities (awards, speaking events, media targets) for Tim's campaign.
+You re-score an opportunity for Tim's campaign using the STRATEGIC OBJECTIVE in the
+system prompt. Apply the 10-axis 1-5 scoring model and choose ONE action from the
+8-class classifier.
 
 Return strict JSON:
 {
-  "fitScore": 0-100,
-  "fitRationale": "1-2 sentences: why this matters for Tim right now",
-  "priority": "urgent" | "high" | "medium" | "low"   // optional
+  "scores": {
+    "timAuthorityFit": 1-5,
+    "colCommercialUpside": 1-5,
+    "microdramaRelevance": 1-5,
+    "mediaCoveragePotential": 1-5,
+    "relationshipValue": 1-5,
+    "personalityFit": 1-5,
+    "timeliness": 1-5,
+    "evidenceStrength": 1-5,
+    "easeOfAction": 1-5,
+    "reputationRisk": 1-5   // 1 = no risk, 5 = serious risk (do not downplay)
+  },
+  "action": "Act now | Pitch | Post | Comment | DM | Watch | Park | Ignore",
+  "rationale": "1-2 sentences: why this matters for Tim right now",
+  "priority": "urgent | high | medium | low"   // optional
 }
 
-Scoring rubric:
-- 90-100: clear category match, deadline imminent, obvious needle-mover.
-- 75-89: strong fit, worth investing time.
-- 50-74: relevant but lower ROI.
-- 0-49: skip.
+ACTION CLASSIFIER:
+- Act now: execute this week
+- Pitch: formal outreach (award entry, speaker application, journalist pitch)
+- Post: public LinkedIn content
+- Comment: engage on someone else's content
+- DM: private message
+- Watch: monitor, no action yet
+- Park: keep, revisit later
+- Ignore: skip
 
-Priority:
-- urgent: deadline <14 days AND fitScore >= 75.
-- high: fitScore >= 80, or strategic narrative carrier.
-- medium: fitScore 60-79.
-- low: fitScore < 60.
+PRIORITY:
+- urgent: deadline <14 days AND aggregate score (sum of positive axes) >= 32
+- high: aggregate >= 35
+- medium: aggregate 22-34
+- low: aggregate <22
+
+GUARDRAILS:
+- evidenceStrength <= 2 means action MUST be "Watch" or "Park" (not "Pitch" or "Act now").
+- reputationRisk >= 4 means downgrade action by one class (Act now → Pitch, Pitch → Watch).
+- Don't invent journalist interest or relationships.
 
 Return JSON only.
 `.trim();
@@ -43,7 +79,7 @@ Return JSON only.
 async function scoreOne(payload: string) {
   const resp = await anthropic.messages.create({
     model: MODELS.reasoning,
-    max_tokens: 400,
+    max_tokens: 600,
     system: cachedSystem(INSTRUCTIONS),
     messages: [{ role: "user", content: payload }],
   });
@@ -51,7 +87,21 @@ async function scoreOne(payload: string) {
   if (!block || block.type !== "text") return null;
   const raw = block.text.replace(/```json|```/g, "").trim();
   try {
-    return ScoreSchema.parse(JSON.parse(raw));
+    const parsed = ScoreSchema.parse(JSON.parse(raw));
+    const s = parsed.scores;
+    // aggregate: positive axes minus risk
+    const positive =
+      s.timAuthorityFit +
+      s.colCommercialUpside +
+      s.microdramaRelevance +
+      s.mediaCoveragePotential +
+      s.relationshipValue +
+      s.personalityFit +
+      s.timeliness +
+      s.evidenceStrength +
+      s.easeOfAction;
+    const fitScore = Math.max(0, Math.min(100, Math.round(((positive - s.reputationRisk) / 45) * 100)));
+    return { ...parsed, fitScore };
   } catch {
     return null;
   }
@@ -77,7 +127,7 @@ export async function rerankAll() {
     const score = await scoreOne(payload);
     if (!score) continue;
     a.fitScore = score.fitScore;
-    a.fitRationale = score.fitRationale;
+    a.fitRationale = `[${score.action}] ${score.rationale}`;
     if (score.priority) a.priority = score.priority;
     awardsUpdated++;
   }
@@ -100,7 +150,7 @@ export async function rerankAll() {
     const score = await scoreOne(payload);
     if (!score) continue;
     s.fitScore = score.fitScore;
-    s.fitRationale = score.fitRationale;
+    s.fitRationale = `[${score.action}] ${score.rationale}`;
     speakingUpdated++;
   }
   if (speakingUpdated > 0) await store.setSpeaking(speaking);
@@ -120,7 +170,7 @@ export async function rerankAll() {
       `Tier: ${m.tier}\n`;
     const score = await scoreOne(payload);
     if (!score) continue;
-    m.notes = `${m.notes ?? ""}\n\nAI rationale: ${score.fitRationale}`.trim();
+    m.notes = `[${score.action}] ${score.rationale}\n\n${m.notes ?? ""}`.trim();
     mediaUpdated++;
   }
   if (mediaUpdated > 0) await store.setMedia(media);

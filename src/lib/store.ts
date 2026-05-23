@@ -17,6 +17,7 @@ const __dirname = path.dirname(__filename);
 export const REPO_ROOT = path.resolve(__dirname, "..", "..");
 export const STATE_DIR = path.join(REPO_ROOT, "data", "state");
 export const DOCS_DIR = path.join(REPO_ROOT, "docs");
+export const ROOT_DIR = REPO_ROOT;
 
 // ---------- shape definitions ----------
 
@@ -109,13 +110,70 @@ export type IndustryItem = {
   createdAt: string;
 };
 
+export type ScoreAxes = {
+  timAuthorityFit: number;       // 1-5: plays to Tim's expertise
+  colCommercialUpside: number;   // 1-5: moves the business
+  microdramaRelevance: number;   // 1-5: touches core category
+  mediaCoveragePotential: number; // 1-5: will generate visibility
+  relationshipValue: number;     // 1-5: builds the network
+  personalityFit: number;        // 1-5: feels like Tim
+  timeliness: number;            // 1-5: window open now
+  evidenceStrength: number;      // 1-5: signal is real
+  easeOfAction: number;          // 1-5: low friction
+  reputationRisk: number;        // 1-5: HIGH means risky
+};
+
+export type Action =
+  | "Act now"
+  | "Pitch"
+  | "Post"
+  | "Comment"
+  | "DM"
+  | "Watch"
+  | "Park"
+  | "Ignore";
+
+export type Opportunity = {
+  title: string;
+  type: string;             // "podcast guest", "panel", "comment", "DM", "investor narrative", etc.
+  why: string;              // 1-2 sentences. Why now, why Tim.
+  source?: string;          // URL or named reference. Required for public claims.
+  dateChecked?: string;     // ISO. Required when citing market claims.
+  scores: ScoreAxes;
+  action: Action;
+  evidence: "strong" | "moderate" | "weak";
+};
+
+export type RelationshipTarget = {
+  name: string;
+  role?: string;
+  organisation?: string;
+  whyMatters: string;
+  source?: string;
+  timRelevance: string;
+  colRelevance: string;
+  bestApproach: string;       // free text
+  publicMove?: string;        // a public engagement option (comment, repost, tag)
+  privateMove?: string;       // a private outreach option (DM, intro request)
+  risk?: string;
+  priority: "high" | "medium" | "low";
+};
+
 export type ContentIdea = {
   id: string;
   platform: "linkedin" | "x" | "newsletter" | "podcast-pitch";
-  format: "post" | "article" | "thread" | "newsletter" | "reply";
-  hook: string;
-  body: string;
-  rationale?: string;
+  format: "post" | "article" | "thread" | "newsletter" | "reply" | "comment";
+  title: string;             // headline-style internal label
+  hook: string;              // opening line under 14 words
+  coreArgument: string;      // the central claim in one sentence
+  whyNow: string;            // time peg
+  sourceEvidence: string;    // links + receipts
+  timPOV: string;            // Tim's specific take
+  colRelevance: string;      // how this serves COL
+  supportingPoints: string[]; // 2-5 bullets
+  risk?: string;             // what could go wrong (Tim or COL)
+  body: string;              // full draft text
+  rationale?: string;        // why this works for Tim
   predictedEngagement?: "low" | "medium" | "high";
   sourceItemId?: string;
   status: "draft" | "approved" | "scheduled" | "posted" | "dismissed";
@@ -128,12 +186,53 @@ export type ContentIdea = {
 export type Brief = {
   id: string;
   weekOf: string;
-  headline: string;
-  industryDigest: string;
-  topActions: Array<{ title: string; why: string; deadline?: string }>;
-  contentToPost: Array<{ hook: string; angle: string; predictedEngagement: string }>;
-  relationshipMoves: Array<{ person: string; move: string; why: string }>;
-  opportunityFocus: { name: string; why: string; nextStep: string };
+  headline: string;          // one-line strategic priority
+  whatChanged: string;       // 1. since last run — paragraph
+  topOpportunities: Opportunity[];  // 2. top 5
+  topPeople: RelationshipTarget[];  // 3. top 5
+  bestMediaAngle: {                 // 4
+    angle: string;
+    targetOutlet?: string;
+    why: string;
+    evidence: string;
+  };
+  bestLinkedInAngle: {              // 5
+    hook: string;
+    angle: string;
+    why: string;
+  };
+  bestCommentOpportunity: {         // 6
+    targetPostUrl?: string;
+    targetAuthor: string;
+    suggestedComment: string;
+    why: string;
+    risk: string;
+  };
+  bestRelationshipMove: RelationshipTarget; // 7
+  bestColOpportunity: {             // 8
+    title: string;
+    why: string;
+    commercialUpside: string;
+    nextStep: string;
+  };
+  risingTrend: {                    // 9
+    trend: string;
+    evidence: string;
+    implication: string;
+  };
+  thingToIgnore: {                  // 10
+    item: string;
+    why: string;
+  };
+  reputationRisk: {                 // 11
+    risk: string;
+    mitigation: string;
+  };
+  suggestedAction: {                // 12
+    for: "Stuart" | "Tim";
+    action: string;
+    urgency: "this-week" | "this-month" | "this-quarter";
+  };
   model: string;
   tokens: { input: number; output: number; cacheRead: number; cacheWrite: number };
   createdAt: string;
@@ -142,12 +241,13 @@ export type Brief = {
 export type AgentRun = {
   id: string;
   agent: string;
-  status: "success" | "failure";
+  status: "success" | "failure" | "low-value";
   startedAt: string;
   finishedAt: string;
   itemsCreated: number;
   itemsUpdated: number;
   errorMessage?: string;
+  lowValueReason?: string;
   metadata?: string;
 };
 

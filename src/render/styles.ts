@@ -137,6 +137,35 @@ ol.actions .why { font-size: 12px; color: var(--muted); margin-top: 4px; margin-
 .score-bar { height: 4px; background: rgba(232,228,217,0.6); border-radius: 2px; overflow: hidden; margin-top: 6px; }
 .score-bar > div { height: 100%; background: var(--accent); }
 
+.opps { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.opp { position: relative; }
+.opp-num {
+  position: absolute; top: 14px; right: 18px;
+  font-size: 11px; color: var(--muted); letter-spacing: 0.1em;
+}
+.opp-title { font-size: 15px; font-weight: 600; margin-top: 2px; }
+
+.score-grid {
+  display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px;
+  margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--line);
+}
+.score-cell {
+  background: rgba(232,228,217,0.4); border-radius: 5px;
+  padding: 6px 8px; text-align: center;
+}
+.score-k { font-size: 9.5px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; }
+.score-v { font-size: 16px; font-weight: 600; margin-top: 2px; }
+.score-v.risk-high { color: var(--danger); }
+
+pre.comment-draft {
+  font-family: inherit; font-size: 13px; line-height: 1.5;
+  background: rgba(232,228,217,0.3); padding: 10px 12px;
+  border-radius: 5px; margin-top: 8px; white-space: pre-wrap;
+}
+
+.hook { font-weight: 600; font-size: 15px; line-height: 1.35; }
+.title { font-weight: 500; }
+
 .muted { color: var(--muted); }
 .small { font-size: 12px; }
 .mt-2 { margin-top: 8px; }
