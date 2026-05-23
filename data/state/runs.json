@@ -1,5 +1,16 @@
 [
   {
+    "id": "rn1lpgxh9c2k9p4r",
+    "agent": "weekly-brief",
+    "status": "low-value",
+    "startedAt": "2026-05-23T06:42:00.000Z",
+    "finishedAt": "2026-05-23T06:48:00.000Z",
+    "itemsCreated": 2,
+    "itemsUpdated": 5,
+    "lowValueReason": "Routine check on the new 'Hollywood for mobile phones' model (PR #7 — radar categories 21–24, on-camera voice rules, ≤3 actionable cap, time budget). Brief and content drafts refreshed: previous brief had 5 'Act on this week' items and 0 visual content drafts — both now corrected (3 actionable items each with time estimates, 2 of 4 drafts are now visual formats: piece-to-camera + travel vlog beat sheet). All 24 radar categories walked; gaps surfaced for app-store charts, Mandarin reputation watch, Reddit qualitative — all require network access. RSS sources still blocked (networkPolicyBlocked: true on last fetch, 25 of 26 sources host_not_allowed) so intel sweep was again skipped; environment-side allowlist fix is the only remaining unblocker.",
+    "metadata": "Second routine-check run on the new Claude-Code-routine contract. Validates the PR #7 model changes — visual content mandatory, actionable cap at 3, time estimates on every actionable opportunity."
+  },
+  {
     "id": "rn1lowy80a8x7q3p",
     "agent": "weekly-brief",
     "status": "low-value",

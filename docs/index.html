@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Tim OS — Convert the LA window into an inbound funnel — pitch The Town, close two awards,</title>
+<title>Tim OS — Nine days to LA — pitch Belloni, close StreamTV, and shoot the trip. Everything </title>
 <style>*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 :root {
   --ink: #0F0F0E;
@@ -360,6 +360,23 @@ pre.comment-draft {
   border-radius: 5px; margin-top: 8px; white-space: pre-wrap;
 }
 
+/* Generic <pre> inside any card — Content tab uses this for the full
+   draft body. Without these rules the browser default (white-space: pre)
+   would let long lines overflow the card horizontally on mobile. */
+.card pre {
+  font-family: inherit;
+  font-size: 13px;
+  line-height: 1.6;
+  background: rgba(232,228,217,0.3);
+  padding: 12px 14px;
+  border-radius: 6px;
+  margin-top: 10px;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  max-width: 100%;
+}
+
 .hook { font-weight: 600; font-size: 14.5px; line-height: 1.35; }
 .title { font-weight: 500; }
 .kicker { font-size: 11px; letter-spacing: 0.15em; color: var(--muted); text-transform: uppercase; font-weight: 500; }
@@ -421,6 +438,31 @@ h3 { font-size: 13.5px; font-weight: 600; margin-bottom: 8px; }
     grid-template-columns: 1fr;
   }
   .page-footer { flex-direction: column; gap: 8px; }
+
+  /* Content tab — the draft cards have a top metadata row (status pill +
+     engagement pill + format) and a right-aligned date that squeeze badly
+     on narrow viewports. Stack vertically instead. The <pre> body block
+     also needs a smaller font + tighter padding to fit comfortably. */
+  [data-panel="content"] .card { padding: 14px; }
+  [data-panel="content"] .card .row {
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  [data-panel="content"] .card pre {
+    font-size: 12.5px;
+    padding: 10px 12px;
+    line-height: 1.55;
+  }
+  [data-panel="content"] .hook { font-size: 14px; line-height: 1.35; }
+  [data-panel="content"] .title { word-wrap: break-word; }
+
+  /* Same treatment for the "Drafts ready to review" cards on the
+     This-week tab — same overflow source. */
+  .draft-card { padding: 14px; }
+  .draft-card pre {
+    font-size: 12.5px;
+    padding: 10px 12px;
+  }
 }
 
 /* ---------- ULTRA-WIDE — keep content readable ---------- */
@@ -442,7 +484,7 @@ h3 { font-size: 13.5px; font-weight: 600; margin-bottom: 8px; }
           <a class="nav-link" href="#week" data-tab="week" data-title="This week">
             <span class="nav-row">
               <span class="nav-title">This week</span>
-              <span class="nav-badge">5</span>
+              <span class="nav-badge">3</span>
             </span>
             <span class="nav-sub">Act on now</span>
           </a>
@@ -463,9 +505,9 @@ h3 { font-size: 13.5px; font-weight: 600; margin-bottom: 8px; }
           <a class="nav-link" href="#content" data-tab="content" data-title="Content">
             <span class="nav-row">
               <span class="nav-title">Content</span>
-              <span class="nav-badge">3</span>
+              <span class="nav-badge">4</span>
             </span>
-            <span class="nav-sub">3 pending</span>
+            <span class="nav-sub">4 pending</span>
           </a>
           <a class="nav-link" href="#intelligence" data-tab="intelligence" data-title="Intelligence">
             <span class="nav-row">
@@ -507,14 +549,14 @@ h3 { font-size: 13.5px; font-weight: 600; margin-bottom: 8px; }
     
     <section class="hero">
       <div class="kicker">Brief · week of 2026-05-18</div>
-      <h1 class="hero-headline">Convert the LA window into an inbound funnel — pitch The Town, close two awards, launch The Vertical View.</h1>
-      <p class="hero-sub">First brief on the new Claude-Code-routine contract (previous Anthropic-SDK agent pipeline was failing every run). RSS sweep was unavailable in this verification environment (12/12 sources blocked at the network layer) — the next scheduled run in a network-enabled environment will produce the first full intelligence-driven brief. Despite that, the existing seed state surfaces real, time-bounded actions: the StreamTV Awards submission deadline is Jun 15 (fitScore 95, urgent); the Marketing Excellence Awards SG deadline is Jun 5 (13 days); the LA meetings trip starts Jun 1 with no public-narrative scaffolding around it yet; the highest-priority single media pitch (Matthew Belloni / The Town) has never been sent. Tim&#39;s documented weekly focus already names the right four moves — this brief sharpens them into specific touchpoints.</p>
-      <div class="chip-row"><div class="chip chip-red"><strong>1</strong> urgent award deadline</div><div class="chip chip-teal"><strong>3</strong> drafts awaiting review</div><div class="chip chip-gold"><strong>9d</strong> to LA meetings trip</div></div>
+      <h1 class="hero-headline">Nine days to LA — pitch Belloni, close StreamTV, and shoot the trip. Everything else parks.</h1>
+      <p class="hero-sub">First brief on the &#39;Hollywood for mobile phones&#39; model (knowledge/STRATEGIC_PROFILE.md + new OPPORTUNITY_RADAR.md categories 21–24). Two real changes from last week&#39;s brief: (1) &#39;Act on this week&#39; is now capped at 3 items, each with a time estimate — last week recommended 5+ items for a Tuesday deadline, which is unrealistic against Tim&#39;s ~5–8 hr/week proactive budget; this run picks three and explicitly parks the rest. (2) Visual / on-camera content is now mandatory per run (Category 21). Last week&#39;s three drafts were all text-only; with LA nine days out, that was a category miss. This run replaces the pre-LA written post with a piece-to-camera script and adds a travel-vlog beat sheet for Day 1 LA — Tim shoots, not just writes. Three new radar categories surfaced this run: (22) critical mentions — no specific live critic identified without RSS intel, but the WGA/SAG-AFTRA-style dismissal of vertical as &#39;not real content&#39; is the perennial frame Tim should be ready to engage during LA agency meetings; (23) out-of-the-box plays — the &#39;Vertical Mogul&#39; podcast (Tim hosts, interviews competitor founders + brand CMOs + creators) is formally scoped to Watch, with a stretch pilot recordable in LA; (24) partner discovery — UTA / CAA / WME / Talent X &#39;vertical-native creator desk&#39; identification is the LA reconnaissance target. Categories that produced NOTHING this run and need to in future: app-store chart intelligence (need network access to Sensor Tower / App Store Top Grossing), Mandarin reputation watch (Weibo / Baidu 短剧 出海 needs web access), Reddit qualitative (r/microdrama, r/television). RSS sweep was again blocked at the verification environment&#39;s network policy — same gap as last run, same environment-side fix still needed.</p>
+      <div class="chip-row"><div class="chip chip-red"><strong>1</strong> urgent award deadline</div><div class="chip chip-teal"><strong>4</strong> drafts awaiting review</div><div class="chip chip-gold"><strong>9d</strong> to LA meetings trip</div></div>
     </section>
     <section class="week-section">
     <div class="section-h">
       <h2>Act on this week</h2>
-      <div class="muted small">5 actions + 1 suggested · priority order</div>
+      <div class="muted small">3 actions + 1 suggested · priority order</div>
     </div>
     
       <div class="action-card action-headline">
@@ -523,7 +565,7 @@ h3 { font-size: 13.5px; font-weight: 600; margin-bottom: 8px; }
           <span class="pill pill-gold">for Stuart</span>
           <span class="pill pill-amber">this-week</span>
         </div>
-        <div class="action-title">By end of Tue May 26: (1) draft + send Belloni pitch, (2) confirm StreamTV Awards submission owner, (3) confirm Cannes Lions submission owner, (4) green-light Vertical View newsletter cadence and pre-write issues #1-3, (5) start the LA target list with Tim. By Sat May 30: post #1 of the LA pre-trip series goes live.</div>
+        <div class="action-title">By end of Tue May 26: (1) draft + send Belloni pitch, (2) confirm StreamTV Awards submission owner. By Sat May 30: help Tim record + post the pre-LA piece-to-camera. Everything else (Cannes Lions submission, Vertical View newsletter launch, LA target list build-out) → next week, or scoped during LA. This is the cap-of-3 rule in practice — last week&#39;s brief asked for 5 deliverables by Tuesday; this brief asks for 2 by Tuesday and 1 by Saturday. Tim&#39;s 5–8 hr/week proactive budget can carry 3 items; it can&#39;t carry 5.</div>
       </div>
     <div class="action-grid">
       
@@ -534,40 +576,18 @@ h3 { font-size: 13.5px; font-weight: 600; margin-bottom: 8px; }
               <span class="action-rank">#1</span>
             </div>
             <div class="action-title">Close StreamTV Awards submission — Content Partnerships Executive of the Year</div>
-            <p class="action-move">Category title literally matches Tim&#39;s role. Deadline Jun 15 (23 days). fitScore 95. Submission writes itself from the existing receipts: 1,700+ titles, USD 1M+ B2B revenue in 6 months, Microdrama-in-a-Box.</p>
+            <p class="action-move">Category title literally matches Tim&#39;s role. fitScore 95. Deadline Jun 15 (23 days). Submission writes itself from existing receipts — 1,700+ titles, USD 1M+ B2B revenue, Microdrama-in-a-Box. Highest-fit award on the pipeline. **~90 min total: 60 to assemble answers + receipts, 30 to file + confirm.**</p>
             <div class="action-context muted small">award · evidence strong</div>
             <div class="action-source small muted">source: data/state/awards.json — seed-streamtv-awards-content-partnerships-executive-of-the-year</div>
           </div>
           <div class="action-card">
             <div class="action-pill-row">
-              <span class="pill pill-red">Act now</span>
+              <span class="pill pill-teal">Pitch</span>
               <span class="pill pill-teal">strong evidence</span>
               <span class="action-rank">#2</span>
             </div>
-            <div class="action-title">Close Cannes Lions Innovation / Creative Business Transformation entry</div>
-            <p class="action-move">Listed in Tim&#39;s documented weekly focus. Microdrama-in-a-Box is a credible Innovation Lion case study. Fee USD 1,200 — modest at the brand-equity payoff. Status is still &#39;identified&#39; — must move this week.</p>
-            <div class="action-context muted small">award · evidence strong</div>
-            <div class="action-source small muted">source: data/state/awards.json — seed-cannes-lions-entertainment-innovation; data/state/settings.json weeklyFocus</div>
-          </div>
-          <div class="action-card">
-            <div class="action-pill-row">
-              <span class="pill pill-red">Act now</span>
-              <span class="pill pill-teal">strong evidence</span>
-              <span class="action-rank">#3</span>
-            </div>
-            <div class="action-title">Launch The Vertical View newsletter (issue #1 in 2 weeks)</div>
-            <p class="action-move">Quarter goal explicitly. Owned channel converts Tim from interview subject to source-of-record. First-issue topic ready: Australia 20% payment rate. Cadence (every other Sunday) is sustainable. Three issues pre-written before launch makes &#39;started strong then died&#39; risk manageable.</p>
-            <div class="action-context muted small">owned media · evidence strong</div>
-            <div class="action-source small muted">source: data/state/settings.json campaignGoals.thisQuarter; speaking.json — Cairns Crocodiles Australia data reveal</div>
-          </div>
-          <div class="action-card">
-            <div class="action-pill-row">
-              <span class="pill pill-teal">Pitch</span>
-              <span class="pill pill-teal">strong evidence</span>
-              <span class="action-rank">#4</span>
-            </div>
             <div class="action-title">Pitch Matthew Belloni / The Town</div>
-            <p class="action-move">Belloni already covered DramaBox on The Town. Tim is the B2B distribution counterpart Hollywood will need next, and is the only English-language operator with the receipts (1,700+ titles, 10+ markets, USD 1M+ B2B revenue). One outreach, two surfaces — Puck feature + The Town episode.</p>
+            <p class="action-move">Belloni already covered DramaBox on The Town. Tim is the B2B distribution counterpart Hollywood will need next — only English-language exec with the receipts (1,700+ titles, USD 1M+ B2B, 238M-day, 77-min sessions). One outreach, two surfaces (Puck feature + The Town episode). **~45 min: 30 to draft, 10 to send via matthew@puck.news, 5 to file the LinkedIn follow.**</p>
             <div class="action-context muted small">podcast / media pitch · evidence strong</div>
             <div class="action-source small muted">source: data/state/media.json — seed-the-town-with-matthew-belloni; data/state/contacts.json — seed-matthew-belloni</div>
           </div>
@@ -575,33 +595,61 @@ h3 { font-size: 13.5px; font-weight: 600; margin-bottom: 8px; }
             <div class="action-pill-row">
               <span class="pill pill-teal">Post</span>
               <span class="pill pill-teal">strong evidence</span>
-              <span class="action-rank">#5</span>
+              <span class="action-rank">#3</span>
             </div>
-            <div class="action-title">Pre-LA narrative sequencing on LinkedIn</div>
-            <p class="action-move">LA trip Jun 1-4 is currently a private calendar item. Three posts in the next 9 days (pre-trip questions, daily-on-the-ground, post-trip distillation) turn the trip into a public asset that produces inbound for COL and surfaces Tim&#39;s frame in advance of meetings.</p>
-            <div class="action-context muted small">content / public narrative · evidence strong</div>
-            <div class="action-source small muted">source: data/state/speaking.json — seed-la-meetings-trip; weekly focus &#39;Build LA trip momentum&#39;</div>
+            <div class="action-title">Shoot the pre-LA piece-to-camera — &#39;Nine days. LA. Five questions.&#39;</div>
+            <p class="action-move">LA is nine days out and currently a private calendar item. A 60-second piece-to-camera, phone-shot, single take, no edit, pre-loaded on LinkedIn + X Sat May 30 turns the trip from invisible into agenda-setting before Tim lands. This is the run&#39;s mandatory Category 21 deliverable — Tim must be SEEN, not just READ, in the world&#39;s most filmed city. **~25 min: 20 to record (3–4 takes), 5 to caption + post.**</p>
+            <div class="action-context muted small">visual content / on-camera · evidence strong</div>
+            <div class="action-source small muted">source: data/state/speaking.json — seed-la-meetings-trip; knowledge/OPPORTUNITY_RADAR.md → Category 21 Visual content</div>
           </div>
     </div></section>
     
     <div class="section-h mt-5">
       <h2>Drafts ready to review</h2>
-      <div class="muted small">3 pending</div>
+      <div class="muted small">4 pending</div>
     </div>
     <div class="draft-grid">
       
           <div class="draft-card">
             <div class="action-pill-row">
               <span class="pill pill-ink">linkedin</span>
-              <span class="pill pill-gray">post</span>
+              <span class="pill pill-gray">piece-to-camera</span>
               <span class="pill pill-teal">predicted high</span>
             </div>
-            <div class="draft-hook">"Nine days. LA. Five questions I&#39;m going to ask everyone."</div>
-            <p class="small mt-2"><span class="muted">Argument:</span> Going into LA with questions, not a pitch deck, is how you find out what Hollywood actually wants from the vertical category — which is usually the opposite of what it says in public.</p>
-            <p class="small mt-2"><span class="muted">Why now:</span> LA trip starts Jun 1. Pre-trip posts set the agenda Tim wants people to read his meetings against, and surface inbound from people who want to meet.</p>
+            <div class="draft-hook">"Nine days. LA. Five questions."</div>
+            <p class="small mt-2"><span class="muted">Argument:</span> Tim coming to LA with questions, not a pitch deck, signals operator-confidence and surfaces inbound from people who want to meet — and being on camera (not just writing) is what a vertical-native operator looks like in 2026.</p>
+            <p class="small mt-2"><span class="muted">Why now:</span> LA trip Jun 1–4 is 9 days out. The window to set the narrative BEFORE Tim lands is closing. Pre-trip piece-to-camera turns a private calendar item into a public agenda before he walks into a single meeting.</p>
             <details class="draft-body">
               <summary>Read full draft</summary>
-              <pre>Nine days. LA. Five questions I&#39;m going to ask everyone.
+              <pre>[SHOOT INSTRUCTIONS]
+Location: Singapore daylight, somewhere with depth in the background — not a desk, not a logo wall. A street, a hotel lobby, the FlareFlow studio entrance.
+Wardrobe: white tee or open-collar shirt. NO suit jacket. NO tie.
+Phone at chest height, vertical, native camera app. Single take. Allow 3–4 attempts.
+Audio: phone mic is fine. If outdoors, find a wall to break wind noise.
+
+[ON-CAMERA SCRIPT — ~60 seconds total]
+
+(Direct, energy, half a beat more confident than written-Tim. No &#39;hey everyone&#39;. No &#39;so&#39;.)
+
+Nine days. LA. Five questions.
+
+(Beat.)
+
+One. Which production execs are quietly piloting vertical right now — and which are still pretending not to.
+
+Two. Which agencies have a real creator-vertical strategy that isn&#39;t just &quot;we&#39;ll repackage TikTok talent.&quot;
+
+Three. Which brand CMOs are buying vertical drama as a media line item — not a one-off stunt.
+
+(Two more in the caption.)
+
+I&#39;m not coming to LA to sell anything. I&#39;m coming to find out what people are actually doing when nobody&#39;s posting about it.
+
+I&#39;ll tell you what I find.
+
+[CAPTION TEXT — for LinkedIn / X post body]
+
+Nine days. LA. Five questions I&#39;m going to ask everyone.
 
 1. Which production execs are quietly piloting vertical right now — and which are still pretending not to?
 
@@ -613,17 +661,75 @@ h3 { font-size: 13.5px; font-weight: 600; margin-bottom: 8px; }
 
 5. What does the next CAA / WME signing in vertical look like — and from where?
 
-I&#39;m not coming to LA to sell anything.
-
-I&#39;m coming to find out what people are actually doing when nobody&#39;s posting about it.
-
 Who should I be asking?</pre>
               <p class="small mt-2"><span class="muted">Tim POV:</span> Hollywood keeps asking the wrong question. The interesting question isn&#39;t &#39;is vertical real?&#39; — that was 2024. The interesting question is what gets built on top of it.</p>
-              <p class="small mt-2"><span class="muted">COL relevance:</span> Frames Tim as the operator Hollywood is coming to, not the operator selling Hollywood. Surfaces inbound for COL&#39;s Microdrama-in-a-Box B2B narrative ahead of meetings.</p>
-              <ul class="list mt-2"><li>1. Which Hollywood production execs are quietly piloting vertical right now (and which are pretending not to)?</li><li>2. Which agencies have a creator vertical strategy that isn&#39;t just &#39;we&#39;ll repackage TikTok talent&#39;?</li><li>3. Which brand CMOs are buying vertical drama as a media line item — not as a one-off stunt?</li><li>4. Which platforms (streamers, social, retail) are licensing vertical IP vs commissioning it?</li><li>5. What does the next CAA / WME signing in vertical look like — and from where?</li></ul>
-              <p class="small muted mt-2">Source/evidence: Confirmed LA meetings trip Jun 1-4 (data/state/speaking.json). Tim&#39;s weekly focus: &#39;Build LA trip momentum.&#39; Variety / Deadline / THR have all responded to prior Tim outreach (data/state/media.json).</p>
-              <p class="small mt-2" style="color:var(--danger)"><span class="muted">Risk:</span> Sounding like Tim is auditioning Hollywood. Mitigation: stay on data + questions, not on Tim&#39;s own roadmap.</p>
-              <p class="small muted mt-2"><em>Why this works: Opens with a number. One idea per sentence. Ends with a question. No corporate gloss. Tim&#39;s voice — operator, not influencer. Generates inbound (the question at the end). Hooks the LA trip into the public narrative before Tim even lands.</em></p>
+              <p class="small mt-2"><span class="muted">COL relevance:</span> Frames Tim as the operator Hollywood is coming to, not the operator selling Hollywood. Surfaces inbound for COL&#39;s Microdrama-in-a-Box B2B narrative ahead of meetings. Visual native = COL native.</p>
+              <ul class="list mt-2"><li>**Open (0–3 sec):** Tim outside — Singapore daylight, not at a desk. Phone at chest height. Camera straight on.</li><li>**Beat 1 (3–10 sec):** &#39;Nine days. LA. Five questions.&#39; Hold beat. No music.</li><li>**Beat 2 (10–35 sec):** Three of the five questions on camera, fast — &#39;(1) Which production execs are quietly piloting vertical? (2) Which agencies have a real creator-vertical strategy? (3) Which brand CMOs are buying vertical drama as a media line item, not a stunt?&#39; Two more in the caption.</li><li>**Beat 3 (35–50 sec):** &#39;I&#39;m not coming to LA to sell anything. I&#39;m coming to find out what people are actually doing when nobody&#39;s posting about it.&#39;</li><li>**Close (50–60 sec):** &#39;I&#39;ll tell you what I find.&#39; Forward line, no sign-off. Cut.</li><li>**Caption (~90 words):** Restate the hook, list ALL five questions, end with &#39;Who should I be asking?&#39; — generates inbound.</li></ul>
+              <p class="small muted mt-2">Source/evidence: Confirmed LA meetings trip Jun 1–4 (data/state/speaking.json). Tim&#39;s weekly focus: &#39;Build LA trip momentum.&#39; knowledge/VOICE.md → On-camera voice rules.</p>
+              <p class="small mt-2" style="color:var(--danger)"><span class="muted">Risk:</span> Tim sounding like he&#39;s auditioning Hollywood. Mitigation: shot OUTSIDE a corporate setting (no COL-branded backdrop), no suit jacket, energy not gravitas. Watch the cuts for swagger.</p>
+              <p class="small muted mt-2"><em>Why this works: Hook in 5 words — passes the VOICE.md on-camera test. Outdoor, phone, no jacket — passes the &#39;not a corporate piece&#39; test. Specific questions with named institutions (CAA, WME, brand CMOs) — passes the &#39;no fluff&#39; test. Forward close (&#39;I&#39;ll tell you what I find&#39;) sets up the LA daily vlog series — building cadence. Generates inbound from the caption&#39;s closing question. This replaces last week&#39;s written version of the same idea.</em></p>
+            </details>
+          </div>
+          <div class="draft-card">
+            <div class="action-pill-row">
+              <span class="pill pill-ink">linkedin</span>
+              <span class="pill pill-gray">vlog</span>
+              <span class="pill pill-teal">predicted high</span>
+            </div>
+            <div class="draft-hook">"Day one. LA. Here&#39;s the list."</div>
+            <p class="small mt-2"><span class="muted">Argument:</span> Daily ~60-second packages from LA build cadence + agenda — turn a four-day private trip into four public artefacts that compound across the rest of the LA-week posts.</p>
+            <p class="small mt-2"><span class="muted">Why now:</span> Tim lands LA Jun 1. Day-1 beat needs to be shot ON Jun 1 — not from notes after the fact. The cadence is the value; one daily post Jun 1–Jun 4 is the deliverable.</p>
+            <details class="draft-body">
+              <summary>Read full draft</summary>
+              <pre>[BEAT SHEET — not a script. Tim improvises within the structure each day.]
+
+DAY 1 — JUN 1 (record between landing + first meeting)
+
+Location options (pick what feels native): LAX exit (the wheelchair luggage moment), arriving at the hotel, Sunset Blvd walking shot, studio lot gates (if visiting one).
+
+Opening: &#39;Day one. LA. Here&#39;s the list.&#39;
+
+Meetings to name (Stuart confirms permission for each name on the morning of Jun 1):
+  • Meeting 1 — [name / role] (or fallback: &#39;studio exec at [studio]&#39;)
+  • Meeting 2 — [name / role] (or fallback: &#39;agency partner&#39;)
+  • Meeting 3 — [name / role] (or fallback: &#39;investor — consumer + China thesis&#39;)
+
+Question for the day (Tim picks ONE the night before):
+  • Option A: &#39;What does a brand CMO want from vertical that they&#39;re not getting?&#39;
+  • Option B: &#39;Which agency has a vertical-native creator desk first — and what would they want from us?&#39;
+  • Option C: &#39;What&#39;s the moment Hollywood actually says yes to vertical at scale?&#39;
+
+Overheard / first impression:
+  • Whatever lands. Authentic &gt; clever.
+
+Close: &#39;Tomorrow.&#39; One word. Cut.
+
+[DAY 2 — JUN 2]
+Same structure. New meetings. New question (don&#39;t repeat).
+Location: morning coffee, between two meetings, Beverly Hills sidewalk — wherever.
+
+[DAY 3 — JUN 3]
+Same structure. By now Tim should be naming patterns (&#39;Three people have asked me the same question. That tells me...&#39;). Higher value than Day 1.
+
+[DAY 4 — JUN 4]
+Final day = recap variant. &#39;Four days, fifteen meetings, here&#39;s what changed my mind.&#39; Slightly longer (~75 sec OK). This is the post that gets reposted — make it the sharpest.
+
+[CAPTION TEMPLATE — same for each day]
+
+Day [N] in LA. Today&#39;s question: [the question]. Met: [up to 3 names if cleared].
+
+[One-line observation, copied from the video close.]
+
+Day [N+1] tomorrow.
+
+[POSTING CADENCE]
+Daily, between 6pm–9pm LA time (which is the LinkedIn-APAC-morning sweet spot for Tim&#39;s home audience + still primetime in US). Stuart edits captions + posts; Tim&#39;s only job is to film 60 seconds per day.</pre>
+              <p class="small mt-2"><span class="muted">Tim POV:</span> Most exec travel content is either &#39;arrived in city, excited to meet team&#39; (corporate, dead) or &#39;look at the view from my hotel&#39; (extractive, dead). The version that lands: name the people, name the questions, name the day. Specific beats specificity.</p>
+              <p class="small mt-2"><span class="muted">COL relevance:</span> Builds Tim&#39;s recognisability in LA / Hollywood B-roll. Establishes &#39;Tim shows up&#39; as a brand-level expectation — recurrence is part of mogul-construction.</p>
+              <ul class="list mt-2"><li>**Open (0–4 sec):** Walking shot. LAX exit OR Sunset Blvd OR Studio gates. &#39;Day one. LA. Here&#39;s the list.&#39; Hold.</li><li>**Beat 1 (4–20 sec):** Name 3 meetings publicly (only if confirmed + non-confidential). Format: &#39;Today: [name / role], [name / role], [name / role].&#39; Direct to camera. Walking.</li><li>**Beat 2 (20–40 sec):** Frame for the day. &#39;The question I&#39;m bringing: [one specific question — e.g. &quot;What does a brand-CMO want from vertical that they&#39;re not getting?&quot;].&#39;</li><li>**Beat 3 (40–55 sec):** One overheard detail / first impression. &#39;Already noticed: [thing]. We&#39;ll see if that holds.&#39; (No spin, just observation.)</li><li>**Close (55–60 sec):** &#39;Tomorrow.&#39; Cut.</li><li>**Caption (~50 words):** Recap the question. Tag the people if their names were used on camera (with their permission). End with &#39;Day 2 tomorrow.&#39;</li><li>**Same beat sheet for Days 2, 3, 4** — substitute meetings + question + observation. Tim&#39;s job is to film 60 seconds per day, not to script a series. Stuart caption-edits + posts.</li></ul>
+              <p class="small muted mt-2">Source/evidence: Confirmed LA trip Jun 1–4 (data/state/speaking.json). knowledge/OPPORTUNITY_RADAR.md → Category 21 Visual content / travel vlog beats. knowledge/VOICE.md → &#39;Always shoot when travelling.&#39;</p>
+              <p class="small mt-2" style="color:var(--danger)"><span class="muted">Risk:</span> Naming meetings that haven&#39;t given permission to be named publicly. Mitigation: ONLY name people Stuart has cleared. Default to &#39;studio exec&#39; / &#39;agency partner&#39; if no clearance. Risk #2: Tim&#39;s energy flags by Day 3. Mitigation: shoot Day 3 in the morning, not after a 9pm dinner.</p>
+              <p class="small muted mt-2"><em>Why this works: Beat sheet, not a script — Tim improvises within structure, which is more native to vertical-creator energy. Forces ONE question per day = surfaces the LA conversation as it unfolds. Daily cadence = compounding visibility, not one-off. Caption template + clearance protocol = removes Stuart-side friction during the actual trip. Day 4 designed as the share-able recap. This is the kind of asset that makes Tim recognisable in Hollywood B-roll — Category 21 in practice.</em></p>
             </details>
           </div>
           <div class="draft-card">
@@ -634,7 +740,7 @@ Who should I be asking?</pre>
             </div>
             <div class="draft-hook">"Six months of writing this in my head. Time to publish it."</div>
             <p class="small mt-2"><span class="muted">Argument:</span> Vertical content needs a serious, operator-led publication that treats it as a real category — not a TikTok think-piece. Tim is the person to launch it, because he&#39;s the only English-language operator running it at scale.</p>
-            <p class="small mt-2"><span class="muted">Why now:</span> Weekly focus explicitly lists &#39;Launch Vertical View newsletter&#39;. Quarter goal: cement Vertical 2.0 framing in press. Owning a publication is how you stop being a subject of coverage and start being the source.</p>
+            <p class="small mt-2"><span class="muted">Why now:</span> Weekly focus explicitly lists &#39;Launch Vertical View newsletter&#39;. Quarter goal: cement Vertical 2.0 framing in press. Owning a publication is how you stop being a subject of coverage and start being the source. (Parked from this week&#39;s &#39;Act on this week&#39; surface to respect the 3-item time budget — but kept in drafts for next-week consideration.)</p>
             <details class="draft-body">
               <summary>Read full draft</summary>
               <pre>Six months ago I started writing one of these in my head every Sunday morning.
@@ -655,7 +761,7 @@ Link in comments. Subscribe if you want this in your inbox. Forward to one perso
               <ul class="list mt-2"><li>Issue cadence: every other Sunday. Operator depth, not news rehash.</li><li>Coverage scope: vertical drama, mobile-first storytelling, brand entry, Asia-to-global content flow, AI in production.</li><li>Format: 1 long-read + 1 numbered list + 3 things to read this week. No fluff.</li><li>Audience target: people who run things — production, distribution, brand, investment. Not &#39;creators&#39; as a generic bucket.</li><li>First-issue topic: why the Australian payment rate (20%) is the most underread data point in entertainment right now.</li></ul>
               <p class="small muted mt-2">Source/evidence: Quarter goals in data/state/settings.json. Tim&#39;s coverage in TVBIZZ, ContentAsia, SCMP, Vitrina LeaderSpeak (data/state/press.json) demonstrates ongoing trade-press demand.</p>
               <p class="small mt-2" style="color:var(--danger)"><span class="muted">Risk:</span> Newsletter starts strong then dies. Mitigation: pre-write three issues before launch, schedule a fourth, hand cadence to Stuart for accountability.</p>
-              <p class="small muted mt-2"><em>Why this works: Opens personal, lands the public commitment, sets cadence so accountability is built in. Uses Tim&#39;s actual numbers (1,700 / 10 / 2.4B / 77 / 20%). One idea per sentence. Ends with a soft ask (forward to one person) — Tim&#39;s natural humility frame.</em></p>
+              <p class="small muted mt-2"><em>Why this works: Opens personal, lands the public commitment, sets cadence so accountability is built in. Uses Tim&#39;s actual numbers (1,700 / 10 / 2.4B / 77 / 20%). One idea per sentence. Ends with a soft ask (forward to one person) — Tim&#39;s natural humility frame. Holds until next week per the time-budget cap.</em></p>
             </details>
           </div>
           <div class="draft-card">
@@ -712,7 +818,7 @@ Who&#39;s seeing similar in another developed market — would love a quiet DM.<
             </div>
             <p class="small mt-2">Single-pitch unlocks Puck feature + The Town episode. Already covered DramaBox — Tim is the B2B counterpart.</p>
             <div class="small mt-2"><span class="muted">Approach:</span> Cold email to matthew@puck.news. Subject: &#39;The B2B counterpart to your DramaBox story.&#39; Body: 3 numbers (1,700 titles, USD 1M B2B, 238M-day), 1 frame (Vertical 2.0), 1 ask (15-min call before LA trip).</div>
-            <div class="small mt-2"><span class="muted">Move:</span> Stuart to draft the pitch by Mon May 25, send by Tue May 26.</div>
+            <div class="small mt-2"><span class="muted">Move:</span> Stuart drafts Mon May 25, sends Tue May 26.</div>
           </div>
           <div class="person-card priority-high">
             <div class="row">
@@ -722,9 +828,9 @@ Who&#39;s seeing similar in another developed market — would love a quiet DM.<
               </div>
               <span class="pill pill-red">high</span>
             </div>
-            <p class="small mt-2">Co-panellist at NEM Dubrovnik (Jun 8). Tim&#39;s most-cited data anchor (USD 11B/22B sizing). Already a warm relationship.</p>
-            <div class="small mt-2"><span class="muted">Approach:</span> WhatsApp / LinkedIn DM by end of next week. Tone: warm peer, not formal.</div>
-            <div class="small mt-2"><span class="muted">Move:</span> Send Tim&#39;s Cairns data points before she finalises her NEM deck — gives her a fresh datapoint to credit Tim with on stage.</div>
+            <p class="small mt-2">Co-panellist NEM Dubrovnik (Jun 8). Tim&#39;s most-cited data anchor. Already warm.</p>
+            <div class="small mt-2"><span class="muted">Approach:</span> WhatsApp / LinkedIn DM. Warm peer, not formal.</div>
+            <div class="small mt-2"><span class="muted">Move:</span> Send Tim&#39;s Cairns Australia-20% data points + ask about agency vertical desks. End of next week.</div>
           </div>
           <div class="person-card priority-medium">
             <div class="row">
@@ -734,9 +840,21 @@ Who&#39;s seeing similar in another developed market — would love a quiet DM.<
               </div>
               <span class="pill pill-teal">medium</span>
             </div>
-            <p class="small mt-2">Consumer + China crossover thesis. LA trip is the natural window for an in-person.</p>
-            <div class="small mt-2"><span class="muted">Approach:</span> Warm intro request — identify a mutual (likely via Singapore / Stanford / earlier a16z portfolio).</div>
-            <div class="small mt-2"><span class="muted">Move:</span> Stuart to identify the warm intro vector and brief Tim by Wed May 27 so he can reach out before LA wheels-up.</div>
+            <p class="small mt-2">Consumer + China crossover thesis. LA trip is the natural window for an in-person + Vertical Mogul podcast pilot guest.</p>
+            <div class="small mt-2"><span class="muted">Approach:</span> Warm intro via mutual (likely Singapore / Stanford / earlier a16z portfolio).</div>
+            <div class="small mt-2"><span class="muted">Move:</span> Stuart identifies the warm intro vector and briefs Tim by Wed May 27. Reach out before LA wheels-up.</div>
+          </div>
+          <div class="person-card priority-medium">
+            <div class="row">
+              <div>
+                <div class="person-name">Latif Sim</div>
+                <div class="small muted">Founder · BeLive Technology</div>
+              </div>
+              <span class="pill pill-teal">medium</span>
+            </div>
+            <p class="small mt-2">Microdrama-in-a-Box co-creator. Already does joint MIP + FILMART presentations with Tim. The visual content this run needs (BTS, demo videos) is recordable WITH him, not solo.</p>
+            <div class="small mt-2"><span class="muted">Approach:</span> WhatsApp. Casual: &#39;I&#39;m shooting some pieces around LA / NEM / APOS — want to do a joint piece on the box?&#39;</div>
+            <div class="small mt-2"><span class="muted">Move:</span> Stuart loops Latif in by end of next week for an APOS Bali joint shoot.</div>
           </div>
           <div class="person-card priority-medium">
             <div class="row">
@@ -746,21 +864,9 @@ Who&#39;s seeing similar in another developed market — would love a quiet DM.<
               </div>
               <span class="pill pill-teal">medium</span>
             </div>
-            <p class="small mt-2">Most consistent media amplifier; broke the CMO appointment. Give her the next exclusive (newsletter launch + an Australia-20% data feature).</p>
-            <div class="small mt-2"><span class="muted">Approach:</span> Email + LinkedIn DM with The Vertical View launch ahead of public announcement; offer the Australia 20% data as an accompanying feature.</div>
-            <div class="small mt-2"><span class="muted">Move:</span> Reach out within 48 hours of newsletter launch decision being locked.</div>
-          </div>
-          <div class="person-card priority-medium">
-            <div class="row">
-              <div>
-                <div class="person-name">Lisa Cam</div>
-                <div class="small muted">Journalist · South China Morning Post</div>
-              </div>
-              <span class="pill pill-teal">medium</span>
-            </div>
-            <p class="small mt-2">Wrote the SCMP full-page feature Tim called his favourite. Natural follow-up on the newsletter launch — Chinese-language Western press is currently under-served.</p>
-            <div class="small mt-2"><span class="muted">Approach:</span> Personal email — thank her for the prior piece, share Vertical View launch as a &#39;thought you&#39;d find this interesting&#39;, no formal pitch.</div>
-            <div class="small mt-2"><span class="muted">Move:</span> Send personal note on newsletter launch day.</div>
+            <p class="small mt-2">Most consistent media amplifier; broke the CMO appointment. Give her the next exclusive (Vertical View newsletter launch + Australia-20% data feature).</p>
+            <div class="small mt-2"><span class="muted">Approach:</span> Email + LinkedIn DM. Newsletter exclusive + Australia data as a parallel feature.</div>
+            <div class="small mt-2"><span class="muted">Move:</span> Within 48 hours of Vertical View launch decision being locked.</div>
           </div>
     </div>
   </section>
@@ -771,7 +877,7 @@ Who&#39;s seeing similar in another developed market — would love a quiet DM.<
     </div>
     <div class="card accent-gold">
       <h3>1 · What changed since last run</h3>
-      <p class="brief-body">First brief on the new Claude-Code-routine contract (previous Anthropic-SDK agent pipeline was failing every run). RSS sweep was unavailable in this verification environment (12/12 sources blocked at the network layer) — the next scheduled run in a network-enabled environment will produce the first full intelligence-driven brief. Despite that, the existing seed state surfaces real, time-bounded actions: the StreamTV Awards submission deadline is Jun 15 (fitScore 95, urgent); the Marketing Excellence Awards SG deadline is Jun 5 (13 days); the LA meetings trip starts Jun 1 with no public-narrative scaffolding around it yet; the highest-priority single media pitch (Matthew Belloni / The Town) has never been sent. Tim&#39;s documented weekly focus already names the right four moves — this brief sharpens them into specific touchpoints.</p>
+      <p class="brief-body">First brief on the &#39;Hollywood for mobile phones&#39; model (knowledge/STRATEGIC_PROFILE.md + new OPPORTUNITY_RADAR.md categories 21–24). Two real changes from last week&#39;s brief: (1) &#39;Act on this week&#39; is now capped at 3 items, each with a time estimate — last week recommended 5+ items for a Tuesday deadline, which is unrealistic against Tim&#39;s ~5–8 hr/week proactive budget; this run picks three and explicitly parks the rest. (2) Visual / on-camera content is now mandatory per run (Category 21). Last week&#39;s three drafts were all text-only; with LA nine days out, that was a category miss. This run replaces the pre-LA written post with a piece-to-camera script and adds a travel-vlog beat sheet for Day 1 LA — Tim shoots, not just writes. Three new radar categories surfaced this run: (22) critical mentions — no specific live critic identified without RSS intel, but the WGA/SAG-AFTRA-style dismissal of vertical as &#39;not real content&#39; is the perennial frame Tim should be ready to engage during LA agency meetings; (23) out-of-the-box plays — the &#39;Vertical Mogul&#39; podcast (Tim hosts, interviews competitor founders + brand CMOs + creators) is formally scoped to Watch, with a stretch pilot recordable in LA; (24) partner discovery — UTA / CAA / WME / Talent X &#39;vertical-native creator desk&#39; identification is the LA reconnaissance target. Categories that produced NOTHING this run and need to in future: app-store chart intelligence (need network access to Sensor Tower / App Store Top Grossing), Mandarin reputation watch (Weibo / Baidu 短剧 出海 needs web access), Reddit qualitative (r/microdrama, r/television). RSS sweep was again blocked at the verification environment&#39;s network policy — same gap as last run, same environment-side fix still needed.</p>
     </div>
 
     <h3 class="mt-3">2 · Top opportunities (scored)</h3>
@@ -786,7 +892,7 @@ Who&#39;s seeing similar in another developed market — would love a quiet DM.<
             </div>
             <span class="pill pill-teal">Pitch</span>
           </div>
-          <p class="small mt-2">Belloni already covered DramaBox on The Town. Tim is the B2B distribution counterpart Hollywood will need next, and is the only English-language operator with the receipts (1,700+ titles, 10+ markets, USD 1M+ B2B revenue). One outreach, two surfaces — Puck feature + The Town episode.</p>
+          <p class="small mt-2">Belloni already covered DramaBox on The Town. Tim is the B2B distribution counterpart Hollywood will need next — only English-language exec with the receipts (1,700+ titles, USD 1M+ B2B, 238M-day, 77-min sessions). One outreach, two surfaces (Puck feature + The Town episode). **~45 min: 30 to draft, 10 to send via matthew@puck.news, 5 to file the LinkedIn follow.**</p>
           <p class="small muted mt-2">source: data/state/media.json — seed-the-town-with-matthew-belloni; data/state/contacts.json — seed-matthew-belloni · checked 2026-05-23</p>
           <div class="score-grid"><div class="score-cell"><div class="score-k">Tim fit</div><div class="score-v ">5</div></div><div class="score-cell"><div class="score-k">COL upside</div><div class="score-v ">5</div></div><div class="score-cell"><div class="score-k">MD relevance</div><div class="score-v ">5</div></div><div class="score-cell"><div class="score-k">Media</div><div class="score-v ">5</div></div><div class="score-cell"><div class="score-k">Network</div><div class="score-v ">5</div></div><div class="score-cell"><div class="score-k">Personality</div><div class="score-v ">5</div></div><div class="score-cell"><div class="score-k">Timeliness</div><div class="score-v ">5</div></div><div class="score-cell"><div class="score-k">Evidence</div><div class="score-v ">4</div></div><div class="score-cell"><div class="score-k">Ease</div><div class="score-v ">4</div></div><div class="score-cell"><div class="score-k">Risk</div><div class="score-v ">1</div></div></div>
         </div>
@@ -794,53 +900,53 @@ Who&#39;s seeing similar in another developed market — would love a quiet DM.<
           <div class="row">
             <div>
               <div class="opp-num">2</div>
+              <div class="opp-title">Shoot the pre-LA piece-to-camera — &#39;Nine days. LA. Five questions.&#39;</div>
+              <div class="small muted">visual content / on-camera · evidence strong</div>
+            </div>
+            <span class="pill pill-teal">Post</span>
+          </div>
+          <p class="small mt-2">LA is nine days out and currently a private calendar item. A 60-second piece-to-camera, phone-shot, single take, no edit, pre-loaded on LinkedIn + X Sat May 30 turns the trip from invisible into agenda-setting before Tim lands. This is the run&#39;s mandatory Category 21 deliverable — Tim must be SEEN, not just READ, in the world&#39;s most filmed city. **~25 min: 20 to record (3–4 takes), 5 to caption + post.**</p>
+          <p class="small muted mt-2">source: data/state/speaking.json — seed-la-meetings-trip; knowledge/OPPORTUNITY_RADAR.md → Category 21 Visual content · checked 2026-05-23</p>
+          <div class="score-grid"><div class="score-cell"><div class="score-k">Tim fit</div><div class="score-v ">5</div></div><div class="score-cell"><div class="score-k">COL upside</div><div class="score-v ">4</div></div><div class="score-cell"><div class="score-k">MD relevance</div><div class="score-v ">4</div></div><div class="score-cell"><div class="score-k">Media</div><div class="score-v ">4</div></div><div class="score-cell"><div class="score-k">Network</div><div class="score-v ">4</div></div><div class="score-cell"><div class="score-k">Personality</div><div class="score-v ">5</div></div><div class="score-cell"><div class="score-k">Timeliness</div><div class="score-v ">5</div></div><div class="score-cell"><div class="score-k">Evidence</div><div class="score-v ">5</div></div><div class="score-cell"><div class="score-k">Ease</div><div class="score-v ">5</div></div><div class="score-cell"><div class="score-k">Risk</div><div class="score-v ">2</div></div></div>
+        </div>
+        <div class="card opp">
+          <div class="row">
+            <div>
+              <div class="opp-num">3</div>
               <div class="opp-title">Close StreamTV Awards submission — Content Partnerships Executive of the Year</div>
               <div class="small muted">award · evidence strong</div>
             </div>
             <span class="pill pill-red">Act now</span>
           </div>
-          <p class="small mt-2">Category title literally matches Tim&#39;s role. Deadline Jun 15 (23 days). fitScore 95. Submission writes itself from the existing receipts: 1,700+ titles, USD 1M+ B2B revenue in 6 months, Microdrama-in-a-Box.</p>
+          <p class="small mt-2">Category title literally matches Tim&#39;s role. fitScore 95. Deadline Jun 15 (23 days). Submission writes itself from existing receipts — 1,700+ titles, USD 1M+ B2B revenue, Microdrama-in-a-Box. Highest-fit award on the pipeline. **~90 min total: 60 to assemble answers + receipts, 30 to file + confirm.**</p>
           <p class="small muted mt-2">source: data/state/awards.json — seed-streamtv-awards-content-partnerships-executive-of-the-year · checked 2026-05-23</p>
           <div class="score-grid"><div class="score-cell"><div class="score-k">Tim fit</div><div class="score-v ">5</div></div><div class="score-cell"><div class="score-k">COL upside</div><div class="score-v ">4</div></div><div class="score-cell"><div class="score-k">MD relevance</div><div class="score-v ">5</div></div><div class="score-cell"><div class="score-k">Media</div><div class="score-v ">4</div></div><div class="score-cell"><div class="score-k">Network</div><div class="score-v ">3</div></div><div class="score-cell"><div class="score-k">Personality</div><div class="score-v ">4</div></div><div class="score-cell"><div class="score-k">Timeliness</div><div class="score-v ">5</div></div><div class="score-cell"><div class="score-k">Evidence</div><div class="score-v ">5</div></div><div class="score-cell"><div class="score-k">Ease</div><div class="score-v ">4</div></div><div class="score-cell"><div class="score-k">Risk</div><div class="score-v ">1</div></div></div>
         </div>
         <div class="card opp">
           <div class="row">
             <div>
-              <div class="opp-num">3</div>
-              <div class="opp-title">Close Cannes Lions Innovation / Creative Business Transformation entry</div>
-              <div class="small muted">award · evidence strong</div>
-            </div>
-            <span class="pill pill-red">Act now</span>
-          </div>
-          <p class="small mt-2">Listed in Tim&#39;s documented weekly focus. Microdrama-in-a-Box is a credible Innovation Lion case study. Fee USD 1,200 — modest at the brand-equity payoff. Status is still &#39;identified&#39; — must move this week.</p>
-          <p class="small muted mt-2">source: data/state/awards.json — seed-cannes-lions-entertainment-innovation; data/state/settings.json weeklyFocus · checked 2026-05-23</p>
-          <div class="score-grid"><div class="score-cell"><div class="score-k">Tim fit</div><div class="score-v ">4</div></div><div class="score-cell"><div class="score-k">COL upside</div><div class="score-v ">5</div></div><div class="score-cell"><div class="score-k">MD relevance</div><div class="score-v ">5</div></div><div class="score-cell"><div class="score-k">Media</div><div class="score-v ">5</div></div><div class="score-cell"><div class="score-k">Network</div><div class="score-v ">4</div></div><div class="score-cell"><div class="score-k">Personality</div><div class="score-v ">4</div></div><div class="score-cell"><div class="score-k">Timeliness</div><div class="score-v ">5</div></div><div class="score-cell"><div class="score-k">Evidence</div><div class="score-v ">4</div></div><div class="score-cell"><div class="score-k">Ease</div><div class="score-v ">3</div></div><div class="score-cell"><div class="score-k">Risk</div><div class="score-v ">1</div></div></div>
-        </div>
-        <div class="card opp">
-          <div class="row">
-            <div>
               <div class="opp-num">4</div>
-              <div class="opp-title">Pre-LA narrative sequencing on LinkedIn</div>
-              <div class="small muted">content / public narrative · evidence strong</div>
+              <div class="opp-title">Scope the &#39;Vertical Mogul&#39; podcast (Tim hosts)</div>
+              <div class="small muted">out-of-the-box / owned media · evidence strong</div>
             </div>
-            <span class="pill pill-teal">Post</span>
+            <span class="pill pill-gray">Park</span>
           </div>
-          <p class="small mt-2">LA trip Jun 1-4 is currently a private calendar item. Three posts in the next 9 days (pre-trip questions, daily-on-the-ground, post-trip distillation) turn the trip into a public asset that produces inbound for COL and surfaces Tim&#39;s frame in advance of meetings.</p>
-          <p class="small muted mt-2">source: data/state/speaking.json — seed-la-meetings-trip; weekly focus &#39;Build LA trip momentum&#39; · checked 2026-05-23</p>
-          <div class="score-grid"><div class="score-cell"><div class="score-k">Tim fit</div><div class="score-v ">5</div></div><div class="score-cell"><div class="score-k">COL upside</div><div class="score-v ">4</div></div><div class="score-cell"><div class="score-k">MD relevance</div><div class="score-v ">4</div></div><div class="score-cell"><div class="score-k">Media</div><div class="score-v ">4</div></div><div class="score-cell"><div class="score-k">Network</div><div class="score-v ">5</div></div><div class="score-cell"><div class="score-k">Personality</div><div class="score-v ">5</div></div><div class="score-cell"><div class="score-k">Timeliness</div><div class="score-v ">5</div></div><div class="score-cell"><div class="score-k">Evidence</div><div class="score-v ">5</div></div><div class="score-cell"><div class="score-k">Ease</div><div class="score-v ">5</div></div><div class="score-cell"><div class="score-k">Risk</div><div class="score-v ">2</div></div></div>
+          <p class="small mt-2">Category 23 play. Tim interviews competitor founders (DramaBox, ShortMax, GoodShort), brand CMOs (P&amp;G, Crocs, Shopee), creators in vertical. Hosting owns the conversation — turns Tim from &#39;subject covered in the trade press&#39; into &#39;where the trade press goes for the take&#39;. Pilot could be recorded in LA with Connie Chan (a16z, consumer+China thesis). **Not this week** — formal scope by end of June; pilot run sheet + 3 confirmed guests by end of Q3. Park for now.</p>
+          <p class="small muted mt-2">source: knowledge/OPPORTUNITY_RADAR.md → Category 23 Out-of-the-box plays · checked 2026-05-23</p>
+          <div class="score-grid"><div class="score-cell"><div class="score-k">Tim fit</div><div class="score-v ">5</div></div><div class="score-cell"><div class="score-k">COL upside</div><div class="score-v ">4</div></div><div class="score-cell"><div class="score-k">MD relevance</div><div class="score-v ">5</div></div><div class="score-cell"><div class="score-k">Media</div><div class="score-v ">5</div></div><div class="score-cell"><div class="score-k">Network</div><div class="score-v ">5</div></div><div class="score-cell"><div class="score-k">Personality</div><div class="score-v ">5</div></div><div class="score-cell"><div class="score-k">Timeliness</div><div class="score-v ">3</div></div><div class="score-cell"><div class="score-k">Evidence</div><div class="score-v ">4</div></div><div class="score-cell"><div class="score-k">Ease</div><div class="score-v ">2</div></div><div class="score-cell"><div class="score-k">Risk</div><div class="score-v ">2</div></div></div>
         </div>
         <div class="card opp">
           <div class="row">
             <div>
               <div class="opp-num">5</div>
-              <div class="opp-title">Launch The Vertical View newsletter (issue #1 in 2 weeks)</div>
-              <div class="small muted">owned media · evidence strong</div>
+              <div class="opp-title">Identify the first &#39;vertical-native creator desk&#39; at UTA / CAA / WME / Talent X</div>
+              <div class="small muted">partner discovery · evidence moderate</div>
             </div>
-            <span class="pill pill-red">Act now</span>
+            <span class="pill pill-amber">Watch</span>
           </div>
-          <p class="small mt-2">Quarter goal explicitly. Owned channel converts Tim from interview subject to source-of-record. First-issue topic ready: Australia 20% payment rate. Cadence (every other Sunday) is sustainable. Three issues pre-written before launch makes &#39;started strong then died&#39; risk manageable.</p>
-          <p class="small muted mt-2">source: data/state/settings.json campaignGoals.thisQuarter; speaking.json — Cairns Crocodiles Australia data reveal · checked 2026-05-23</p>
-          <div class="score-grid"><div class="score-cell"><div class="score-k">Tim fit</div><div class="score-v ">5</div></div><div class="score-cell"><div class="score-k">COL upside</div><div class="score-v ">5</div></div><div class="score-cell"><div class="score-k">MD relevance</div><div class="score-v ">5</div></div><div class="score-cell"><div class="score-k">Media</div><div class="score-v ">4</div></div><div class="score-cell"><div class="score-k">Network</div><div class="score-v ">4</div></div><div class="score-cell"><div class="score-k">Personality</div><div class="score-v ">5</div></div><div class="score-cell"><div class="score-k">Timeliness</div><div class="score-v ">4</div></div><div class="score-cell"><div class="score-k">Evidence</div><div class="score-v ">5</div></div><div class="score-cell"><div class="score-k">Ease</div><div class="score-v ">3</div></div><div class="score-cell"><div class="score-k">Risk</div><div class="score-v ">2</div></div></div>
+          <p class="small mt-2">Category 24 watch item. Whichever Hollywood agency sets up a dedicated vertical-creator practice first becomes the natural counterparty for Microdrama-in-a-Box white-label deals. Don&#39;t pitch yet — just identify. Route through Maria Rua Aguete + LA-trip conversations. **No action this week** — surface findings in the post-LA brief.</p>
+          <p class="small muted mt-2">source: knowledge/OPPORTUNITY_RADAR.md → Category 24 Partner discovery · checked 2026-05-23</p>
+          <div class="score-grid"><div class="score-cell"><div class="score-k">Tim fit</div><div class="score-v ">4</div></div><div class="score-cell"><div class="score-k">COL upside</div><div class="score-v ">5</div></div><div class="score-cell"><div class="score-k">MD relevance</div><div class="score-v ">5</div></div><div class="score-cell"><div class="score-k">Media</div><div class="score-v ">3</div></div><div class="score-cell"><div class="score-k">Network</div><div class="score-v ">5</div></div><div class="score-cell"><div class="score-k">Personality</div><div class="score-v ">4</div></div><div class="score-cell"><div class="score-k">Timeliness</div><div class="score-v ">4</div></div><div class="score-cell"><div class="score-k">Evidence</div><div class="score-v ">3</div></div><div class="score-cell"><div class="score-k">Ease</div><div class="score-v ">4</div></div><div class="score-cell"><div class="score-k">Risk</div><div class="score-v ">1</div></div></div>
         </div>
     </div>
 
@@ -856,12 +962,12 @@ Who&#39;s seeing similar in another developed market — would love a quiet DM.<
         <span class="pill pill-red">high</span>
       </div>
       <p class="small mt-2">Single-pitch unlocks Puck feature + The Town episode. Already covered DramaBox — Tim is the B2B counterpart.</p>
-      <div class="small mt-2"><span class="muted">Tim:</span> Establishes Tim in US tier-1 entertainment-business press. Belloni&#39;s audience IS the audience Tim wants.</div>
-      <div class="small mt-2"><span class="muted">COL:</span> COL&#39;s B2B narrative (Microdrama-in-a-Box, distribution rails) lands harder on The Town than any Asian trade outlet.</div>
+      <div class="small mt-2"><span class="muted">Tim:</span> Establishes Tim in US tier-1 entertainment-business press in one move.</div>
+      <div class="small mt-2"><span class="muted">COL:</span> B2B narrative (Microdrama-in-a-Box, distribution rails) lands harder on The Town than anywhere else.</div>
       <div class="small mt-2"><span class="muted">Best approach:</span> Cold email to matthew@puck.news. Subject: &#39;The B2B counterpart to your DramaBox story.&#39; Body: 3 numbers (1,700 titles, USD 1M B2B, 238M-day), 1 frame (Vertical 2.0), 1 ask (15-min call before LA trip).</div>
-      <div class="small mt-2"><span class="muted">Public:</span> None yet. Don&#39;t comment on Belloni publicly until private pitch lands — wrong sequence.</div>
-      <div class="small mt-2"><span class="muted">Private:</span> Stuart to draft the pitch by Mon May 25, send by Tue May 26.</div>
-      <div class="small mt-2"><span class="muted">Risk:</span> Generic founder-pitch email gets binned. Mitigation: lead with the 238M-day number, not with COL&#39;s name.</div>
+      <div class="small mt-2"><span class="muted">Public:</span> None yet — don&#39;t engage Belloni publicly until the private pitch lands.</div>
+      <div class="small mt-2"><span class="muted">Private:</span> Stuart drafts Mon May 25, sends Tue May 26.</div>
+      <div class="small mt-2"><span class="muted">Risk:</span> Generic founder-pitch energy gets binned. Mitigation: lead with the 238M-day number, not with COL&#39;s name.</div>
       <p class="small muted mt-2">source: data/state/contacts.json — seed-matthew-belloni</p>
     </div>
     <div class="card accent-gold">
@@ -872,14 +978,14 @@ Who&#39;s seeing similar in another developed market — would love a quiet DM.<
         </div>
         <span class="pill pill-red">high</span>
       </div>
-      <p class="small mt-2">Co-panellist at NEM Dubrovnik (Jun 8). Tim&#39;s most-cited data anchor (USD 11B/22B sizing). Already a warm relationship.</p>
-      <div class="small mt-2"><span class="muted">Tim:</span> Sync ahead of the Dubrovnik panel — agree which numbers each of them owns on stage to avoid stepping on each other.</div>
+      <p class="small mt-2">Co-panellist NEM Dubrovnik (Jun 8). Tim&#39;s most-cited data anchor. Already warm.</p>
+      <div class="small mt-2"><span class="muted">Tim:</span> Sync ahead of Dubrovnik — agree which numbers each owns on stage. Also: ask her about the agency-vertical-desk question for Category 24.</div>
       <div class="small mt-2"><span class="muted">COL:</span> Omdia data is the citation that makes COL-narrative claims credible to outside-the-bubble audiences.</div>
-      <div class="small mt-2"><span class="muted">Best approach:</span> WhatsApp / LinkedIn DM by end of next week. Tone: warm peer, not formal.</div>
+      <div class="small mt-2"><span class="muted">Best approach:</span> WhatsApp / LinkedIn DM. Warm peer, not formal.</div>
       
-      <div class="small mt-2"><span class="muted">Private:</span> Send Tim&#39;s Cairns data points before she finalises her NEM deck — gives her a fresh datapoint to credit Tim with on stage.</div>
+      <div class="small mt-2"><span class="muted">Private:</span> Send Tim&#39;s Cairns Australia-20% data points + ask about agency vertical desks. End of next week.</div>
       <div class="small mt-2"><span class="muted">Risk:</span> Low.</div>
-      <p class="small muted mt-2">source: data/state/contacts.json — seed-maria-rua-aguete; data/state/speaking.json — seed-nem-dubrovnik-new-europe-market</p>
+      <p class="small muted mt-2">source: data/state/contacts.json — seed-maria-rua-aguete</p>
     </div>
     <div class="card accent-teal">
       <div class="row">
@@ -889,14 +995,31 @@ Who&#39;s seeing similar in another developed market — would love a quiet DM.<
         </div>
         <span class="pill pill-teal">medium</span>
       </div>
-      <p class="small mt-2">Consumer + China crossover thesis. LA trip is the natural window for an in-person.</p>
-      <div class="small mt-2"><span class="muted">Tim:</span> Warm intro into a16z podcast (consumer / China / mobile-first) and West Coast investor network.</div>
-      <div class="small mt-2"><span class="muted">COL:</span> Investor narrative validation. Future cap-stack signal.</div>
-      <div class="small mt-2"><span class="muted">Best approach:</span> Warm intro request — identify a mutual (likely via Singapore / Stanford / earlier a16z portfolio).</div>
+      <p class="small mt-2">Consumer + China crossover thesis. LA trip is the natural window for an in-person + Vertical Mogul podcast pilot guest.</p>
+      <div class="small mt-2"><span class="muted">Tim:</span> Warm intro into a16z podcast and West Coast investor network. Also a candidate Episode 1 for the Vertical Mogul podcast if it ships.</div>
+      <div class="small mt-2"><span class="muted">COL:</span> Investor narrative validation + future cap-stack signal.</div>
+      <div class="small mt-2"><span class="muted">Best approach:</span> Warm intro via mutual (likely Singapore / Stanford / earlier a16z portfolio).</div>
       
-      <div class="small mt-2"><span class="muted">Private:</span> Stuart to identify the warm intro vector and brief Tim by Wed May 27 so he can reach out before LA wheels-up.</div>
+      <div class="small mt-2"><span class="muted">Private:</span> Stuart identifies the warm intro vector and briefs Tim by Wed May 27. Reach out before LA wheels-up.</div>
       <div class="small mt-2"><span class="muted">Risk:</span> Cold-in attempt without a warm path gets ignored.</div>
       <p class="small muted mt-2">source: data/state/contacts.json — seed-connie-chan</p>
+    </div>
+    <div class="card accent-teal">
+      <div class="row">
+        <div>
+          <strong>Latif Sim</strong>
+          <div class="small muted">Founder · BeLive Technology</div>
+        </div>
+        <span class="pill pill-teal">medium</span>
+      </div>
+      <p class="small mt-2">Microdrama-in-a-Box co-creator. Already does joint MIP + FILMART presentations with Tim. The visual content this run needs (BTS, demo videos) is recordable WITH him, not solo.</p>
+      <div class="small mt-2"><span class="muted">Tim:</span> Co-star for BTS / Microdrama-in-a-Box demo videos. Two-shot content lands harder than solo talking-head.</div>
+      <div class="small mt-2"><span class="muted">COL:</span> BeLive is the SaaS infrastructure partner. Joint visibility = joint commercial credibility.</div>
+      <div class="small mt-2"><span class="muted">Best approach:</span> WhatsApp. Casual: &#39;I&#39;m shooting some pieces around LA / NEM / APOS — want to do a joint piece on the box?&#39;</div>
+      
+      <div class="small mt-2"><span class="muted">Private:</span> Stuart loops Latif in by end of next week for an APOS Bali joint shoot.</div>
+      <div class="small mt-2"><span class="muted">Risk:</span> Low.</div>
+      <p class="small muted mt-2">source: data/state/contacts.json — seed-latif-sim</p>
     </div>
     <div class="card accent-teal">
       <div class="row">
@@ -906,31 +1029,14 @@ Who&#39;s seeing similar in another developed market — would love a quiet DM.<
         </div>
         <span class="pill pill-teal">medium</span>
       </div>
-      <p class="small mt-2">Most consistent media amplifier; broke the CMO appointment. Give her the next exclusive (newsletter launch + an Australia-20% data feature).</p>
+      <p class="small mt-2">Most consistent media amplifier; broke the CMO appointment. Give her the next exclusive (Vertical View newsletter launch + Australia-20% data feature).</p>
       <div class="small mt-2"><span class="muted">Tim:</span> Maintains relationship cadence between MIP London / MIPCOM. Keeps Tim in regular APAC trade coverage.</div>
-      <div class="small mt-2"><span class="muted">COL:</span> ContentAsia&#39;s audience IS the Asian content-business decision-maker layer COL wants to be visible to.</div>
-      <div class="small mt-2"><span class="muted">Best approach:</span> Email + LinkedIn DM with The Vertical View launch ahead of public announcement; offer the Australia 20% data as an accompanying feature.</div>
+      <div class="small mt-2"><span class="muted">COL:</span> ContentAsia&#39;s audience IS the Asian content-business decision-maker layer COL wants visible to.</div>
+      <div class="small mt-2"><span class="muted">Best approach:</span> Email + LinkedIn DM. Newsletter exclusive + Australia data as a parallel feature.</div>
       
-      <div class="small mt-2"><span class="muted">Private:</span> Reach out within 48 hours of newsletter launch decision being locked.</div>
+      <div class="small mt-2"><span class="muted">Private:</span> Within 48 hours of Vertical View launch decision being locked.</div>
       <div class="small mt-2"><span class="muted">Risk:</span> Low.</div>
-      <p class="small muted mt-2">source: data/state/contacts.json — seed-janine-stein; data/state/media.json — seed-contentasia</p>
-    </div>
-    <div class="card accent-teal">
-      <div class="row">
-        <div>
-          <strong>Lisa Cam</strong>
-          <div class="small muted">Journalist · South China Morning Post</div>
-        </div>
-        <span class="pill pill-teal">medium</span>
-      </div>
-      <p class="small mt-2">Wrote the SCMP full-page feature Tim called his favourite. Natural follow-up on the newsletter launch — Chinese-language Western press is currently under-served.</p>
-      <div class="small mt-2"><span class="muted">Tim:</span> Bridges Tim&#39;s narrative into Chinese-language Western media. Distinct audience from the Western trade outlets.</div>
-      <div class="small mt-2"><span class="muted">COL:</span> COL&#39;s investor base reads SCMP. Maintains visibility into Hong Kong / PRC-adjacent commercial circles.</div>
-      <div class="small mt-2"><span class="muted">Best approach:</span> Personal email — thank her for the prior piece, share Vertical View launch as a &#39;thought you&#39;d find this interesting&#39;, no formal pitch.</div>
-      
-      <div class="small mt-2"><span class="muted">Private:</span> Send personal note on newsletter launch day.</div>
-      <div class="small mt-2"><span class="muted">Risk:</span> Low.</div>
-      <p class="small muted mt-2">source: data/state/contacts.json — seed-lisa-cam</p>
+      <p class="small muted mt-2">source: data/state/contacts.json — seed-janine-stein</p>
     </div>
     </div>
 
@@ -939,20 +1045,20 @@ Who&#39;s seeing similar in another developed market — would love a quiet DM.<
         <div class="kicker">4 · Best media angle</div>
         <h3 class="mt-2">B2B distribution as the next phase of vertical drama — Tim has the rails Hollywood is about to need. Frame: &quot;You covered DramaBox (consumer). The interesting story now is who supplies the picks and shovels. That&#39;s COL.&quot;</h3>
         <div class="small muted mt-2">Target: The Town (Puck) / Matthew Belloni</div>
-        <p class="small mt-2">Belloni&#39;s audience is US entertainment-business decision-makers. He&#39;s already framed the DramaBox story for them; the B2B counterpart is the natural follow-on. One email can land Puck feature + The Town episode + downstream tier-1 attention.</p>
-        <p class="small mt-2"><span class="muted">Evidence:</span> Belloni&#39;s prior DramaBox coverage (Puck / The Town). Tim&#39;s documented commercial proof (1,700+ titles, USD 1M+ B2B revenue, 238M-day, 77-min sessions). Pitch contact already in data/state/media.json.</p>
+        <p class="small mt-2">Belloni&#39;s audience is US entertainment-business decision-makers. He&#39;s framed the DramaBox consumer story; the B2B counterpart is the natural follow-on. One email = Puck feature + The Town episode + downstream tier-1 attention.</p>
+        <p class="small mt-2"><span class="muted">Evidence:</span> Belloni&#39;s prior DramaBox coverage. Tim&#39;s documented proof (1,700+ titles, USD 1M+ B2B, 238M-day, 77-min sessions). Pitch contact in data/state/media.json.</p>
       </div>
       <div class="card accent-teal">
         <div class="kicker">5 · Best LinkedIn angle</div>
-        <div class="hook mt-2">"Nine days. LA. Five questions I&#39;m going to ask everyone."</div>
-        <p class="small mt-2">Pre-LA agenda-setting post. Operator coming to ask questions, not pitch. Numbered list (Tim&#39;s natural format). Closes with an inbound ask.</p>
-        <p class="small muted mt-2">Turns the LA trip from a private calendar item into a public asset before Tim lands. Surfaces inbound from people who want to meet. Sets Tim&#39;s frame for how journalists / agencies / studios read his LA meetings in retrospect. Sounds like Tim — operator, not influencer.</p>
+        <div class="hook mt-2">"Nine days. LA. Five questions."</div>
+        <p class="small mt-2">Pre-LA piece-to-camera, NOT a written post. 60 seconds, phone, single take, no edit. Tim looking straight at the camera, somewhere with energy in the background (not a desk). One hook (5 words), three of the five questions on camera (rest in caption), one forward line (&quot;I&#39;ll tell you what I find&quot;). The text version goes in the caption — but the PRIMARY artefact is the video.</p>
+        <p class="small muted mt-2">This is the run&#39;s mandatory Category 21 deliverable. Last week we drafted this as a written post — that was a category miss. Tim is heading to LA, the world&#39;s most-filmed city, and his audience expects vertical-native operators to be vertical-native themselves. A polished LinkedIn paragraph here would be the opposite of native.</p>
       </div>
       <div class="card accent-amber">
         <div class="kicker">6 · Best comment opportunity</div>
         <div class="small muted mt-2">on NONE — radar walk produced no verified target post this run.</div>
-        <pre class="comment-draft">Hold. The opportunity radar&#39;s &#39;comment&#39; category requires a verified live post by a named person, with a comment that lands without inventing context. Without the RSS sweep + manual LinkedIn check, picking a target this run risks fabrication. Re-run when intelligence sweep is available.</pre>
-        <p class="small mt-2">Honest deferral. CLAUDE.md guardrail: never imply a relationship / interest that doesn&#39;t exist.</p>
+        <pre class="comment-draft">Hold. CLAUDE.md guardrail: never imply interest that doesn&#39;t exist. Without RSS intel + manual LinkedIn check this week, picking a target risks fabrication. Re-run when network access is restored.</pre>
+        <p class="small mt-2">Honest deferral. Better than inventing a comment target.</p>
         <p class="small mt-2"><span class="muted">Risk:</span> Manufactured comments degrade Tim&#39;s voice. Skipping a category this week is the right call.</p>
       </div>
     </div>
@@ -968,12 +1074,12 @@ Who&#39;s seeing similar in another developed market — would love a quiet DM.<
         </div>
         <span class="pill pill-red">high</span>
       </div>
-      <p class="small mt-2">Single-pitch, two-surface upside (Puck + The Town). Highest leverage per minute spent of any move in this brief.</p>
+      <p class="small mt-2">Single pitch, two-surface upside. Highest leverage per minute spent of any move in this brief.</p>
       <div class="small mt-2"><span class="muted">Tim:</span> Establishes Tim in US tier-1 entertainment-business press in one move.</div>
       <div class="small mt-2"><span class="muted">COL:</span> B2B narrative lands harder here than anywhere else.</div>
       <div class="small mt-2"><span class="muted">Best approach:</span> Cold email matthew@puck.news. Subject: &#39;The B2B counterpart to your DramaBox story.&#39; 3 numbers, 1 frame, 1 ask. 15-min call before LA trip.</div>
       
-      <div class="small mt-2"><span class="muted">Private:</span> Stuart to draft Mon May 25, send Tue May 26. Tim to be ready for a 15-min call any time Jun 1-4 in LA.</div>
+      <div class="small mt-2"><span class="muted">Private:</span> Stuart drafts Mon May 25, sends Tue May 26. Tim ready for a 15-min call Jun 1–4 in LA.</div>
       <div class="small mt-2"><span class="muted">Risk:</span> Generic founder-pitch energy. Mitigation: lead with the 238M-day stat, not with COL&#39;s name.</div>
       <p class="small muted mt-2">source: data/state/contacts.json — seed-matthew-belloni</p>
     </div>
@@ -981,35 +1087,35 @@ Who&#39;s seeing similar in another developed market — would love a quiet DM.<
 
     <div class="card mt-3 accent-amber">
       <div class="kicker">8 · Best COL commercial opportunity</div>
-      <h3 class="mt-2">Use the LA trip to land one US studio/streamer Microdrama-in-a-Box conversation</h3>
-      <p class="small mt-2">Microdrama-in-a-Box is the cleanest B2B asset COL has — turnkey SaaS that lets any platform run a vertical service in 30 days. The LA trip is the only confirmed in-person window before MIPCOM in October. One serious studio/streamer conversation justifies the trip commercially even if nothing else lands.</p>
-      <p class="small mt-2"><span class="muted">Upside:</span> Any one of: a white-label deal (recurring SaaS revenue), a co-investment in a vertical originals slate, or a strategic POC with a major streamer. Each is a multi-million-dollar opportunity and a tier-1 PR moment if it lands.</p>
-      <p class="small mt-2"><span class="muted">Next step:</span> <strong>Stuart + Tim build the LA target list by Wed May 27. Goal: 3 confirmed meetings with C-suite or SVP-level decision-makers at major US studios/streamers. Pre-trip LinkedIn post lands Sun May 31 to set context.</strong></p>
+      <h3 class="mt-2">Use the LA trip to land one US studio/streamer Microdrama-in-a-Box conversation — with the trip shot publicly so the meetings get a credibility halo before they happen</h3>
+      <p class="small mt-2">Microdrama-in-a-Box is COL&#39;s cleanest B2B asset. LA is the only confirmed in-person window before MIPCOM in October. The previous brief framed this as a private-calendar item; the new framing is: shoot the trip publicly (Category 21), and the studio meetings get a credibility halo BEFORE Tim walks in the room. One serious studio/streamer conversation justifies the trip commercially.</p>
+      <p class="small mt-2"><span class="muted">Upside:</span> Any of: a white-label deal (recurring SaaS revenue), co-investment in a vertical originals slate, or a strategic POC with a major streamer. Each is a multi-million-dollar opportunity and a tier-1 PR moment if it lands. Public-narrative-first approach makes any of these easier to close.</p>
+      <p class="small mt-2"><span class="muted">Next step:</span> <strong>Stuart + Tim build the LA target list by Wed May 27. Goal: 3 confirmed meetings with SVP+ level decision-makers at major US studios/streamers. Pre-trip piece-to-camera (see best LinkedIn angle) posts Sat May 31. Daily ~60-sec vlog beats during Jun 1–4.</strong></p>
     </div>
 
     <div class="grid-3 mt-3">
       <div class="card accent-teal">
         <div class="kicker">9 · Rising trend</div>
-        <h3 class="mt-2">Brand advertisers entering vertical drama as a media line item, not as a one-off stunt.</h3>
-        <p class="small mt-2"><span class="muted">Evidence:</span> P&amp;G, Unilever, Crocs, Shopee already named in Tim&#39;s frame (knowledge/STRATEGIC_PROFILE.md). The Cairns Crocodiles audience was Australia&#39;s marketing community — confirming the brand-side appetite is moving from curious to budgeted.</p>
-        <p class="small mt-2"><span class="muted">Implication:</span> Tim&#39;s positioning needs to drift from &#39;microdrama operator&#39; to &#39;commercial bridge between brand CMOs and vertical infrastructure&#39;. Action: at least one upcoming content piece should be aimed squarely at brand CMOs, not at peers in the microdrama industry.</p>
+        <h3 class="mt-2">Brand advertisers entering vertical drama as a media line item, not a one-off stunt.</h3>
+        <p class="small mt-2"><span class="muted">Evidence:</span> P&amp;G, Unilever, Crocs, Shopee already named (knowledge/STRATEGIC_PROFILE.md). Cairns Crocodiles audience was Australia&#39;s marketing community — brand-side appetite moved from curious to budgeted.</p>
+        <p class="small mt-2"><span class="muted">Implication:</span> Tim&#39;s positioning should drift from &#39;microdrama operator&#39; to &#39;commercial bridge between brand CMOs and vertical infrastructure&#39;. At least one upcoming piece this quarter should be aimed at brand CMOs directly — not at peers in the microdrama industry.</p>
       </div>
       <div class="card">
         <div class="kicker">10 · Thing to ignore</div>
-        <h3 class="mt-2">Hollywood &quot;vertical pivot&quot; think-pieces that don&#39;t include actual data.</h3>
-        <p class="small muted mt-2">Tim&#39;s whole frame is &#39;we&#39;re not in the business of saving Hollywood&#39;. Commenting on opinion-only think-pieces makes Tim sound like he&#39;s defending against a frame that doesn&#39;t apply. The discipline is: only engage when there&#39;s a number to anchor on.</p>
+        <h3 class="mt-2">Hollywood &#39;is vertical real?&#39; think-pieces that don&#39;t include actual data.</h3>
+        <p class="small muted mt-2">Tim&#39;s whole frame is &#39;we&#39;re not in the business of saving Hollywood&#39;. Commenting on opinion-only think-pieces makes Tim sound like he&#39;s defending against a frame that doesn&#39;t apply. The discipline: only engage when there&#39;s a number to anchor on.</p>
       </div>
       <div class="card accent-red">
         <div class="kicker">11 · Reputation risk</div>
-        <p class="small mt-2"><strong>Post-CMO promotion (May 2026), Tim&#39;s content risks sounding triumphalist if Stuart isn&#39;t watching. The voice tilts naturally toward &#39;look at the milestone&#39; rather than &#39;here&#39;s what we&#39;re solving next&#39;.</strong></p>
-        <p class="small mt-2"><span class="muted">Mitigation:</span> Voice rule reinforced: open with a number or a one-line claim, never with &#39;I&#39;m excited to share&#39;. Stuart to flag and rewrite any draft that opens on Tim&#39;s title rather than on the work.</p>
+        <p class="small mt-2"><strong>Post-CMO promotion (May 2026), Tim&#39;s content risks sounding triumphalist if Stuart isn&#39;t watching. The voice tilts naturally toward &#39;look at the milestone&#39; rather than &#39;here&#39;s what we&#39;re solving next&#39;. New risk this run: on-camera, the triumphalism risk is HIGHER than in writing — face + voice carry more swagger than a written post. Watch the cuts.</strong></p>
+        <p class="small mt-2"><span class="muted">Mitigation:</span> Voice rule reinforced (knowledge/VOICE.md): open with a number or a one-line claim, never with &#39;I&#39;m excited to share&#39;. For visual content specifically: hook in 5 words, one stat, no jacket-on-phone, no teleprompter. Stuart watches every piece-to-camera draft before it ships.</p>
       </div>
     </div>
 
     <div class="card mt-3 accent-teal">
       <div class="kicker">12 · Suggested action</div>
       <div class="row mt-2">
-        <strong>By end of Tue May 26: (1) draft + send Belloni pitch, (2) confirm StreamTV Awards submission owner, (3) confirm Cannes Lions submission owner, (4) green-light Vertical View newsletter cadence and pre-write issues #1-3, (5) start the LA target list with Tim. By Sat May 30: post #1 of the LA pre-trip series goes live.</strong>
+        <strong>By end of Tue May 26: (1) draft + send Belloni pitch, (2) confirm StreamTV Awards submission owner. By Sat May 30: help Tim record + post the pre-LA piece-to-camera. Everything else (Cannes Lions submission, Vertical View newsletter launch, LA target list build-out) → next week, or scoped during LA. This is the cap-of-3 rule in practice — last week&#39;s brief asked for 5 deliverables by Tuesday; this brief asks for 2 by Tuesday and 1 by Saturday. Tim&#39;s 5–8 hr/week proactive budget can carry 3 items; it can&#39;t carry 5.</strong>
         <span class="pill pill-ink">for Stuart</span>
         <span class="pill pill-amber">this-week</span>
       </div>
@@ -1451,7 +1557,7 @@ Who&#39;s seeing similar in another developed market — would love a quiet DM.<
 <section class="panel" data-panel="content">
     <div class="section-h">
       <h2>Content</h2>
-      <div class="muted small">3 total · 3 pending · 0 posted</div>
+      <div class="muted small">4 total · 4 pending · 0 posted</div>
     </div>
     <div style="display:flex; flex-direction:column; gap:14px;">
       
@@ -1460,14 +1566,42 @@ Who&#39;s seeing similar in another developed market — would love a quiet DM.<
               <div>
                 <span class="pill pill-gray">draft</span>
                 <span class="pill pill-teal">predicted high</span>
-                <span class="small muted">post</span>
+                <span class="small muted">piece-to-camera</span>
               </div>
               <span class="small muted">2026-05-23</span>
             </div>
-            <div class="title mt-2"><strong>Pre-LA: Five questions</strong></div>
-            <div class="hook mt-2">"Nine days. LA. Five questions I&#39;m going to ask everyone."</div>
-            <p class="small mt-2"><span class="muted">Argument:</span> Going into LA with questions, not a pitch deck, is how you find out what Hollywood actually wants from the vertical category — which is usually the opposite of what it says in public.</p>
-            <pre>Nine days. LA. Five questions I&#39;m going to ask everyone.
+            <div class="title mt-2"><strong>Pre-LA piece-to-camera — &#39;Nine days. LA. Five questions.&#39;</strong></div>
+            <div class="hook mt-2">"Nine days. LA. Five questions."</div>
+            <p class="small mt-2"><span class="muted">Argument:</span> Tim coming to LA with questions, not a pitch deck, signals operator-confidence and surfaces inbound from people who want to meet — and being on camera (not just writing) is what a vertical-native operator looks like in 2026.</p>
+            <pre>[SHOOT INSTRUCTIONS]
+Location: Singapore daylight, somewhere with depth in the background — not a desk, not a logo wall. A street, a hotel lobby, the FlareFlow studio entrance.
+Wardrobe: white tee or open-collar shirt. NO suit jacket. NO tie.
+Phone at chest height, vertical, native camera app. Single take. Allow 3–4 attempts.
+Audio: phone mic is fine. If outdoors, find a wall to break wind noise.
+
+[ON-CAMERA SCRIPT — ~60 seconds total]
+
+(Direct, energy, half a beat more confident than written-Tim. No &#39;hey everyone&#39;. No &#39;so&#39;.)
+
+Nine days. LA. Five questions.
+
+(Beat.)
+
+One. Which production execs are quietly piloting vertical right now — and which are still pretending not to.
+
+Two. Which agencies have a real creator-vertical strategy that isn&#39;t just &quot;we&#39;ll repackage TikTok talent.&quot;
+
+Three. Which brand CMOs are buying vertical drama as a media line item — not a one-off stunt.
+
+(Two more in the caption.)
+
+I&#39;m not coming to LA to sell anything. I&#39;m coming to find out what people are actually doing when nobody&#39;s posting about it.
+
+I&#39;ll tell you what I find.
+
+[CAPTION TEXT — for LinkedIn / X post body]
+
+Nine days. LA. Five questions I&#39;m going to ask everyone.
 
 1. Which production execs are quietly piloting vertical right now — and which are still pretending not to?
 
@@ -1479,12 +1613,65 @@ Who&#39;s seeing similar in another developed market — would love a quiet DM.<
 
 5. What does the next CAA / WME signing in vertical look like — and from where?
 
-I&#39;m not coming to LA to sell anything.
-
-I&#39;m coming to find out what people are actually doing when nobody&#39;s posting about it.
-
 Who should I be asking?</pre>
-            <p class="small muted mt-2">Source/evidence: Confirmed LA meetings trip Jun 1-4 (data/state/speaking.json). Tim&#39;s weekly focus: &#39;Build LA trip momentum.&#39; Variety / Deadline / THR have all responded to prior Tim outreach (data/state/media.json).</p>
+            <p class="small muted mt-2">Source/evidence: Confirmed LA meetings trip Jun 1–4 (data/state/speaking.json). Tim&#39;s weekly focus: &#39;Build LA trip momentum.&#39; knowledge/VOICE.md → On-camera voice rules.</p>
+          </div>
+          <div class="card ">
+            <div class="row">
+              <div>
+                <span class="pill pill-gray">draft</span>
+                <span class="pill pill-teal">predicted high</span>
+                <span class="small muted">vlog</span>
+              </div>
+              <span class="small muted">2026-05-23</span>
+            </div>
+            <div class="title mt-2"><strong>Day 1 LA travel vlog — beat sheet (record Jun 1)</strong></div>
+            <div class="hook mt-2">"Day one. LA. Here&#39;s the list."</div>
+            <p class="small mt-2"><span class="muted">Argument:</span> Daily ~60-second packages from LA build cadence + agenda — turn a four-day private trip into four public artefacts that compound across the rest of the LA-week posts.</p>
+            <pre>[BEAT SHEET — not a script. Tim improvises within the structure each day.]
+
+DAY 1 — JUN 1 (record between landing + first meeting)
+
+Location options (pick what feels native): LAX exit (the wheelchair luggage moment), arriving at the hotel, Sunset Blvd walking shot, studio lot gates (if visiting one).
+
+Opening: &#39;Day one. LA. Here&#39;s the list.&#39;
+
+Meetings to name (Stuart confirms permission for each name on the morning of Jun 1):
+  • Meeting 1 — [name / role] (or fallback: &#39;studio exec at [studio]&#39;)
+  • Meeting 2 — [name / role] (or fallback: &#39;agency partner&#39;)
+  • Meeting 3 — [name / role] (or fallback: &#39;investor — consumer + China thesis&#39;)
+
+Question for the day (Tim picks ONE the night before):
+  • Option A: &#39;What does a brand CMO want from vertical that they&#39;re not getting?&#39;
+  • Option B: &#39;Which agency has a vertical-native creator desk first — and what would they want from us?&#39;
+  • Option C: &#39;What&#39;s the moment Hollywood actually says yes to vertical at scale?&#39;
+
+Overheard / first impression:
+  • Whatever lands. Authentic &gt; clever.
+
+Close: &#39;Tomorrow.&#39; One word. Cut.
+
+[DAY 2 — JUN 2]
+Same structure. New meetings. New question (don&#39;t repeat).
+Location: morning coffee, between two meetings, Beverly Hills sidewalk — wherever.
+
+[DAY 3 — JUN 3]
+Same structure. By now Tim should be naming patterns (&#39;Three people have asked me the same question. That tells me...&#39;). Higher value than Day 1.
+
+[DAY 4 — JUN 4]
+Final day = recap variant. &#39;Four days, fifteen meetings, here&#39;s what changed my mind.&#39; Slightly longer (~75 sec OK). This is the post that gets reposted — make it the sharpest.
+
+[CAPTION TEMPLATE — same for each day]
+
+Day [N] in LA. Today&#39;s question: [the question]. Met: [up to 3 names if cleared].
+
+[One-line observation, copied from the video close.]
+
+Day [N+1] tomorrow.
+
+[POSTING CADENCE]
+Daily, between 6pm–9pm LA time (which is the LinkedIn-APAC-morning sweet spot for Tim&#39;s home audience + still primetime in US). Stuart edits captions + posts; Tim&#39;s only job is to film 60 seconds per day.</pre>
+            <p class="small muted mt-2">Source/evidence: Confirmed LA trip Jun 1–4 (data/state/speaking.json). knowledge/OPPORTUNITY_RADAR.md → Category 21 Visual content / travel vlog beats. knowledge/VOICE.md → &#39;Always shoot when travelling.&#39;</p>
           </div>
           <div class="card ">
             <div class="row">
@@ -2068,8 +2255,8 @@ Who&#39;s seeing similar in another developed market — would love a quiet DM.<
     </div>
     <div class="card mt-3"><h3>12-month north star</h3><ul class="list"><li>Undisputed English-language authority on micro-drama / vertical content globally</li><li>Wikipedia page live</li><li>Speaking bureau registered</li><li>15K+ LinkedIn followers</li><li>C-level recognition via major awards (40 Under 40, Cannes Lion or equivalent)</li><li>COL Group brand equity matched to commercial ambitions</li></ul></div></section>
     <footer class="page-footer">
-      <div class="small muted">Generated 2026-05-23 06:45:31 UTC</div>
-      <div class="small muted">Last run: weekly-brief · low-value · <span class="footer-low">Verification run only. npm run feeds reported networkPolicyBlocked: true (25 of 26 sources host_not_allowed) — the verification environment&#39;s outbound egress allowlist does not cover the RSS hostnames. Brief produced fro…</span></div>
+      <div class="small muted">Generated 2026-05-23 07:18:32 UTC</div>
+      <div class="small muted">Last run: weekly-brief · low-value · <span class="footer-low">Routine check on the new &#39;Hollywood for mobile phones&#39; model (PR #7 — radar categories 21–24, on-camera voice rules, ≤3 actionable cap, time budget). Brief and content drafts refreshed: previous brief had 5 &#39;Act on this …</span></div>
     </footer>
   </main>
 </div>

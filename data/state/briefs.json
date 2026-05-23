@@ -1,114 +1,59 @@
 [
   {
-    "id": "br1lowy80m5n23x7q",
+    "id": "br1lpgxh9k2m5q3p",
     "weekOf": "2026-05-18T00:00:00.000Z",
-    "headline": "Convert the LA window into an inbound funnel — pitch The Town, close two awards, launch The Vertical View.",
-    "whatChanged": "First brief on the new Claude-Code-routine contract (previous Anthropic-SDK agent pipeline was failing every run). RSS sweep was unavailable in this verification environment (12/12 sources blocked at the network layer) — the next scheduled run in a network-enabled environment will produce the first full intelligence-driven brief. Despite that, the existing seed state surfaces real, time-bounded actions: the StreamTV Awards submission deadline is Jun 15 (fitScore 95, urgent); the Marketing Excellence Awards SG deadline is Jun 5 (13 days); the LA meetings trip starts Jun 1 with no public-narrative scaffolding around it yet; the highest-priority single media pitch (Matthew Belloni / The Town) has never been sent. Tim's documented weekly focus already names the right four moves — this brief sharpens them into specific touchpoints.",
+    "headline": "Nine days to LA — pitch Belloni, close StreamTV, and shoot the trip. Everything else parks.",
+    "whatChanged": "First brief on the 'Hollywood for mobile phones' model (knowledge/STRATEGIC_PROFILE.md + new OPPORTUNITY_RADAR.md categories 21–24). Two real changes from last week's brief: (1) 'Act on this week' is now capped at 3 items, each with a time estimate — last week recommended 5+ items for a Tuesday deadline, which is unrealistic against Tim's ~5–8 hr/week proactive budget; this run picks three and explicitly parks the rest. (2) Visual / on-camera content is now mandatory per run (Category 21). Last week's three drafts were all text-only; with LA nine days out, that was a category miss. This run replaces the pre-LA written post with a piece-to-camera script and adds a travel-vlog beat sheet for Day 1 LA — Tim shoots, not just writes. Three new radar categories surfaced this run: (22) critical mentions — no specific live critic identified without RSS intel, but the WGA/SAG-AFTRA-style dismissal of vertical as 'not real content' is the perennial frame Tim should be ready to engage during LA agency meetings; (23) out-of-the-box plays — the 'Vertical Mogul' podcast (Tim hosts, interviews competitor founders + brand CMOs + creators) is formally scoped to Watch, with a stretch pilot recordable in LA; (24) partner discovery — UTA / CAA / WME / Talent X 'vertical-native creator desk' identification is the LA reconnaissance target. Categories that produced NOTHING this run and need to in future: app-store chart intelligence (need network access to Sensor Tower / App Store Top Grossing), Mandarin reputation watch (Weibo / Baidu 短剧 出海 needs web access), Reddit qualitative (r/microdrama, r/television). RSS sweep was again blocked at the verification environment's network policy — same gap as last run, same environment-side fix still needed.",
     "topOpportunities": [
       {
         "title": "Pitch Matthew Belloni / The Town",
         "type": "podcast / media pitch",
-        "why": "Belloni already covered DramaBox on The Town. Tim is the B2B distribution counterpart Hollywood will need next, and is the only English-language operator with the receipts (1,700+ titles, 10+ markets, USD 1M+ B2B revenue). One outreach, two surfaces — Puck feature + The Town episode.",
+        "why": "Belloni already covered DramaBox on The Town. Tim is the B2B distribution counterpart Hollywood will need next — only English-language exec with the receipts (1,700+ titles, USD 1M+ B2B, 238M-day, 77-min sessions). One outreach, two surfaces (Puck feature + The Town episode). **~45 min: 30 to draft, 10 to send via matthew@puck.news, 5 to file the LinkedIn follow.**",
         "source": "data/state/media.json — seed-the-town-with-matthew-belloni; data/state/contacts.json — seed-matthew-belloni",
         "dateChecked": "2026-05-23",
-        "scores": {
-          "timAuthorityFit": 5,
-          "colCommercialUpside": 5,
-          "microdramaRelevance": 5,
-          "mediaCoveragePotential": 5,
-          "relationshipValue": 5,
-          "personalityFit": 5,
-          "timeliness": 5,
-          "evidenceStrength": 4,
-          "easeOfAction": 4,
-          "reputationRisk": 1
-        },
+        "scores": { "timAuthorityFit": 5, "colCommercialUpside": 5, "microdramaRelevance": 5, "mediaCoveragePotential": 5, "relationshipValue": 5, "personalityFit": 5, "timeliness": 5, "evidenceStrength": 4, "easeOfAction": 4, "reputationRisk": 1 },
         "action": "Pitch",
+        "evidence": "strong"
+      },
+      {
+        "title": "Shoot the pre-LA piece-to-camera — 'Nine days. LA. Five questions.'",
+        "type": "visual content / on-camera",
+        "why": "LA is nine days out and currently a private calendar item. A 60-second piece-to-camera, phone-shot, single take, no edit, pre-loaded on LinkedIn + X Sat May 30 turns the trip from invisible into agenda-setting before Tim lands. This is the run's mandatory Category 21 deliverable — Tim must be SEEN, not just READ, in the world's most filmed city. **~25 min: 20 to record (3–4 takes), 5 to caption + post.**",
+        "source": "data/state/speaking.json — seed-la-meetings-trip; knowledge/OPPORTUNITY_RADAR.md → Category 21 Visual content",
+        "dateChecked": "2026-05-23",
+        "scores": { "timAuthorityFit": 5, "colCommercialUpside": 4, "microdramaRelevance": 4, "mediaCoveragePotential": 4, "relationshipValue": 4, "personalityFit": 5, "timeliness": 5, "evidenceStrength": 5, "easeOfAction": 5, "reputationRisk": 2 },
+        "action": "Post",
         "evidence": "strong"
       },
       {
         "title": "Close StreamTV Awards submission — Content Partnerships Executive of the Year",
         "type": "award",
-        "why": "Category title literally matches Tim's role. Deadline Jun 15 (23 days). fitScore 95. Submission writes itself from the existing receipts: 1,700+ titles, USD 1M+ B2B revenue in 6 months, Microdrama-in-a-Box.",
+        "why": "Category title literally matches Tim's role. fitScore 95. Deadline Jun 15 (23 days). Submission writes itself from existing receipts — 1,700+ titles, USD 1M+ B2B revenue, Microdrama-in-a-Box. Highest-fit award on the pipeline. **~90 min total: 60 to assemble answers + receipts, 30 to file + confirm.**",
         "source": "data/state/awards.json — seed-streamtv-awards-content-partnerships-executive-of-the-year",
         "dateChecked": "2026-05-23",
-        "scores": {
-          "timAuthorityFit": 5,
-          "colCommercialUpside": 4,
-          "microdramaRelevance": 5,
-          "mediaCoveragePotential": 4,
-          "relationshipValue": 3,
-          "personalityFit": 4,
-          "timeliness": 5,
-          "evidenceStrength": 5,
-          "easeOfAction": 4,
-          "reputationRisk": 1
-        },
+        "scores": { "timAuthorityFit": 5, "colCommercialUpside": 4, "microdramaRelevance": 5, "mediaCoveragePotential": 4, "relationshipValue": 3, "personalityFit": 4, "timeliness": 5, "evidenceStrength": 5, "easeOfAction": 4, "reputationRisk": 1 },
         "action": "Act now",
         "evidence": "strong"
       },
       {
-        "title": "Close Cannes Lions Innovation / Creative Business Transformation entry",
-        "type": "award",
-        "why": "Listed in Tim's documented weekly focus. Microdrama-in-a-Box is a credible Innovation Lion case study. Fee USD 1,200 — modest at the brand-equity payoff. Status is still 'identified' — must move this week.",
-        "source": "data/state/awards.json — seed-cannes-lions-entertainment-innovation; data/state/settings.json weeklyFocus",
+        "title": "Scope the 'Vertical Mogul' podcast (Tim hosts)",
+        "type": "out-of-the-box / owned media",
+        "why": "Category 23 play. Tim interviews competitor founders (DramaBox, ShortMax, GoodShort), brand CMOs (P&G, Crocs, Shopee), creators in vertical. Hosting owns the conversation — turns Tim from 'subject covered in the trade press' into 'where the trade press goes for the take'. Pilot could be recorded in LA with Connie Chan (a16z, consumer+China thesis). **Not this week** — formal scope by end of June; pilot run sheet + 3 confirmed guests by end of Q3. Park for now.",
+        "source": "knowledge/OPPORTUNITY_RADAR.md → Category 23 Out-of-the-box plays",
         "dateChecked": "2026-05-23",
-        "scores": {
-          "timAuthorityFit": 4,
-          "colCommercialUpside": 5,
-          "microdramaRelevance": 5,
-          "mediaCoveragePotential": 5,
-          "relationshipValue": 4,
-          "personalityFit": 4,
-          "timeliness": 5,
-          "evidenceStrength": 4,
-          "easeOfAction": 3,
-          "reputationRisk": 1
-        },
-        "action": "Act now",
+        "scores": { "timAuthorityFit": 5, "colCommercialUpside": 4, "microdramaRelevance": 5, "mediaCoveragePotential": 5, "relationshipValue": 5, "personalityFit": 5, "timeliness": 3, "evidenceStrength": 4, "easeOfAction": 2, "reputationRisk": 2 },
+        "action": "Park",
         "evidence": "strong"
       },
       {
-        "title": "Pre-LA narrative sequencing on LinkedIn",
-        "type": "content / public narrative",
-        "why": "LA trip Jun 1-4 is currently a private calendar item. Three posts in the next 9 days (pre-trip questions, daily-on-the-ground, post-trip distillation) turn the trip into a public asset that produces inbound for COL and surfaces Tim's frame in advance of meetings.",
-        "source": "data/state/speaking.json — seed-la-meetings-trip; weekly focus 'Build LA trip momentum'",
+        "title": "Identify the first 'vertical-native creator desk' at UTA / CAA / WME / Talent X",
+        "type": "partner discovery",
+        "why": "Category 24 watch item. Whichever Hollywood agency sets up a dedicated vertical-creator practice first becomes the natural counterparty for Microdrama-in-a-Box white-label deals. Don't pitch yet — just identify. Route through Maria Rua Aguete + LA-trip conversations. **No action this week** — surface findings in the post-LA brief.",
+        "source": "knowledge/OPPORTUNITY_RADAR.md → Category 24 Partner discovery",
         "dateChecked": "2026-05-23",
-        "scores": {
-          "timAuthorityFit": 5,
-          "colCommercialUpside": 4,
-          "microdramaRelevance": 4,
-          "mediaCoveragePotential": 4,
-          "relationshipValue": 5,
-          "personalityFit": 5,
-          "timeliness": 5,
-          "evidenceStrength": 5,
-          "easeOfAction": 5,
-          "reputationRisk": 2
-        },
-        "action": "Post",
-        "evidence": "strong"
-      },
-      {
-        "title": "Launch The Vertical View newsletter (issue #1 in 2 weeks)",
-        "type": "owned media",
-        "why": "Quarter goal explicitly. Owned channel converts Tim from interview subject to source-of-record. First-issue topic ready: Australia 20% payment rate. Cadence (every other Sunday) is sustainable. Three issues pre-written before launch makes 'started strong then died' risk manageable.",
-        "source": "data/state/settings.json campaignGoals.thisQuarter; speaking.json — Cairns Crocodiles Australia data reveal",
-        "dateChecked": "2026-05-23",
-        "scores": {
-          "timAuthorityFit": 5,
-          "colCommercialUpside": 5,
-          "microdramaRelevance": 5,
-          "mediaCoveragePotential": 4,
-          "relationshipValue": 4,
-          "personalityFit": 5,
-          "timeliness": 4,
-          "evidenceStrength": 5,
-          "easeOfAction": 3,
-          "reputationRisk": 2
-        },
-        "action": "Act now",
-        "evidence": "strong"
+        "scores": { "timAuthorityFit": 4, "colCommercialUpside": 5, "microdramaRelevance": 5, "mediaCoveragePotential": 3, "relationshipValue": 5, "personalityFit": 4, "timeliness": 4, "evidenceStrength": 3, "easeOfAction": 4, "reputationRisk": 1 },
+        "action": "Watch",
+        "evidence": "moderate"
       }
     ],
     "topPeople": [
@@ -118,24 +63,24 @@
         "organisation": "Puck / The Town",
         "whyMatters": "Single-pitch unlocks Puck feature + The Town episode. Already covered DramaBox — Tim is the B2B counterpart.",
         "source": "data/state/contacts.json — seed-matthew-belloni",
-        "timRelevance": "Establishes Tim in US tier-1 entertainment-business press. Belloni's audience IS the audience Tim wants.",
-        "colRelevance": "COL's B2B narrative (Microdrama-in-a-Box, distribution rails) lands harder on The Town than any Asian trade outlet.",
+        "timRelevance": "Establishes Tim in US tier-1 entertainment-business press in one move.",
+        "colRelevance": "B2B narrative (Microdrama-in-a-Box, distribution rails) lands harder on The Town than anywhere else.",
         "bestApproach": "Cold email to matthew@puck.news. Subject: 'The B2B counterpart to your DramaBox story.' Body: 3 numbers (1,700 titles, USD 1M B2B, 238M-day), 1 frame (Vertical 2.0), 1 ask (15-min call before LA trip).",
-        "publicMove": "None yet. Don't comment on Belloni publicly until private pitch lands — wrong sequence.",
-        "privateMove": "Stuart to draft the pitch by Mon May 25, send by Tue May 26.",
-        "risk": "Generic founder-pitch email gets binned. Mitigation: lead with the 238M-day number, not with COL's name.",
+        "publicMove": "None yet — don't engage Belloni publicly until the private pitch lands.",
+        "privateMove": "Stuart drafts Mon May 25, sends Tue May 26.",
+        "risk": "Generic founder-pitch energy gets binned. Mitigation: lead with the 238M-day number, not with COL's name.",
         "priority": "high"
       },
       {
         "name": "Maria Rua Aguete",
         "role": "Global Head of Media & Entertainment",
         "organisation": "Omdia",
-        "whyMatters": "Co-panellist at NEM Dubrovnik (Jun 8). Tim's most-cited data anchor (USD 11B/22B sizing). Already a warm relationship.",
-        "source": "data/state/contacts.json — seed-maria-rua-aguete; data/state/speaking.json — seed-nem-dubrovnik-new-europe-market",
-        "timRelevance": "Sync ahead of the Dubrovnik panel — agree which numbers each of them owns on stage to avoid stepping on each other.",
+        "whyMatters": "Co-panellist NEM Dubrovnik (Jun 8). Tim's most-cited data anchor. Already warm.",
+        "source": "data/state/contacts.json — seed-maria-rua-aguete",
+        "timRelevance": "Sync ahead of Dubrovnik — agree which numbers each owns on stage. Also: ask her about the agency-vertical-desk question for Category 24.",
         "colRelevance": "Omdia data is the citation that makes COL-narrative claims credible to outside-the-bubble audiences.",
-        "bestApproach": "WhatsApp / LinkedIn DM by end of next week. Tone: warm peer, not formal.",
-        "privateMove": "Send Tim's Cairns data points before she finalises her NEM deck — gives her a fresh datapoint to credit Tim with on stage.",
+        "bestApproach": "WhatsApp / LinkedIn DM. Warm peer, not formal.",
+        "privateMove": "Send Tim's Cairns Australia-20% data points + ask about agency vertical desks. End of next week.",
         "risk": "Low.",
         "priority": "high"
       },
@@ -143,38 +88,38 @@
         "name": "Connie Chan",
         "role": "General Partner",
         "organisation": "a16z",
-        "whyMatters": "Consumer + China crossover thesis. LA trip is the natural window for an in-person.",
+        "whyMatters": "Consumer + China crossover thesis. LA trip is the natural window for an in-person + Vertical Mogul podcast pilot guest.",
         "source": "data/state/contacts.json — seed-connie-chan",
-        "timRelevance": "Warm intro into a16z podcast (consumer / China / mobile-first) and West Coast investor network.",
-        "colRelevance": "Investor narrative validation. Future cap-stack signal.",
-        "bestApproach": "Warm intro request — identify a mutual (likely via Singapore / Stanford / earlier a16z portfolio).",
-        "privateMove": "Stuart to identify the warm intro vector and brief Tim by Wed May 27 so he can reach out before LA wheels-up.",
+        "timRelevance": "Warm intro into a16z podcast and West Coast investor network. Also a candidate Episode 1 for the Vertical Mogul podcast if it ships.",
+        "colRelevance": "Investor narrative validation + future cap-stack signal.",
+        "bestApproach": "Warm intro via mutual (likely Singapore / Stanford / earlier a16z portfolio).",
+        "privateMove": "Stuart identifies the warm intro vector and briefs Tim by Wed May 27. Reach out before LA wheels-up.",
         "risk": "Cold-in attempt without a warm path gets ignored.",
+        "priority": "medium"
+      },
+      {
+        "name": "Latif Sim",
+        "role": "Founder",
+        "organisation": "BeLive Technology",
+        "whyMatters": "Microdrama-in-a-Box co-creator. Already does joint MIP + FILMART presentations with Tim. The visual content this run needs (BTS, demo videos) is recordable WITH him, not solo.",
+        "source": "data/state/contacts.json — seed-latif-sim",
+        "timRelevance": "Co-star for BTS / Microdrama-in-a-Box demo videos. Two-shot content lands harder than solo talking-head.",
+        "colRelevance": "BeLive is the SaaS infrastructure partner. Joint visibility = joint commercial credibility.",
+        "bestApproach": "WhatsApp. Casual: 'I'm shooting some pieces around LA / NEM / APOS — want to do a joint piece on the box?'",
+        "privateMove": "Stuart loops Latif in by end of next week for an APOS Bali joint shoot.",
+        "risk": "Low.",
         "priority": "medium"
       },
       {
         "name": "Janine Stein",
         "role": "Founder & Editorial Director",
         "organisation": "ContentAsia",
-        "whyMatters": "Most consistent media amplifier; broke the CMO appointment. Give her the next exclusive (newsletter launch + an Australia-20% data feature).",
-        "source": "data/state/contacts.json — seed-janine-stein; data/state/media.json — seed-contentasia",
+        "whyMatters": "Most consistent media amplifier; broke the CMO appointment. Give her the next exclusive (Vertical View newsletter launch + Australia-20% data feature).",
+        "source": "data/state/contacts.json — seed-janine-stein",
         "timRelevance": "Maintains relationship cadence between MIP London / MIPCOM. Keeps Tim in regular APAC trade coverage.",
-        "colRelevance": "ContentAsia's audience IS the Asian content-business decision-maker layer COL wants to be visible to.",
-        "bestApproach": "Email + LinkedIn DM with The Vertical View launch ahead of public announcement; offer the Australia 20% data as an accompanying feature.",
-        "privateMove": "Reach out within 48 hours of newsletter launch decision being locked.",
-        "risk": "Low.",
-        "priority": "medium"
-      },
-      {
-        "name": "Lisa Cam",
-        "role": "Journalist",
-        "organisation": "South China Morning Post",
-        "whyMatters": "Wrote the SCMP full-page feature Tim called his favourite. Natural follow-up on the newsletter launch — Chinese-language Western press is currently under-served.",
-        "source": "data/state/contacts.json — seed-lisa-cam",
-        "timRelevance": "Bridges Tim's narrative into Chinese-language Western media. Distinct audience from the Western trade outlets.",
-        "colRelevance": "COL's investor base reads SCMP. Maintains visibility into Hong Kong / PRC-adjacent commercial circles.",
-        "bestApproach": "Personal email — thank her for the prior piece, share Vertical View launch as a 'thought you'd find this interesting', no formal pitch.",
-        "privateMove": "Send personal note on newsletter launch day.",
+        "colRelevance": "ContentAsia's audience IS the Asian content-business decision-maker layer COL wants visible to.",
+        "bestApproach": "Email + LinkedIn DM. Newsletter exclusive + Australia data as a parallel feature.",
+        "privateMove": "Within 48 hours of Vertical View launch decision being locked.",
         "risk": "Low.",
         "priority": "medium"
       }
@@ -182,59 +127,59 @@
     "bestMediaAngle": {
       "angle": "B2B distribution as the next phase of vertical drama — Tim has the rails Hollywood is about to need. Frame: \"You covered DramaBox (consumer). The interesting story now is who supplies the picks and shovels. That's COL.\"",
       "targetOutlet": "The Town (Puck) / Matthew Belloni",
-      "why": "Belloni's audience is US entertainment-business decision-makers. He's already framed the DramaBox story for them; the B2B counterpart is the natural follow-on. One email can land Puck feature + The Town episode + downstream tier-1 attention.",
-      "evidence": "Belloni's prior DramaBox coverage (Puck / The Town). Tim's documented commercial proof (1,700+ titles, USD 1M+ B2B revenue, 238M-day, 77-min sessions). Pitch contact already in data/state/media.json."
+      "why": "Belloni's audience is US entertainment-business decision-makers. He's framed the DramaBox consumer story; the B2B counterpart is the natural follow-on. One email = Puck feature + The Town episode + downstream tier-1 attention.",
+      "evidence": "Belloni's prior DramaBox coverage. Tim's documented proof (1,700+ titles, USD 1M+ B2B, 238M-day, 77-min sessions). Pitch contact in data/state/media.json."
     },
     "bestLinkedInAngle": {
-      "hook": "Nine days. LA. Five questions I'm going to ask everyone.",
-      "angle": "Pre-LA agenda-setting post. Operator coming to ask questions, not pitch. Numbered list (Tim's natural format). Closes with an inbound ask.",
-      "why": "Turns the LA trip from a private calendar item into a public asset before Tim lands. Surfaces inbound from people who want to meet. Sets Tim's frame for how journalists / agencies / studios read his LA meetings in retrospect. Sounds like Tim — operator, not influencer."
+      "hook": "Nine days. LA. Five questions.",
+      "angle": "Pre-LA piece-to-camera, NOT a written post. 60 seconds, phone, single take, no edit. Tim looking straight at the camera, somewhere with energy in the background (not a desk). One hook (5 words), three of the five questions on camera (rest in caption), one forward line (\"I'll tell you what I find\"). The text version goes in the caption — but the PRIMARY artefact is the video.",
+      "why": "This is the run's mandatory Category 21 deliverable. Last week we drafted this as a written post — that was a category miss. Tim is heading to LA, the world's most-filmed city, and his audience expects vertical-native operators to be vertical-native themselves. A polished LinkedIn paragraph here would be the opposite of native."
     },
     "bestCommentOpportunity": {
       "targetAuthor": "NONE — radar walk produced no verified target post this run.",
-      "suggestedComment": "Hold. The opportunity radar's 'comment' category requires a verified live post by a named person, with a comment that lands without inventing context. Without the RSS sweep + manual LinkedIn check, picking a target this run risks fabrication. Re-run when intelligence sweep is available.",
-      "why": "Honest deferral. CLAUDE.md guardrail: never imply a relationship / interest that doesn't exist.",
+      "suggestedComment": "Hold. CLAUDE.md guardrail: never imply interest that doesn't exist. Without RSS intel + manual LinkedIn check this week, picking a target risks fabrication. Re-run when network access is restored.",
+      "why": "Honest deferral. Better than inventing a comment target.",
       "risk": "Manufactured comments degrade Tim's voice. Skipping a category this week is the right call."
     },
     "bestRelationshipMove": {
       "name": "Matthew Belloni",
       "role": "Founding Partner",
       "organisation": "Puck / The Town",
-      "whyMatters": "Single-pitch, two-surface upside (Puck + The Town). Highest leverage per minute spent of any move in this brief.",
+      "whyMatters": "Single pitch, two-surface upside. Highest leverage per minute spent of any move in this brief.",
       "source": "data/state/contacts.json — seed-matthew-belloni",
       "timRelevance": "Establishes Tim in US tier-1 entertainment-business press in one move.",
       "colRelevance": "B2B narrative lands harder here than anywhere else.",
       "bestApproach": "Cold email matthew@puck.news. Subject: 'The B2B counterpart to your DramaBox story.' 3 numbers, 1 frame, 1 ask. 15-min call before LA trip.",
-      "privateMove": "Stuart to draft Mon May 25, send Tue May 26. Tim to be ready for a 15-min call any time Jun 1-4 in LA.",
+      "privateMove": "Stuart drafts Mon May 25, sends Tue May 26. Tim ready for a 15-min call Jun 1–4 in LA.",
       "risk": "Generic founder-pitch energy. Mitigation: lead with the 238M-day stat, not with COL's name.",
       "priority": "high"
     },
     "bestColOpportunity": {
-      "title": "Use the LA trip to land one US studio/streamer Microdrama-in-a-Box conversation",
-      "why": "Microdrama-in-a-Box is the cleanest B2B asset COL has — turnkey SaaS that lets any platform run a vertical service in 30 days. The LA trip is the only confirmed in-person window before MIPCOM in October. One serious studio/streamer conversation justifies the trip commercially even if nothing else lands.",
-      "commercialUpside": "Any one of: a white-label deal (recurring SaaS revenue), a co-investment in a vertical originals slate, or a strategic POC with a major streamer. Each is a multi-million-dollar opportunity and a tier-1 PR moment if it lands.",
-      "nextStep": "Stuart + Tim build the LA target list by Wed May 27. Goal: 3 confirmed meetings with C-suite or SVP-level decision-makers at major US studios/streamers. Pre-trip LinkedIn post lands Sun May 31 to set context."
+      "title": "Use the LA trip to land one US studio/streamer Microdrama-in-a-Box conversation — with the trip shot publicly so the meetings get a credibility halo before they happen",
+      "why": "Microdrama-in-a-Box is COL's cleanest B2B asset. LA is the only confirmed in-person window before MIPCOM in October. The previous brief framed this as a private-calendar item; the new framing is: shoot the trip publicly (Category 21), and the studio meetings get a credibility halo BEFORE Tim walks in the room. One serious studio/streamer conversation justifies the trip commercially.",
+      "commercialUpside": "Any of: a white-label deal (recurring SaaS revenue), co-investment in a vertical originals slate, or a strategic POC with a major streamer. Each is a multi-million-dollar opportunity and a tier-1 PR moment if it lands. Public-narrative-first approach makes any of these easier to close.",
+      "nextStep": "Stuart + Tim build the LA target list by Wed May 27. Goal: 3 confirmed meetings with SVP+ level decision-makers at major US studios/streamers. Pre-trip piece-to-camera (see best LinkedIn angle) posts Sat May 31. Daily ~60-sec vlog beats during Jun 1–4."
     },
     "risingTrend": {
-      "trend": "Brand advertisers entering vertical drama as a media line item, not as a one-off stunt.",
-      "evidence": "P&G, Unilever, Crocs, Shopee already named in Tim's frame (knowledge/STRATEGIC_PROFILE.md). The Cairns Crocodiles audience was Australia's marketing community — confirming the brand-side appetite is moving from curious to budgeted.",
-      "implication": "Tim's positioning needs to drift from 'microdrama operator' to 'commercial bridge between brand CMOs and vertical infrastructure'. Action: at least one upcoming content piece should be aimed squarely at brand CMOs, not at peers in the microdrama industry."
+      "trend": "Brand advertisers entering vertical drama as a media line item, not a one-off stunt.",
+      "evidence": "P&G, Unilever, Crocs, Shopee already named (knowledge/STRATEGIC_PROFILE.md). Cairns Crocodiles audience was Australia's marketing community — brand-side appetite moved from curious to budgeted.",
+      "implication": "Tim's positioning should drift from 'microdrama operator' to 'commercial bridge between brand CMOs and vertical infrastructure'. At least one upcoming piece this quarter should be aimed at brand CMOs directly — not at peers in the microdrama industry."
     },
     "thingToIgnore": {
-      "item": "Hollywood \"vertical pivot\" think-pieces that don't include actual data.",
-      "why": "Tim's whole frame is 'we're not in the business of saving Hollywood'. Commenting on opinion-only think-pieces makes Tim sound like he's defending against a frame that doesn't apply. The discipline is: only engage when there's a number to anchor on."
+      "item": "Hollywood 'is vertical real?' think-pieces that don't include actual data.",
+      "why": "Tim's whole frame is 'we're not in the business of saving Hollywood'. Commenting on opinion-only think-pieces makes Tim sound like he's defending against a frame that doesn't apply. The discipline: only engage when there's a number to anchor on."
     },
     "reputationRisk": {
-      "risk": "Post-CMO promotion (May 2026), Tim's content risks sounding triumphalist if Stuart isn't watching. The voice tilts naturally toward 'look at the milestone' rather than 'here's what we're solving next'.",
-      "mitigation": "Voice rule reinforced: open with a number or a one-line claim, never with 'I'm excited to share'. Stuart to flag and rewrite any draft that opens on Tim's title rather than on the work."
+      "risk": "Post-CMO promotion (May 2026), Tim's content risks sounding triumphalist if Stuart isn't watching. The voice tilts naturally toward 'look at the milestone' rather than 'here's what we're solving next'. New risk this run: on-camera, the triumphalism risk is HIGHER than in writing — face + voice carry more swagger than a written post. Watch the cuts.",
+      "mitigation": "Voice rule reinforced (knowledge/VOICE.md): open with a number or a one-line claim, never with 'I'm excited to share'. For visual content specifically: hook in 5 words, one stat, no jacket-on-phone, no teleprompter. Stuart watches every piece-to-camera draft before it ships."
     },
     "suggestedAction": {
       "for": "Stuart",
-      "action": "By end of Tue May 26: (1) draft + send Belloni pitch, (2) confirm StreamTV Awards submission owner, (3) confirm Cannes Lions submission owner, (4) green-light Vertical View newsletter cadence and pre-write issues #1-3, (5) start the LA target list with Tim. By Sat May 30: post #1 of the LA pre-trip series goes live.",
+      "action": "By end of Tue May 26: (1) draft + send Belloni pitch, (2) confirm StreamTV Awards submission owner. By Sat May 30: help Tim record + post the pre-LA piece-to-camera. Everything else (Cannes Lions submission, Vertical View newsletter launch, LA target list build-out) → next week, or scoped during LA. This is the cap-of-3 rule in practice — last week's brief asked for 5 deliverables by Tuesday; this brief asks for 2 by Tuesday and 1 by Saturday. Tim's 5–8 hr/week proactive budget can carry 3 items; it can't carry 5.",
       "urgency": "this-week"
     },
     "model": "claude-opus-4-7",
     "tokens": { "input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0 },
-    "createdAt": "2026-05-23T05:50:00.000Z"
+    "createdAt": "2026-05-23T06:45:00.000Z"
   }
 ]

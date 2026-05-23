@@ -364,6 +364,23 @@ pre.comment-draft {
   border-radius: 5px; margin-top: 8px; white-space: pre-wrap;
 }
 
+/* Generic <pre> inside any card — Content tab uses this for the full
+   draft body. Without these rules the browser default (white-space: pre)
+   would let long lines overflow the card horizontally on mobile. */
+.card pre {
+  font-family: inherit;
+  font-size: 13px;
+  line-height: 1.6;
+  background: rgba(232,228,217,0.3);
+  padding: 12px 14px;
+  border-radius: 6px;
+  margin-top: 10px;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  max-width: 100%;
+}
+
 .hook { font-weight: 600; font-size: 14.5px; line-height: 1.35; }
 .title { font-weight: 500; }
 .kicker { font-size: 11px; letter-spacing: 0.15em; color: var(--muted); text-transform: uppercase; font-weight: 500; }
@@ -425,6 +442,31 @@ h3 { font-size: 13.5px; font-weight: 600; margin-bottom: 8px; }
     grid-template-columns: 1fr;
   }
   .page-footer { flex-direction: column; gap: 8px; }
+
+  /* Content tab — the draft cards have a top metadata row (status pill +
+     engagement pill + format) and a right-aligned date that squeeze badly
+     on narrow viewports. Stack vertically instead. The <pre> body block
+     also needs a smaller font + tighter padding to fit comfortably. */
+  [data-panel="content"] .card { padding: 14px; }
+  [data-panel="content"] .card .row {
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  [data-panel="content"] .card pre {
+    font-size: 12.5px;
+    padding: 10px 12px;
+    line-height: 1.55;
+  }
+  [data-panel="content"] .hook { font-size: 14px; line-height: 1.35; }
+  [data-panel="content"] .title { word-wrap: break-word; }
+
+  /* Same treatment for the "Drafts ready to review" cards on the
+     This-week tab — same overflow source. */
+  .draft-card { padding: 14px; }
+  .draft-card pre {
+    font-size: 12.5px;
+    padding: 10px 12px;
+  }
 }
 
 /* ---------- ULTRA-WIDE — keep content readable ---------- */
