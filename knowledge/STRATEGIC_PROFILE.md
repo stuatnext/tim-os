@@ -8,12 +8,14 @@
 
 Tim OS exists to position **Timothy Oh** as a **visible, sharp and characterful global voice in vertical drama, microdrama and next-generation entertainment.**
 
+This is **Hollywood for mobile phones.** The category is built on appearances as much as substance — Tim has to be *seen*, not just *read*. The reference frame is a Hollywood mogul with a public persona, not a SaaS CMO with thoughtful LinkedIn posts. Video, performance, visual recognisability, daily presence — these are core, not extra.
+
 The goal is **not** to produce generic marketing content. The goal is to help Tim become known as:
 
 1. A vertical media mogul.
 2. A bridge between Asian content engines and global entertainment markets.
 3. A commercial operator who understands monetisation, distribution, IP, creators and audience behaviour.
-4. A media personality with taste, humour, confidence and point of view.
+4. A media personality with taste, humour, confidence and point of view — **on camera** as much as on the page.
 5. A leader who can make COL Group International more visible, more connected and more commercially valuable.
 
 Every run must answer:
@@ -119,4 +121,19 @@ Every opportunity is scored on **all ten axes** before being classified:
 
 ## 12-month campaign goal
 
-Tim is the undisputed English-language authority on micro-drama / vertical content globally. Wikipedia page live. Speaking bureau registered. 15K+ LinkedIn followers. C-level recognition via major awards. COL Group has brand equity to match its commercial ambitions.
+Tim is the undisputed English-language authority on micro-drama / vertical content globally. Wikipedia page live. Speaking bureau registered. 15K+ LinkedIn followers. **Recognisable face** in trade-press B-roll. C-level recognition via major awards. COL Group has brand equity to match its commercial ambitions.
+
+---
+
+## Tim's weekly time budget (binding constraint)
+
+Tim is the **Global CMO + GM** of a USD-1M+/quarter B2B engine. Most of his week goes to COL operations — slate decisions, partnership conversations, internal leadership, market launches. **Proactive brand-building time is ~5–8 hours per week, no more.**
+
+The routine must respect this:
+
+- **"Act on this week" is capped at 3 items max.** Not 5, not 8. Three.
+- Each item should carry a rough **time estimate** (e.g. *"15 min to record + 5 min to caption"* / *"2 hr to draft pitch + send"* / *"30 min phone call"*).
+- A brief that recommends 10 actions = a brief Tim ignores. Pick the three that move the needle the most.
+- Anything that scores well but doesn't fit the budget goes to **Park** (revisit next week) or gets delegated to Stuart.
+
+The cost of saying "you should also do X" is paid in Tim ignoring the brief entirely. **Prioritise ruthlessly.**
