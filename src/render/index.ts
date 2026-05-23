@@ -585,7 +585,11 @@ async function renderIntelligencePanel(): Promise<string> {
   if (sorted.length === 0) {
     return `
       <div class="section-h"><h2>Industry intelligence</h2></div>
-      <p class="small muted">No items yet. The routine runs <code>npm run feeds</code> to populate this from curated trade-press RSS + Google News search feeds, then scores and triages each new item in-session. If you see no items after a scheduled run, check whether the routine environment's network policy allows outbound to the RSS hosts listed in <code>knowledge/OPPORTUNITY_RADAR.md</code>.</p>`;
+      <div class="empty-state">
+        <div class="empty-state-title">No items yet</div>
+        <p class="small muted">The routine runs <code>npm run feeds</code> to populate this from curated trade-press RSS + Google News search feeds, then scores and triages each new item in-session.</p>
+        <p class="small muted mt-2">If you see no items after a scheduled run, check whether the routine environment's network policy allows outbound to the RSS hosts listed in <code>knowledge/OPPORTUNITY_RADAR.md</code>.</p>
+      </div>`;
   }
 
   return `
@@ -884,7 +888,19 @@ export async function renderDashboard() {
       <div class="small muted">Generated ${new Date().toISOString().replace("T", " ").slice(0, 19)} UTC</div>
       ${
         lastRun
-          ? `<div class="small muted">Last run: ${esc(lastRun.agent)} · ${esc(lastRun.status)}${lastRun.status === "low-value" && lastRun.lowValueReason ? ` · <span class="footer-low">${esc(lastRun.lowValueReason.slice(0, 220))}${lastRun.lowValueReason.length > 220 ? "…" : ""}</span>` : ""}</div>`
+          ? `<div class="footer-run">
+              <span class="small muted">Last run:</span>
+              <span class="footer-run-agent small">${esc(lastRun.agent)}</span>
+              ${pill(lastRun.status, lastRun.status === "success" ? "teal" : lastRun.status === "low-value" ? "amber" : "red")}
+              ${
+                lastRun.status === "low-value" && lastRun.lowValueReason
+                  ? `<details class="footer-why">
+                      <summary class="small muted">why?</summary>
+                      <p class="small">${esc(lastRun.lowValueReason)}</p>
+                    </details>`
+                  : ""
+              }
+            </div>`
           : `<div class="small muted">No routine runs yet</div>`
       }
     </footer>
