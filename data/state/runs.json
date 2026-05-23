@@ -1,5 +1,15 @@
 [
   {
+    "id": "rn_2605_weekly_real",
+    "agent": "weekly-brief",
+    "status": "success",
+    "startedAt": "2026-05-23T07:45:00.000Z",
+    "finishedAt": "2026-05-23T08:45:00.000Z",
+    "itemsCreated": 16,
+    "itemsUpdated": 4,
+    "metadata": "First real intelligence sweep. RSS still fully blocked (22/22 denied, networkPolicyBlocked:true) — web search via WebSearch tool used for all intelligence. 13 industry items reviewed and added to intelligence.json. 3 new content drafts added (Peacock reaction piece-to-camera, COL new hires post, NEM Dubrovnik vlog beat sheet). ATxEnterprise Singapore speaking event (May 20-22, done) added to speaking.json. Weekly brief for 2026-05-18 replaced (was low-value verification run). settings.json updated: Cannes Lions 2026 deadline flagged as passed (April 9). Key signal this run: Peacock licensed ReelShort content — first major US streamer to treat a microdrama-native platform as a formal content supplier. Three actionable opportunities this week: Peacock reaction piece-to-camera (Post, ~25 min), StreamTV Awards (Act now, ~90 min), pre-LA piece-to-camera (Post, ~25 min). 24 OPPORTUNITY_RADAR categories walked — categories 1-13, 17-23 produced signals; categories 14 (LinkedIn voices), 15 (public support), 16 (DM list beyond Anna Saalfeld), app-store chart intelligence, Mandarin reputation watch (Weibo/Baidu 短剧 出海), and Reddit qualitative remain network-blocked."
+  },
+  {
     "id": "rn1lpgxh9c2k9p4r",
     "agent": "weekly-brief",
     "status": "low-value",
