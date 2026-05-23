@@ -1,0 +1,220 @@
+// Tim OS — data model
+// SQLite by default for fast dev; swap provider to "postgresql" for prod.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+// ---------------------------------------------------------------------------
+// CONTACTS — Tim's network. Tiered (1 = closest allies, 3 = strategic targets).
+// ---------------------------------------------------------------------------
+model Contact {
+  id              String    @id @default(cuid())
+  name            String
+  role            String?
+  company         String?
+  email           String?
+  linkedin        String?
+  twitter         String?
+  tier            Int       @default(2)
+  category        String    @default("industry")
+  notes           String?
+  strategicValue  String?
+  lastTouchedAt   DateTime?
+  nextActionAt    DateTime?
+  nextAction      String?
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+
+  @@index([tier])
+  @@index([category])
+}
+
+// ---------------------------------------------------------------------------
+// AWARDS PIPELINE — every award Tim should enter, with deadlines and status.
+// ---------------------------------------------------------------------------
+model Award {
+  id            String    @id @default(cuid())
+  name          String
+  organizer     String?
+  category      String?
+  url           String?
+  deadline      DateTime?
+  ceremonyAt    DateTime?
+  feeUsd        Float?
+  priority      String    @default("medium")
+  status        String    @default("identified")
+  fitScore      Int?
+  fitRationale  String?
+  notes         String?
+  submittedAt   DateTime?
+  resultAt      DateTime?
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+
+  @@index([priority])
+  @@index([status])
+  @@index([deadline])
+}
+
+// ---------------------------------------------------------------------------
+// SPEAKING — events Tim should speak at, or has spoken at.
+// ---------------------------------------------------------------------------
+model SpeakingEvent {
+  id            String    @id @default(cuid())
+  name          String
+  organizer     String?
+  location      String?
+  url           String?
+  startsAt      DateTime?
+  endsAt        DateTime?
+  cfpDeadline   DateTime?
+  role          String?
+  status        String    @default("identified")
+  fitScore      Int?
+  fitRationale  String?
+  notes         String?
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+
+  @@index([startsAt])
+  @@index([status])
+}
+
+// ---------------------------------------------------------------------------
+// MEDIA TARGETS — outlets and journalists to pitch.
+// ---------------------------------------------------------------------------
+model MediaTarget {
+  id              String    @id @default(cuid())
+  outlet          String
+  journalist      String?
+  contact         String?
+  tier            Int       @default(2)
+  beat            String?
+  pitchAngle      String?
+  status          String    @default("identified")
+  lastPitchedAt   DateTime?
+  publishedUrl    String?
+  publishedAt     DateTime?
+  notes           String?
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+
+  @@index([tier])
+  @@index([status])
+}
+
+// ---------------------------------------------------------------------------
+// PRESS — places Tim has already been covered. Used as evidence by the AI.
+// ---------------------------------------------------------------------------
+model PressItem {
+  id          String    @id @default(cuid())
+  outlet      String
+  title       String
+  url         String?
+  publishedAt DateTime?
+  type        String    @default("article")
+  tier        Int       @default(2)
+  summary     String?
+  createdAt   DateTime  @default(now())
+}
+
+// ---------------------------------------------------------------------------
+// INDUSTRY ITEMS — raw RSS / web items ingested by the feed worker.
+// ---------------------------------------------------------------------------
+model IndustryItem {
+  id              String    @id @default(cuid())
+  source          String
+  sourceUrl       String?
+  title           String
+  url             String    @unique
+  publishedAt     DateTime?
+  rawSummary      String?
+  aiSummary       String?
+  topics          String?
+  relevanceScore  Int?
+  hook            String?
+  status          String    @default("new")
+  createdAt       DateTime  @default(now())
+
+  @@index([publishedAt])
+  @@index([relevanceScore])
+  @@index([status])
+}
+
+// ---------------------------------------------------------------------------
+// CONTENT IDEAS — LinkedIn posts / pitches the AI suggests.
+// ---------------------------------------------------------------------------
+model ContentIdea {
+  id            String    @id @default(cuid())
+  platform      String    @default("linkedin")
+  format        String    @default("post")
+  hook          String
+  body          String
+  rationale     String?
+  predictedEngagement String?
+  sourceItemId  String?
+  status        String    @default("draft")
+  scheduledFor  DateTime?
+  postedAt      DateTime?
+  notes         String?
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+
+  @@index([status])
+  @@index([createdAt])
+}
+
+// ---------------------------------------------------------------------------
+// WEEKLY BRIEFS — the Monday-morning artifact Tim reads.
+// ---------------------------------------------------------------------------
+model Brief {
+  id              String    @id @default(cuid())
+  weekOf          DateTime  @unique
+  headline        String
+  industryDigest  String
+  topActions      String
+  contentToPost   String
+  relationshipMoves String
+  opportunityFocus String
+  rawModel        String
+  cacheReadTokens Int?
+  cacheWriteTokens Int?
+  inputTokens     Int?
+  outputTokens    Int?
+  createdAt       DateTime  @default(now())
+}
+
+// ---------------------------------------------------------------------------
+// AGENT RUNS — observability for the cron-triggered agents.
+// ---------------------------------------------------------------------------
+model AgentRun {
+  id          String    @id @default(cuid())
+  agent       String
+  status      String
+  startedAt   DateTime  @default(now())
+  finishedAt  DateTime?
+  itemsCreated Int      @default(0)
+  itemsUpdated Int      @default(0)
+  errorMessage String?
+  metadata    String?
+
+  @@index([agent])
+  @@index([startedAt])
+}
+
+// ---------------------------------------------------------------------------
+// SETTINGS — single-row store for active campaign goals & focus.
+// ---------------------------------------------------------------------------
+model Settings {
+  id              String    @id @default("default")
+  weeklyFocus     String?
+  campaignGoals   String?
+  voiceTuning     String?
+  updatedAt       DateTime  @updatedAt
+}
