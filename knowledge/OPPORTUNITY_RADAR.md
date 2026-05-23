@@ -68,26 +68,36 @@ If a run produces nothing in a category that should have produced something, the
 
 ## Where to look (the source map)
 
-### Trade press — read every run
+This is the **master source map** — every place Tim's signals can come from. It is split by fetch mechanism, because not every source publishes RSS:
 
-- **Variety** (variety.com) — esp. International, Streaming, Digital verticals.
-- **Deadline** (deadline.com) — esp. International.
-- **The Hollywood Reporter** (hollywoodreporter.com) — esp. Business.
-- **Bloomberg — Technology & Media** (bloomberg.com/technology).
-- **The Information** — paid; check headlines via Google for "The Information" + microdrama / TikTok / streaming.
-- **Reuters — Media & Entertainment**.
-- **Campaign Asia** (campaignasia.com) — APAC marketing.
-- **Mumbrella Asia** (mumbrella.asia).
-- **ContentAsia** (contentasia.tv) — APAC TV/streaming trade. Tim has already been quoted here.
-- **TVBIZZ** (tvbizz.net) — short-form drama coverage; Tim's most-quoted outlet.
-- **TBI Vision** — international TV business.
-- **C21Media** — international TV business.
-- **The Drum** (thedrum.com) — global marketing.
-- **Adweek** — esp. CTV / Streaming.
-- **TechCrunch** — apps + consumer tech.
-- **Sensor Tower / data.ai blog** — app rankings, install + revenue data.
-- **Stratechery (Ben Thompson)** — strategy framing pieces.
-- **Vitrina AI** — content distribution data; Tim has been quoted.
+- **[RSS]** sources are auto-pulled by `npm run feeds` (listed in `src/lib/data/feed-sources.ts`). Claude Code triages the resulting items in-session.
+- **[Web]** sources have no usable RSS (paywalled, dead, social-only, app-store-only). Claude Code must fetch these via web search / web fetch during the in-session run. **The routine should still check them every weekly run** — they're often where the most interesting signals live.
+
+**Rule:** if an RSS endpoint has 403'd or errored consistently across several runs, write it out — remove it from `feed-sources.ts` and re-list it here as `[Web]`. Don't keep running a routine that throws an error every fire.
+
+### Trade press
+
+| Source | How to fetch | Notes |
+|---|---|---|
+| Variety (international, streaming, digital verticals) | **[RSS]** | Tim's primary trade. Multiple exclusives so far. |
+| Deadline (international) | **[RSS]** | Existing relationship. |
+| The Hollywood Reporter (business) | **[RSS]** | MIP London coverage already filed. |
+| Campaign Asia | **[RSS]** | Key APAC marketing relationship. |
+| ContentAsia | **[RSS]** | Janine Stein — broke the CMO appointment. Most consistent amplifier. |
+| TBI Vision | **[RSS]** | International TV business. |
+| C21Media | **[RSS]** | International TV business. |
+| The Drum | **[RSS]** | Global marketing trade. |
+| Mumbrella Asia | **[RSS]** | APAC media + marketing. |
+| TechCrunch (esp. apps) | **[RSS]** | Consumer tech + entertainment apps. |
+| Bloomberg — Technology & Media | **[Web]** — *public RSS deprecated 2019* | Search via Google News query or Bloomberg site search. Lucas Shaw's *Screentime* newsletter is the priority byline. |
+| Reuters — Tech & Media | **[Web]** — *agency RSS retired* | Search reuters.com directly or via Google News. |
+| The Information | **[Web]** — *paywalled* | Search headlines via Google for `"The Information" + microdrama / TikTok / streaming`. Kaya Yurieff + Sahil Patel are the names. |
+| TVBIZZ (tvbizz.net) | **[Web]** — *no usable RSS* | Tim's most-quoted outlet. Manual fetch — Yako Molhov byline. |
+| Adweek (CTV / Streaming) | **[Web]** | Mark Stenberg byline. Manual fetch. |
+| Mashable Entertainment | **[Web]** — *FeedBurner URL long-defunct* | Low priority for Tim's beat; can skip in most runs. |
+| Stratechery (Ben Thompson) | **[Web]** | Paid newsletter; check via stratechery.com or social mentions. |
+| Vitrina AI | **[Web]** | Tim has been quoted. Manual fetch via vitrina.ai. |
+| Sensor Tower / data.ai blog | **[Web]** | App rankings + install / revenue data; check via their public charts. |
 
 ### Microdrama-specific outlets
 
