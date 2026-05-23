@@ -1,23 +1,16 @@
 {
   "name": "tim-os",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
   "type": "module",
-  "description": "Tim OS — the live brand intelligence routine for Timothy Oh (COL Group / FlareFlow). A Claude Code routine that scours the web, ranks opportunities, drafts content in Tim's voice, and renders a static HTML dashboard served from GitHub Pages.",
+  "description": "Tim OS — a Claude Code routine that does brand-intelligence work for Timothy Oh (COL Group / ReelShort / FlareFlow) in-session, then renders a static HTML dashboard served from GitHub Pages.",
   "scripts": {
     "init": "tsx scripts/init.ts",
-    "pipeline": "tsx scripts/run-pipeline.ts",
-    "render": "tsx scripts/render-only.ts",
-    "agent:feeds": "tsx scripts/agents.ts feeds",
-    "agent:summarise": "tsx scripts/agents.ts summarise",
-    "agent:rank": "tsx scripts/agents.ts rank",
-    "agent:content": "tsx scripts/agents.ts content",
-    "agent:brief": "tsx scripts/agents.ts brief"
+    "feeds": "tsx scripts/fetch-feeds.ts",
+    "render": "tsx scripts/render-only.ts"
   },
   "dependencies": {
-    "@anthropic-ai/sdk": "^0.88.0",
-    "rss-parser": "^3.13.0",
-    "zod": "^3.24.1"
+    "rss-parser": "^3.13.0"
   },
   "devDependencies": {
     "@types/node": "^22.10.5",
