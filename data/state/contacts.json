@@ -1,0 +1,232 @@
+[
+  {
+    "id": "seed-stuart-crowley",
+    "name": "Stuart Crowley",
+    "role": "PR Representative",
+    "company": "NEXT.io",
+    "tier": 1,
+    "category": "team",
+    "notes": "Active campaign partnership. Executes the entire visibility campaign.",
+    "strategicValue": "Full strategic knowledge of Tim's position, voice, and goals."
+  },
+  {
+    "id": "seed-maria-rua-aguete",
+    "name": "Maria Rua Aguete",
+    "role": "Global Head of Media & Entertainment",
+    "company": "Omdia",
+    "tier": 1,
+    "category": "industry",
+    "notes": "'A sister.' Co-panellist MIP London, DICM, NEM Dubrovnik.",
+    "strategicValue": "Data anchor. Her $11B/$22B market sizing is Tim's primary proof point."
+  },
+  {
+    "id": "seed-janine-stein",
+    "name": "Janine Stein",
+    "role": "Founder & Editorial Director",
+    "company": "ContentAsia",
+    "tier": 1,
+    "category": "media",
+    "notes": "Most consistent media amplifier. Broke the CMO news.",
+    "strategicValue": "Subscription-relationship; multiple ContentAsia features."
+  },
+  {
+    "id": "seed-manjyot-sandhu",
+    "name": "Manjyot Sandhu",
+    "role": "Co-Founder",
+    "company": "Narativ Media",
+    "tier": 2,
+    "category": "partner",
+    "notes": "MENA / CIS / Africa distribution. At NEM Dubrovnik together.",
+    "strategicValue": "Bridge to Middle East/Africa markets. 'Absolute rock star.'"
+  },
+  {
+    "id": "seed-latif-sim",
+    "name": "Latif Sim",
+    "role": "Founder",
+    "company": "BeLive Technology",
+    "tier": 2,
+    "category": "partner",
+    "notes": "Microdrama in a Box co-creator. Joint MIP London + FILMART presentations.",
+    "strategicValue": "SaaS infrastructure partner. 'Talks about succeeding together and actually follows through.'"
+  },
+  {
+    "id": "seed-karen-seah",
+    "name": "Karen Seah",
+    "role": "Founder",
+    "company": "Refinery Media",
+    "tier": 2,
+    "category": "partner",
+    "notes": "SupermodelMe vertical adaptation deal. First reality format to go vertical.",
+    "strategicValue": "Reality IP for vertical adaptation. 'Not afraid to fail and goes all in.'"
+  },
+  {
+    "id": "seed-anatolii-kasianov",
+    "name": "Anatolii Kasianov",
+    "role": "Executive",
+    "company": "HOLYWATER TECH",
+    "tier": 2,
+    "category": "industry",
+    "notes": "Met at MIP London. 'Could have spoken for hours.'",
+    "strategicValue": "Peer-level European micro-drama operator. High alignment."
+  },
+  {
+    "id": "seed-mansha-daswani",
+    "name": "Mansha Daswani",
+    "role": "Founder",
+    "company": "MD Media Biz / ScreenMDM",
+    "tier": 2,
+    "category": "media",
+    "notes": "Regular coverage. Video + print. APOS Bali on-site.",
+    "strategicValue": "Reliable trade amplifier; needs ongoing exclusives."
+  },
+  {
+    "id": "seed-cassandra-yang",
+    "name": "Cassandra Yang",
+    "role": "Founder",
+    "company": "RisingJoy",
+    "tier": 2,
+    "category": "industry",
+    "notes": "Co-panellist AACA, DICM, NEM Dubrovnik.",
+    "strategicValue": "Industry peer who shares stages."
+  },
+  {
+    "id": "seed-alex-montalvo",
+    "name": "Alex Montalvo",
+    "role": "Founder",
+    "company": "GammaTime",
+    "tier": 2,
+    "category": "industry",
+    "notes": "MIP London co-panellist.",
+    "strategicValue": "US-rooted micro-drama operator; bridge to Hollywood."
+  },
+  {
+    "id": "seed-atul-phadnis",
+    "name": "Atul Phadnis",
+    "role": "Founder",
+    "company": "Vitrina AI",
+    "tier": 2,
+    "category": "media",
+    "notes": "Multiple interviews. Vitrina LeaderSpeak episode.",
+    "strategicValue": "Data relationship; uses COL data in coverage."
+  },
+  {
+    "id": "seed-wenwen-han",
+    "name": "Wenwen Han",
+    "role": "Lead",
+    "company": "Short Drama Alliance",
+    "tier": 2,
+    "category": "industry",
+    "notes": "Organised online forum Tim spoke at.",
+    "strategicValue": "Cross-platform industry convener."
+  },
+  {
+    "id": "seed-anne-chan",
+    "name": "Anne Chan",
+    "role": "Principal",
+    "company": "AR Asia Production Limited",
+    "tier": 2,
+    "category": "partner",
+    "notes": "Represents COL at MIPCOM.",
+    "strategicValue": "Distribution representation in Western markets."
+  },
+  {
+    "id": "seed-philip-mcgoldrick",
+    "name": "Philip McGoldrick",
+    "role": "Co-Founder",
+    "company": "Tattle TV",
+    "tier": 2,
+    "category": "partner",
+    "notes": "UK's first vertical entertainment app. Deal signed at MIP London.",
+    "strategicValue": "UK distribution anchor."
+  },
+  {
+    "id": "seed-enoch-chen",
+    "name": "Enoch Chen",
+    "role": "CTO",
+    "company": "COL Group / FlareFlow",
+    "tier": 2,
+    "category": "team",
+    "notes": "Tim's tech counterpart. ATF masterclass co-presenter.",
+    "strategicValue": "Technical co-presenter for keynotes."
+  },
+  {
+    "id": "seed-jay-blumenfield",
+    "name": "Jay Blumenfield",
+    "role": "Host",
+    "company": "Jay & Tony Show / Vertically Challenged",
+    "tier": 2,
+    "category": "media",
+    "notes": "2-part podcast series with Tim.",
+    "strategicValue": "US-side podcast amplifier."
+  },
+  {
+    "id": "seed-matthew-belloni",
+    "name": "Matthew Belloni",
+    "role": "Founding Partner",
+    "company": "Puck / The Town podcast",
+    "tier": 3,
+    "category": "media",
+    "notes": "Already covered DramaBox. Tim is the B2B counterpart.",
+    "strategicValue": "Highest-priority single media relationship. One pitch can unlock The Town + Puck feature."
+  },
+  {
+    "id": "seed-lucas-shaw",
+    "name": "Lucas Shaw",
+    "role": "Reporter",
+    "company": "Bloomberg Screentime",
+    "tier": 3,
+    "category": "media",
+    "notes": "Streaming/entertainment beat.",
+    "strategicValue": "Tier 1 financial press; would establish institutional credibility."
+  },
+  {
+    "id": "seed-shaan-puri",
+    "name": "Shaan Puri",
+    "role": "Co-Host",
+    "company": "My First Million",
+    "tier": 3,
+    "category": "media",
+    "notes": "Numbers-first founder audience.",
+    "strategicValue": "$250K → $15M unit economics story; perfect format fit."
+  },
+  {
+    "id": "seed-colin-samir",
+    "name": "Colin & Samir",
+    "role": "Hosts",
+    "company": "The Colin & Samir Show",
+    "tier": 3,
+    "category": "media",
+    "notes": "Creator-economy audience.",
+    "strategicValue": "Creator white-label angle for Microdrama in a Box."
+  },
+  {
+    "id": "seed-connie-chan",
+    "name": "Connie Chan",
+    "role": "General Partner",
+    "company": "a16z",
+    "tier": 3,
+    "category": "investor",
+    "notes": "Consumer + China crossover thesis.",
+    "strategicValue": "Warm intro into a16z podcast and West Coast investor network."
+  },
+  {
+    "id": "seed-virginia-lim",
+    "name": "Virginia Lim",
+    "role": "CEO",
+    "company": "Mediacorp",
+    "tier": 2,
+    "category": "singapore",
+    "notes": "Tim's former boss at Sony Pictures. Caught up at Star Awards 2026.",
+    "strategicValue": "Singapore institutional ally; Mediacorp partnership potential."
+  },
+  {
+    "id": "seed-lisa-cam",
+    "name": "Lisa Cam",
+    "role": "Journalist",
+    "company": "South China Morning Post",
+    "tier": 2,
+    "category": "media",
+    "notes": "Wrote SCMP full-page feature. Tim 'clicked with instantly.'",
+    "strategicValue": "Bridge into Chinese-language Western media."
+  }
+]

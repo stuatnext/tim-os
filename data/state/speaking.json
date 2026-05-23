@@ -1,0 +1,135 @@
+[
+  {
+    "id": "seed-la-meetings-trip",
+    "name": "LA meetings trip",
+    "location": "Los Angeles, USA",
+    "startsAt": "2026-06-01T00:00:00.000Z",
+    "endsAt": "2026-06-04T00:00:00.000Z",
+    "role": "Attendee",
+    "status": "confirmed",
+    "fitScore": 80,
+    "fitRationale": "Not a speaking event. Platforms, producers, creators, studios, brands. Document with daily LinkedIn posts."
+  },
+  {
+    "id": "seed-nem-dubrovnik-new-europe-market",
+    "name": "NEM Dubrovnik — New Europe Market",
+    "organizer": "NEM Dubrovnik",
+    "location": "Dubrovnik, Croatia",
+    "startsAt": "2026-06-08T00:00:00.000Z",
+    "endsAt": "2026-06-11T00:00:00.000Z",
+    "role": "Panellist",
+    "status": "confirmed",
+    "fitScore": 90,
+    "fitRationale": "'Microdrama: risky business or industry's next guilty pleasure?' with Maria Rua Aguete, Cassandra Yang, Lukasz Wysocki."
+  },
+  {
+    "id": "seed-apos-bali",
+    "name": "APOS Bali",
+    "organizer": "Media Partners Asia",
+    "location": "Bali, Indonesia",
+    "startsAt": "2026-06-16T00:00:00.000Z",
+    "endsAt": "2026-06-18T00:00:00.000Z",
+    "role": "Speaker",
+    "status": "confirmed",
+    "fitScore": 92,
+    "fitRationale": "Confirmed on speaker slate. Mansha Daswani on site."
+  },
+  {
+    "id": "seed-mipcom-cannes-2026",
+    "name": "MIPCOM Cannes 2026",
+    "organizer": "RX France",
+    "location": "Cannes, France",
+    "startsAt": "2026-10-12T00:00:00.000Z",
+    "endsAt": "2026-10-15T00:00:00.000Z",
+    "role": "Panellist",
+    "status": "identified",
+    "fitScore": 95,
+    "fitRationale": "Natural progression from MIP London. Anne Chan can broker. Pitch Vertical 2.0 keynote."
+  },
+  {
+    "id": "seed-contentasia-summit-2026",
+    "name": "ContentAsia Summit 2026",
+    "organizer": "ContentAsia",
+    "location": "Singapore",
+    "role": "Keynote / Panellist",
+    "status": "identified",
+    "fitScore": 93,
+    "fitRationale": "Janine Stein relationship. Tim is the obvious headline speaker for the micro-drama session."
+  },
+  {
+    "id": "seed-asia-tv-forum-atf-2026",
+    "name": "Asia TV Forum (ATF) 2026",
+    "organizer": "Reed Exhibitions",
+    "location": "Singapore",
+    "startsAt": "2026-12-08T00:00:00.000Z",
+    "endsAt": "2026-12-10T00:00:00.000Z",
+    "role": "Keynote",
+    "status": "identified",
+    "fitScore": 90,
+    "fitRationale": "Singapore home market. 2025 masterclass with Enoch Chen was a hit. Aim for keynote slot."
+  },
+  {
+    "id": "seed-sxsw-2027",
+    "name": "SXSW 2027",
+    "organizer": "SXSW",
+    "location": "Austin, USA",
+    "startsAt": "2027-03-12T00:00:00.000Z",
+    "cfpDeadline": "2026-07-21T00:00:00.000Z",
+    "role": "Panellist",
+    "status": "identified",
+    "fitScore": 78,
+    "fitRationale": "PanelPicker opens summer 2026. Vertical 2.0 + creator-economy crossover."
+  },
+  {
+    "id": "seed-cairns-crocodiles-presented-by-pinterest-",
+    "name": "Cairns Crocodiles (presented by Pinterest)",
+    "organizer": "B&T",
+    "location": "Cairns, Australia",
+    "startsAt": "2026-05-19T00:00:00.000Z",
+    "role": "Headline speaker",
+    "status": "done",
+    "notes": "'Maestros of Microdramas' with Nikyah Hutchings. Australia 20% payment rate data revealed."
+  },
+  {
+    "id": "seed-campaign360",
+    "name": "Campaign360",
+    "organizer": "Campaign Asia-Pacific",
+    "location": "Singapore",
+    "startsAt": "2026-05-20T00:00:00.000Z",
+    "endsAt": "2026-05-21T00:00:00.000Z",
+    "role": "Speaker, Learning Stage",
+    "status": "done",
+    "notes": "Branded micro-dramas with Sian Ju Tan (Refinery Media)."
+  },
+  {
+    "id": "seed-mip-london-2026",
+    "name": "MIP London 2026",
+    "organizer": "RX France",
+    "location": "London, UK",
+    "startsAt": "2026-02-24T00:00:00.000Z",
+    "role": "Headline panellist",
+    "status": "done",
+    "notes": "'Microdrama 2026: The Global Breakout.' THR coverage. 131 LinkedIn reactions."
+  },
+  {
+    "id": "seed-hong-kong-filmart-2026",
+    "name": "Hong Kong FILMART 2026",
+    "organizer": "HKTDC",
+    "location": "Hong Kong",
+    "startsAt": "2026-03-17T00:00:00.000Z",
+    "role": "Masterclass leader",
+    "status": "done",
+    "notes": "'From Zero to Vertical' with Latif Sim. Launched Microdrama in a Box + SupermodelMe."
+  },
+  {
+    "id": "seed-1-billion-followers-summit",
+    "name": "1 Billion Followers Summit",
+    "organizer": "Government of UAE",
+    "location": "Dubai, UAE",
+    "startsAt": "2026-01-09T00:00:00.000Z",
+    "endsAt": "2026-01-11T00:00:00.000Z",
+    "role": "Keynote",
+    "status": "done",
+    "notes": "On programme with Will Smith and Mr Beast. 91 LinkedIn reactions."
+  }
+]

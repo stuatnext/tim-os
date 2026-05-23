@@ -1,41 +1,26 @@
 {
   "name": "tim-os",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
-  "description": "Tim OS — the live brand intelligence dashboard for Timothy Oh (COL Group / FlareFlow). Scours the web for opportunities, generates content in Tim's voice, and surfaces the weekly actions that build vertical entertainment authority.",
+  "type": "module",
+  "description": "Tim OS — the live brand intelligence routine for Timothy Oh (COL Group / FlareFlow). A Claude Code routine that scours the web, ranks opportunities, drafts content in Tim's voice, and renders a static HTML dashboard served from GitHub Pages.",
   "scripts": {
-    "dev": "next dev",
-    "build": "prisma generate && prisma db push --skip-generate --accept-data-loss && next build",
-    "start": "next start",
-    "lint": "next lint",
-    "postinstall": "prisma generate",
-    "db:push": "prisma db push",
-    "db:seed": "tsx prisma/seed.ts",
-    "db:studio": "prisma studio",
-    "db:reset": "prisma db push --force-reset && tsx prisma/seed.ts",
-    "agents:run": "tsx scripts/run-agents.ts",
-    "feeds:refresh": "tsx scripts/refresh-feeds.ts"
+    "init": "tsx scripts/init.ts",
+    "pipeline": "tsx scripts/run-pipeline.ts",
+    "render": "tsx scripts/render-only.ts",
+    "agent:feeds": "tsx scripts/agents.ts feeds",
+    "agent:summarise": "tsx scripts/agents.ts summarise",
+    "agent:rank": "tsx scripts/agents.ts rank",
+    "agent:content": "tsx scripts/agents.ts content",
+    "agent:brief": "tsx scripts/agents.ts brief"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.88.0",
-    "@prisma/client": "^6.1.0",
-    "cheerio": "^1.0.0",
-    "next": "15.1.4",
-    "react": "19.0.0",
-    "react-dom": "19.0.0",
     "rss-parser": "^3.13.0",
     "zod": "^3.24.1"
   },
   "devDependencies": {
     "@types/node": "^22.10.5",
-    "@types/react": "19.0.4",
-    "@types/react-dom": "19.0.2",
-    "autoprefixer": "^10.4.20",
-    "eslint": "^9",
-    "eslint-config-next": "15.1.4",
-    "postcss": "^8.5.1",
-    "prisma": "^6.1.0",
-    "tailwindcss": "^3.4.17",
     "tsx": "^4.19.2",
     "typescript": "^5.7.3"
   }

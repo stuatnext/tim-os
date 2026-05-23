@@ -1,0 +1,1184 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Tim OS — Vertical Entertainment Intelligence</title>
+<style>*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --ink: #0F0F0E;
+  --paper: #F8F6F1;
+  --accent: #1D9E75;
+  --gold: #B8960C;
+  --warn: #BA7517;
+  --danger: #B83232;
+  --line: #E8E4D9;
+  --muted: #7A766A;
+}
+html, body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.layout { display: grid; grid-template-columns: 220px 1fr; min-height: 100vh; }
+
+aside {
+  background: rgba(255,255,255,0.45);
+  border-right: 1px solid var(--line);
+  padding: 24px 18px;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+}
+aside .brand {
+  font-size: 11px; letter-spacing: 0.15em; color: var(--muted); text-transform: uppercase;
+}
+aside h1 {
+  font-size: 17px; font-weight: 600; margin: 4px 0 24px; line-height: 1.25;
+}
+aside nav { display: flex; flex-direction: column; gap: 2px; }
+aside nav a {
+  color: var(--ink); padding: 8px 10px; border-radius: 6px; font-size: 13.5px;
+  display: block; transition: background 0.12s;
+}
+aside nav a:hover { background: rgba(232,228,217,0.7); text-decoration: none; }
+aside nav a span { display: block; font-size: 11px; color: var(--muted); margin-top: 1px; }
+aside .footer {
+  margin-top: 32px; padding-top: 16px; border-top: 1px solid var(--line);
+  font-size: 11px; color: var(--muted); line-height: 1.6;
+}
+aside .footer strong { color: var(--ink); display: block; }
+
+main { padding: 40px 48px; max-width: 1080px; }
+section { margin-bottom: 56px; scroll-margin-top: 20px; }
+section.hero { margin-bottom: 40px; padding-bottom: 28px; border-bottom: 1px solid var(--line); }
+
+.kicker { font-size: 11px; letter-spacing: 0.15em; color: var(--muted); text-transform: uppercase; font-weight: 500; }
+h2 { font-size: 24px; font-weight: 600; margin: 8px 0 18px; line-height: 1.2; }
+h3 { font-size: 14px; font-weight: 600; margin-bottom: 10px; }
+
+.headline { font-size: 30px; font-weight: 600; line-height: 1.2; margin: 6px 0 18px; }
+
+.grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+.grid-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
+
+.card {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 18px 20px;
+  box-shadow: 0 1px 0 rgba(15,15,14,0.04), 0 1px 2px rgba(15,15,14,0.04);
+}
+.card.accent-gold { border-left: 3px solid var(--gold); }
+.card.accent-teal { border-left: 3px solid var(--accent); }
+.card.accent-amber { border-left: 3px solid var(--warn); }
+.card.accent-red { border-left: 3px solid var(--danger); }
+
+.stat {
+  background: rgba(232,228,217,0.4);
+  border-radius: 8px;
+  padding: 14px 16px;
+}
+.stat .num { font-size: 24px; font-weight: 600; line-height: 1; }
+.stat .lbl { font-size: 11.5px; color: var(--muted); margin-top: 6px; }
+.stat .sub { font-size: 10.5px; color: var(--muted); margin-top: 3px; }
+
+.pill {
+  display: inline-flex; align-items: center; padding: 2px 8px; border-radius: 4px;
+  font-size: 11px; font-weight: 500; line-height: 1.4;
+}
+.pill-gray { background: rgba(232,228,217,0.6); color: rgba(15,15,14,0.7); }
+.pill-teal { background: rgba(29,158,117,0.15); color: var(--accent); }
+.pill-gold { background: rgba(184,150,12,0.15); color: var(--gold); }
+.pill-amber { background: rgba(186,117,23,0.15); color: var(--warn); }
+.pill-red { background: rgba(184,50,50,0.15); color: var(--danger); }
+.pill-ink { background: var(--ink); color: var(--paper); }
+
+.list { list-style: none; }
+.list li { padding: 8px 0; border-bottom: 1px solid rgba(232,228,217,0.7); font-size: 13.5px; }
+.list li:last-child { border-bottom: none; }
+.list li .title { font-weight: 500; }
+.list li .sub { font-size: 12px; color: var(--muted); margin-top: 2px; }
+
+ol.actions { list-style: none; counter-reset: action; }
+ol.actions li { counter-increment: action; padding: 10px 0; border-bottom: 1px solid rgba(232,228,217,0.7); font-size: 13.5px; }
+ol.actions li:last-child { border-bottom: none; }
+ol.actions li::before {
+  content: counter(action);
+  display: inline-block; width: 22px; height: 22px; line-height: 22px;
+  border-radius: 50%; background: var(--ink); color: var(--paper);
+  text-align: center; font-size: 11px; margin-right: 10px;
+}
+ol.actions .why { font-size: 12px; color: var(--muted); margin-top: 4px; margin-left: 32px; }
+
+.brief-body { font-size: 14px; line-height: 1.7; color: rgba(15,15,14,0.85); white-space: pre-wrap; }
+
+.draft pre {
+  font-family: inherit;
+  font-size: 13.5px; line-height: 1.6;
+  background: rgba(232,228,217,0.3);
+  padding: 14px 16px;
+  border-radius: 6px;
+  white-space: pre-wrap;
+  margin-top: 8px;
+}
+.draft .hook { font-weight: 600; font-size: 14.5px; }
+.draft .meta { font-size: 11.5px; color: var(--muted); margin-top: 8px; font-style: italic; }
+
+.row { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; }
+.tag-row { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 8px; }
+
+.score-bar { height: 4px; background: rgba(232,228,217,0.6); border-radius: 2px; overflow: hidden; margin-top: 6px; }
+.score-bar > div { height: 100%; background: var(--accent); }
+
+.muted { color: var(--muted); }
+.small { font-size: 12px; }
+.mt-2 { margin-top: 8px; }
+.mt-3 { margin-top: 12px; }
+
+footer.updated {
+  margin-top: 56px; padding-top: 18px; border-top: 1px solid var(--line);
+  font-size: 11px; color: var(--muted); display: flex; justify-content: space-between;
+}
+
+@media (max-width: 760px) {
+  .layout { grid-template-columns: 1fr; }
+  aside { position: static; height: auto; }
+  main { padding: 24px 20px; }
+  .grid-2, .grid-3, .grid-4 { grid-template-columns: 1fr; }
+}</style>
+</head>
+<body>
+<div class="layout">
+  <aside>
+    <div class="brand">Tim OS</div>
+    <h1>Vertical entertainment intelligence</h1>
+    <nav>
+      <a href="#brief">Brief<span>Monday morning</span></a>
+      <a href="#focus">Voice & focus<span>This week / quarter</span></a>
+      <a href="#opportunities">Opportunities<span>Awards · speaking · media</span></a>
+      <a href="#intelligence">Intelligence<span>Industry feed</span></a>
+      <a href="#content">Content<span>LinkedIn drafts</span></a>
+      <a href="#relationships">Relationships<span>Network</span></a>
+      <a href="#press">Press<span>Coverage</span></a>
+    </nav>
+    <div class="footer">
+      <strong>Tim Oh</strong>
+      Global CMO &amp; GM, COL Group International<br>
+      Singapore · linkedin.com/in/timjalvin
+    </div>
+  </aside>
+  <main>
+    
+    <div class="grid-4 mt-3">
+      <div class="stat"><div class="num">2</div><div class="lbl">Urgent award deadlines</div></div>
+      <div class="stat"><div class="num">6</div><div class="lbl">Speaking events ahead</div></div>
+      <div class="stat"><div class="num">0</div><div class="lbl">High-relevance news</div><div class="sub">score ≥70</div></div>
+      <div class="stat"><div class="num">0</div><div class="lbl">Drafts awaiting review</div></div>
+    </div>
+    
+      <section class="hero" id="brief">
+        <div class="kicker">Brief</div>
+        <div class="headline">Run the routine to generate this week's brief.</div>
+        <p class="muted small">Once the Claude Code routine runs on Sunday night, Opus will synthesise the last 14 days of intelligence into a Monday-morning plan: industry digest, top actions, content suggestions, relationship moves, and the single opportunity to focus on.</p>
+      </section>
+
+    <section id="focus">
+      <div class="kicker">Voice & focus</div>
+      <h2>What we're pushing on</h2>
+      <div class="grid-2">
+        <div class="card accent-teal"><h3>This week</h3><p class="small">Build LA trip momentum (Jun 1-4). Pitch The Town. Launch Vertical View newsletter. Close Cannes Lions submission.</p></div>
+        <div class="card"><h3>This quarter</h3><ul class="list"><li>Launch The Vertical View LinkedIn newsletter</li><li>Land one Tier 1 podcast (The Town, MFM, or DOAC)</li><li>Submit 5+ award entries</li><li>Cement Vertical 2.0 framing in press</li></ul></div>
+      </div>
+      <div class="card mt-3"><h3>12-month north star</h3><ul class="list"><li>Undisputed English-language authority on micro-drama / vertical content globally</li><li>Wikipedia page live</li><li>Speaking bureau registered</li><li>15K+ LinkedIn followers</li><li>C-level recognition via major awards (40 Under 40, Cannes Lion or equivalent)</li><li>COL Group brand equity matched to commercial ambitions</li></ul></div>
+    </section>
+
+    <section id="opportunities">
+      <div class="kicker">Opportunities</div>
+      <h2>Pipeline</h2>
+
+      <h3 class="mt-3">Awards</h3>
+      <div class="grid-2">
+        
+            <div class="card">
+              <div class="row">
+                <div class="title">StreamTV Awards — Content Partnerships Executive of the Year</div>
+                <span class="pill pill-red">urgent</span>
+              </div>
+              <div class="small muted mt-2">StreamTV · Content Partnerships Executive</div>
+              <div class="small mt-2">
+                Deadline 2026-06-15 <span class="muted">(23d left)</span>
+              </div>
+              <div class="small mt-2">Fit <strong>95/100</strong></div><div class="score-bar"><div style="width:95%"></div></div>
+              <p class="small muted mt-2">Best category match for Tim&#39;s exact role: 1,700+ titles distributed, USD 1M+ B2B revenue, Microdrama in a Box.</p>
+              <div class="tag-row"><span class="pill pill-gray">identified</span></div>
+            </div>
+            <div class="card">
+              <div class="row">
+                <div class="title">Campaign Asia 40 Under 40</div>
+                <span class="pill pill-red">urgent</span>
+              </div>
+              <div class="small muted mt-2">Campaign Asia-Pacific · 40 Under 40</div>
+              <div class="small mt-2">
+                Deadline 2026-06-30 <span class="muted">(38d left)</span>
+              </div>
+              <div class="small mt-2">Fit <strong>92/100</strong></div><div class="score-bar"><div style="width:92%"></div></div>
+              <p class="small muted mt-2">Tim just turned 40 — verify eligibility window. If eligible, his single best personal profile award.</p>
+              <div class="tag-row"><span class="pill pill-gray">identified</span></div>
+            </div>
+            <div class="card">
+              <div class="row">
+                <div class="title">Campaign Asia Media Awards — Media Leader of the Year</div>
+                <span class="pill pill-teal">high</span>
+              </div>
+              <div class="small muted mt-2">Campaign Asia-Pacific · Media Leader of the Year</div>
+              <div class="small mt-2">
+                Deadline 2026-07-14 <span class="muted">(52d left)</span>
+              </div>
+              <div class="small mt-2">Fit <strong>90/100</strong></div><div class="score-bar"><div style="width:90%"></div></div>
+              <p class="small muted mt-2">Strong category fit. Tim&#39;s COL Group earned-media campaign is a perfect case study.</p>
+              <div class="tag-row"><span class="pill pill-gray">identified</span></div>
+            </div>
+            <div class="card">
+              <div class="row">
+                <div class="title">Cannes Lions — Entertainment / Innovation</div>
+                <span class="pill pill-teal">high</span>
+              </div>
+              <div class="small muted mt-2">Cannes Lions · Innovation Lion / Creative Business Transformation</div>
+              <div class="small mt-2">
+                <span class="muted">No deadline set</span>
+              </div>
+              <div class="small mt-2">Fit <strong>78/100</strong></div><div class="score-bar"><div style="width:78%"></div></div>
+              <p class="small muted mt-2">Microdrama in a Box and the distribution network fit Innovation Lion or Creative Business Transformation.</p>
+              <div class="tag-row"><span class="pill pill-gray">identified</span><span class="pill pill-amber">$1200</span></div>
+            </div>
+            <div class="card">
+              <div class="row">
+                <div class="title">AACA Best Micro-Drama</div>
+                <span class="pill pill-teal">high</span>
+              </div>
+              <div class="small muted mt-2">Asian Academy Creative Awards · category TBD</div>
+              <div class="small mt-2">
+                Deadline 2026-08-01 <span class="muted">(70d left)</span>
+              </div>
+              <div class="small mt-2">Fit <strong>88/100</strong></div><div class="score-bar"><div style="width:88%"></div></div>
+              <p class="small muted mt-2">World&#39;s first dedicated micro-drama award. Tim&#39;s home event (Singapore). Submit top 3-5 titles.</p>
+              <div class="tag-row"><span class="pill pill-gray">identified</span><span class="pill pill-amber">$299</span></div>
+            </div>
+            <div class="card">
+              <div class="row">
+                <div class="title">The Drum Awards APAC</div>
+                <span class="pill pill-teal">high</span>
+              </div>
+              <div class="small muted mt-2">The Drum · category TBD</div>
+              <div class="small mt-2">
+                <span class="muted">No deadline set</span>
+              </div>
+              <div class="small mt-2">Fit <strong>75/100</strong></div><div class="score-bar"><div style="width:75%"></div></div>
+              <p class="small muted mt-2">Singapore ceremony — Tim&#39;s home market. Best Content Marketing or Entertainment Marketing.</p>
+              <div class="tag-row"><span class="pill pill-gray">identified</span></div>
+            </div>
+            <div class="card">
+              <div class="row">
+                <div class="title">TEDxSingapore Nomination</div>
+                <span class="pill pill-teal">high</span>
+              </div>
+              <div class="small muted mt-2">TEDxSingapore · category TBD</div>
+              <div class="small mt-2">
+                <span class="muted">No deadline set</span>
+              </div>
+              <div class="small mt-2">Fit <strong>80/100</strong></div><div class="score-bar"><div style="width:80%"></div></div>
+              <p class="small muted mt-2">Self-nomination accepted year-round. Talk concept: &#39;The 90-Second Story.&#39; Picked up by TED.com = global visibility.</p>
+              <div class="tag-row"><span class="pill pill-gray">identified</span></div>
+            </div>
+            <div class="card">
+              <div class="row">
+                <div class="title">Campaign Asia PR Awards</div>
+                <span class="pill pill-teal">high</span>
+              </div>
+              <div class="small muted mt-2">Campaign Asia-Pacific · category TBD</div>
+              <div class="small mt-2">
+                Deadline 2026-07-14 <span class="muted">(52d left)</span>
+              </div>
+              <div class="small mt-2">Fit <strong>85/100</strong></div><div class="score-bar"><div style="width:85%"></div></div>
+              <p class="small muted mt-2">COL Group&#39;s earned-media campaign as B2B PR case study.</p>
+              <div class="tag-row"><span class="pill pill-gray">identified</span></div>
+            </div>
+            <div class="card">
+              <div class="row">
+                <div class="title">ACES — Asia&#39;s Most Inspiring Executives</div>
+                <span class="pill pill-amber">medium</span>
+              </div>
+              <div class="small muted mt-2">ACES · category TBD</div>
+              <div class="small mt-2">
+                <span class="muted">No deadline set</span>
+              </div>
+              <div class="small mt-2">Fit <strong>70/100</strong></div><div class="score-bar"><div style="width:70%"></div></div>
+              <p class="small muted mt-2">Self-nomination open now. Ceremony in November.</p>
+              <div class="tag-row"><span class="pill pill-gray">identified</span></div>
+            </div>
+            <div class="card">
+              <div class="row">
+                <div class="title">MARKETING-INTERACTIVE Marketing Excellence Awards SG</div>
+                <span class="pill pill-amber">medium</span>
+              </div>
+              <div class="small muted mt-2">MARKETING-INTERACTIVE · category TBD</div>
+              <div class="small mt-2">
+                Deadline 2026-06-05 <span class="">(13d left)</span>
+              </div>
+              <div class="small mt-2">Fit <strong>72/100</strong></div><div class="score-bar"><div style="width:72%"></div></div>
+              <p class="small muted mt-2">Best Content Marketing Strategy. Strong COL Group narrative ready.</p>
+              <div class="tag-row"><span class="pill pill-gray">identified</span><span class="pill pill-amber">$270</span></div>
+            </div>
+      </div>
+
+      <h3 class="mt-3">Speaking</h3>
+      <div class="grid-2">
+        
+            <div class="card ">
+              <div class="row">
+                <div class="title">1 Billion Followers Summit</div>
+                <span class="pill pill-gray">done</span>
+              </div>
+              <div class="small muted mt-2">Dubai, UAE · 2026-01-09</div>
+              <div class="small mt-2">Role: Keynote</div>
+              
+              <p class="small muted mt-2">On programme with Will Smith and Mr Beast. 91 LinkedIn reactions.</p>
+            </div>
+            <div class="card ">
+              <div class="row">
+                <div class="title">MIP London 2026</div>
+                <span class="pill pill-gray">done</span>
+              </div>
+              <div class="small muted mt-2">London, UK · 2026-02-24</div>
+              <div class="small mt-2">Role: Headline panellist</div>
+              
+              <p class="small muted mt-2">&#39;Microdrama 2026: The Global Breakout.&#39; THR coverage. 131 LinkedIn reactions.</p>
+            </div>
+            <div class="card ">
+              <div class="row">
+                <div class="title">Hong Kong FILMART 2026</div>
+                <span class="pill pill-gray">done</span>
+              </div>
+              <div class="small muted mt-2">Hong Kong · 2026-03-17</div>
+              <div class="small mt-2">Role: Masterclass leader</div>
+              
+              <p class="small muted mt-2">&#39;From Zero to Vertical&#39; with Latif Sim. Launched Microdrama in a Box + SupermodelMe.</p>
+            </div>
+            <div class="card ">
+              <div class="row">
+                <div class="title">Cairns Crocodiles (presented by Pinterest)</div>
+                <span class="pill pill-gray">done</span>
+              </div>
+              <div class="small muted mt-2">Cairns, Australia · 2026-05-19</div>
+              <div class="small mt-2">Role: Headline speaker</div>
+              
+              <p class="small muted mt-2">&#39;Maestros of Microdramas&#39; with Nikyah Hutchings. Australia 20% payment rate data revealed.</p>
+            </div>
+            <div class="card ">
+              <div class="row">
+                <div class="title">Campaign360</div>
+                <span class="pill pill-gray">done</span>
+              </div>
+              <div class="small muted mt-2">Singapore · 2026-05-20</div>
+              <div class="small mt-2">Role: Speaker, Learning Stage</div>
+              
+              <p class="small muted mt-2">Branded micro-dramas with Sian Ju Tan (Refinery Media).</p>
+            </div>
+            <div class="card accent-teal">
+              <div class="row">
+                <div class="title">LA meetings trip</div>
+                <span class="pill pill-teal">confirmed</span>
+              </div>
+              <div class="small muted mt-2">Los Angeles, USA · 2026-06-01</div>
+              <div class="small mt-2">Role: Attendee</div>
+              <p class="small muted mt-2">Not a speaking event. Platforms, producers, creators, studios, brands. Document with daily LinkedIn posts.</p>
+              
+            </div>
+            <div class="card accent-teal">
+              <div class="row">
+                <div class="title">NEM Dubrovnik — New Europe Market</div>
+                <span class="pill pill-teal">confirmed</span>
+              </div>
+              <div class="small muted mt-2">Dubrovnik, Croatia · 2026-06-08</div>
+              <div class="small mt-2">Role: Panellist</div>
+              <p class="small muted mt-2">&#39;Microdrama: risky business or industry&#39;s next guilty pleasure?&#39; with Maria Rua Aguete, Cassandra Yang, Lukasz Wysocki.</p>
+              
+            </div>
+            <div class="card accent-teal">
+              <div class="row">
+                <div class="title">APOS Bali</div>
+                <span class="pill pill-teal">confirmed</span>
+              </div>
+              <div class="small muted mt-2">Bali, Indonesia · 2026-06-16</div>
+              <div class="small mt-2">Role: Speaker</div>
+              <p class="small muted mt-2">Confirmed on speaker slate. Mansha Daswani on site.</p>
+              
+            </div>
+            <div class="card ">
+              <div class="row">
+                <div class="title">MIPCOM Cannes 2026</div>
+                <span class="pill pill-gold">identified</span>
+              </div>
+              <div class="small muted mt-2">Cannes, France · 2026-10-12</div>
+              <div class="small mt-2">Role: Panellist</div>
+              <p class="small muted mt-2">Natural progression from MIP London. Anne Chan can broker. Pitch Vertical 2.0 keynote.</p>
+              
+            </div>
+            <div class="card ">
+              <div class="row">
+                <div class="title">Asia TV Forum (ATF) 2026</div>
+                <span class="pill pill-gold">identified</span>
+              </div>
+              <div class="small muted mt-2">Singapore · 2026-12-08</div>
+              <div class="small mt-2">Role: Keynote</div>
+              <p class="small muted mt-2">Singapore home market. 2025 masterclass with Enoch Chen was a hit. Aim for keynote slot.</p>
+              
+            </div>
+            <div class="card ">
+              <div class="row">
+                <div class="title">SXSW 2027</div>
+                <span class="pill pill-gold">identified</span>
+              </div>
+              <div class="small muted mt-2">Austin, USA · 2027-03-12</div>
+              <div class="small mt-2">Role: Panellist</div>
+              <p class="small muted mt-2">PanelPicker opens summer 2026. Vertical 2.0 + creator-economy crossover.</p>
+              
+            </div>
+            <div class="card ">
+              <div class="row">
+                <div class="title">ContentAsia Summit 2026</div>
+                <span class="pill pill-gold">identified</span>
+              </div>
+              <div class="small muted mt-2">Singapore · TBD</div>
+              <div class="small mt-2">Role: Keynote / Panellist</div>
+              <p class="small muted mt-2">Janine Stein relationship. Tim is the obvious headline speaker for the micro-drama session.</p>
+              
+            </div>
+      </div>
+
+      <h3 class="mt-3">Media targets</h3>
+      <div class="grid-2">
+        
+            <div class="card accent-gold">
+              <div class="row">
+                <div>
+                  <div class="title">The Town with Matthew Belloni</div>
+                  <div class="small muted">Matthew Belloni · Entertainment business</div>
+                </div>
+                <span class="pill pill-gold">T1</span>
+              </div>
+              <p class="small mt-2"><em>"B2B distribution counterpart to DramaBox. Tim has the rails Hollywood is about to need."</em></p>
+              <div class="tag-row"><span class="pill pill-gray">identified</span><span class="small muted">matthew@puck.news</span></div>
+            </div>
+            <div class="card accent-gold">
+              <div class="row">
+                <div>
+                  <div class="title">Puck</div>
+                  <div class="small muted">Dylan Byers · Media business</div>
+                </div>
+                <span class="pill pill-gold">T1</span>
+              </div>
+              <p class="small mt-2"><em>"The $11B industry Hollywood didn&#39;t see coming. Story tip."</em></p>
+              <div class="tag-row"><span class="pill pill-gray">identified</span><span class="small muted">@dylanbyers</span></div>
+            </div>
+            <div class="card accent-gold">
+              <div class="row">
+                <div>
+                  <div class="title">Bloomberg Screentime</div>
+                  <div class="small muted">Lucas Shaw · Streaming + entertainment</div>
+                </div>
+                <span class="pill pill-gold">T1</span>
+              </div>
+              <p class="small mt-2"><em>"Infrastructure-over-content thesis. 35.7 min/day vs Netflix&#39;s 24.8."</em></p>
+              <div class="tag-row"><span class="pill pill-gray">identified</span><span class="small muted">lshaw31@bloomberg.net</span></div>
+            </div>
+            <div class="card accent-gold">
+              <div class="row">
+                <div>
+                  <div class="title">Business Insider</div>
+                  <div class="small muted">Lucia Moses / Drake Whateley · Media + creators</div>
+                </div>
+                <span class="pill pill-gold">T1</span>
+              </div>
+              <p class="small mt-2"><em>"How a Singaporean built the global rails for vertical drama."</em></p>
+              <div class="tag-row"><span class="pill pill-gray">identified</span><span class="small muted">lmoses@insider.com</span></div>
+            </div>
+            <div class="card accent-gold">
+              <div class="row">
+                <div>
+                  <div class="title">Variety</div>
+                  <div class="small muted">Patrick Frater · International TV/film</div>
+                </div>
+                <span class="pill pill-gold">T1</span>
+              </div>
+              <p class="small mt-2"><em>"Vertical 2.0 framing exclusive. From format to category."</em></p>
+              <div class="tag-row"><span class="pill pill-gray">responded</span></div>
+            </div>
+            <div class="card accent-gold">
+              <div class="row">
+                <div>
+                  <div class="title">Deadline</div>
+                  <div class="small muted">— · Deal coverage</div>
+                </div>
+                <span class="pill pill-gold">T1</span>
+              </div>
+              <p class="small mt-2"><em>"Major partnership reveals (MENA, UK, LatAm)."</em></p>
+              <div class="tag-row"><span class="pill pill-gray">responded</span></div>
+            </div>
+            <div class="card accent-gold">
+              <div class="row">
+                <div>
+                  <div class="title">The Hollywood Reporter</div>
+                  <div class="small muted">— · Entertainment</div>
+                </div>
+                <span class="pill pill-gold">T1</span>
+              </div>
+              <p class="small mt-2"><em>"MIP London panel covered. Follow up with Vertical 2.0 op-ed."</em></p>
+              <div class="tag-row"><span class="pill pill-gray">responded</span></div>
+            </div>
+            <div class="card ">
+              <div class="row">
+                <div>
+                  <div class="title">ContentAsia</div>
+                  <div class="small muted">Janine Stein · Asian content business</div>
+                </div>
+                <span class="pill pill-gray">T2</span>
+              </div>
+              <p class="small mt-2"><em>"Ongoing exclusives. Janine breaks every COL update."</em></p>
+              <div class="tag-row"><span class="pill pill-gray">responded</span></div>
+            </div>
+            <div class="card ">
+              <div class="row">
+                <div>
+                  <div class="title">ScreenMDM</div>
+                  <div class="small muted">Mansha Daswani · Micro-drama trade</div>
+                </div>
+                <span class="pill pill-gray">T2</span>
+              </div>
+              <p class="small mt-2"><em>"Continued coverage. Video and print."</em></p>
+              <div class="tag-row"><span class="pill pill-gray">responded</span></div>
+            </div>
+            <div class="card ">
+              <div class="row">
+                <div>
+                  <div class="title">Campaign Asia-Pacific</div>
+                  <div class="small muted">— · Marketing</div>
+                </div>
+                <span class="pill pill-gray">T2</span>
+              </div>
+              <p class="small mt-2"><em>"Branded micro-drama category — P&amp;G, Unilever, Crocs."</em></p>
+              <div class="tag-row"><span class="pill pill-gray">responded</span></div>
+            </div>
+            <div class="card ">
+              <div class="row">
+                <div>
+                  <div class="title">TVBIZZ</div>
+                  <div class="small muted">Yako Molhov · International TV</div>
+                </div>
+                <span class="pill pill-gray">T2</span>
+              </div>
+              <p class="small mt-2"><em>"Vertical 2.0 follow-up to &#39;Not a Trend, A Behavioural Shift&#39;."</em></p>
+              <div class="tag-row"><span class="pill pill-gray">responded</span></div>
+            </div>
+            <div class="card ">
+              <div class="row">
+                <div>
+                  <div class="title">My First Million</div>
+                  <div class="small muted">Shaan Puri / Sam Parr · Founder economics</div>
+                </div>
+                <span class="pill pill-gray">T2</span>
+              </div>
+              <p class="small mt-2"><em>"$250K → $15M per title. 77-min sessions. Coin-based monetisation."</em></p>
+              <div class="tag-row"><span class="pill pill-gray">identified</span><span class="small muted">@ShaanVP</span></div>
+            </div>
+            <div class="card ">
+              <div class="row">
+                <div>
+                  <div class="title">The Colin &amp; Samir Show</div>
+                  <div class="small muted">Colin Rosenblum / Samir Chaudry · Creator economy</div>
+                </div>
+                <span class="pill pill-gray">T2</span>
+              </div>
+              <p class="small mt-2"><em>"Microdrama in a Box: any creator can launch a platform in 30 days."</em></p>
+              <div class="tag-row"><span class="pill pill-gray">identified</span><span class="small muted">colinandsamir.com</span></div>
+            </div>
+            <div class="card ">
+              <div class="row">
+                <div>
+                  <div class="title">Decoder (The Verge)</div>
+                  <div class="small muted">Nilay Patel · Platform economics</div>
+                </div>
+                <span class="pill pill-gray">T2</span>
+              </div>
+              <p class="small mt-2"><em>"Shopify of micro-drama. Org chart story."</em></p>
+              <div class="tag-row"><span class="pill pill-gray">identified</span></div>
+            </div>
+            <div class="card ">
+              <div class="row">
+                <div>
+                  <div class="title">Vitrina LeaderSpeak</div>
+                  <div class="small muted">Atul Phadnis · Media tech</div>
+                </div>
+                <span class="pill pill-gray">T2</span>
+              </div>
+              <p class="small mt-2"><em>"Follow-up episode focused on Vertical 2.0."</em></p>
+              <div class="tag-row"><span class="pill pill-gray">responded</span></div>
+            </div>
+            <div class="card ">
+              <div class="row">
+                <div>
+                  <div class="title">Analyse Asia</div>
+                  <div class="small muted">Bernard Leong · Asia tech / business</div>
+                </div>
+                <span class="pill pill-gray">T2</span>
+              </div>
+              <p class="small mt-2"><em>"Singapore-based; 500+ eps. East-West translation story."</em></p>
+              <div class="tag-row"><span class="pill pill-gray">identified</span></div>
+            </div>
+      </div>
+    </section>
+
+      <section id="intelligence">
+        <div class="kicker">Intelligence</div>
+        <h2>Industry feed</h2>
+        <div class="card">
+          <p class="small muted">No items yet. The feed-refresh routine pulls from Variety, Deadline, THR, Campaign Asia and others, filtered to Tim's beat. The summariser then scores each one 0–100 for relevance.</p>
+        </div>
+      </section>
+
+      <section id="content">
+        <div class="kicker">Content</div>
+        <h2>LinkedIn drafts</h2>
+        <div class="card">
+          <p class="small muted">No drafts yet. The content agent generates 3 drafts at a time in Tim's voice — data-led, contrarian, vulnerability+anchor — using the cached voice bank.</p>
+        </div>
+      </section>
+
+    <section id="relationships">
+      <div class="kicker">Relationships</div>
+      <h2>Network</h2>
+      <p class="small muted">The people who can make Tim and COL rich. Tier 1 are family. Tier 3 is who's next.</p>
+      
+          <h3 class="mt-3">Tier 1 — Closest allies</h3>
+          <div class="grid-2">
+            
+                <div class="card accent-gold">
+                  <div class="row">
+                    <div>
+                      <div class="title">Stuart Crowley</div>
+                      <div class="small muted">PR Representative · NEXT.io</div>
+                    </div>
+                    <span class="pill pill-gold">team</span>
+                  </div>
+                  <p class="small mt-2" style="font-style:italic;">Full strategic knowledge of Tim&#39;s position, voice, and goals.</p>
+                  <p class="small muted mt-2">Active campaign partnership. Executes the entire visibility campaign.</p>
+                </div>
+                <div class="card accent-gold">
+                  <div class="row">
+                    <div>
+                      <div class="title">Maria Rua Aguete</div>
+                      <div class="small muted">Global Head of Media &amp; Entertainment · Omdia</div>
+                    </div>
+                    <span class="pill pill-gold">industry</span>
+                  </div>
+                  <p class="small mt-2" style="font-style:italic;">Data anchor. Her $11B/$22B market sizing is Tim&#39;s primary proof point.</p>
+                  <p class="small muted mt-2">&#39;A sister.&#39; Co-panellist MIP London, DICM, NEM Dubrovnik.</p>
+                </div>
+                <div class="card accent-gold">
+                  <div class="row">
+                    <div>
+                      <div class="title">Janine Stein</div>
+                      <div class="small muted">Founder &amp; Editorial Director · ContentAsia</div>
+                    </div>
+                    <span class="pill pill-gold">media</span>
+                  </div>
+                  <p class="small mt-2" style="font-style:italic;">Subscription-relationship; multiple ContentAsia features.</p>
+                  <p class="small muted mt-2">Most consistent media amplifier. Broke the CMO news.</p>
+                </div>
+          </div>
+          <h3 class="mt-3">Tier 2 — Active partners</h3>
+          <div class="grid-2">
+            
+                <div class="card accent-teal">
+                  <div class="row">
+                    <div>
+                      <div class="title">Manjyot Sandhu</div>
+                      <div class="small muted">Co-Founder · Narativ Media</div>
+                    </div>
+                    <span class="pill pill-teal">partner</span>
+                  </div>
+                  <p class="small mt-2" style="font-style:italic;">Bridge to Middle East/Africa markets. &#39;Absolute rock star.&#39;</p>
+                  <p class="small muted mt-2">MENA / CIS / Africa distribution. At NEM Dubrovnik together.</p>
+                </div>
+                <div class="card accent-teal">
+                  <div class="row">
+                    <div>
+                      <div class="title">Latif Sim</div>
+                      <div class="small muted">Founder · BeLive Technology</div>
+                    </div>
+                    <span class="pill pill-teal">partner</span>
+                  </div>
+                  <p class="small mt-2" style="font-style:italic;">SaaS infrastructure partner. &#39;Talks about succeeding together and actually follows through.&#39;</p>
+                  <p class="small muted mt-2">Microdrama in a Box co-creator. Joint MIP London + FILMART presentations.</p>
+                </div>
+                <div class="card accent-teal">
+                  <div class="row">
+                    <div>
+                      <div class="title">Karen Seah</div>
+                      <div class="small muted">Founder · Refinery Media</div>
+                    </div>
+                    <span class="pill pill-teal">partner</span>
+                  </div>
+                  <p class="small mt-2" style="font-style:italic;">Reality IP for vertical adaptation. &#39;Not afraid to fail and goes all in.&#39;</p>
+                  <p class="small muted mt-2">SupermodelMe vertical adaptation deal. First reality format to go vertical.</p>
+                </div>
+                <div class="card accent-teal">
+                  <div class="row">
+                    <div>
+                      <div class="title">Anatolii Kasianov</div>
+                      <div class="small muted">Executive · HOLYWATER TECH</div>
+                    </div>
+                    <span class="pill pill-teal">industry</span>
+                  </div>
+                  <p class="small mt-2" style="font-style:italic;">Peer-level European micro-drama operator. High alignment.</p>
+                  <p class="small muted mt-2">Met at MIP London. &#39;Could have spoken for hours.&#39;</p>
+                </div>
+                <div class="card accent-teal">
+                  <div class="row">
+                    <div>
+                      <div class="title">Mansha Daswani</div>
+                      <div class="small muted">Founder · MD Media Biz / ScreenMDM</div>
+                    </div>
+                    <span class="pill pill-teal">media</span>
+                  </div>
+                  <p class="small mt-2" style="font-style:italic;">Reliable trade amplifier; needs ongoing exclusives.</p>
+                  <p class="small muted mt-2">Regular coverage. Video + print. APOS Bali on-site.</p>
+                </div>
+                <div class="card accent-teal">
+                  <div class="row">
+                    <div>
+                      <div class="title">Cassandra Yang</div>
+                      <div class="small muted">Founder · RisingJoy</div>
+                    </div>
+                    <span class="pill pill-teal">industry</span>
+                  </div>
+                  <p class="small mt-2" style="font-style:italic;">Industry peer who shares stages.</p>
+                  <p class="small muted mt-2">Co-panellist AACA, DICM, NEM Dubrovnik.</p>
+                </div>
+                <div class="card accent-teal">
+                  <div class="row">
+                    <div>
+                      <div class="title">Alex Montalvo</div>
+                      <div class="small muted">Founder · GammaTime</div>
+                    </div>
+                    <span class="pill pill-teal">industry</span>
+                  </div>
+                  <p class="small mt-2" style="font-style:italic;">US-rooted micro-drama operator; bridge to Hollywood.</p>
+                  <p class="small muted mt-2">MIP London co-panellist.</p>
+                </div>
+                <div class="card accent-teal">
+                  <div class="row">
+                    <div>
+                      <div class="title">Atul Phadnis</div>
+                      <div class="small muted">Founder · Vitrina AI</div>
+                    </div>
+                    <span class="pill pill-teal">media</span>
+                  </div>
+                  <p class="small mt-2" style="font-style:italic;">Data relationship; uses COL data in coverage.</p>
+                  <p class="small muted mt-2">Multiple interviews. Vitrina LeaderSpeak episode.</p>
+                </div>
+                <div class="card accent-teal">
+                  <div class="row">
+                    <div>
+                      <div class="title">Wenwen Han</div>
+                      <div class="small muted">Lead · Short Drama Alliance</div>
+                    </div>
+                    <span class="pill pill-teal">industry</span>
+                  </div>
+                  <p class="small mt-2" style="font-style:italic;">Cross-platform industry convener.</p>
+                  <p class="small muted mt-2">Organised online forum Tim spoke at.</p>
+                </div>
+                <div class="card accent-teal">
+                  <div class="row">
+                    <div>
+                      <div class="title">Anne Chan</div>
+                      <div class="small muted">Principal · AR Asia Production Limited</div>
+                    </div>
+                    <span class="pill pill-teal">partner</span>
+                  </div>
+                  <p class="small mt-2" style="font-style:italic;">Distribution representation in Western markets.</p>
+                  <p class="small muted mt-2">Represents COL at MIPCOM.</p>
+                </div>
+                <div class="card accent-teal">
+                  <div class="row">
+                    <div>
+                      <div class="title">Philip McGoldrick</div>
+                      <div class="small muted">Co-Founder · Tattle TV</div>
+                    </div>
+                    <span class="pill pill-teal">partner</span>
+                  </div>
+                  <p class="small mt-2" style="font-style:italic;">UK distribution anchor.</p>
+                  <p class="small muted mt-2">UK&#39;s first vertical entertainment app. Deal signed at MIP London.</p>
+                </div>
+                <div class="card accent-teal">
+                  <div class="row">
+                    <div>
+                      <div class="title">Enoch Chen</div>
+                      <div class="small muted">CTO · COL Group / FlareFlow</div>
+                    </div>
+                    <span class="pill pill-teal">team</span>
+                  </div>
+                  <p class="small mt-2" style="font-style:italic;">Technical co-presenter for keynotes.</p>
+                  <p class="small muted mt-2">Tim&#39;s tech counterpart. ATF masterclass co-presenter.</p>
+                </div>
+                <div class="card accent-teal">
+                  <div class="row">
+                    <div>
+                      <div class="title">Jay Blumenfield</div>
+                      <div class="small muted">Host · Jay &amp; Tony Show / Vertically Challenged</div>
+                    </div>
+                    <span class="pill pill-teal">media</span>
+                  </div>
+                  <p class="small mt-2" style="font-style:italic;">US-side podcast amplifier.</p>
+                  <p class="small muted mt-2">2-part podcast series with Tim.</p>
+                </div>
+                <div class="card accent-teal">
+                  <div class="row">
+                    <div>
+                      <div class="title">Virginia Lim</div>
+                      <div class="small muted">CEO · Mediacorp</div>
+                    </div>
+                    <span class="pill pill-teal">singapore</span>
+                  </div>
+                  <p class="small mt-2" style="font-style:italic;">Singapore institutional ally; Mediacorp partnership potential.</p>
+                  <p class="small muted mt-2">Tim&#39;s former boss at Sony Pictures. Caught up at Star Awards 2026.</p>
+                </div>
+                <div class="card accent-teal">
+                  <div class="row">
+                    <div>
+                      <div class="title">Lisa Cam</div>
+                      <div class="small muted">Journalist · South China Morning Post</div>
+                    </div>
+                    <span class="pill pill-teal">media</span>
+                  </div>
+                  <p class="small mt-2" style="font-style:italic;">Bridge into Chinese-language Western media.</p>
+                  <p class="small muted mt-2">Wrote SCMP full-page feature. Tim &#39;clicked with instantly.&#39;</p>
+                </div>
+          </div>
+          <h3 class="mt-3">Tier 3 — Strategic targets</h3>
+          <div class="grid-2">
+            
+                <div class="card accent-amber">
+                  <div class="row">
+                    <div>
+                      <div class="title">Matthew Belloni</div>
+                      <div class="small muted">Founding Partner · Puck / The Town podcast</div>
+                    </div>
+                    <span class="pill pill-amber">media</span>
+                  </div>
+                  <p class="small mt-2" style="font-style:italic;">Highest-priority single media relationship. One pitch can unlock The Town + Puck feature.</p>
+                  <p class="small muted mt-2">Already covered DramaBox. Tim is the B2B counterpart.</p>
+                </div>
+                <div class="card accent-amber">
+                  <div class="row">
+                    <div>
+                      <div class="title">Lucas Shaw</div>
+                      <div class="small muted">Reporter · Bloomberg Screentime</div>
+                    </div>
+                    <span class="pill pill-amber">media</span>
+                  </div>
+                  <p class="small mt-2" style="font-style:italic;">Tier 1 financial press; would establish institutional credibility.</p>
+                  <p class="small muted mt-2">Streaming/entertainment beat.</p>
+                </div>
+                <div class="card accent-amber">
+                  <div class="row">
+                    <div>
+                      <div class="title">Shaan Puri</div>
+                      <div class="small muted">Co-Host · My First Million</div>
+                    </div>
+                    <span class="pill pill-amber">media</span>
+                  </div>
+                  <p class="small mt-2" style="font-style:italic;">$250K → $15M unit economics story; perfect format fit.</p>
+                  <p class="small muted mt-2">Numbers-first founder audience.</p>
+                </div>
+                <div class="card accent-amber">
+                  <div class="row">
+                    <div>
+                      <div class="title">Colin &amp; Samir</div>
+                      <div class="small muted">Hosts · The Colin &amp; Samir Show</div>
+                    </div>
+                    <span class="pill pill-amber">media</span>
+                  </div>
+                  <p class="small mt-2" style="font-style:italic;">Creator white-label angle for Microdrama in a Box.</p>
+                  <p class="small muted mt-2">Creator-economy audience.</p>
+                </div>
+                <div class="card accent-amber">
+                  <div class="row">
+                    <div>
+                      <div class="title">Connie Chan</div>
+                      <div class="small muted">General Partner · a16z</div>
+                    </div>
+                    <span class="pill pill-amber">investor</span>
+                  </div>
+                  <p class="small mt-2" style="font-style:italic;">Warm intro into a16z podcast and West Coast investor network.</p>
+                  <p class="small muted mt-2">Consumer + China crossover thesis.</p>
+                </div>
+          </div>
+    </section>
+
+    <section id="press">
+      <div class="kicker">Press</div>
+      <h2>Coverage record</h2>
+      <h3 class="mt-3">Tier 1 — Global trade & mainstream</h3><div style="display:flex; flex-direction:column; gap:10px;">
+    <div class="card accent-gold">
+      <div class="row">
+        <div>
+          <div class="kicker">Variety</div>
+          <div class="title">FlareFlow launches Vertical Drama Love Fan Awards in LA</div>
+          <p class="small muted mt-2">Exclusive: Inaugural LA awards. Sponsors include BuzzFeed, halogen.cinema, Eris Talent Agency.</p>
+        </div>
+        <div style="display:flex; flex-direction:column; align-items:flex-end; gap:4px;">
+          <span class="pill pill-gold">article</span>
+          
+        </div>
+      </div>
+    </div>
+    <div class="card accent-gold">
+      <div class="row">
+        <div>
+          <div class="kicker">Variety</div>
+          <div class="title">COL Group&#39;s distribution network expands to 1,700+ titles</div>
+          <p class="small muted mt-2">Exclusive on Tim&#39;s distribution build-out across 10+ territories.</p>
+        </div>
+        <div style="display:flex; flex-direction:column; align-items:flex-end; gap:4px;">
+          <span class="pill pill-gold">article</span>
+          
+        </div>
+      </div>
+    </div>
+    <div class="card accent-gold">
+      <div class="row">
+        <div>
+          <div class="kicker">Variety</div>
+          <div class="title">SupermodelMe goes vertical — first reality TV adaptation in micro-drama</div>
+          <p class="small muted mt-2">Exclusive on Tim&#39;s deal with Refinery Media.</p>
+        </div>
+        <div style="display:flex; flex-direction:column; align-items:flex-end; gap:4px;">
+          <span class="pill pill-gold">article</span>
+          
+        </div>
+      </div>
+    </div>
+    <div class="card accent-gold">
+      <div class="row">
+        <div>
+          <div class="kicker">Variety</div>
+          <div class="title">From Rags to Rank One sequel greenlit</div>
+          <p class="small muted mt-2">One of the first microdrama franchises to be developed as serialised IP.</p>
+        </div>
+        <div style="display:flex; flex-direction:column; align-items:flex-end; gap:4px;">
+          <span class="pill pill-gold">article</span>
+          
+        </div>
+      </div>
+    </div>
+    <div class="card accent-gold">
+      <div class="row">
+        <div>
+          <div class="kicker">Deadline</div>
+          <div class="title">Microdrama in a Box: COL Group and BeLive Technology launch turnkey SaaS</div>
+          <p class="small muted mt-2">Launch SaaS — any broadcaster can run a vertical platform in 30 days.</p>
+        </div>
+        <div style="display:flex; flex-direction:column; align-items:flex-end; gap:4px;">
+          <span class="pill pill-gold">article</span>
+          <span class="small muted">2026-03-18</span>
+        </div>
+      </div>
+    </div>
+    <div class="card accent-gold">
+      <div class="row">
+        <div>
+          <div class="kicker">Deadline</div>
+          <div class="title">COL Group inks Narativ Media MENA/CIS/Africa distribution deal</div>
+          
+        </div>
+        <div style="display:flex; flex-direction:column; align-items:flex-end; gap:4px;">
+          <span class="pill pill-gold">article</span>
+          
+        </div>
+      </div>
+    </div>
+    <div class="card accent-gold">
+      <div class="row">
+        <div>
+          <div class="kicker">The Hollywood Reporter</div>
+          <div class="title">Microdrama 2026: The Global Breakout (MIP London coverage)</div>
+          <p class="small muted mt-2">Coverage of Tim&#39;s MIP London panel. &#39;I can watch this on the toilet&#39; quote went viral.</p>
+        </div>
+        <div style="display:flex; flex-direction:column; align-items:flex-end; gap:4px;">
+          <span class="pill pill-gold">article</span>
+          <span class="small muted">2026-02-25</span>
+        </div>
+      </div>
+    </div>
+    <div class="card accent-gold">
+      <div class="row">
+        <div>
+          <div class="kicker">South China Morning Post</div>
+          <div class="title">How a Singaporean is building China&#39;s micro-drama bridge to the world</div>
+          <p class="small muted mt-2">Full-page feature by Lisa Cam. Tim&#39;s favourite interview to date.</p>
+        </div>
+        <div style="display:flex; flex-direction:column; align-items:flex-end; gap:4px;">
+          <span class="pill pill-gold">article</span>
+          
+        </div>
+      </div>
+    </div>
+    <div class="card accent-gold">
+      <div class="row">
+        <div>
+          <div class="kicker">Associated Press</div>
+          <div class="title">The Mindset Advantage podcast feature</div>
+          
+        </div>
+        <div style="display:flex; flex-direction:column; align-items:flex-end; gap:4px;">
+          <span class="pill pill-gold">podcast</span>
+          
+        </div>
+      </div>
+    </div>
+    <div class="card accent-gold">
+      <div class="row">
+        <div>
+          <div class="kicker">Business Insider</div>
+          <div class="title">The Mindset Advantage podcast coverage</div>
+          
+        </div>
+        <div style="display:flex; flex-direction:column; align-items:flex-end; gap:4px;">
+          <span class="pill pill-gold">podcast</span>
+          
+        </div>
+      </div>
+    </div></div>
+      <h3 class="mt-3">Tier 2 — Trade & specialist</h3><div style="display:flex; flex-direction:column; gap:10px;">
+    <div class="card ">
+      <div class="row">
+        <div>
+          <div class="kicker">TVBIZZ</div>
+          <div class="title">Microdrama is Not a Trend, it&#39;s a Behavioral Shift</div>
+          <p class="small muted mt-2">Yako Molhov interview. Tim&#39;s most-quoted headline.</p>
+        </div>
+        <div style="display:flex; flex-direction:column; align-items:flex-end; gap:4px;">
+          <span class="pill pill-gold">article</span>
+          
+        </div>
+      </div>
+    </div>
+    <div class="card ">
+      <div class="row">
+        <div>
+          <div class="kicker">ContentAsia</div>
+          <div class="title">Tim Oh appointed Global CMO of FlareFlow</div>
+          <p class="small muted mt-2">Janine Stein broke the CMO appointment news.</p>
+        </div>
+        <div style="display:flex; flex-direction:column; align-items:flex-end; gap:4px;">
+          <span class="pill pill-gold">article</span>
+          
+        </div>
+      </div>
+    </div>
+    <div class="card ">
+      <div class="row">
+        <div>
+          <div class="kicker">ContentAsia</div>
+          <div class="title">COL Group commits $45M to 180 originals in 2026</div>
+          
+        </div>
+        <div style="display:flex; flex-direction:column; align-items:flex-end; gap:4px;">
+          <span class="pill pill-gold">article</span>
+          
+        </div>
+      </div>
+    </div>
+    <div class="card ">
+      <div class="row">
+        <div>
+          <div class="kicker">ScreenMDM</div>
+          <div class="title">Inside the Hengqin-Macau mega studio</div>
+          <p class="small muted mt-2">Mansha Daswani feature on COL&#39;s 220,000 sqm studio.</p>
+        </div>
+        <div style="display:flex; flex-direction:column; align-items:flex-end; gap:4px;">
+          <span class="pill pill-gold">article</span>
+          
+        </div>
+      </div>
+    </div>
+    <div class="card ">
+      <div class="row">
+        <div>
+          <div class="kicker">MARKETECH APAC</div>
+          <div class="title">Tim Oh on making Singapore COL&#39;s global launchpad</div>
+          
+        </div>
+        <div style="display:flex; flex-direction:column; align-items:flex-end; gap:4px;">
+          <span class="pill pill-gold">article</span>
+          
+        </div>
+      </div>
+    </div>
+    <div class="card ">
+      <div class="row">
+        <div>
+          <div class="kicker">Vitrina AI</div>
+          <div class="title">Vitrina LeaderSpeak: Timothy Oh on COL&#39;s production model</div>
+          <p class="small muted mt-2">Deep operational interview. Atul Phadnis. &#39;We test 6 versions of the same story.&#39;</p>
+        </div>
+        <div style="display:flex; flex-direction:column; align-items:flex-end; gap:4px;">
+          <span class="pill pill-gold">podcast</span>
+          
+        </div>
+      </div>
+    </div>
+    <div class="card ">
+      <div class="row">
+        <div>
+          <div class="kicker">R:ID (real-reel.com)</div>
+          <div class="title">Timothy Oh on Vertical Drama and Global Content Judgment</div>
+          <p class="small muted mt-2">Tim&#39;s self-described favourite interview.</p>
+        </div>
+        <div style="display:flex; flex-direction:column; align-items:flex-end; gap:4px;">
+          <span class="pill pill-gold">article</span>
+          
+        </div>
+      </div>
+    </div>
+    <div class="card ">
+      <div class="row">
+        <div>
+          <div class="kicker">Jay &amp; Tony Show — Vertically Challenged</div>
+          <div class="title">Inside the Mind of Timothy Oh: The Vertical Visionary Who Outran the Mob</div>
+          <p class="small muted mt-2">Apple Podcasts episode #109, 2-part series. &#39;Survived dinner with Taiwanese mafia.&#39;</p>
+        </div>
+        <div style="display:flex; flex-direction:column; align-items:flex-end; gap:4px;">
+          <span class="pill pill-gold">podcast</span>
+          
+        </div>
+      </div>
+    </div></div>
+    </section>
+    <footer class="updated">
+      <span>Generated 2026-05-23 04:32:35 UTC</span>
+      <span>No agent runs yet</span>
+    </footer>
+  </main>
+</div>
+</body>
+</html>

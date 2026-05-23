@@ -1,109 +1,142 @@
 # Tim OS
 
-A live brand & opportunity intelligence dashboard for **Timothy Oh** — Global CMO & GM of COL Group International (ReelShort / FlareFlow).
+A **Claude Code routine** that runs Tim's brand-intelligence pipeline on a schedule, then commits an updated static HTML dashboard that's served from GitHub Pages.
 
-Tim OS continuously:
+Built for **Timothy Oh** — Global CMO & GM of COL Group International (ReelShort / FlareFlow).
 
-1. **Scours the web** for industry signals across Variety, Deadline, The Hollywood Reporter, Campaign Asia, TechCrunch and friends — filtered to Tim's beat (micro-drama, vertical content, COL/FlareFlow/ReelShort, competitors).
-2. **Summarises and scores** every relevant item against Tim's positioning (Haiku 4.5).
-3. **Re-ranks opportunities** — awards, speaking, media pitches — against this week's campaign focus (Sonnet 4.6).
-4. **Generates LinkedIn drafts** in Tim's voice from a cached voice bank of his verbatim quotes (Sonnet 4.6).
-5. **Produces a weekly Monday brief** — the artifact Tim opens with his first coffee, Opus 4.7 reasoning over the week's intelligence.
+## How it works
 
-It's a self-service Next.js dashboard Tim uses to approve drafts, mark awards submitted, and tune his voice.
+```
+              ┌────────────────────────────────────────┐
+   Scheduled  │ Claude Code routine (Sun 22:00 UTC)    │
+   trigger    │                                        │
+              │  1. refresh-feeds  → RSS scrape         │
+              │  2. summarise      → Haiku 4.5          │
+              │  3. rank-opps      → Sonnet 4.6         │
+              │  4. content        → Sonnet 4.6         │
+              │  5. weekly-brief   → Opus 4.7           │
+              │  6. render         → docs/index.html    │
+              │  7. git commit + push                   │
+              └────────────────────────────────────────┘
+                                ↓
+                ┌──────────────────────────────────┐
+                │ GitHub Pages serves docs/        │
+                │ Tim opens timothyoh.github.io/   │
+                └──────────────────────────────────┘
+```
 
-## Architecture
+- **No database, no server, no Vercel** — state is JSON in `data/state/`, output is a single HTML file in `docs/`.
+- **Every change is a git commit** — full audit trail of what the AI said, when, and why.
+- **Mutations** ("approve draft", "mark posted", "change this week's focus") happen by chatting with Claude Code — it edits the JSON files; the next routine run regenerates the HTML.
+- **Prompt caching wired in** — Tim's profile and voice bank are `cache_control: ephemeral` on every Claude call, so cached calls pay 10% on those tokens.
 
-- **Next.js 15** App Router with React server components.
-- **Prisma + SQLite** (swap to Postgres in production by changing the `provider` in `prisma/schema.prisma`).
-- **Anthropic SDK** with prompt caching: Tim's profile and voice bank are marked `cache_control: ephemeral` on every call.
-- **Tailwind** with a custom palette (ink / paper / accent gold).
-- **Tiered model selection**:
-  - `claude-haiku-4-5-20251001` → RSS summariser (cheap, high-volume).
-  - `claude-sonnet-4-6` → opportunity ranker & content generator (reasoning + voice).
-  - `claude-opus-4-7` → weekly brief (the artifact Tim reads).
+## Tiered model selection
 
-## Quickstart
+| Agent | Model | Why |
+|---|---|---|
+| RSS summariser | `claude-haiku-4-5-20251001` | High-volume, cheap, fast triage |
+| Opportunity ranker | `claude-sonnet-4-6` | Reasoning over fit, priority |
+| Content generator | `claude-sonnet-4-6` | Voice-calibrated drafting |
+| Weekly brief | `claude-opus-4-7` | The Monday artifact Tim reads |
+
+## Setup
+
+### 1. First init (local, one-time)
 
 ```bash
-# 1. Install
 npm install
-
-# 2. Configure
-cp .env.example .env.local
-# Edit .env.local and set ANTHROPIC_API_KEY (and optionally AGENT_SECRET)
-
-# 3. Database
-npm run db:push     # create schema
-npm run db:seed     # hydrate from Tim's intelligence repos
-
-# 4. Dev server
-npm run dev
-# → http://localhost:3000
+cp .env.example .env.local && vi .env.local   # set ANTHROPIC_API_KEY
+npm run init                                   # hydrate JSON state from seed data
 ```
 
-## Agents
+This produces `data/state/*.json` and a first `docs/index.html`.
 
-| Agent | Model | Endpoint | Cron |
-|---|---|---|---|
-| RSS refresh | n/a | `POST /api/feeds/refresh` | every 30 min |
-| Summariser | Haiku 4.5 | `POST /api/agents/summarise` | every hour |
-| Opportunity ranker | Sonnet 4.6 | `POST /api/agents/rank-opportunities` | daily |
-| Content generator | Sonnet 4.6 | `POST /api/agents/generate-content` | on-demand from UI |
-| Weekly brief | Opus 4.7 | `POST /api/agents/brief` | Mondays 06:00 SGT |
+### 2. Enable GitHub Pages
 
-All `/api/agents/*` and `/api/feeds/*` endpoints check `Authorization: Bearer $AGENT_SECRET`. Leave `AGENT_SECRET` empty in local dev to disable.
+Repo Settings → Pages → Source: **Deploy from a branch** → Branch: `main` / folder: `/docs`. Tim's dashboard is now at `https://stuatnext.github.io/tim-os/`.
 
-Or run the whole pipeline locally:
+### 3. Wire up the Claude Code routine
+
+In Claude Code on the web, create a **scheduled trigger** (routine) on this repo:
+
+- **Schedule:** `0 22 * * 0` (Sunday 22:00 UTC ≈ Monday 06:00 SGT)
+- **Prompt:** *"Run the Tim OS pipeline. See `CLAUDE.md` for the exact steps."*
+
+The routine will inherit your `ANTHROPIC_API_KEY` from the Claude Code environment — no separate provisioning needed.
+
+You can also create a more frequent routine (e.g. every 4 hours, `0 */4 * * *`) that runs `npm run pipeline -- --no-brief` to keep the intelligence feed fresh without re-running Opus.
+
+## CLI reference
 
 ```bash
-npm run agents:run
+npm run init           # one-time: seed JSON state + render HTML
+npm run pipeline       # full sequence: feeds → summarise → rank → content → brief → render
+npm run pipeline -- --no-brief    # skip the Opus brief (between Mondays)
+npm run pipeline -- --brief       # force brief regen (mid-week)
+npm run render         # re-render HTML only (after manual JSON edits)
+
+npm run agent:feeds       # one stage at a time
+npm run agent:summarise
+npm run agent:rank
+npm run agent:content
+npm run agent:brief
 ```
 
-## Dashboard pages
+## File layout
 
-- **Brief** — Tim's Monday morning artifact (industry digest, top actions, content suggestions, relationship moves, opportunity focus).
-- **Opportunities** — awards, speaking, media targets. Re-rank with one click.
-- **Intelligence** — the industry feed, scored 0-100 for relevance, with a one-line hook for each.
-- **Content** — generated LinkedIn drafts; approve / dismiss / mark posted.
-- **Relationships** — Tim's network grouped by tier.
-- **Press** — coverage record (source of truth for the press kit).
-- **Voice & focus** — tune the AI: set this week's focus, add voice tuning notes.
-- **Agent runs** — observability for every agent execution.
+```
+tim-os/
+├── docs/
+│   └── index.html              # generated dashboard (served by GitHub Pages)
+├── data/state/                  # state files — every change is a git commit
+│   ├── settings.json            # weekly focus, voice tuning, campaign goals
+│   ├── contacts.json            # Tim's network
+│   ├── awards.json              # award pipeline
+│   ├── speaking.json            # events
+│   ├── media.json               # press targets
+│   ├── press.json               # coverage record
+│   ├── intelligence.json        # RSS items with AI enrichment
+│   ├── content.json             # generated LinkedIn drafts
+│   ├── briefs.json              # weekly briefs (latest first)
+│   └── runs.json                # agent execution log
+├── src/
+│   ├── lib/
+│   │   ├── anthropic.ts         # SDK client + model tier selection
+│   │   ├── context.ts           # cached system prompt builder
+│   │   ├── store.ts             # JSON file CRUD
+│   │   └── data/                # CURATED knowledge — never auto-edited
+│   │       ├── tim-profile.ts   # cached system prompt body
+│   │       ├── voice-bank.ts    # verbatim quotes for voice calibration
+│   │       ├── feed-sources.ts  # RSS sources + priority keywords
+│   │       └── seed-*.ts        # initial state for contacts/awards/etc.
+│   ├── agents/
+│   │   ├── refresh-feeds.ts
+│   │   ├── summarise.ts
+│   │   ├── rank-opportunities.ts
+│   │   ├── generate-content.ts
+│   │   └── brief.ts
+│   └── render/
+│       ├── index.ts             # HTML renderer
+│       └── styles.ts            # inline CSS
+├── scripts/
+│   ├── init.ts                  # hydrate state + first render
+│   ├── run-pipeline.ts          # the routine's entry point
+│   ├── render-only.ts           # render without running agents
+│   └── agents.ts                # one-stage CLI
+├── CLAUDE.md                    # instructions for the routine
+└── README.md
+```
 
-## Deploy to Vercel (recommended)
+## Mutations workflow
 
-The repo is Vercel-ready: Postgres-by-default, prompt caching configured, cron jobs in `vercel.json`.
+The HTML is read-only. To change state — approve a draft, mark an award submitted, update this week's focus — chat with Claude Code:
 
-1. **Import the repo into Vercel.** vercel.com/new → pick `stuatnext/tim-os` → Framework: Next.js (auto-detected).
-2. **Add a Postgres database.** In the Vercel project: **Storage → Create → Neon (Postgres)** (free tier is enough). Vercel auto-wires `DATABASE_URL`.
-3. **Set environment variables** (Settings → Environment Variables):
-   - `ANTHROPIC_API_KEY` — from console.anthropic.com
-   - `AGENT_SECRET` — any random string; protects the cron-callable endpoints
-4. **Deploy.** First build runs `prisma generate && prisma db push && next build` — schema lands in Postgres automatically.
-5. **Seed the database.** Once deployed:
-   ```bash
-   curl -X POST -H "Authorization: Bearer YOUR_AGENT_SECRET" \
-     https://your-app.vercel.app/api/admin/seed
-   ```
-6. **Open the dashboard** at the Vercel URL. First action: click **Refresh feeds**, then **Summarise new items** on the Intelligence page, then **Generate brief** on the home page.
+> *"Approve content draft sj4tzr1q3l5 and mark it as posted."*
+> *"Set this week's focus to: pitch The Town, push LA recap content."*
+> *"Move the Cannes Lions submission to status=submitted."*
 
-Vercel Cron is preconfigured (`vercel.json`):
-- Feeds refresh every 2 hours
-- Summariser runs 15 min after each refresh
-- Opportunity ranker daily at 01:00 UTC
-- Weekly brief Sundays at 22:00 UTC (Monday morning Singapore time)
+Claude edits the relevant JSON file, commits, pushes. Next routine run re-renders the HTML.
 
-Vercel Hobby tier limits function execution to 60s. For longer batches (e.g. Opus brief generation over many news items), upgrade to Pro or chunk the work.
+## Editing curated knowledge
 
-## Deploy to Cloud Run
-
-For deployment alongside Tim's existing press kit on GCP, see the Dockerfile pattern in `next.config.ts` and use Cloud SQL for Postgres + Cloud Scheduler for cron.
-
-## Files of interest
-
-- `src/lib/data/tim-profile.ts` — the cached system prompt every agent reads.
-- `src/lib/data/voice-bank.ts` — Tim's verbatim quotes, used for voice calibration.
-- `src/lib/context.ts` — builds the cached system block (the prompt-caching plumbing).
-- `src/lib/agents/brief.ts` — the Opus weekly brief agent.
-- `prisma/schema.prisma` — the data model (Contact, Award, SpeakingEvent, MediaTarget, IndustryItem, ContentIdea, Brief, AgentRun, Settings).
+The files in `src/lib/data/` are the **curated** layer — Tim's profile, voice bank, feed sources, seed data. They never get auto-edited. Update them via PR like any other source code.

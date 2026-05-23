@@ -11,6 +11,7 @@
  */
 import { TIM_PROFILE } from "./data/tim-profile";
 import { VOICE_BANK } from "./data/voice-bank";
+import { store } from "./store";
 
 export type CachedSystemBlock = {
   type: "text";
@@ -18,16 +19,12 @@ export type CachedSystemBlock = {
   cache_control?: { type: "ephemeral" };
 };
 
-/**
- * The Tim-OS-wide cached system prompt. Returned as an array so we can pass
- * it directly to `messages.create({ system: cachedSystem(...) })`.
- */
 export function cachedSystem(agentInstructions: string): CachedSystemBlock[] {
   return [
     {
       type: "text",
       text:
-        "You are the strategic AI partner running 'Tim OS' — a live brand and opportunity dashboard for Timothy Oh, " +
+        "You are the strategic AI partner running 'Tim OS' — a brand and opportunity dashboard for Timothy Oh, " +
         "Global CMO & GM of COL Group International. Tim's profile follows. Treat it as your ground truth.",
     },
     {
@@ -48,22 +45,15 @@ export function cachedSystem(agentInstructions: string): CachedSystemBlock[] {
 }
 
 /**
- * Helper: pull the most recent Settings row (or null). Agents that adapt to
- * Tim's current weekly focus read this and prepend it to their user message.
+ * Pull Tim's current campaign context (this week's focus, quarter goals,
+ * voice tuning notes) and format as a user-message preamble.
  */
 export async function getCampaignContext() {
-  const { prisma } = await import("./prisma");
-  const settings = await prisma.settings.findUnique({ where: { id: "default" } });
-  if (!settings) return "";
+  const settings = await store.getSettings();
   const lines: string[] = [];
   if (settings.weeklyFocus) lines.push(`This week's focus: ${settings.weeklyFocus}`);
-  if (settings.campaignGoals) {
-    try {
-      const goals = JSON.parse(settings.campaignGoals);
-      if (goals.thisQuarter?.length) lines.push(`This quarter: ${goals.thisQuarter.join("; ")}`);
-    } catch {
-      /* tolerate malformed JSON */
-    }
+  if (settings.campaignGoals.thisQuarter.length) {
+    lines.push(`This quarter: ${settings.campaignGoals.thisQuarter.join("; ")}`);
   }
   if (settings.voiceTuning) lines.push(`Voice tuning notes: ${settings.voiceTuning}`);
   return lines.join("\n");
