@@ -62,12 +62,12 @@ If any answer is no, **mark the latest brief run as `low-value` in `data/state/r
 ## Commit + push
 
 ```bash
-git add data/state docs
+git add data/state docs index.html
 git commit -m "routine: weekly refresh $(date -u +%Y-%m-%d)"
-git push origin main
+git push origin HEAD
 ```
 
-If `git status` shows no changes, skip the commit.
+`HEAD` pushes whatever branch the routine is on (the repo's default branch). If `git status` shows no changes, skip the commit.
 
 ## Variations
 
@@ -77,7 +77,14 @@ If `git status` shows no changes, skip the commit.
 
 ## Mutations from Stuart / Tim
 
-When asked to **approve / dismiss / mark posted / update focus**, edit the relevant JSON file under `data/state/` directly. Then re-render and commit.
+When asked to **approve / dismiss / mark posted / update focus**, edit the relevant JSON file under `data/state/` directly. Then:
+
+```bash
+npm run render          # rebuild index.html
+git add data/state docs index.html
+git commit -m "edit: <what you did>"
+git push origin HEAD
+```
 
 Common edits:
 - `data/state/settings.json` — `weeklyFocus`, `voiceTuning`, `campaignGoals.thisQuarter`.
@@ -107,4 +114,4 @@ Each agent stage is independent. If one fails (e.g. Anthropic API blip), the oth
 
 If `npm install` fails: check `package.json` against `package-lock.json`; flag to Stuart and stop.
 
-If `git push` is rejected (someone pushed first): `git pull --rebase`, then push again.
+If `git push` is rejected (someone pushed first): `git pull --rebase origin HEAD`, then push again.
