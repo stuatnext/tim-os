@@ -370,16 +370,64 @@ h3 { font-size: 13.5px; font-weight: 600; margin-bottom: 8px; }
 .mt-2 { margin-top: 8px; }
 .mt-3 { margin-top: 12px; }
 
+/* ---------- EMPTY STATE ---------- */
+
+.empty-state {
+  background: var(--paper-soft);
+  border: 1px dashed var(--line);
+  border-radius: 10px;
+  padding: 22px 24px;
+}
+.empty-state-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--ink);
+  margin-bottom: 8px;
+}
+
 /* ---------- FOOTER ---------- */
 
 .page-footer {
   margin-top: 48px;
   padding-top: 18px;
   border-top: 1px solid var(--line);
-  display: flex; justify-content: space-between; align-items: flex-start; gap: 24px;
+  display: flex; justify-content: space-between; align-items: center; gap: 16px;
   flex-wrap: wrap;
 }
-.footer-low { color: rgba(186,117,23,0.9); }
+.footer-run {
+  display: inline-flex; align-items: center; gap: 8px;
+  flex-wrap: wrap;
+}
+.footer-run-agent {
+  font-weight: 500; color: var(--ink-soft);
+  font-feature-settings: "tnum";
+}
+.footer-why {
+  display: inline-block;
+}
+.footer-why summary {
+  cursor: pointer;
+  list-style: none;
+  text-decoration: underline dotted;
+  text-underline-offset: 3px;
+  user-select: none;
+}
+.footer-why summary::-webkit-details-marker { display: none; }
+.footer-why summary:hover { color: var(--accent); }
+.footer-why[open] {
+  display: block;
+  margin-top: 8px;
+  flex-basis: 100%;
+}
+.footer-why[open] p {
+  margin-top: 6px;
+  padding: 10px 12px;
+  background: rgba(186,117,23,0.06);
+  border-left: 3px solid rgba(186,117,23,0.4);
+  border-radius: 6px;
+  color: var(--ink-soft);
+  line-height: 1.55;
+}
 
 /* ---------- MOBILE — sidebar becomes a sticky horizontal tab bar ---------- */
 
@@ -1547,7 +1595,11 @@ Who&#39;s seeing similar in another developed market — would love a quiet DM.<
     </div></section>
 <section class="panel" data-panel="intelligence">
       <div class="section-h"><h2>Industry intelligence</h2></div>
-      <p class="small muted">No items yet. The routine runs <code>npm run feeds</code> to populate this from curated trade-press RSS + Google News search feeds, then scores and triages each new item in-session. If you see no items after a scheduled run, check whether the routine environment's network policy allows outbound to the RSS hosts listed in <code>knowledge/OPPORTUNITY_RADAR.md</code>.</p></section>
+      <div class="empty-state">
+        <div class="empty-state-title">No items yet</div>
+        <p class="small muted">The routine runs <code>npm run feeds</code> to populate this from curated trade-press RSS + Google News search feeds, then scores and triages each new item in-session.</p>
+        <p class="small muted mt-2">If you see no items after a scheduled run, check whether the routine environment's network policy allows outbound to the RSS hosts listed in <code>knowledge/OPPORTUNITY_RADAR.md</code>.</p>
+      </div></section>
 <section class="panel" data-panel="network">
     <div class="section-h">
       <h2>Network</h2>
@@ -2068,8 +2120,16 @@ Who&#39;s seeing similar in another developed market — would love a quiet DM.<
     </div>
     <div class="card mt-3"><h3>12-month north star</h3><ul class="list"><li>Undisputed English-language authority on micro-drama / vertical content globally</li><li>Wikipedia page live</li><li>Speaking bureau registered</li><li>15K+ LinkedIn followers</li><li>C-level recognition via major awards (40 Under 40, Cannes Lion or equivalent)</li><li>COL Group brand equity matched to commercial ambitions</li></ul></div></section>
     <footer class="page-footer">
-      <div class="small muted">Generated 2026-05-23 06:16:09 UTC</div>
-      <div class="small muted">Last run: weekly-brief · low-value · <span class="footer-low">Verification run only. npm run feeds reported networkPolicyBlocked: true (25 of 26 sources host_not_allowed) — the verification environment&#39;s outbound egress allowlist does not cover the RSS hostnames. Brief produced fro…</span></div>
+      <div class="small muted">Generated 2026-05-23 06:28:59 UTC</div>
+      <div class="footer-run">
+              <span class="small muted">Last run:</span>
+              <span class="footer-run-agent small">weekly-brief</span>
+              <span class="pill pill-amber">low-value</span>
+              <details class="footer-why">
+                      <summary class="small muted">why?</summary>
+                      <p class="small">Verification run only. npm run feeds reported networkPolicyBlocked: true (25 of 26 sources host_not_allowed) — the verification environment&#39;s outbound egress allowlist does not cover the RSS hostnames. Brief produced from existing seed state (awards, speaking, media, contacts, press) and the documented weekly focus. Code-level fix shipped this run: realistic User-Agent, denied/timeout/upstream error classification, networkPolicyBlocked flag, Google News RSS search fallbacks. The remaining unblocker is environment-level — the routine&#39;s Claude Code on the web environment policy needs the RSS hosts on its allowlist (see knowledge/OPPORTUNITY_RADAR.md → &#39;Environment network policy&#39;).</p>
+                    </details>
+            </div>
     </footer>
   </main>
 </div>

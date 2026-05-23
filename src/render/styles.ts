@@ -374,16 +374,64 @@ h3 { font-size: 13.5px; font-weight: 600; margin-bottom: 8px; }
 .mt-2 { margin-top: 8px; }
 .mt-3 { margin-top: 12px; }
 
+/* ---------- EMPTY STATE ---------- */
+
+.empty-state {
+  background: var(--paper-soft);
+  border: 1px dashed var(--line);
+  border-radius: 10px;
+  padding: 22px 24px;
+}
+.empty-state-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--ink);
+  margin-bottom: 8px;
+}
+
 /* ---------- FOOTER ---------- */
 
 .page-footer {
   margin-top: 48px;
   padding-top: 18px;
   border-top: 1px solid var(--line);
-  display: flex; justify-content: space-between; align-items: flex-start; gap: 24px;
+  display: flex; justify-content: space-between; align-items: center; gap: 16px;
   flex-wrap: wrap;
 }
-.footer-low { color: rgba(186,117,23,0.9); }
+.footer-run {
+  display: inline-flex; align-items: center; gap: 8px;
+  flex-wrap: wrap;
+}
+.footer-run-agent {
+  font-weight: 500; color: var(--ink-soft);
+  font-feature-settings: "tnum";
+}
+.footer-why {
+  display: inline-block;
+}
+.footer-why summary {
+  cursor: pointer;
+  list-style: none;
+  text-decoration: underline dotted;
+  text-underline-offset: 3px;
+  user-select: none;
+}
+.footer-why summary::-webkit-details-marker { display: none; }
+.footer-why summary:hover { color: var(--accent); }
+.footer-why[open] {
+  display: block;
+  margin-top: 8px;
+  flex-basis: 100%;
+}
+.footer-why[open] p {
+  margin-top: 6px;
+  padding: 10px 12px;
+  background: rgba(186,117,23,0.06);
+  border-left: 3px solid rgba(186,117,23,0.4);
+  border-radius: 6px;
+  color: var(--ink-soft);
+  line-height: 1.55;
+}
 
 /* ---------- MOBILE — sidebar becomes a sticky horizontal tab bar ---------- */
 
