@@ -188,5 +188,6 @@ These are curated source-of-truth files — only modify when Stuart explicitly a
 
 - **`npm install` fails** — check `package.json` vs `package-lock.json`; flag to Stuart and stop.
 - **`npm run feeds` fails on one source** — that's fine, errors are returned in the result; carry on with what came through.
+- **`npm run feeds` returns `networkPolicyBlocked: true`** (or every source line is tagged `[denied]`) — the routine environment's outbound network policy is blocking the RSS hostnames. The fix is not in the code; the routine env's allowlist needs the hosts listed in `knowledge/OPPORTUNITY_RADAR.md` → "Environment network policy". Carry on with the run using existing state, log the run as `low-value` with a clear `lowValueReason`, and surface the gap in the brief's `whatChanged`.
 - **`git push` rejected** (someone pushed first) — `git pull --rebase origin HEAD` then push again.
 - **You can't honestly produce a brief that passes the quality check** — log the run as `low-value` with the reason, commit only the partial state changes, and surface the gap in the next run's `whatChanged`.

@@ -1,0 +1,13 @@
+[
+  {
+    "id": "rn1lowy80a8x7q3p",
+    "agent": "weekly-brief",
+    "status": "low-value",
+    "startedAt": "2026-05-23T05:34:00.000Z",
+    "finishedAt": "2026-05-23T05:50:00.000Z",
+    "itemsCreated": 4,
+    "itemsUpdated": 6,
+    "lowValueReason": "Verification run only. npm run feeds reported networkPolicyBlocked: true (25 of 26 sources host_not_allowed) — the verification environment's outbound egress allowlist does not cover the RSS hostnames. Brief produced from existing seed state (awards, speaking, media, contacts, press) and the documented weekly focus. Code-level fix shipped this run: realistic User-Agent, denied/timeout/upstream error classification, networkPolicyBlocked flag, Google News RSS search fallbacks. The remaining unblocker is environment-level — the routine's Claude Code on the web environment policy needs the RSS hosts on its allowlist (see knowledge/OPPORTUNITY_RADAR.md → 'Environment network policy').",
+    "metadata": "First successful routine run after the AI-agent-pipeline → Claude-Code-routine rebuild. Validates the new contract end-to-end."
+  }
+]

@@ -6,6 +6,35 @@ A run that only surfaces three Variety articles is a failed run.
 
 ---
 
+## Environment network policy (read first if `npm run feeds` returns no items)
+
+The deterministic feed fetch (`src/lib/feeds.ts`) tries to hit ~26 RSS endpoints — direct trade-press feeds (Variety / Deadline / THR / Bloomberg / ContentAsia / TBI / C21 / The Drum / Mumbrella Asia / Campaign Asia / TechCrunch / Reuters / Mashable) and Google News search-RSS fallbacks. The routine's runtime environment needs outbound access to those hostnames.
+
+**Signal:** if `npm run feeds` returns `networkPolicyBlocked: true` or every source line is tagged `[denied]`, the environment's egress allowlist is blocking the RSS hosts. The fix is not in the code — the routine environment's network policy must be updated in Claude Code on the web. The harness docs cover this at https://code.claude.com/docs/en/claude-code-on-the-web.
+
+**Hostnames the policy should permit (outbound HTTPS):**
+
+```
+variety.com
+deadline.com
+hollywoodreporter.com
+techcrunch.com
+campaignasia.com
+feeds.bloomberg.com
+reutersagency.com
+feeds.mashable.com
+contentasia.tv
+tbivision.com
+c21media.net
+thedrum.com
+mumbrella.asia
+news.google.com
+```
+
+If the policy can't be widened, the routine should still produce value from the existing state (awards / speaking / media / contacts / press / settings) — log the run as `low-value` with `lowValueReason` naming the network gap, and surface the missed sweep in the brief's `whatChanged`.
+
+---
+
 ## What "comprehensive" means per run
 
 Each routine run should sweep across **all** the categories below — not just news. Each category is a different way for Tim to win.
