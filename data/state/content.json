@@ -1,0 +1,76 @@
+[
+  {
+    "id": "cn1lowy80j4r8mq2",
+    "platform": "linkedin",
+    "format": "post",
+    "title": "Pre-LA: Five questions",
+    "hook": "Nine days. LA. Five questions I'm going to ask everyone.",
+    "coreArgument": "Going into LA with questions, not a pitch deck, is how you find out what Hollywood actually wants from the vertical category — which is usually the opposite of what it says in public.",
+    "whyNow": "LA trip starts Jun 1. Pre-trip posts set the agenda Tim wants people to read his meetings against, and surface inbound from people who want to meet.",
+    "sourceEvidence": "Confirmed LA meetings trip Jun 1-4 (data/state/speaking.json). Tim's weekly focus: 'Build LA trip momentum.' Variety / Deadline / THR have all responded to prior Tim outreach (data/state/media.json).",
+    "timPOV": "Hollywood keeps asking the wrong question. The interesting question isn't 'is vertical real?' — that was 2024. The interesting question is what gets built on top of it.",
+    "colRelevance": "Frames Tim as the operator Hollywood is coming to, not the operator selling Hollywood. Surfaces inbound for COL's Microdrama-in-a-Box B2B narrative ahead of meetings.",
+    "supportingPoints": [
+      "1. Which Hollywood production execs are quietly piloting vertical right now (and which are pretending not to)?",
+      "2. Which agencies have a creator vertical strategy that isn't just 'we'll repackage TikTok talent'?",
+      "3. Which brand CMOs are buying vertical drama as a media line item — not as a one-off stunt?",
+      "4. Which platforms (streamers, social, retail) are licensing vertical IP vs commissioning it?",
+      "5. What does the next CAA / WME signing in vertical look like — and from where?"
+    ],
+    "risk": "Sounding like Tim is auditioning Hollywood. Mitigation: stay on data + questions, not on Tim's own roadmap.",
+    "body": "Nine days. LA. Five questions I'm going to ask everyone.\n\n1. Which production execs are quietly piloting vertical right now — and which are still pretending not to?\n\n2. Which agencies have a real creator-vertical strategy, not just \"we'll repackage TikTok talent\"?\n\n3. Which brand CMOs are buying vertical drama as a media line item — not a one-off stunt?\n\n4. Which platforms are licensing vertical IP vs commissioning it?\n\n5. What does the next CAA / WME signing in vertical look like — and from where?\n\nI'm not coming to LA to sell anything.\n\nI'm coming to find out what people are actually doing when nobody's posting about it.\n\nWho should I be asking?",
+    "rationale": "Opens with a number. One idea per sentence. Ends with a question. No corporate gloss. Tim's voice — operator, not influencer. Generates inbound (the question at the end). Hooks the LA trip into the public narrative before Tim even lands.",
+    "predictedEngagement": "high",
+    "status": "draft",
+    "createdAt": "2026-05-23T05:48:00.000Z"
+  },
+  {
+    "id": "cn1lowy80p9t2x7n",
+    "platform": "newsletter",
+    "format": "article",
+    "title": "The Vertical View — issue #1 launch announcement",
+    "hook": "Six months of writing this in my head. Time to publish it.",
+    "coreArgument": "Vertical content needs a serious, operator-led publication that treats it as a real category — not a TikTok think-piece. Tim is the person to launch it, because he's the only English-language operator running it at scale.",
+    "whyNow": "Weekly focus explicitly lists 'Launch Vertical View newsletter'. Quarter goal: cement Vertical 2.0 framing in press. Owning a publication is how you stop being a subject of coverage and start being the source.",
+    "sourceEvidence": "Quarter goals in data/state/settings.json. Tim's coverage in TVBIZZ, ContentAsia, SCMP, Vitrina LeaderSpeak (data/state/press.json) demonstrates ongoing trade-press demand.",
+    "timPOV": "Most writing about microdrama is either chart-of-the-week or 'is this real?' takes. Neither is useful to anyone building. The Vertical View will be the version I'd want to read on a Sunday morning.",
+    "colRelevance": "Direct owned-media channel for COL signals — investor narrative, partnership announcements, hiring, market data. Removes COL's dependence on inbound trade coverage for narrative control.",
+    "supportingPoints": [
+      "Issue cadence: every other Sunday. Operator depth, not news rehash.",
+      "Coverage scope: vertical drama, mobile-first storytelling, brand entry, Asia-to-global content flow, AI in production.",
+      "Format: 1 long-read + 1 numbered list + 3 things to read this week. No fluff.",
+      "Audience target: people who run things — production, distribution, brand, investment. Not 'creators' as a generic bucket.",
+      "First-issue topic: why the Australian payment rate (20%) is the most underread data point in entertainment right now."
+    ],
+    "risk": "Newsletter starts strong then dies. Mitigation: pre-write three issues before launch, schedule a fourth, hand cadence to Stuart for accountability.",
+    "body": "Six months ago I started writing one of these in my head every Sunday morning.\n\nToday I'm publishing it.\n\nIt's called The Vertical View. Every other Sunday. One long-read, one numbered list, three things to read this week. Operator depth, not news rehash.\n\nWhy now: the industry has hit the point where there are more think-pieces than people who can tell you what a 77-minute session looks like in the data.\n\nWhy me: I've spent the last year as the only English-language exec running global vertical distribution at scale. 1,700+ titles across 10+ markets. 2.4B+ views. I'm not pretending it's easy. I'm saying it deserves serious writing.\n\nIssue #1 next Sunday: why the Australian payment rate at 20% — more than double most developed markets — is the most underread data point in entertainment right now.\n\nLink in comments. Subscribe if you want this in your inbox. Forward to one person who'd find it useful — that's how I'll know if it works.",
+    "rationale": "Opens personal, lands the public commitment, sets cadence so accountability is built in. Uses Tim's actual numbers (1,700 / 10 / 2.4B / 77 / 20%). One idea per sentence. Ends with a soft ask (forward to one person) — Tim's natural humility frame.",
+    "predictedEngagement": "high",
+    "status": "draft",
+    "createdAt": "2026-05-23T05:49:00.000Z"
+  },
+  {
+    "id": "cn1lowy80s5u8h6w",
+    "platform": "linkedin",
+    "format": "post",
+    "title": "Australia at 20% — the underread number",
+    "hook": "Australia is converting at 20%. Nobody in this industry is talking about it.",
+    "coreArgument": "Australia's new-user payment rate at ~20% — more than double most developed markets — disproves the lazy assumption that vertical drama is a developing-market phenomenon. Developed markets are converting harder, not softer.",
+    "whyNow": "Tim revealed this data at Cairns Crocodiles on May 19. The number deserves a wider second life on LinkedIn — first time it's been published in his own voice rather than via panel coverage.",
+    "sourceEvidence": "Cairns Crocodiles speaking record (data/state/speaking.json). Australia data was disclosed at the 'Maestros of Microdramas' session with Nikyah Hutchings.",
+    "timPOV": "If you believed the consensus that vertical drama was a Tier 2/3-market phenomenon, the Australia number breaks your model. The lazy framing — 'it works because people in emerging markets have small phones' — collapses when developed-market conversion is higher than emerging-market conversion.",
+    "colRelevance": "Establishes COL as the operator with the data — the trade outlets and analysts (Maria Rua Aguete, Omdia; Atul Phadnis, Vitrina) cite Tim because he has numbers nobody else has.",
+    "supportingPoints": [
+      "Australia new-user payment rate: ~20%. More than 2x most developed markets.",
+      "Counterfactual: if vertical was a developing-market phenomenon, you'd expect inverse — Australia would be a laggard.",
+      "Why it's actually true: in developed markets, time-poor consumers value formats that respect their time. 77-minute sessions on FlareFlow prove the demand was always there for short-attention narrative.",
+      "Implication: brand spend follows conversion, not impressions. Australia's payment rate is a brand-CMO signal more than a creator signal."
+    ],
+    "risk": "Single-market datapoint gets framed as cherry-picked. Mitigation: name the rate explicitly as a single market, note Tim is asking why — not asserting it generalises.",
+    "body": "Australia is converting at 20%.\n\nNew-user payment rate. More than double most developed markets.\n\nNobody in this industry is talking about it. Most takes still assume vertical drama is a developing-market phenomenon — small phones, small budgets, small attention spans.\n\nThe Australia number breaks that frame.\n\nIf the consensus were right, Australia would be a laggard. It's the opposite. Developed-market viewers — time-poor, format-literate, brand-saturated — are paying *more* readily, not less.\n\nWhich means the question stops being \"will vertical work in developed markets?\" and starts being \"what's the brand-CMO going to do about it?\"\n\nBecause brand spend follows conversion, not impressions.\n\nI'm not saying Australia generalises. I'm saying it's the most underread number in entertainment right now.\n\nWho's seeing similar in another developed market — would love a quiet DM.",
+    "rationale": "Opens with the headline number. One idea per sentence. Names the consensus, breaks it, reframes the implication for the audience Tim wants to reach (brand CMOs). Closes with a DM ask — Tim's standard relationship-building move. No hashtags, no emoji.",
+    "predictedEngagement": "high",
+    "status": "draft",
+    "createdAt": "2026-05-23T05:49:30.000Z"
+  }
+]
