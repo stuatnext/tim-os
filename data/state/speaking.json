@@ -1,5 +1,19 @@
 [
   {
+    "id": "seed-atxenterprise-singapore-2026",
+    "name": "ATxEnterprise Singapore 2026",
+    "organizer": "Infocomm Media Development Authority / Singapore EXPO",
+    "location": "Singapore EXPO",
+    "url": "https://asiatechxsg.com/atxenterprise/speakers/timothy-oh/",
+    "startsAt": "2026-05-20T00:00:00.000Z",
+    "endsAt": "2026-05-22T00:00:00.000Z",
+    "role": "Speaker",
+    "status": "done",
+    "fitScore": 78,
+    "fitRationale": "Enterprise tech + Singapore home market. Tim covered microdrama distribution, original IP, platform-led digital storytelling. Not previously tracked — added from web intel this run.",
+    "notes": "May 20-22, 2026. Singapore EXPO. Confirmed speaker per public speaker page. Post-event recap opportunity."
+  },
+  {
     "id": "seed-la-meetings-trip",
     "name": "LA meetings trip",
     "location": "Los Angeles, USA",

@@ -1,112 +1,169 @@
 [
   {
-    "id": "br1lpgxh9k2m5q3p",
+    "id": "br_2605_weekly_real",
     "weekOf": "2026-05-18T00:00:00.000Z",
-    "headline": "Nine days to LA — pitch Belloni, close StreamTV, and shoot the trip. Everything else parks.",
-    "whatChanged": "First brief on the 'Hollywood for mobile phones' model (knowledge/STRATEGIC_PROFILE.md + new OPPORTUNITY_RADAR.md categories 21–24). Two real changes from last week's brief: (1) 'Act on this week' is now capped at 3 items, each with a time estimate — last week recommended 5+ items for a Tuesday deadline, which is unrealistic against Tim's ~5–8 hr/week proactive budget; this run picks three and explicitly parks the rest. (2) Visual / on-camera content is now mandatory per run (Category 21). Last week's three drafts were all text-only; with LA nine days out, that was a category miss. This run replaces the pre-LA written post with a piece-to-camera script and adds a travel-vlog beat sheet for Day 1 LA — Tim shoots, not just writes. Three new radar categories surfaced this run: (22) critical mentions — no specific live critic identified without RSS intel, but the WGA/SAG-AFTRA-style dismissal of vertical as 'not real content' is the perennial frame Tim should be ready to engage during LA agency meetings; (23) out-of-the-box plays — the 'Vertical Mogul' podcast (Tim hosts, interviews competitor founders + brand CMOs + creators) is formally scoped to Watch, with a stretch pilot recordable in LA; (24) partner discovery — UTA / CAA / WME / Talent X 'vertical-native creator desk' identification is the LA reconnaissance target. Categories that produced NOTHING this run and need to in future: app-store chart intelligence (need network access to Sensor Tower / App Store Top Grossing), Mandarin reputation watch (Weibo / Baidu 短剧 出海 needs web access), Reddit qualitative (r/microdrama, r/television). RSS sweep was again blocked at the verification environment's network policy — same gap as last run, same environment-side fix still needed.",
+    "headline": "Hollywood just said yes. Shoot the reaction this weekend. Everything else is noise.",
+    "whatChanged": "This is the first real intelligence sweep of the week — the two previous runs (both today, both logged as low-value) were code-verification passes, not actual runs. Today's sweep via web search (RSS still fully blocked, 22/22 denied) produced 13 reviewed intelligence items. The week's defining signal: Peacock licensed a ReelShort content package for its mobile app, launching summer 2026 — making Peacock the first major US streamer to formally treat a microdrama-native platform as a content supplier. Tim has been predicting this exact inflection point since MIP London 2026. The moment to react on camera is this weekend, before the news cycle moves on. Second major signal: COL announced the hires of Jason Ander (ex-Paramount, Hulu) as Head of US Partnerships and Eileen Low (ex-Disney) as Head of Asia Partnerships, alongside Tim's formal appointment as FlareFlow CMO — covered in Deadline and Variety this week. Third: China's major platforms (Douyin, WeChat, Taobao, Kuaishou) conducted a coordinated crackdown in May, removing 500+ microdramas for content violations — validates Tim's 'Built to Last' framing ahead of the NEM Dubrovnik panel. Fourth: P&G Studios launched 'The Golden Pear Affair', a 50-episode scripted microdrama for the Native brand — the most documented FMCG brand entry yet, adding Anna Saalfeld (P&G Studios) as a category-defining relationship target. Fifth: FlareFlow's $2M TikTok revenue in Q1 2026 is now a public proof point (per Deadline) — add to every pitch. Sixth: ATxEnterprise Singapore (May 20-22) was a confirmed Tim speaking event not previously in state — added to speaking.json. CORRECTION: Cannes Lions 2026 submission deadline was April 9, 2026 — already passed. The weekly focus entry 'Close Cannes Lions submission' is now moot; settings.json updated to remove it. Categories that still produced nothing this run: app-store chart intelligence (need network for Sensor Tower), Mandarin reputation watch (Weibo/Baidu — need network), Reddit qualitative (r/microdrama — need network). All three require environment-level network policy fix.",
     "topOpportunities": [
       {
-        "title": "Pitch Matthew Belloni / The Town",
-        "type": "podcast / media pitch",
-        "why": "Belloni already covered DramaBox on The Town. Tim is the B2B distribution counterpart Hollywood will need next — only English-language exec with the receipts (1,700+ titles, USD 1M+ B2B, 238M-day, 77-min sessions). One outreach, two surfaces (Puck feature + The Town episode). **~45 min: 30 to draft, 10 to send via matthew@puck.news, 5 to file the LinkedIn follow.**",
-        "source": "data/state/media.json — seed-the-town-with-matthew-belloni; data/state/contacts.json — seed-matthew-belloni",
-        "dateChecked": "2026-05-23",
-        "scores": { "timAuthorityFit": 5, "colCommercialUpside": 5, "microdramaRelevance": 5, "mediaCoveragePotential": 5, "relationshipValue": 5, "personalityFit": 5, "timeliness": 5, "evidenceStrength": 4, "easeOfAction": 4, "reputationRisk": 1 },
-        "action": "Pitch",
-        "evidence": "strong"
-      },
-      {
-        "title": "Shoot the pre-LA piece-to-camera — 'Nine days. LA. Five questions.'",
+        "title": "Shoot Peacock/ReelShort reaction piece-to-camera — 'Hollywood just licensed vertical drama.'",
         "type": "visual content / on-camera",
-        "why": "LA is nine days out and currently a private calendar item. A 60-second piece-to-camera, phone-shot, single take, no edit, pre-loaded on LinkedIn + X Sat May 30 turns the trip from invisible into agenda-setting before Tim lands. This is the run's mandatory Category 21 deliverable — Tim must be SEEN, not just READ, in the world's most filmed city. **~25 min: 20 to record (3–4 takes), 5 to caption + post.**",
-        "source": "data/state/speaking.json — seed-la-meetings-trip; knowledge/OPPORTUNITY_RADAR.md → Category 21 Visual content",
+        "why": "Peacock licensing ReelShort content (announced May 11) is the exact commercial trajectory Tim has been predicting publicly since MIP London. The window to react with authority closes this weekend. Every day he waits, someone else owns the frame. This is the run's mandatory Category 21 deliverable. **~25 min: 15 to record (3–4 takes), 5 to choose the best, 5 to caption + post. Shoot Saturday or Sunday.**",
+        "source": "https://www.c21media.net/news/us-streamer-peacock-picks-up-reelshort-package-to-get-into-microdrama-game/ | intelligence item int_peacock_reelshort_license_2605",
         "dateChecked": "2026-05-23",
-        "scores": { "timAuthorityFit": 5, "colCommercialUpside": 4, "microdramaRelevance": 4, "mediaCoveragePotential": 4, "relationshipValue": 4, "personalityFit": 5, "timeliness": 5, "evidenceStrength": 5, "easeOfAction": 5, "reputationRisk": 2 },
+        "scores": {
+          "timAuthorityFit": 5,
+          "colCommercialUpside": 5,
+          "microdramaRelevance": 5,
+          "mediaCoveragePotential": 5,
+          "relationshipValue": 4,
+          "personalityFit": 5,
+          "timeliness": 5,
+          "evidenceStrength": 5,
+          "easeOfAction": 5,
+          "reputationRisk": 2
+        },
         "action": "Post",
         "evidence": "strong"
       },
       {
-        "title": "Close StreamTV Awards submission — Content Partnerships Executive of the Year",
+        "title": "StreamTV Awards — Content Partnerships Executive of the Year (deadline Jun 15)",
         "type": "award",
-        "why": "Category title literally matches Tim's role. fitScore 95. Deadline Jun 15 (23 days). Submission writes itself from existing receipts — 1,700+ titles, USD 1M+ B2B revenue, Microdrama-in-a-Box. Highest-fit award on the pipeline. **~90 min total: 60 to assemble answers + receipts, 30 to file + confirm.**",
+        "why": "23 days to deadline. Category title literally matches Tim's role. Writes itself from existing receipts: 1,700+ titles, USD 1M+ B2B revenue in 6 months, FlareFlow $2M TikTok Q1, Microdrama-in-a-Box. Highest-fit award on the pipeline (fitScore 95). With the Peacock deal and COL new hires announced this week, the submission now has a stronger 2026 narrative than ever. **~90 min total: 60 to assemble answers + receipts, 30 to file.**",
         "source": "data/state/awards.json — seed-streamtv-awards-content-partnerships-executive-of-the-year",
         "dateChecked": "2026-05-23",
-        "scores": { "timAuthorityFit": 5, "colCommercialUpside": 4, "microdramaRelevance": 5, "mediaCoveragePotential": 4, "relationshipValue": 3, "personalityFit": 4, "timeliness": 5, "evidenceStrength": 5, "easeOfAction": 4, "reputationRisk": 1 },
+        "scores": {
+          "timAuthorityFit": 5,
+          "colCommercialUpside": 4,
+          "microdramaRelevance": 5,
+          "mediaCoveragePotential": 4,
+          "relationshipValue": 3,
+          "personalityFit": 4,
+          "timeliness": 5,
+          "evidenceStrength": 5,
+          "easeOfAction": 4,
+          "reputationRisk": 1
+        },
         "action": "Act now",
         "evidence": "strong"
       },
       {
-        "title": "Scope the 'Vertical Mogul' podcast (Tim hosts)",
-        "type": "out-of-the-box / owned media",
-        "why": "Category 23 play. Tim interviews competitor founders (DramaBox, ShortMax, GoodShort), brand CMOs (P&G, Crocs, Shopee), creators in vertical. Hosting owns the conversation — turns Tim from 'subject covered in the trade press' into 'where the trade press goes for the take'. Pilot could be recorded in LA with Connie Chan (a16z, consumer+China thesis). **Not this week** — formal scope by end of June; pilot run sheet + 3 confirmed guests by end of Q3. Park for now.",
-        "source": "knowledge/OPPORTUNITY_RADAR.md → Category 23 Out-of-the-box plays",
+        "title": "Pre-LA piece-to-camera — 'Nine days. LA. Five questions.' (already drafted, shoot Sat May 30)",
+        "type": "visual content / on-camera",
+        "why": "LA trip Jun 1–4. The pre-trip piece-to-camera (draft already in content.json) turns the trip from a private calendar item into a public agenda-setter before Tim lands. With Peacock/ReelShort validation and new COL hires announced this week, the five questions now have sharper answers worth pursuing. **~25 min: record + post Sat May 30. Stuart captions and schedules.**",
+        "source": "data/state/content.json — cn1lpgxh9j4r8mq2 | data/state/speaking.json — seed-la-meetings-trip",
         "dateChecked": "2026-05-23",
-        "scores": { "timAuthorityFit": 5, "colCommercialUpside": 4, "microdramaRelevance": 5, "mediaCoveragePotential": 5, "relationshipValue": 5, "personalityFit": 5, "timeliness": 3, "evidenceStrength": 4, "easeOfAction": 2, "reputationRisk": 2 },
-        "action": "Park",
+        "scores": {
+          "timAuthorityFit": 5,
+          "colCommercialUpside": 4,
+          "microdramaRelevance": 4,
+          "mediaCoveragePotential": 4,
+          "relationshipValue": 4,
+          "personalityFit": 5,
+          "timeliness": 5,
+          "evidenceStrength": 5,
+          "easeOfAction": 5,
+          "reputationRisk": 2
+        },
+        "action": "Post",
         "evidence": "strong"
       },
       {
-        "title": "Identify the first 'vertical-native creator desk' at UTA / CAA / WME / Talent X",
-        "type": "partner discovery",
-        "why": "Category 24 watch item. Whichever Hollywood agency sets up a dedicated vertical-creator practice first becomes the natural counterparty for Microdrama-in-a-Box white-label deals. Don't pitch yet — just identify. Route through Maria Rua Aguete + LA-trip conversations. **No action this week** — surface findings in the post-LA brief.",
-        "source": "knowledge/OPPORTUNITY_RADAR.md → Category 24 Partner discovery",
+        "title": "Pitch Matthew Belloni / The Town — now with Peacock angle added",
+        "type": "podcast / media pitch",
+        "why": "The pitch angle just got stronger: 'You covered DramaBox (consumer). Now Peacock has licensed ReelShort (supply chain). The story this week is who built the rails Peacock just started buying — that's COL.' Send this week so Tim can take a 15-min call during LA Jun 1–4. **Park until after Peacock piece-to-camera posts (so Tim's public stance is established before the pitch).** Draft pitch by Mon May 25, send Tue May 26.",
+        "source": "data/state/media.json — seed-the-town-with-matthew-belloni | intelligence item int_peacock_reelshort_license_2605",
         "dateChecked": "2026-05-23",
-        "scores": { "timAuthorityFit": 4, "colCommercialUpside": 5, "microdramaRelevance": 5, "mediaCoveragePotential": 3, "relationshipValue": 5, "personalityFit": 4, "timeliness": 4, "evidenceStrength": 3, "easeOfAction": 4, "reputationRisk": 1 },
+        "scores": {
+          "timAuthorityFit": 5,
+          "colCommercialUpside": 5,
+          "microdramaRelevance": 5,
+          "mediaCoveragePotential": 5,
+          "relationshipValue": 5,
+          "personalityFit": 5,
+          "timeliness": 5,
+          "evidenceStrength": 5,
+          "easeOfAction": 4,
+          "reputationRisk": 1
+        },
+        "action": "Pitch",
+        "evidence": "strong"
+      },
+      {
+        "title": "DM Anna Saalfeld (P&G Studios) — 'The Golden Pear Affair' brand entry into vertical",
+        "type": "partner discovery / DM",
+        "why": "P&G Studios launched a 50-episode scripted microdrama for Native personal care brand — the most documented FMCG brand entry yet. Anna Saalfeld (Head of P&G Studios) is the architect. Tim has been publicly saying 'brands are coming' for two years; this is the proof. A DM to Saalfeld — 'your approach to soap-opera heritage for vertical is the right frame, here's what the infrastructure looks like at scale' — opens a COL-B2B conversation with the world's largest advertiser. **Watch for now — prepare the DM draft this week, send when Tim has a confirmed mutual connection or a strong context hook (e.g. post-Peacock reaction piece creates public authority).**",
+        "source": "https://www.marketingdive.com/news/pg-native-to-debut-50-part-microdrama-series-as-genre-takes-off/807512/ | intelligence item int_pg_microdrama_2605",
+        "dateChecked": "2026-05-23",
+        "scores": {
+          "timAuthorityFit": 5,
+          "colCommercialUpside": 5,
+          "microdramaRelevance": 4,
+          "mediaCoveragePotential": 3,
+          "relationshipValue": 5,
+          "personalityFit": 4,
+          "timeliness": 4,
+          "evidenceStrength": 4,
+          "easeOfAction": 3,
+          "reputationRisk": 1
+        },
         "action": "Watch",
         "evidence": "moderate"
       }
     ],
     "topPeople": [
       {
+        "name": "Anna Saalfeld",
+        "role": "Head of P&G Studios",
+        "organisation": "Procter & Gamble",
+        "whyMatters": "P&G Studios just launched a 50-episode microdrama series for Native — the most documented FMCG brand entry into vertical yet. Saalfeld is the strategic architect. Brand-CMO-to-vertical-operator relationship Tim has been building towards.",
+        "source": "https://www.marketingdive.com/news/pg-native-to-debut-50-part-microdrama-series-as-genre-takes-off/807512/",
+        "timRelevance": "Tim's 'brands are coming' thesis now has a named P&G architect. This is the relationship that turns Tim from 'person who predicted brand entry' to 'person brands call when they want to scale it'.",
+        "colRelevance": "Direct B2B upside. P&G running 50 episodes independently means they'll need infrastructure to scale. COL's Microdrama-in-a-Box is the answer.",
+        "bestApproach": "LinkedIn DM after Tim's Peacock reaction piece posts — leads with 'saw what you built with Native, here's what it looks like at scale' + one specific data point. No cold pitch.",
+        "publicMove": "Tim can repost the Marketing Dive piece on P&G's microdrama with a one-liner: 'P&G just proved what I've been saying for two years. Brands didn't adopt vertical — they came back to what they always did, just on the right screen.'",
+        "privateMove": "Draft DM this week. Send after Peacock piece-to-camera posts and establishes Tim's public authority. Stuart finds a warm intro vector via LinkedIn mutual or Campaign Asia connection.",
+        "risk": "Approaching as a vendor, not a peer. P&G Studios is building creatively, not just buying media. Tim's frame should be peer operator to creative leader.",
+        "priority": "high"
+      },
+      {
         "name": "Matthew Belloni",
         "role": "Founding Partner",
         "organisation": "Puck / The Town",
-        "whyMatters": "Single-pitch unlocks Puck feature + The Town episode. Already covered DramaBox — Tim is the B2B counterpart.",
-        "source": "data/state/contacts.json — seed-matthew-belloni",
-        "timRelevance": "Establishes Tim in US tier-1 entertainment-business press in one move.",
-        "colRelevance": "B2B narrative (Microdrama-in-a-Box, distribution rails) lands harder on The Town than anywhere else.",
-        "bestApproach": "Cold email to matthew@puck.news. Subject: 'The B2B counterpart to your DramaBox story.' Body: 3 numbers (1,700 titles, USD 1M B2B, 238M-day), 1 frame (Vertical 2.0), 1 ask (15-min call before LA trip).",
-        "publicMove": "None yet — don't engage Belloni publicly until the private pitch lands.",
-        "privateMove": "Stuart drafts Mon May 25, sends Tue May 26.",
-        "risk": "Generic founder-pitch energy gets binned. Mitigation: lead with the 238M-day number, not with COL's name.",
+        "whyMatters": "Pitch now stronger than ever: Peacock licensed ReelShort this week — Belloni's audience (US entertainment-business decision-makers) is exactly who needs to hear the supply-chain story. The B2B counterpart to DramaBox consumer story.",
+        "source": "data/state/contacts.json — seed-matthew-belloni | intelligence item int_peacock_reelshort_license_2605",
+        "timRelevance": "One email unlocks Puck feature + The Town episode. Now there's a news hook — Peacock/ReelShort deal — that makes the pitch even easier to open.",
+        "colRelevance": "US entertainment-business press tier-1 coverage; narrative control over the 'infrastructure story'.",
+        "bestApproach": "Cold email matthew@puck.news. Subject: 'The B2B story behind the Peacock/ReelShort deal.' Body: 3 numbers (1,700 titles, USD 1M+ B2B, $2M TikTok Q1), 1 frame (supply chain, not format), 1 ask (15-min call before or during LA Jun 1–4).",
+        "publicMove": "None — do not engage Belloni publicly before the private pitch lands.",
+        "privateMove": "Stuart drafts Monday May 25. Tim sends Tuesday May 26. Pitched after Peacock piece-to-camera is live (so Belloni can Google Tim and find the on-camera presence, not just press links).",
+        "risk": "Generic founder pitch energy. Mitigation: lead with 'Peacock just licensed ReelShort' as the news peg, then: 'I ran the distribution side. Here's the story nobody's told yet.'",
         "priority": "high"
       },
       {
         "name": "Maria Rua Aguete",
         "role": "Global Head of Media & Entertainment",
         "organisation": "Omdia",
-        "whyMatters": "Co-panellist NEM Dubrovnik (Jun 8). Tim's most-cited data anchor. Already warm.",
-        "source": "data/state/contacts.json — seed-maria-rua-aguete",
-        "timRelevance": "Sync ahead of Dubrovnik — agree which numbers each owns on stage. Also: ask her about the agency-vertical-desk question for Category 24.",
-        "colRelevance": "Omdia data is the citation that makes COL-narrative claims credible to outside-the-bubble audiences.",
-        "bestApproach": "WhatsApp / LinkedIn DM. Warm peer, not formal.",
-        "privateMove": "Send Tim's Cairns Australia-20% data points + ask about agency vertical desks. End of next week.",
-        "risk": "Low.",
+        "whyMatters": "Co-panellist NEM Dubrovnik (Jun 8). Panel topic: 'Microdrama: risky business or industry's next guilty pleasure?' With the China crackdown and Peacock validation happening this week, Tim and Maria need a pre-panel sync to align on data and framing.",
+        "source": "data/state/contacts.json — seed-maria-rua-aguete | data/state/speaking.json — seed-nem-dubrovnik-new-europe-market",
+        "timRelevance": "Sync on: which sizing number leads on panel ($11B Omdia vs $14B others), China crackdown context, and Tim's 'Built to Last' vs 'risky business' framing. Maria can be the data anchor; Tim is the operator evidence.",
+        "colRelevance": "Omdia data citation = credibility with European TV market buyers and distributors at NEM.",
+        "bestApproach": "WhatsApp / LinkedIn DM. Warm peer. 'NEM prep — have you seen the Peacock/ReelShort news? Changes my opening.' Include the China crackdown update.",
+        "privateMove": "DM by end of May 27. Offer to share COL's Australia 20% data for her Omdia deck.",
+        "risk": "Very low.",
         "priority": "high"
       },
       {
-        "name": "Connie Chan",
-        "role": "General Partner",
-        "organisation": "a16z",
-        "whyMatters": "Consumer + China crossover thesis. LA trip is the natural window for an in-person + Vertical Mogul podcast pilot guest.",
-        "source": "data/state/contacts.json — seed-connie-chan",
-        "timRelevance": "Warm intro into a16z podcast and West Coast investor network. Also a candidate Episode 1 for the Vertical Mogul podcast if it ships.",
-        "colRelevance": "Investor narrative validation + future cap-stack signal.",
-        "bestApproach": "Warm intro via mutual (likely Singapore / Stanford / earlier a16z portfolio).",
-        "privateMove": "Stuart identifies the warm intro vector and briefs Tim by Wed May 27. Reach out before LA wheels-up.",
-        "risk": "Cold-in attempt without a warm path gets ignored.",
-        "priority": "medium"
-      },
-      {
-        "name": "Latif Sim",
-        "role": "Founder",
-        "organisation": "BeLive Technology",
-        "whyMatters": "Microdrama-in-a-Box co-creator. Already does joint MIP + FILMART presentations with Tim. The visual content this run needs (BTS, demo videos) is recordable WITH him, not solo.",
-        "source": "data/state/contacts.json — seed-latif-sim",
-        "timRelevance": "Co-star for BTS / Microdrama-in-a-Box demo videos. Two-shot content lands harder than solo talking-head.",
-        "colRelevance": "BeLive is the SaaS infrastructure partner. Joint visibility = joint commercial credibility.",
-        "bestApproach": "WhatsApp. Casual: 'I'm shooting some pieces around LA / NEM / APOS — want to do a joint piece on the box?'",
-        "privateMove": "Stuart loops Latif in by end of next week for an APOS Bali joint shoot.",
+        "name": "Jason Ander",
+        "role": "Head of US Partnerships",
+        "organisation": "COL Group (new hire)",
+        "whyMatters": "Just announced in Deadline. Tim should write the welcome post this week (drafted above in content.json). Also: coordinate for LA — Jason's Paramount/Hulu network is the warm-intro pipeline for studio meetings Tim is building.",
+        "source": "https://deadline.com/2026/05/col-group-hires-ex-paramount-disney-microdrama-execs-1236900910/ | intelligence item int_col_new_hires_2605",
+        "timRelevance": "Jason's institutional Hollywood network (Paramount, Hulu) fills a gap in Tim's LA access — Tim brings vertical operator credibility, Jason brings traditional-media relationship capital.",
+        "colRelevance": "The US team Tim is building around the LA trip. Jason should be in the room for Microdrama-in-a-Box conversations with studios/streamers.",
+        "bestApproach": "Welcome post this week (draft in content.json). Privately: coordinate LA meeting list by Thu May 28.",
+        "publicMove": "Welcome LinkedIn post (draft: cn_col_team_post_2605). Warm, named, non-triumphalist.",
+        "privateMove": "Tim briefs Jason on LA target list by Thu May 28. Jason brings his Paramount/Hulu contact list.",
         "risk": "Low.",
         "priority": "medium"
       },
@@ -114,72 +171,74 @@
         "name": "Janine Stein",
         "role": "Founder & Editorial Director",
         "organisation": "ContentAsia",
-        "whyMatters": "Most consistent media amplifier; broke the CMO appointment. Give her the next exclusive (Vertical View newsletter launch + Australia-20% data feature).",
+        "whyMatters": "Most consistent APAC media amplifier. The Peacock/ReelShort deal + COL new hires + China crackdown is a three-story cycle that ContentAsia should cover. Give Janine the exclusive angle: 'How COL's infrastructure play looks from inside the Peacock deal week.'",
         "source": "data/state/contacts.json — seed-janine-stein",
-        "timRelevance": "Maintains relationship cadence between MIP London / MIPCOM. Keeps Tim in regular APAC trade coverage.",
-        "colRelevance": "ContentAsia's audience IS the Asian content-business decision-maker layer COL wants visible to.",
-        "bestApproach": "Email + LinkedIn DM. Newsletter exclusive + Australia data as a parallel feature.",
-        "privateMove": "Within 48 hours of Vertical View launch decision being locked.",
+        "timRelevance": "Keeps Tim in regular APAC trade coverage between the LA trip and NEM Dubrovnik. ContentAsia's audience IS the Asian content-business decision-maker layer COL needs visible to.",
+        "colRelevance": "COL announcement coverage (hires + Peacock validation) with a ContentAsia exclusive frame.",
+        "bestApproach": "Email + LinkedIn DM. Offer: 'Janine — big week. Three things happened. I can give you the inside read.' Her audience wants the distribution infrastructure story.",
+        "privateMove": "Email by Wednesday May 27. After Tim's Peacock piece-to-camera posts.",
         "risk": "Low.",
         "priority": "medium"
       }
     ],
     "bestMediaAngle": {
-      "angle": "B2B distribution as the next phase of vertical drama — Tim has the rails Hollywood is about to need. Frame: \"You covered DramaBox (consumer). The interesting story now is who supplies the picks and shovels. That's COL.\"",
-      "targetOutlet": "The Town (Puck) / Matthew Belloni",
-      "why": "Belloni's audience is US entertainment-business decision-makers. He's framed the DramaBox consumer story; the B2B counterpart is the natural follow-on. One email = Puck feature + The Town episode + downstream tier-1 attention.",
-      "evidence": "Belloni's prior DramaBox coverage. Tim's documented proof (1,700+ titles, USD 1M+ B2B, 238M-day, 77-min sessions). Pitch contact in data/state/media.json."
+      "angle": "The supply chain story behind the Peacock/ReelShort deal: 'You covered DramaBox (consumer). Now Peacock has licensed ReelShort (supply chain). The story nobody has told yet is who built the rails that Peacock just started buying — and what that means for every other major streamer watching.' Tim has the receipts: 1,700 titles, USD 1M+ B2B, $2M TikTok Q1, Microdrama-in-a-Box.",
+      "targetOutlet": "The Town (Puck) / Matthew Belloni — matthew@puck.news",
+      "why": "Peacock/ReelShort is the news peg that makes the pitch a news story, not a profile. Belloni's audience (US entertainment-business decision-makers) is exactly who needs to understand the supply chain, not just the format. One email → Puck feature + The Town episode.",
+      "evidence": "Peacock/ReelShort deal confirmed via C21Media, Deadline, TechCrunch, Peacock official (May 2026). Tim's B2B receipts publicly documented in Deadline/Variety this week. Date checked: 2026-05-23."
     },
     "bestLinkedInAngle": {
-      "hook": "Nine days. LA. Five questions.",
-      "angle": "Pre-LA piece-to-camera, NOT a written post. 60 seconds, phone, single take, no edit. Tim looking straight at the camera, somewhere with energy in the background (not a desk). One hook (5 words), three of the five questions on camera (rest in caption), one forward line (\"I'll tell you what I find\"). The text version goes in the caption — but the PRIMARY artefact is the video.",
-      "why": "This is the run's mandatory Category 21 deliverable. Last week we drafted this as a written post — that was a category miss. Tim is heading to LA, the world's most-filmed city, and his audience expects vertical-native operators to be vertical-native themselves. A polished LinkedIn paragraph here would be the opposite of native."
+      "hook": "Hollywood just licensed vertical drama.",
+      "angle": "Piece-to-camera, 60 seconds, phone-shot, no edit. Tim direct to camera, outdoors, no jacket. Hook in 5 words ('Hollywood just licensed vertical drama.'). Three-beat time progression: '2 years ago / last year / this week — they stopped asking.' Forward close: 'I'm in LA next week. Guess what we're talking about.' This is the 'I told you so' moment done with operator confidence. Full script and beat sheet in content.json (id: cn_peacock_reaction_2605). Shoot Sat or Sun May 23-24.",
+      "why": "The Peacock/ReelShort deal is the clearest validation moment in Tim's public narrative to date. Reacting on camera (not in writing) is the Category 21 imperative — and it's also the most native form in a category that IS mobile-first video."
     },
     "bestCommentOpportunity": {
-      "targetAuthor": "NONE — radar walk produced no verified target post this run.",
-      "suggestedComment": "Hold. CLAUDE.md guardrail: never imply interest that doesn't exist. Without RSS intel + manual LinkedIn check this week, picking a target risks fabrication. Re-run when network access is restored.",
-      "why": "Honest deferral. Better than inventing a comment target.",
-      "risk": "Manufactured comments degrade Tim's voice. Skipping a category this week is the right call."
+      "targetPostUrl": "https://techcrunch.com/2026/05/11/bravo-is-creating-unscripted-microdramas-for-the-peacock-app/",
+      "targetAuthor": "Lauren Forristal / TechCrunch — or any trade journalist who files a Peacock/ReelShort piece this week",
+      "suggestedComment": "The really interesting detail here isn't that Peacock is adding vertical video. It's that they're licensing from ReelShort — a microdrama-native platform — rather than commissioning in-house. That's a supply-chain decision. Peacock just told the market: there are specialists in vertical production who are better at this than a major streamer building from scratch. The next question is who else is watching that decision.",
+      "why": "Tim commenting on the TechCrunch or C21Media Peacock/ReelShort piece positions him as the operator who can explain the B2B dimension that the consumer-focused trade coverage misses. Short, specific, operator POV — not a retweet.",
+      "risk": "Low. The only risk is over-length — keep it under 150 words. One point, one implication. Do not mention COL by name in the comment (let Tim's profile do that work)."
     },
     "bestRelationshipMove": {
-      "name": "Matthew Belloni",
-      "role": "Founding Partner",
-      "organisation": "Puck / The Town",
-      "whyMatters": "Single pitch, two-surface upside. Highest leverage per minute spent of any move in this brief.",
-      "source": "data/state/contacts.json — seed-matthew-belloni",
-      "timRelevance": "Establishes Tim in US tier-1 entertainment-business press in one move.",
-      "colRelevance": "B2B narrative lands harder here than anywhere else.",
-      "bestApproach": "Cold email matthew@puck.news. Subject: 'The B2B counterpart to your DramaBox story.' 3 numbers, 1 frame, 1 ask. 15-min call before LA trip.",
-      "privateMove": "Stuart drafts Mon May 25, sends Tue May 26. Tim ready for a 15-min call Jun 1–4 in LA.",
-      "risk": "Generic founder-pitch energy. Mitigation: lead with the 238M-day stat, not with COL's name.",
+      "name": "Anna Saalfeld",
+      "role": "Head of P&G Studios",
+      "organisation": "Procter & Gamble",
+      "whyMatters": "P&G's 'The Golden Pear Affair' is the most documented FMCG microdrama entry yet. Saalfeld is the architect. This is the relationship that turns Tim from 'person who predicted brand entry' to 'person P&G calls when they want to scale'.",
+      "source": "https://www.marketingdive.com/news/pg-native-to-debut-50-part-microdrama-series-as-genre-takes-off/807512/ | intelligence item int_pg_microdrama_2605",
+      "timRelevance": "Tim's brand-entry thesis now has a named P&G lead. DM opens the COL-to-FMCG pipeline at the most valuable possible entry point.",
+      "colRelevance": "P&G is the world's largest advertiser. A COL partnership conversation — even a 15-min call — is a tier-1 commercial signal.",
+      "bestApproach": "LinkedIn DM after Tim's Peacock piece-to-camera posts this weekend. Message: 'Saw what you built with Native — the soap-opera heritage reframe is exactly right. If you're thinking about what this looks like at scale, happy to share what the distribution side looks like from inside the largest vertical catalogue.' No pitch. One observation, one offer.",
+      "publicMove": "Tim reposts the Marketing Dive P&G piece with a one-liner: 'P&G just proved what I've been saying for two years. Brands didn't adopt vertical — they came home to the format that always worked, just on the right screen.'",
+      "privateMove": "Stuart finds warm intro vector via Campaign Asia or Cannes Lions connections. DM goes after piece-to-camera posts (May 23-24 target).",
+      "risk": "Approaching as a vendor. Tim should lead as a peer — creative operator to creative operator. No COL product pitch in the opening DM.",
       "priority": "high"
     },
     "bestColOpportunity": {
-      "title": "Use the LA trip to land one US studio/streamer Microdrama-in-a-Box conversation — with the trip shot publicly so the meetings get a credibility halo before they happen",
-      "why": "Microdrama-in-a-Box is COL's cleanest B2B asset. LA is the only confirmed in-person window before MIPCOM in October. The previous brief framed this as a private-calendar item; the new framing is: shoot the trip publicly (Category 21), and the studio meetings get a credibility halo BEFORE Tim walks in the room. One serious studio/streamer conversation justifies the trip commercially.",
-      "commercialUpside": "Any of: a white-label deal (recurring SaaS revenue), co-investment in a vertical originals slate, or a strategic POC with a major streamer. Each is a multi-million-dollar opportunity and a tier-1 PR moment if it lands. Public-narrative-first approach makes any of these easier to close.",
-      "nextStep": "Stuart + Tim build the LA target list by Wed May 27. Goal: 3 confirmed meetings with SVP+ level decision-makers at major US studios/streamers. Pre-trip piece-to-camera (see best LinkedIn angle) posts Sat May 31. Daily ~60-sec vlog beats during Jun 1–4."
+      "title": "Peacock validation opens the door: pitch Microdrama-in-a-Box to the other major US streamers (Disney+, Max, Paramount+) before they replicate what Peacock just did in-house",
+      "why": "Peacock just demonstrated the model: license content from a vertical-native platform rather than build in-house. Every other major US streamer's content team is now having an internal meeting about this. The window to position COL/Microdrama-in-a-Box as the infrastructure layer — not just the content supplier — is open now. LA trip Jun 1–4 is the in-person window.",
+      "commercialUpside": "A white-label or content licensing deal with one additional major US streamer: multi-million-dollar recurring revenue, tier-1 PR moment, strengthens the COL narrative as the supply-chain standard. Even a 'watch list' meeting with Disney+ or Max is commercially significant.",
+      "nextStep": "Stuart + Tim build a one-page COL infrastructure brief specifically for US streamers by Wed May 27 — framing the Peacock deal as proof of model, and positioning COL as the platform that can replicate it for other streamers at scale. Tim brings to LA Jun 1 meetings. Target: SVP+ at Disney+ US, Max, Paramount+ and a Peacock follow-up."
     },
     "risingTrend": {
-      "trend": "Brand advertisers entering vertical drama as a media line item, not a one-off stunt.",
-      "evidence": "P&G, Unilever, Crocs, Shopee already named (knowledge/STRATEGIC_PROFILE.md). Cairns Crocodiles audience was Australia's marketing community — brand-side appetite moved from curious to budgeted.",
-      "implication": "Tim's positioning should drift from 'microdrama operator' to 'commercial bridge between brand CMOs and vertical infrastructure'. At least one upcoming piece this quarter should be aimed at brand CMOs directly — not at peers in the microdrama industry."
+      "trend": "Brand advertisers are making vertical drama a formal budget line item. The 'brands are coming' prediction is now a documented fact: P&G, Unilever, Crocs, Shopee, Starbucks, Maybelline — six brands with confirmed vertical campaigns in 2025-2026.",
+      "evidence": "P&G 'The Golden Pear Affair' (Marketing Dive, May 2026) — 50-episode series, Dentsu Entertainment production. Starbucks and Maybelline confirmed via Marketing Brew (2026). Crocs and Shopee per STRATEGIC_PROFILE.md. Date checked: 2026-05-23.",
+      "implication": "Tim's positioning should drift from 'microdrama operator explaining the format to Hollywood' to 'vertical infrastructure provider for brands who've already decided to enter the format.' The LA trip and NEM Dubrovnik both now include brand-CMO conversations as equally important as studio-exec conversations."
     },
     "thingToIgnore": {
-      "item": "Hollywood 'is vertical real?' think-pieces that don't include actual data.",
-      "why": "Tim's whole frame is 'we're not in the business of saving Hollywood'. Commenting on opinion-only think-pieces makes Tim sound like he's defending against a frame that doesn't apply. The discipline: only engage when there's a number to anchor on."
+      "item": "Cannes Lions 2026 — the submission deadline was April 9, 2026. It has passed. The weekly focus entry 'Close Cannes Lions submission' is moot. Stuart should update settings.json to remove it and replace it with a Cannes Lions 2027 tracking note (PanelPicker and submission windows open Jan 2027). No action required or possible this cycle.",
+      "why": "A team item that's already closed creates false urgency and dilutes focus on what's actually actionable. The three actionable items this week (Peacock piece-to-camera, StreamTV Awards, pre-LA piece-to-camera) are the right 3. Adding a fourth that can't be executed = the brief loses authority."
     },
     "reputationRisk": {
-      "risk": "Post-CMO promotion (May 2026), Tim's content risks sounding triumphalist if Stuart isn't watching. The voice tilts naturally toward 'look at the milestone' rather than 'here's what we're solving next'. New risk this run: on-camera, the triumphalism risk is HIGHER than in writing — face + voice carry more swagger than a written post. Watch the cuts.",
-      "mitigation": "Voice rule reinforced (knowledge/VOICE.md): open with a number or a one-line claim, never with 'I'm excited to share'. For visual content specifically: hook in 5 words, one stat, no jacket-on-phone, no teleprompter. Stuart watches every piece-to-camera draft before it ships."
+      "risk": "Two critical framings are live this week and will surface at NEM Dubrovnik and LA meetings: (1) Yale Journal 'micro-drama as soft power' — framing COL/ReelShort as Chinese cultural infrastructure, which could trigger US regulatory concern or Hollywood reticence; (2) The Wrap 'dark underbelly' — labour rates, AI consent violations, racial homogeneity of US microdrama productions. Tim will be asked about both in LA and at NEM. Without prepared responses, he risks either dismissing legitimate criticisms (undermining his 'I say it as it is' brand) or over-defending (looking scared).",
+      "mitigation": "Prepare two sharp one-liners this week. On soft power: 'COL builds platforms that serve local audiences with global IP. We're not exporting ideology — we're exporting infrastructure. There's a difference.' On The Wrap: 'They're describing the floor of the market. We're building the ceiling — 180 FlareFlow originals in 2026, $45M investment, productions in Singapore, the US, and with talent from 10+ territories.' Stuart builds the Q&A brief for Tim's LA meetings by Thu May 29."
     },
     "suggestedAction": {
       "for": "Stuart",
-      "action": "By end of Tue May 26: (1) draft + send Belloni pitch, (2) confirm StreamTV Awards submission owner. By Sat May 30: help Tim record + post the pre-LA piece-to-camera. Everything else (Cannes Lions submission, Vertical View newsletter launch, LA target list build-out) → next week, or scoped during LA. This is the cap-of-3 rule in practice — last week's brief asked for 5 deliverables by Tuesday; this brief asks for 2 by Tuesday and 1 by Saturday. Tim's 5–8 hr/week proactive budget can carry 3 items; it can't carry 5.",
+      "action": "This weekend (May 23-24): help Tim record + post the Peacock reaction piece-to-camera (content.json: cn_peacock_reaction_2605) — ~25 min total, highest leverage piece this cycle. By Mon May 26: draft Belloni pitch with Peacock news peg, send Tue May 27. By Tue May 27: begin StreamTV Awards submission assembly — Jun 15 deadline, Tim has all the receipts, ~90 min to file. Update settings.json: remove 'Close Cannes Lions submission' from weeklyFocus (deadline passed April 9). By Thu May 29: build LA crisis Q&A brief for Tim (soft power + ethics framings). Pre-LA piece-to-camera (already drafted): shoot + post Sat May 30.",
       "urgency": "this-week"
     },
-    "model": "claude-opus-4-7",
+    "model": "claude-sonnet-4-6",
     "tokens": { "input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0 },
-    "createdAt": "2026-05-23T06:45:00.000Z"
+    "createdAt": "2026-05-23T08:30:00.000Z"
   }
 ]
