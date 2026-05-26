@@ -1,5 +1,15 @@
 [
   {
+    "id": "rn_2605_week2",
+    "agent": "weekly-brief",
+    "status": "success",
+    "startedAt": "2026-05-26T22:00:00.000Z",
+    "finishedAt": "2026-05-26T22:35:00.000Z",
+    "itemsCreated": 13,
+    "itemsUpdated": 8,
+    "metadata": "Weekly brief for week of 2026-05-25. RSS still fully blocked (22/22 denied, networkPolicyBlocked:true) — web search via WebSearch tool used for all intelligence. 7 new intelligence items reviewed and added. 3 new content drafts added (trifecta piece-to-camera, luxury brands post, NEM pre-panel piece-to-camera). Awards.json corrections: StreamTV Awards 2026 deadline corrected (finalists announced May 12, window closed — previous Jun 15 deadline was wrong); Campaign Asia 40 Under 40 deadline corrected to April 17 (was Jun 30, window closed); MARKETING-INTERACTIVE deadline corrected to June 12 (was June 5). settings.json weeklyFocus updated. Defining story this run: Netflix + Amazon + Disney trifecta — all three major US streamers now have vertical video infrastructure, confirmed week of May 4-10. New signals: Issa Rae 'Screen Time' 100M views on PineDrama; Marc Jacobs luxury microdrama; Park Min-Kyu (Single's Inferno) cast in FlareFlow; LA Vertical Drama Market second edition (May 7-10, Apollo Awards); 'Clearly me' AI consent violation (Category 22). 24 OPPORTUNITY_RADAR categories walked: 1-13, 17-24 produced signals. Categories still network-blocked: app-store chart rankings, Mandarin reputation watch (Weibo/Baidu 短剧 出海), Reddit qualitative (r/microdrama)."
+  },
+  {
     "id": "rn_2605_weekly_real",
     "agent": "weekly-brief",
     "status": "success",

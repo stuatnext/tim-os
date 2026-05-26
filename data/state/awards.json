@@ -4,24 +4,25 @@
     "name": "StreamTV Awards — Content Partnerships Executive of the Year",
     "organizer": "StreamTV",
     "category": "Content Partnerships Executive",
-    "deadline": "2026-06-15T00:00:00.000Z",
+    "deadline": "2026-05-09T00:00:00.000Z",
     "ceremonyAt": "2026-06-17T00:00:00.000Z",
-    "priority": "urgent",
+    "priority": "medium",
     "status": "identified",
     "fitScore": 95,
-    "fitRationale": "Best category match for Tim's exact role: 1,700+ titles distributed, USD 1M+ B2B revenue, Microdrama in a Box."
+    "fitRationale": "Best category match for Tim's exact role: 1,700+ titles distributed, USD 1M+ B2B revenue, Microdrama in a Box.",
+    "notes": "2026 CYCLE CLOSED — finalists announced May 12, 2026. Previous deadline entry (Jun 15) was incorrect. Flag for 2027 cycle: set reminder Q1 2027 when submissions reopen. Ceremony Denver Jun 16-19 2026. Source: https://www.streamtvinsider.com/content/streamtv-show-announces-2026-streamtv-awards-finalists. Date checked: 2026-05-26."
   },
   {
     "id": "seed-campaign-asia-40-under-40",
     "name": "Campaign Asia 40 Under 40",
     "organizer": "Campaign Asia-Pacific",
     "category": "40 Under 40",
-    "deadline": "2026-06-30T00:00:00.000Z",
-    "priority": "urgent",
+    "deadline": "2026-04-17T00:00:00.000Z",
+    "priority": "medium",
     "status": "identified",
     "fitScore": 92,
-    "fitRationale": "Tim just turned 40 — verify eligibility window. If eligible, his single best personal profile award.",
-    "notes": "Verify birth year first. Campaign Asia is a key Tim media relationship."
+    "fitRationale": "Tim just turned 40 — eligibility requires birth date of April 18 1985 or later. If Tim's birthday is after April 17, he may not have been eligible for 2026 edition.",
+    "notes": "2026 CYCLE CLOSED — actual deadline was April 17, 2026 (not June 30 as previously tracked). Eligibility cutoff: born April 18 1985 or later. Tim turned 40 in May 2026 — verify exact birth date to confirm 2026 eligibility window; moot as deadline passed. 2027 edition: Tim will be 41, ineligible. Source: https://www.campaignasia.com/article/40-under-40-2026-open-for-nominations/4gjgrp6hdwj375z6prf0a2gnne. Date checked: 2026-05-26."
   },
   {
     "id": "seed-campaign-asia-media-awards-media-leader-of-the-year",
@@ -89,12 +90,13 @@
     "id": "seed-marketing-interactive-marketing-excellence-awards-sg",
     "name": "MARKETING-INTERACTIVE Marketing Excellence Awards SG",
     "organizer": "MARKETING-INTERACTIVE",
-    "deadline": "2026-06-05T00:00:00.000Z",
+    "deadline": "2026-06-12T00:00:00.000Z",
     "feeUsd": 270,
-    "priority": "medium",
+    "priority": "high",
     "status": "identified",
     "fitScore": 72,
-    "fitRationale": "Best Content Marketing Strategy. Strong COL Group narrative ready."
+    "fitRationale": "Best Content Marketing Strategy. Strong COL Group narrative ready.",
+    "notes": "Deadline corrected to June 12, 2026 23:59hrs (was erroneously listed as June 5). Eligibility period: work from March 2025 to April 2026. 49 categories. Source: https://awards.marketing-interactive.com/marketing-excellence-sg/ Date checked: 2026-05-26."
   },
   {
     "id": "seed-campaign-asia-pr-awards",
