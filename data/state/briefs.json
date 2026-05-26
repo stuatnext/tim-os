@@ -1,5 +1,247 @@
 [
   {
+    "id": "br_2605_week2",
+    "weekOf": "2026-05-25T00:00:00.000Z",
+    "headline": "Hollywood IS vertical. Netflix + Amazon + Disney confirmed the trifecta this fortnight. LA in 6 days — the conversations just changed.",
+    "whatChanged": "This run covers the week of May 25, picking up where the May 23 brief left off. The defining development: the three largest US streaming companies all now have vertical video infrastructure. Netflix launched 'Clips' on April 30 in 9 markets, Amazon Prime Video launched its 'Clips' vertical feed on May 8, and Disney+ has been running vertical ('Locker Diaries') since February. Industry observers confirmed in the week of May 4-10 that vertical is no longer an experiment — it is standard premium-streaming infrastructure. This is bigger than the Peacock licensing deal from last week, because all three together is the entire Hollywood establishment. Tim's LA meetings (Jun 1-4) are now set against this backdrop. Every Microdrama-in-a-Box B2B conversation now has three additional proof points from the world's largest streamers. Two critical awards corrections: (1) StreamTV Awards — finalists announced May 12, the 2026 window is closed; the Jun 15 deadline in state was incorrect. (2) Campaign Asia 40 Under 40 — actual deadline was April 17, 2026 (not June 30); window is closed. MARKETING-INTERACTIVE Marketing Excellence Awards SG deadline corrected to June 12 (was listed as June 5) — 17 days out, still actionable. New intelligence this run: Issa Rae's 'Screen Time' on PineDrama hit 100M views (prestige Hollywood creator formally in microdrama); Marc Jacobs launched a luxury microdrama with Rachel Sennott (brand spectrum now spans FMCG to luxury fashion — seven confirmed brands); Park Min-Kyu (Single's Inferno, Netflix) cast in FlareFlow original 'One Year Love' (Vertical 2.0 casting); LA Vertical Drama Market held second edition May 7-10 at FAB Factory Hollywood with Apollo Awards (IAVA Gala — new award category for tracking); 'Clearly me' second AI consent violation in Chinese microdrama production (Category 22 — NEM prep). Categories that still produced nothing due to network policy: app-store chart rankings, Mandarin reputation watch (Weibo/Baidu), Reddit qualitative. RSS blocked 22/22 — environment-level fix remains the only unblocker.",
+    "topOpportunities": [
+      {
+        "title": "Shoot trifecta piece-to-camera — 'Netflix. Amazon. Disney. Now what?' (this weekend, May 30-31)",
+        "type": "visual content / on-camera",
+        "why": "Netflix, Amazon, and Disney all launched vertical video feeds in the same fortnight — the entire Hollywood establishment has now signalled vertical as infrastructure. This is the single most important validation moment in Tim's public narrative to date, and it needs an on-camera reaction before he lands in LA. Every LA conversation starts from this frame. Draft at content.json (id: cn_trifecta_ptc_2605). **~25 min: 15 to record (3–4 takes), 5 to select, 5 to caption + schedule. Shoot Saturday or Sunday May 30-31.**",
+        "source": "Netflix Clips: https://variety.com/2026/digital/news/netflix-new-mobile-app-vertical-video-feed-clips-1236734258/ | Amazon Clips: https://www.advanced-television.com/2026/05/11/prime-video-rolling-out-clips-vertical-feed/ | Disney+: https://deadline.com/2026/02/disney-locker-diaries-vertical-drama-zombies-characters-1236724682/ Intelligence item: int_trifecta_vertical_2605",
+        "dateChecked": "2026-05-26",
+        "scores": {
+          "timAuthorityFit": 5,
+          "colCommercialUpside": 5,
+          "microdramaRelevance": 5,
+          "mediaCoveragePotential": 5,
+          "relationshipValue": 4,
+          "personalityFit": 5,
+          "timeliness": 5,
+          "evidenceStrength": 5,
+          "easeOfAction": 5,
+          "reputationRisk": 1
+        },
+        "action": "Post",
+        "evidence": "strong"
+      },
+      {
+        "title": "Send Matthew Belloni / The Town pitch before Tim boards for LA (target: Wednesday May 27)",
+        "type": "podcast / media pitch",
+        "why": "The trifecta news makes the Belloni pitch even stronger. Lead: 'Netflix, Amazon, Disney all launched vertical feeds this month. Peacock licensed ReelShort last week. You covered DramaBox (consumer). The story you haven't told is who built the supply chain all of these platforms are now buying from — that's COL.' Send before Tim lands in LA so Belloni has time to Google Tim and find the video. **~30 min: Stuart drafts Wednesday, Tim reviews and sends. Target: Wednesday May 27 or Thursday May 28 at latest.**",
+        "source": "data/state/media.json — seed-the-town-with-matthew-belloni. Intelligence item int_trifecta_vertical_2605. Contact: matthew@puck.news",
+        "dateChecked": "2026-05-26",
+        "scores": {
+          "timAuthorityFit": 5,
+          "colCommercialUpside": 5,
+          "microdramaRelevance": 5,
+          "mediaCoveragePotential": 5,
+          "relationshipValue": 5,
+          "personalityFit": 5,
+          "timeliness": 5,
+          "evidenceStrength": 5,
+          "easeOfAction": 4,
+          "reputationRisk": 1
+        },
+        "action": "Pitch",
+        "evidence": "strong"
+      },
+      {
+        "title": "MARKETING-INTERACTIVE Marketing Excellence Awards SG — deadline June 12 (17 days)",
+        "type": "award",
+        "why": "Best Content Marketing Strategy category. June 12 deadline, 17 days out. Eligibility period: March 2025 to April 2026 — COL's vertical distribution campaign, the Peacock licensing deal, and the Microdrama-in-a-Box launch all fall within scope. Previous deadline entry (June 5) was incorrect — there is more time than previously thought. This is still Tim's best near-term Singapore-market award. **~90 min total: 60 min to draft responses + evidence, 30 min to file. Fee: ~USD 270. Stuart leads the draft, Tim reviews.**",
+        "source": "https://awards.marketing-interactive.com/marketing-excellence-sg/ data/state/awards.json — seed-marketing-interactive-marketing-excellence-awards-sg. Date checked: 2026-05-26.",
+        "dateChecked": "2026-05-26",
+        "scores": {
+          "timAuthorityFit": 4,
+          "colCommercialUpside": 4,
+          "microdramaRelevance": 4,
+          "mediaCoveragePotential": 4,
+          "relationshipValue": 3,
+          "personalityFit": 3,
+          "timeliness": 4,
+          "evidenceStrength": 5,
+          "easeOfAction": 4,
+          "reputationRisk": 1
+        },
+        "action": "Act now",
+        "evidence": "strong"
+      },
+      {
+        "title": "DM Maria Rua Aguete — NEM pre-panel sync on trifecta data and panel framing",
+        "type": "relationship / NEM prep",
+        "why": "NEM Dubrovnik panel (Jun 8-11) is 13 days out. With Netflix/Amazon/Disney all in vertical this week, Tim and Maria need to agree on: (1) which market sizing number leads on panel ($11B Omdia preferred), (2) how the trifecta changes the panel framing ('risky business' framing is now harder to argue — Tim can open by naming the trifecta), (3) data alignment on Australia 20% proof point. **Watch — send a WhatsApp or LinkedIn DM by Thursday May 28. ~5 min.**",
+        "source": "data/state/contacts.json — seed-maria-rua-aguete | data/state/speaking.json — seed-nem-dubrovnik-new-europe-market",
+        "dateChecked": "2026-05-26",
+        "scores": {
+          "timAuthorityFit": 5,
+          "colCommercialUpside": 3,
+          "microdramaRelevance": 4,
+          "mediaCoveragePotential": 3,
+          "relationshipValue": 5,
+          "personalityFit": 5,
+          "timeliness": 5,
+          "evidenceStrength": 5,
+          "easeOfAction": 5,
+          "reputationRisk": 1
+        },
+        "action": "DM",
+        "evidence": "strong"
+      },
+      {
+        "title": "IAVA Apollo Awards — track for next cycle; meet LAVDM organizers during LA Jun 1-4",
+        "type": "award / out-of-the-box play",
+        "why": "The LA Vertical Drama Market (LAVDM) held its second edition May 7-10 at FAB Factory Hollywood, with Apollo Awards (IAVA Gala, 15 categories: acting, directing, writing, art design, technology). The event runs semi-annually — next edition likely Sep 2026. This is the Hollywood home for the vertical drama category. LA trip Jun 1-4 is an opportunity to meet the LAVDM organizers in person, discuss Sep speaking slot, and flag IAVA Apollo Awards as a new award category for FlareFlow originals. **Watch — no formal action yet, just note for LA meeting calendar.**",
+        "source": "https://www.mediaplaynews.com/second-la-vertical-drama-market-takes-place-may-7-10/ Intelligence item: int_la_vertical_drama_market_2605. Date checked: 2026-05-26.",
+        "dateChecked": "2026-05-26",
+        "scores": {
+          "timAuthorityFit": 5,
+          "colCommercialUpside": 4,
+          "microdramaRelevance": 5,
+          "mediaCoveragePotential": 4,
+          "relationshipValue": 5,
+          "personalityFit": 5,
+          "timeliness": 3,
+          "evidenceStrength": 4,
+          "easeOfAction": 4,
+          "reputationRisk": 1
+        },
+        "action": "Watch",
+        "evidence": "moderate"
+      }
+    ],
+    "topPeople": [
+      {
+        "name": "Matthew Belloni",
+        "role": "Founding Partner",
+        "organisation": "Puck / The Town",
+        "whyMatters": "Pitch just got stronger: Netflix + Amazon + Disney all in vertical this week, plus the Peacock/ReelShort supply-chain story from last week. Belloni's audience is exactly who needs to hear the infrastructure narrative. One email unlocks Puck feature + The Town episode.",
+        "source": "data/state/contacts.json — seed-matthew-belloni | int_trifecta_vertical_2605 | int_peacock_reelshort_license_2605",
+        "timRelevance": "The Peacock deal is the news peg; the trifecta is the trend confirmation. Pitch: 'You covered DramaBox (consumer). Now Netflix, Amazon, Disney, and Peacock are all buying vertical infrastructure. The story nobody has told yet is who built the rails — and what the next 18 months look like.'",
+        "colRelevance": "US entertainment-business press tier-1 coverage of the infrastructure story. Narrative control over 'who built the supply chain Hollywood is now buying from.'",
+        "bestApproach": "Cold email matthew@puck.news. Subject: 'The supply chain story behind the Netflix/Amazon/Disney vertical week.' Body: 3 stats, 1 frame, 1 ask (15-min call during LA Jun 1-4).",
+        "publicMove": "None before private pitch lands.",
+        "privateMove": "Stuart drafts Wednesday May 27. Tim sends Thursday May 28 at latest. Pitch goes after trifecta piece-to-camera is live so Belloni can watch it.",
+        "risk": "Generic founder pitch. Lead with 'Netflix + Amazon + Disney all went vertical this week — here's the supply-chain side nobody is reporting' not with COL's credentials.",
+        "priority": "high"
+      },
+      {
+        "name": "Maria Rua Aguete",
+        "role": "Global Head of Media & Entertainment",
+        "organisation": "Omdia",
+        "whyMatters": "Co-panellist NEM Dubrovnik Jun 8. With Netflix/Amazon/Disney in vertical this week, the panel framing 'risky business or guilty pleasure?' needs a quick pre-panel sync — the trifecta shifts Tim's opening line and may shift which data points Maria leads with.",
+        "source": "data/state/contacts.json — seed-maria-rua-aguete | data/state/speaking.json — seed-nem-dubrovnik-new-europe-market",
+        "timRelevance": "Sync by Thursday May 28: which sizing number leads ($11B Omdia), how the trifecta changes the narrative, whether Tim's NEM panel opener uses the Netflix/Amazon/Disney moment as the opening provocation.",
+        "colRelevance": "Omdia data citation = credibility with European TV market buyers at NEM. Maria's data + Tim's receipts = the most authoritative panel in the room.",
+        "bestApproach": "WhatsApp or LinkedIn DM. Warm peer. 'NEM prep — have you seen the Netflix/Amazon/Disney week? Changes my opening. Let's do a 20-min call before Jun 8.'",
+        "privateMove": "DM Thursday May 28. Offer to share COL's Australia 20% data for her Omdia deck.",
+        "risk": "Very low.",
+        "priority": "high"
+      },
+      {
+        "name": "Anna Saalfeld",
+        "role": "Head of P&G Studios",
+        "organisation": "Procter & Gamble",
+        "whyMatters": "P&G Studios architect of 'The Golden Pear Affair' — the most documented FMCG microdrama entry. Tim's piece-to-camera is live, establishing authority. DM window is open now. Tim in LA Jun 1-4 creates a natural meeting context.",
+        "source": "https://www.marketingdive.com/news/pg-native-to-debut-50-part-microdrama-series-as-genre-takes-off/807512/ | int_pg_microdrama_2605",
+        "timRelevance": "Tim has been saying 'brands are coming' for two years; Saalfeld built the proof case. DM opens the COL-to-FMCG pipeline at the most valuable possible entry point. LA trip creates a potential in-person meeting opportunity.",
+        "colRelevance": "P&G is the world's largest advertiser. A COL partnership conversation at this level is a tier-1 commercial signal.",
+        "bestApproach": "LinkedIn DM after trifecta piece-to-camera posts. 'Saw what you built with Native — the soap-opera heritage reframe is exactly right. If you're thinking about what this looks like at scale, happy to share what the distribution side looks like from inside the largest vertical catalogue. Are you in LA at all during the week of June 1?'",
+        "publicMove": "Tim reposts the Marketing Dive P&G piece with a one-liner: 'P&G just proved what I've been saying for two years. Brands didn't adopt vertical — they came home to the format that always worked, just on the right screen.'",
+        "privateMove": "DM after trifecta piece-to-camera posts (target: Sunday May 31). Stuart checks for mutual connections via Campaign Asia or Cannes Lions.",
+        "risk": "Approaching as a vendor. Lead as peer operator — creative leader to creative leader. No COL product pitch in opening DM.",
+        "priority": "high"
+      },
+      {
+        "name": "LAVDM / IAVA Organizers",
+        "role": "Organizers",
+        "organisation": "LA Vertical Drama Market / International Association of Vertical Arts",
+        "whyMatters": "The LAVDM is the Hollywood home for the vertical drama category — the event Tim should be headlining. Second edition ran May 7-10 with Apollo Awards (IAVA Gala). Semi-annual cadence means next edition likely September 2026. Tim is in LA Jun 1-4 — first opportunity to meet in person.",
+        "source": "https://laverticaldramamarket.com/ | https://www.mediaplaynews.com/second-la-vertical-drama-market-takes-place-may-7-10/ Date checked: 2026-05-26.",
+        "timRelevance": "Speaking slot at Sep 2026 LAVDM = Tim's Hollywood home stage for the category. IAVA Apollo Awards = new award tier to nominate FlareFlow originals. Meeting in person during LA trip is the cleanest path to both.",
+        "colRelevance": "Hollywood-market visibility for COL. The LAVDM speaker roster is the B-roll Tim needs for recognisability — same value as NEM Dubrovnik for the European market.",
+        "bestApproach": "Stuart finds the LAVDM organizer contact (laverticaldramamarket.com) and requests a brief in-person meeting during Tim's Jun 1-4 trip. Tim's pitch: 'We run the global distribution rails. I'd like to be on your September stage.'",
+        "publicMove": "Repost / comment on LAVDM's own social posts about the May 7-10 edition — 'This is the room. Glad it exists.'",
+        "privateMove": "Stuart identifies organizer contact by Friday May 29. Tim requests a 20-min coffee for Jun 1 or 2.",
+        "risk": "Low. They want Tim — he is the ideal speaker for this audience.",
+        "priority": "medium"
+      },
+      {
+        "name": "Janine Stein",
+        "role": "Founder & Editorial Director",
+        "organisation": "ContentAsia",
+        "whyMatters": "Most consistent APAC media amplifier. The Netflix/Amazon/Disney trifecta + Peacock deal + COL new hires + Park Min-Kyu casting is a four-story cycle ContentAsia should cover this week.",
+        "source": "data/state/contacts.json — seed-janine-stein",
+        "timRelevance": "ContentAsia's audience is the Asian content-business decision-maker layer COL needs visible to. A 'big week for vertical infrastructure' exclusive from Tim — before he lands in LA — keeps him in regular APAC coverage between ATxEnterprise (done) and NEM Dubrovnik.",
+        "colRelevance": "Four COL-adjacent stories in two weeks. ContentAsia should have the Tim exclusive ahead of NEM.",
+        "bestApproach": "Email + LinkedIn DM. 'Janine — big two weeks for vertical. Netflix + Amazon + Disney all in. Park Min-Kyu cast in FlareFlow. Peacock supply-chain story. Can give you the inside read before I land in LA on June 1.'",
+        "privateMove": "Email by Wednesday May 27. After trifecta piece-to-camera posts.",
+        "risk": "Low.",
+        "priority": "medium"
+      }
+    ],
+    "bestMediaAngle": {
+      "angle": "The supply chain story behind the streaming trifecta: 'Netflix, Amazon, and Disney all launched vertical feeds this month. Peacock licensed ReelShort last week. Every major US streamer is now building vertical infrastructure — but none of them built the content supply chain. That story is COL.' Tim has the receipts: 1,700 titles, USD 1M+ B2B, $2M TikTok Q1, Peacock licensing, Park Min-Kyu, Microdrama-in-a-Box.",
+      "targetOutlet": "The Town (Puck) / Matthew Belloni — matthew@puck.news",
+      "why": "The trifecta is the news peg that makes this a breaking story, not a profile. Belloni's audience (US entertainment-business decision-makers) is exactly who needs to understand the supply-chain question the trifecta creates. One email → Puck feature + The Town episode. Tim should be able to take a call during LA Jun 1-4 if pitch lands this week.",
+      "evidence": "Netflix Clips (Variety Apr 30), Amazon Prime Clips (Advanced Television May 11), Disney+ Locker Diaries (Deadline Feb 2026), Peacock/ReelShort (C21Media May 11). Tim's B2B receipts: Deadline/Variety May 2026. Date checked: 2026-05-26."
+    },
+    "bestLinkedInAngle": {
+      "hook": "Netflix. Amazon. Disney. All vertical. Now what?",
+      "angle": "Piece-to-camera, ~60 seconds, phone-shot, no edit. Tim direct to camera outdoors, no jacket. Hook: three names, three seconds. Beat structure: name the trifecta → 'Three is a supply-chain decision' → 'I'm in LA next week. Guess what we're talking about.' Forward close. Full script and shoot instructions in content.json (id: cn_trifecta_ptc_2605). Shoot Saturday or Sunday May 30-31.",
+      "why": "The trifecta is the clearest validation moment in vertical drama history — bigger than Peacock because it is the entire Hollywood establishment. Reacting on camera (not in writing) is the Category 21 imperative for a category that IS mobile-first video. Tim in LA in 6 days makes the forward close feel live and urgent."
+    },
+    "bestCommentOpportunity": {
+      "targetPostUrl": "https://variety.com/2026/digital/news/netflix-new-mobile-app-vertical-video-feed-clips-1236734258/",
+      "targetAuthor": "Patrick Frater or Todd Spangler (Variety), or Lauren Forristal (TechCrunch), or anyone in Tim's LinkedIn feed posting about Netflix/Amazon/Disney vertical feeds",
+      "suggestedComment": "Three streamers in 30 days isn't a coincidence. Netflix Clips, Amazon Clips, Disney+ vertical — that's every major US subscription platform signalling that portrait mode is now standard streaming infrastructure, not an experiment. The interesting question this creates isn't 'is vertical real?' — that conversation ended this week. The question now is who has the content supply chain that connects these platforms to the shows they need. That's where the real race starts.",
+      "why": "Tim commenting on the trifecta story positions him as the operator who can explain the supply-chain dimension that consumer-focused coverage misses. Short, specific, operator POV — not a retweet. Every LinkedIn connection who sees the comment gets the COL context from Tim's profile.",
+      "risk": "Low. Keep it under 150 words. One point, one implication. Do not mention COL by name in the comment — profile does that work. Do not be triumphalist."
+    },
+    "bestRelationshipMove": {
+      "name": "Matthew Belloni",
+      "role": "Founding Partner",
+      "organisation": "Puck / The Town",
+      "whyMatters": "The trifecta plus Peacock together is a genuine news moment for Belloni's audience. One cold email this week → potential podcast appearance during or after LA trip. This is the highest-ROI single outreach in Tim's pipeline.",
+      "source": "data/state/contacts.json — seed-matthew-belloni",
+      "timRelevance": "Subject line writes itself: 'The supply chain story behind the Netflix/Amazon/Disney vertical week.' Body: 3 stats, 1 frame, 1 ask. Shoot the trifecta piece-to-camera first so Belloni can watch it when he Googles Tim.",
+      "colRelevance": "Tier-1 US entertainment press. Puck feature + The Town appearance = the narrative control COL needs in the Hollywood conversation.",
+      "bestApproach": "Cold email matthew@puck.news. Subject: 'The supply chain story behind the Netflix/Amazon/Disney vertical week.' 3 stats: 1,700 titles, $2M TikTok Q1, Peacock licensed ReelShort. 1 frame: 'COL built the rails before the streamers needed them.' 1 ask: '15-min call, I'm in LA June 1-4.'",
+      "publicMove": "None before pitch lands.",
+      "privateMove": "Stuart drafts Wednesday May 27. Tim sends Thursday May 28. Pitch goes after trifecta piece-to-camera is live.",
+      "risk": "Generic pitch energy. First sentence must be the news peg — 'Netflix, Amazon, Disney all went vertical this week' — not Tim's credentials.",
+      "priority": "high"
+    },
+    "bestColOpportunity": {
+      "title": "LA streaming meetings: position COL/Microdrama-in-a-Box as the supply-chain standard for every streamer now building vertical infrastructure",
+      "why": "Peacock validated the licensing model last week. Netflix, Amazon, and Disney launching vertical feeds this week means every major US streamer is now facing the same question: where does the content come from? LA trip Jun 1-4, with Jason Ander (new Head of US Partnerships, ex-Paramount/Hulu) in the room, is the window to position COL as the infrastructure answer — before competitors do.",
+      "commercialUpside": "A content licensing or white-label deal with any single additional major US streamer (Netflix, Amazon, Disney+, Max, Paramount+) would be: multi-million-dollar recurring revenue, tier-1 PR moment ('second major US streamer after Peacock chooses COL'), and a step-change in Microdrama-in-a-Box B2B credibility. Even a 'watch list' meeting with a SVP+ at any of the three is commercially significant.",
+      "nextStep": "Stuart + Tim build a single-page LA brief by Thursday May 29: 'From Peacock to the trifecta — what the supply-chain conversation looks like in 2026.' Tim brings it to every LA meeting Jun 1-4. Jason Ander coordinates studio contact list. Target: SVP+ content at Netflix Mobile, Amazon Prime Video originals, Disney+ digital, Max, Paramount+."
+    },
+    "risingTrend": {
+      "trend": "Every major US streaming platform now has a vertical video product. The format question is settled. The infrastructure race has begun.",
+      "evidence": "Netflix Clips: 9 markets, launched April 30 (Variety). Amazon Prime Video Clips: launched May 8 (Advanced Television). Disney+ Locker Diaries: February 2026 (Deadline). Peacock/ReelShort: May 11 (C21Media). Four of the five major US streamers now have a vertical vertical product or catalogue deal in place. Fifth (Max/Paramount+) has announced interest. Date checked: 2026-05-26.",
+      "implication": "Tim's messaging should shift from 'explaining vertical drama to Hollywood' to 'explaining who holds the infrastructure Hollywood now needs.' The 12-month 40K goal is now achievable not as a niche operator but as a necessary counterpart to US streaming's vertical build-out. COL is the Reuters of vertical content supply."
+    },
+    "thingToIgnore": {
+      "item": "StreamTV Awards 2026 — and Campaign Asia 40 Under 40 2026. Both windows are closed. StreamTV finalists were announced May 12; Campaign Asia 40U40 deadline was April 17. Neither can be acted on this cycle.",
+      "why": "A brief that recommends 'submit to StreamTV Awards' when the window closed two weeks ago loses credibility. Same for 40U40. Both are removed from the 'Act on this week' surface. StreamTV and a new 'vertical mogul' award category (IAVA Apollo Awards) go into the 2027 planning cycle. Campaign Asia 40U40 — Tim has aged out for next year (will be 41). Replace with Campaign Asia Media Awards (Media Leader of the Year, deadline July 14) as the next personal awards priority."
+    },
+    "reputationRisk": {
+      "risk": "Two critical framings are now sharpening as Tim enters LA and NEM: (1) The 'Chinese soft power' frame from the Yale Journal is getting more traction as the US vertical market grows — Hollywood meetings will surface it. (2) AI consent violations ('Clearly me' on May 2, 'The Peach Blossom Hairpin' earlier) are becoming a systemic story. Both will be asked in LA and at NEM. Without prepared responses, Tim either dismisses legitimate criticism (undermining his 'I say it as it is' brand) or over-defends (looking scared).",
+      "mitigation": "Finalize two one-liners by Thursday May 29. On soft power: 'COL builds platforms that serve local audiences with global IP. We're not exporting ideology — we're exporting infrastructure. The difference is who controls the algorithm and the monetisation.' On AI consent: 'These cases describe the floor of the market. FlareFlow's 180-title slate runs on guild contracts and production standards. The difference between the top decile and the bottom is editorial discipline — not just AI capability.' Stuart builds the full LA Q&A brief by Thursday May 29."
+    },
+    "suggestedAction": {
+      "for": "Stuart",
+      "action": "This weekend (May 30-31): Help Tim record the trifecta piece-to-camera (content.json: cn_trifecta_ptc_2605) — 25 min total, highest leverage piece this cycle. Also record the NEM pre-panel piece-to-camera (cn_nem_panel_ptc_2605) — shoot Thursday/Friday May 28-29, post Friday evening so it's live during LA. Wednesday May 27: Draft Belloni pitch letter. Tim sends Thursday May 28 before landing in LA. Thursday May 28: Send Maria Rua Aguete WhatsApp re NEM pre-panel sync. Thursday May 29: Build LA Q&A brief for Tim (soft power + AI consent framings). Thu May 29: Begin MARKETING-INTERACTIVE Marketing Excellence Awards SG draft — deadline June 12. By Friday May 30: LAVDM organizer contact identified, coffee meeting requested for Jun 1 or 2. During LA (Jun 1-4): help Tim post daily vlog beats (beat sheet at content.json: cn1lpgxh9v8k3p9q).",
+      "urgency": "this-week"
+    },
+    "model": "claude-sonnet-4-6",
+    "tokens": { "input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0 },
+    "createdAt": "2026-05-26T22:30:00.000Z"
+  },
+  {
     "id": "br_2605_weekly_real",
     "weekOf": "2026-05-18T00:00:00.000Z",
     "headline": "Hollywood just said yes. Shoot the reaction this weekend. Everything else is noise.",
