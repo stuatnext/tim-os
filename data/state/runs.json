@@ -1,5 +1,15 @@
 [
   {
+    "id": "rn_0106_week1",
+    "agent": "weekly-brief",
+    "status": "success",
+    "startedAt": "2026-06-01T07:00:00.000Z",
+    "finishedAt": "2026-06-01T09:30:00.000Z",
+    "itemsCreated": 15,
+    "itemsUpdated": 2,
+    "metadata": "Weekly brief for week of 2026-06-01. RSS still fully blocked (network policy; silent failure on npm run feeds) — all intelligence via web search. 9 new intelligence items reviewed and added. 3 new content drafts added: APOS prep piece-to-camera (cn_apos_prep_ptc_0106), Deloitte $7.8B LinkedIn post (cn_deloitte_78b_0106), 'Every layer of the stack' LinkedIn post (cn_stack_vertical_0106). Awards.json: Campaign Asia Media Awards 2026 flagged as verify-deadline (may be closed); Campaign Asia Agency of the Year Awards 2026 added (opens June 9). Key signals this run: Deloitte $7.8B 2026 micro-series forecast; DramaBox/Trade Desk programmatic deal (competitor monetisation gap); Range Media/Google 100 Zeros microdrama commission (veteran Hollywood producers); Nippon TV Viral Pocket (Japan broadcast establishment enters vertical); ABS-CBN Philippines (SE Asia largest entertainer enters vertical); LAVDM Nov 5-7 semi-annual confirmed + Dana Protsyshak in LA; SXSW 2027 PanelPicker opens June 23; Chinamaxxing soft-power narrative intensifying in US mainstream media. Tim is IN LA today (Jun 1-4) — pre-departure content pieces (trifecta PTC, NEM pre-panel PTC) still in 'draft' status; Belloni pitch still 'identified'. Three actionable items this week: LA trifecta PTC shoot today (Post), Belloni pitch send today (Pitch), MARKETING-INTERACTIVE Awards SG draft + review (Act now). 24 OPPORTUNITY_RADAR categories walked: categories 1-24 all produced signals or explicit no-signal notes. Categories 14 (LinkedIn voices), app-store chart intelligence, Mandarin reputation watch (Weibo/Baidu), Reddit qualitative remain network-blocked."
+  },
+  {
     "id": "rn_2605_week2",
     "agent": "weekly-brief",
     "status": "success",

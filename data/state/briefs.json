@@ -1,5 +1,243 @@
 [
   {
+    "id": "br_0106_week1",
+    "weekOf": "2026-06-01T00:00:00.000Z",
+    "headline": "Tim is in LA. Stop building to this week — this IS the week. Shoot, meet, send.",
+    "whatChanged": "Tim landed in LA today (Jun 1). This brief is written on the first morning of the trip the last two weeks have been building toward. Key status check on previous week's items: the trifecta piece-to-camera (cn_trifecta_ptc_2605) and NEM pre-panel piece-to-camera (cn_nem_panel_ptc_2605) are still in 'draft' status — if not yet shot, both can still be shot FROM LA, which adds the location narrative Tim's on-camera voice rules call for. The Belloni pitch is still 'identified' in media.json — if not sent last week, it should be sent TODAY from LA with the hook 'I'm here this week.' NEM Dubrovnik is 7 days away (Jun 8-11). Tim was NOT featured in BroadbandTV News' 'One Burning Question with NEM Dubrovnik 2026 Speakers' editorial (May 22) — Maria Rua Aguete was quoted; Tim was not. The NEM pre-panel piece-to-camera therefore remains essential. APOS Bali is 15 days away (Jun 16-18) — Andy Serkis, BBC Studios CEO Zai Bennett, Crunchyroll president Rahul Purini, and Uday Shankar are all confirmed speakers.\n\nThis run's intelligence sweep (RSS still fully blocked; web search used throughout) produced 9 new items. The defining signal: the content industry isn't debating whether vertical is real — it's building supply chains. Google commissioned microdramas from The Bachelor and American Idol creators for its own Google TV hub. Japan's Nippon TV launched a dedicated vertical production division (Viral Pocket). ABS-CBN, Southeast Asia's largest entertainment brand, entered vertical via iWant. The Trade Desk opened DramaBox's ad inventory to every programmatic buyer globally — first DSP partnership for a vertical drama app. Deloitte's 2026 TMT Predictions call micro-series revenue at $7.8 billion for 2026, more than doubling from $3.8 billion in 2025. Every layer of the content stack — streaming, broadcast, brand, advertising — committed to vertical in the same year.\n\nAward calendar corrections this run: Campaign Asia Media Awards 2026 — the July 14 deadline in state needs verification; search indicates the submission window may be closed (eligibility period Jan 2025–Apr 16 2026). Campaign Asia Agency of the Year Awards opens June 9 — not in previous state. SXSW 2027 PanelPicker opens June 23 — 22 days, prep-ready now.\n\nCategories that produced nothing due to network policy (same as previous runs): app-store chart intelligence, Mandarin reputation watch (Weibo/Baidu 短剧 出海), Reddit qualitative (r/microdrama). These remain the only gaps in the sweep. All 24 OPPORTUNITY_RADAR categories were walked; categories 21–24 produced signals this run.",
+    "topOpportunities": [
+      {
+        "title": "Shoot trifecta piece-to-camera IN LA today — 'Netflix. Amazon. Disney. I just landed.'",
+        "type": "visual content / on-camera",
+        "why": "If the trifecta piece-to-camera hasn't been shot yet (still 'draft'), shoot it TODAY in LA before the first meeting. The LA location makes it materially stronger than shooting in Singapore — 'I'm in LA because of this' is the on-camera argument. 60 seconds, outdoors, no jacket. Draft script in content.json (cn_trifecta_ptc_2605). If already shot and posted, shoot Day 1 LA vlog instead. **~20 min total: 15 to record 3 takes, 5 to select and hand to Stuart for caption.**",
+        "source": "intelligence item int_trifecta_vertical_2605 | content.json cn_trifecta_ptc_2605 | Date checked: 2026-06-01",
+        "dateChecked": "2026-06-01",
+        "scores": {
+          "timAuthorityFit": 5,
+          "colCommercialUpside": 5,
+          "microdramaRelevance": 5,
+          "mediaCoveragePotential": 5,
+          "relationshipValue": 4,
+          "personalityFit": 5,
+          "timeliness": 5,
+          "evidenceStrength": 5,
+          "easeOfAction": 5,
+          "reputationRisk": 1
+        },
+        "action": "Post",
+        "evidence": "strong"
+      },
+      {
+        "title": "Send Belloni pitch from LA today — 'I'm here this week, 15 minutes?'",
+        "type": "podcast / media pitch",
+        "why": "The Belloni pitch is still 'identified' in media.json. If not sent last week, send it from LA today. The subject line and first line should be: 'I'm in LA this week — the supply chain behind the Netflix/Amazon/Disney vertical moment.' Tim in LA physically + trifecta news + Deloitte $7.8B = the strongest possible version of this pitch. Email matthew@puck.news. 3 numbers, 1 frame, 1 ask (15-min call this week in LA). **~20 min to write and send. Stuart can draft in 10 min from the existing template in data/state/media.json.**",
+        "source": "data/state/media.json — seed-the-town-with-matthew-belloni | int_trifecta_vertical_2605 | int_deloitte_78b_0106",
+        "dateChecked": "2026-06-01",
+        "scores": {
+          "timAuthorityFit": 5,
+          "colCommercialUpside": 5,
+          "microdramaRelevance": 5,
+          "mediaCoveragePotential": 5,
+          "relationshipValue": 5,
+          "personalityFit": 5,
+          "timeliness": 5,
+          "evidenceStrength": 5,
+          "easeOfAction": 4,
+          "reputationRisk": 1
+        },
+        "action": "Pitch",
+        "evidence": "strong"
+      },
+      {
+        "title": "MARKETING-INTERACTIVE Marketing Excellence Awards SG — Stuart drafts this week, Tim reviews by Tuesday June 9. Deadline June 12.",
+        "type": "award",
+        "why": "11 days to the June 12 deadline. Stuart should draft the Best Content Marketing Strategy submission this week while Tim is in LA — Tim only needs to review and approve (~30 min). This is Tim's best near-term Singapore-market award and the submission writes itself from existing COL receipts: Peacock licensing, Park Min-Kyu casting, $2M TikTok Q1, Microdrama-in-a-Box launch. Fee ~USD 270. **~90 min total: Stuart drafts Mon–Wed (60 min), Tim reviews Tuesday June 9 (30 min).**",
+        "source": "data/state/awards.json — seed-marketing-interactive-marketing-excellence-awards-sg | https://awards.marketing-interactive.com/marketing-excellence-sg/ Date checked: 2026-06-01",
+        "dateChecked": "2026-06-01",
+        "scores": {
+          "timAuthorityFit": 4,
+          "colCommercialUpside": 4,
+          "microdramaRelevance": 4,
+          "mediaCoveragePotential": 4,
+          "relationshipValue": 3,
+          "personalityFit": 3,
+          "timeliness": 5,
+          "evidenceStrength": 5,
+          "easeOfAction": 4,
+          "reputationRisk": 1
+        },
+        "action": "Act now",
+        "evidence": "strong"
+      },
+      {
+        "title": "DM Dana Protsyshak (LAVDM founder) — coffee in LA this week, lock in November 5–7 keynote",
+        "type": "relationship / out-of-the-box",
+        "why": "Dana Protsyshak is the founder of the LA Vertical Drama Market and is LA-based. Tim is in LA this week. LAVDM 3rd edition is November 5–7, 2026. Tim is the ideal keynote speaker for the Hollywood home stage for vertical drama. A 20-minute coffee this week locks in the speaking slot before she books anyone else. **DM (LinkedIn or laverticaldramamarket.com contact) — ~5 min to send.**",
+        "source": "int_lavdm_nov_2026_0106 | https://laverticaldramamarket.com/ Date checked: 2026-06-01",
+        "dateChecked": "2026-06-01",
+        "scores": {
+          "timAuthorityFit": 5,
+          "colCommercialUpside": 4,
+          "microdramaRelevance": 5,
+          "mediaCoveragePotential": 4,
+          "relationshipValue": 5,
+          "personalityFit": 5,
+          "timeliness": 5,
+          "evidenceStrength": 4,
+          "easeOfAction": 5,
+          "reputationRisk": 1
+        },
+        "action": "DM",
+        "evidence": "moderate"
+      },
+      {
+        "title": "Watch: DramaBox / The Trade Desk programmatic signal — understand COL's advertising infrastructure position",
+        "type": "competitor intelligence / strategic",
+        "why": "DramaBox opened global programmatic ad inventory via The Trade Desk in April 2026. COL/FlareFlow's equivalent advertising infrastructure is not publicly confirmed. Brand CMOs Tim is meeting in LA this week will have Trade Desk seats. The gap — if it exists — is worth understanding before it becomes a question Tim can't answer. **Watch — internal check with Jason Ander or Enoch Chen this week.**",
+        "source": "int_dramabox_tradedesk_0106 | https://www.prnewswire.com/news-releases/the-trade-desk-powers-open-internet-growth-with-dramabox-short-drama-partnership-302752834.html Date checked: 2026-06-01",
+        "dateChecked": "2026-06-01",
+        "scores": {
+          "timAuthorityFit": 4,
+          "colCommercialUpside": 5,
+          "microdramaRelevance": 4,
+          "mediaCoveragePotential": 2,
+          "relationshipValue": 2,
+          "personalityFit": 3,
+          "timeliness": 4,
+          "evidenceStrength": 4,
+          "easeOfAction": 4,
+          "reputationRisk": 1
+        },
+        "action": "Watch",
+        "evidence": "strong"
+      }
+    ],
+    "topPeople": [
+      {
+        "name": "Dana Protsyshak",
+        "role": "Founder",
+        "organisation": "LA Vertical Drama Market (LAVDM)",
+        "whyMatters": "She founded the Hollywood home for vertical drama — the event Tim should be keynoting. LAVDM 3rd edition is November 5–7. She's LA-based. Tim is in LA this week. A coffee meeting this week is the easiest possible relationship-building moment in Tim's entire calendar this year.",
+        "source": "int_lavdm_nov_2026_0106 | https://laverticaldramamarket.com/",
+        "timRelevance": "Tim speaking at LAVDM Nov 5-7 puts him on the Hollywood stage for vertical drama alongside the MIPCOM October calendar. This is the Category 23 out-of-the-box play that builds Tim's physical presence in the Hollywood category.",
+        "colRelevance": "LAVDM speaker roster is B-roll and trade press coverage for COL's Hollywood positioning. Same value as NEM Dubrovnik for the European market.",
+        "bestApproach": "LinkedIn DM or laverticaldramamarket.com contact. 'Dana — Tim Oh, COL Group International. I'm in LA this week and would love 20 minutes. We run the global distribution rails for vertical drama. I should be on your November stage.'",
+        "privateMove": "Stuart finds the contact today (June 1). Request coffee for today or tomorrow.",
+        "risk": "Low. She wants Tim — he is the ideal speaker for this audience.",
+        "priority": "high"
+      },
+      {
+        "name": "Matthew Belloni",
+        "role": "Founding Partner",
+        "organisation": "Puck / The Town",
+        "whyMatters": "The pitch to Belloni is now at maximum strength: Tim is in LA, the trifecta is confirmed, Deloitte called the category at $7.8B, and Peacock/ReelShort is in the rear-view. The window to get on The Town is the LA trip.",
+        "source": "data/state/media.json — seed-the-town-with-matthew-belloni",
+        "timRelevance": "Subject line for the pitch: 'I'm in LA this week — the supply chain behind the Netflix/Amazon/Disney vertical month.' 3 numbers: $7.8B (Deloitte), 2.4B+ views (COL), $2M TikTok Q1 (FlareFlow). One frame: COL built the rails before the streamers needed them. One ask: 15-min call this week.",
+        "colRelevance": "Tier-1 US entertainment-business press. Puck feature + The Town episode = narrative control for the supply-chain story.",
+        "bestApproach": "Email matthew@puck.news. Keep it 150 words. News peg first: 'Netflix, Amazon, Disney — all vertical. Deloitte just called the category at $7.8 billion. The story nobody is reporting is who built the supply chain.' Then Tim's credentials in two sentences. Ask for 15 minutes this week.",
+        "privateMove": "Stuart drafts in 10 min from the existing template. Tim sends before 11am LA time today.",
+        "risk": "Generic pitch energy. Mitigation: first sentence must be the news peg — not Tim's credentials.",
+        "priority": "high"
+      },
+      {
+        "name": "Mansha Daswani",
+        "role": "Editor-in-Chief",
+        "organisation": "World Screen / ScreenMDM",
+        "whyMatters": "Mansha is confirmed on-site at APOS Bali (per speaking.json). She is Tim's key press contact for on-the-ground APOS coverage in 15 days. A warm LinkedIn message before APOS — sharing the APOS prep piece-to-camera and flagging that Tim will be on stage — sets the in-person conversation.",
+        "source": "data/state/media.json — seed-screenmdm | data/state/speaking.json — seed-apos-bali",
+        "timRelevance": "Mansha covers international TV business across trade and digital — the same audience as Tim's APOS keynote. A post-APOS exclusive or interview is the deliverable.",
+        "colRelevance": "World Screen's audience is the APAC content industry decision-maker layer — the same as ContentAsia. Tim's APOS on-stage moment deserves coverage in both.",
+        "bestApproach": "LinkedIn DM before APOS: 'Mansha — see you in Bali. I'm on stage this year. Should we find 15 minutes on the ground for the story behind the numbers?' Warm, brief, direct.",
+        "privateMove": "Send DM after APOS prep piece-to-camera posts (June 6).",
+        "risk": "Low.",
+        "priority": "medium"
+      },
+      {
+        "name": "Tommy Harper (Google TV)",
+        "role": "Head of Partnerships / Content, Google TV",
+        "organisation": "Google",
+        "whyMatters": "Google TV has launched a dedicated microdrama discovery hub and its 100 Zeros partnership with Range Media is commissioning microdramas from veteran Hollywood producers. COL/FlareFlow distributing into the Google TV hub would be a significant B2B deal — Tim's LA meetings this week should include a Google connection if Jason Ander can identify one.",
+        "source": "int_range_google_100zeros_0106 | https://variety.com/2026/tv/news/google-tv-microdrama-juanjo-duran-tommy-harper-strictly-1236694701/",
+        "timRelevance": "Google TV already has a microdrama hub. COL has 1,700+ titles in 10+ territories. The connection is obvious. Tim's first week in LA is the moment to ask Jason Ander: 'Who is the Google TV content contact? We should be in their hub.'",
+        "colRelevance": "Google TV integration = Android device distribution for every COL/FlareFlow title globally. This is a B2B deal with hardware-level distribution reach.",
+        "bestApproach": "Via Jason Ander (ex-Hulu, ex-TikTok — likely knows Google TV contacts). Tim should ask Jason on Day 1 to identify the right Google TV content contact.",
+        "privateMove": "Tim asks Jason Ander directly on June 1 or 2.",
+        "risk": "Low for an intro ask. Medium if approaching without a warm intro.",
+        "priority": "medium"
+      },
+      {
+        "name": "Cassandra Yang",
+        "role": "Founder / CEO",
+        "organisation": "Rising Joy",
+        "whyMatters": "Tim's NEM Dubrovnik co-panellist. New context this run: Rising Joy is a production partner for Viu Shorts, making Cassandra both a friendly on-panel presence and a Viu competitor to COL in APAC markets. Tim should clarify the dynamics before the panel — is this a collaboration or a competitive context?",
+        "source": "data/state/speaking.json — seed-nem-dubrovnik-new-europe-market | int_viu_shorts_0106",
+        "timRelevance": "Pre-panel DM to Cassandra by Thursday June 4 (before Tim flies NEM): (1) align on the Viu Shorts competitive/collaboration dynamic, (2) agree on panel framing with the trifecta context, (3) check whether she wants to cross-reference data or COL's numbers on stage.",
+        "colRelevance": "Rising Joy's Viu Shorts partnership is a MENA distribution channel COL is currently light in. If the competitive dynamic is manageable, this is a partner-discovery conversation.",
+        "bestApproach": "LinkedIn DM. Warm co-panellist tone. 'Cassandra — NEM in a week. Looking forward to the panel. Saw the Viu Shorts news — really interesting move. Are you still thinking about the panel framing as [topic] in light of the Netflix/Amazon/Disney trifecta?'",
+        "privateMove": "Send by Thursday June 4.",
+        "risk": "Low. She's already confirmed as co-panellist.",
+        "priority": "medium"
+      }
+    ],
+    "bestMediaAngle": {
+      "angle": "The supply chain behind the $7.8B vertical market: 'Deloitte called the category at $7.8 billion. Netflix, Amazon, Disney, Google, Nippon TV, and ABS-CBN all built for vertical this year. COL built the global supply chain — 1,700+ titles, 10+ territories — before they needed it. The story nobody has filed yet is what that infrastructure looks like from the inside.' Tim is in LA this week. He's available for a call.",
+      "targetOutlet": "The Town (Puck) / Matthew Belloni — matthew@puck.news",
+      "why": "The Deloitte $7.8B stat + the new entrants (Google, Nippon TV, ABS-CBN, Range Media) make the pitch a category-is-real story, not just a format story. Tim in LA + these numbers = the strongest possible pitch moment. Send today.",
+      "evidence": "Deloitte 2026 TMT Predictions (Nov 2025). Google TV microdrama hub + Range Media 100 Zeros (March 2026). Netflix Clips (April 2026), Amazon Clips (May 2026), Disney+ Locker Diaries (Feb 2026). Nippon TV Viral Pocket (Feb 2026). Date checked: 2026-06-01."
+    },
+    "bestLinkedInAngle": {
+      "hook": "Netflix. Amazon. Disney. I just landed in LA.",
+      "angle": "Trifecta piece-to-camera, shot IN LA today before the first meeting. The LA location adds the narrative: 'I'm in LA because of this.' Script in content.json (cn_trifecta_ptc_2605). Shoot outdoors, no jacket, phone vertical. 60 seconds. Day 1 vlog can double as this if Day 1 beat is the trifecta frame. Alternatively, the 'Every layer of the stack just went vertical' post (cn_stack_vertical_0106) is the sharpest written piece to post Wednesday mid-trip.",
+      "why": "Tim on camera in LA, reacting to the trifecta, is the most native possible content for a category that IS mobile-first video. The LA location is part of the argument — the story happened here and Tim is physically present."
+    },
+    "bestCommentOpportunity": {
+      "targetPostUrl": "https://www.broadbandtvnews.com/2026/05/22/one-burning-question-with-nem-dubrovnik-2026-speakers/",
+      "targetAuthor": "Jan Frelek (CCO, Backscreen) — quoted in the BroadbandTV News NEM feature saying 'microdramas are often seen as something micro. In fact, vertical video is the major trend, already securing a large share of the ad pie.'",
+      "suggestedComment": "Jan is right — but the word 'micro' has been doing damage to the category from the start. The format is not micro. The audience is not micro. The business is not micro. Deloitte just called it at $7.8 billion this year. When The Bachelor creator, Japan's largest broadcaster, and Southeast Asia's biggest entertainment brand all enter in the same 12 months, the category named itself. Vertical is the format. Drama is one genre. The ad pie Jan mentions is the downstream effect of an infrastructure decision made years ago.",
+      "why": "Jan's comment from the NEM feature is an excellent public engagement point — Tim is a fellow NEM speaker, and commenting on Jan's quote establishes Tim's voice in the NEM pre-event conversation without it being self-promotional. It also extends the 'every layer of the stack' frame Tim needs to establish before NEM and APOS.",
+      "risk": "Low. Keep it under 150 words. One substantive idea, one data point, no COL mention. Tim's profile does the COL positioning."
+    },
+    "bestRelationshipMove": {
+      "name": "Dana Protsyshak",
+      "role": "Founder",
+      "organisation": "LA Vertical Drama Market",
+      "whyMatters": "Tim is in LA this week. Dana runs LAVDM and just confirmed the November 5-7 third edition. A coffee meeting today or tomorrow is the cleanest path to the November keynote slot and the IAVA Apollo Awards relationship. No other moment in Tim's calendar this year will be this easy to achieve.",
+      "source": "int_lavdm_nov_2026_0106 | https://laverticaldramamarket.com/",
+      "timRelevance": "20-minute coffee. Tim's opening: 'I run the global distribution infrastructure for vertical drama. I should be on your November stage.' No pitch deck needed. His LinkedIn profile and the Variety/Deadline coverage from this year does the work.",
+      "colRelevance": "LAVDM keynote = Hollywood B-roll, industry recognition, and the event anchor for COL's US presence between now and MIPCOM.",
+      "bestApproach": "Stuart finds the contact today via laverticaldramamarket.com, LinkedIn, or the DEG contact (https://www.degonline.org/event/la-vertical-drama-market/). Tim requests 20-min coffee June 1 or 2.",
+      "privateMove": "Stuart sends the DM or email today.",
+      "risk": "Low. They want Tim.",
+      "priority": "high"
+    },
+    "bestColOpportunity": {
+      "title": "LA meetings this week: close at least one Google TV or major streaming supply-chain conversation, and check COL's programmatic advertising infrastructure gap vs DramaBox",
+      "why": "The week of June 1 is the highest-concentration of US entertainment-industry access Tim will have this year. Two specific conversations matter commercially: (1) Google TV integration — the Google TV microdrama hub is live; COL's 1,700+ titles should be in it. Jason Ander's network should surface the right Google TV content contact this week. (2) DramaBox opened programmatic ad inventory via The Trade Desk in April — brand CMOs meeting Tim this week may expect a comparable COL/FlareFlow offer. Understanding this gap (or confirming it doesn't exist) is worth an internal check before these meetings.",
+      "commercialUpside": "Google TV integration = hardware-level Android distribution for every COL/FlareFlow title globally. The Trade Desk programmatic equivalent = brand-CMO ad revenue at DSP scale. Either is a multi-million dollar commercial signal.",
+      "nextStep": "Tim asks Jason Ander on Day 1: (1) 'Who is our Google TV content contact?' (2) 'What is our programmatic advertising infrastructure story for brand CMOs — do we have a Trade Desk equivalent?' Both are meeting-prep questions, not company strategy decisions."
+    },
+    "risingTrend": {
+      "trend": "Every layer of the content production and distribution stack entered vertical drama in 2026. The category question is settled. The infrastructure race has begun.",
+      "evidence": "US streamers: Netflix Clips (April 30), Amazon Clips (May 8), Disney+ Locker Diaries (February), Peacock/ReelShort (May 11). Google TV: dedicated microdrama hub + Range Media/100 Zeros commissioning veteran Hollywood producers. Japan: Nippon TV Viral Pocket (February 2026). Southeast Asia: ABS-CBN via iWant (2026). Advertising: DramaBox / The Trade Desk programmatic partnership (April 2026). Brand CMOs: seven confirmed (P&G, Marc Jacobs, Crocs, Shopee, Starbucks, Maybelline, Unilever). Market sizing: Deloitte $7.8B in 2026 (more than double 2025). Date checked: 2026-06-01.",
+      "implication": "Tim's messaging has evolved in three stages: 2024 = 'this format is real'; 2025 = 'this format will scale'; 2026 = 'every layer of the stack built for this format — who holds the global supply chain?' COL's position is the answer to that question. Every LA meeting, NEM panel, and APOS keynote this month should run on this frame."
+    },
+    "thingToIgnore": {
+      "item": "Campaign Asia Media Awards 2026 — the July 14 deadline in state is likely incorrect. Search evidence suggests the 2026 submission window closed when the work eligibility period ended (April 16, 2026). Verify at campaignmediaawards.com before investing any time. If closed, replace with Campaign Asia Agency of the Year (opens June 9) and Campaign Asia PR Awards (deadline July 14 — verify separately).",
+      "why": "Two consecutive awards-calendar errors in state (StreamTV, Campaign Asia 40U40) eroded brief credibility. Flagging a third before Tim or Stuart acts on a closed window maintains the brief's authority."
+    },
+    "reputationRisk": {
+      "risk": "The 'Chinamaxxing' trend (Fortune, East Asia Forum, April 2026) is intensifying the Chinese-cultural-export framing in mainstream US media — not just academic outlets — in the exact week Tim is doing LA meetings. The Yale Journal soft-power piece is being cited more widely. Every studio exec, brand CMO, and agency partner Tim meets this week may have seen this discourse. Being unprepared is worse than the discourse itself.",
+      "mitigation": "Tim's single prepared line: 'COL builds platforms that serve local audiences with global IP — we export infrastructure, not ideology. The difference is who controls the algorithm, the localisation, and the monetisation.' One sentence, deployed once per room, then move on. Stuart should add this to the LA meetings brief if not already there."
+    },
+    "suggestedAction": {
+      "for": "Stuart",
+      "action": "TODAY (June 1): (1) Draft Belloni pitch email in 10 min from the existing template — Tim sends before 11am LA time. (2) Find Dana Protsyshak / LAVDM contact (laverticaldramamarket.com, LinkedIn, or DEG) and request a 20-min coffee for today or tomorrow. (3) Help Tim shoot the trifecta piece-to-camera in LA before his first meeting — 20 min, outdoors, phone, no jacket. If already shot in Singapore, help him shoot Day 1 LA vlog instead (beat sheet at cn1lpgxh9v8k3p9q). DURING LA TRIP (Jun 1-4): daily vlog beats, Stuart captions + posts each evening. Stuart posts the 'Deloitte $7.8B' post (cn_deloitte_78b_0106) Tuesday June 2 and the 'Every layer of the stack' post (cn_stack_vertical_0106) Wednesday June 3. AFTER LA (Jun 5-7): Tim shoots APOS prep piece-to-camera (cn_apos_prep_ptc_0106) — post Friday June 6 evening (hits European media Monday June 8 = NEM week). AWARDS: begin MARKETING-INTERACTIVE draft this week — Tim reviews by Tuesday June 9 (3 days before deadline). BY THURSDAY JUN 4: Send pre-panel DM to Cassandra Yang (Rising Joy) re NEM panel framing. NEXT WEEK PREP: Stuart drafts SXSW 2027 PanelPicker submission this week so it's ready to file June 23 when PanelPicker opens.",
+      "urgency": "this-week"
+    },
+    "model": "claude-sonnet-4-6",
+    "tokens": { "input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0 },
+    "createdAt": "2026-06-01T09:30:00.000Z"
+  },
+  {
     "id": "br_2605_week2",
     "weekOf": "2026-05-25T00:00:00.000Z",
     "headline": "Hollywood IS vertical. Netflix + Amazon + Disney confirmed the trifecta this fortnight. LA in 6 days — the conversations just changed.",
