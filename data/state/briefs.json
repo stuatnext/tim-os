@@ -1,5 +1,249 @@
 [
   {
+    "id": "br_0608_weekly",
+    "weekOf": "2026-06-08T00:00:00.000Z",
+    "headline": "NEM is live. Mapogo changes the category definition. SXSW window opens in 15 days.",
+    "whatChanged": "Tim is physically on site at NEM Dubrovnik (Jun 8-11) as this brief is written. LA trip (Jun 1-4) completed — Belloni pitch status unconfirmed (media.json still shows 'identified'; flagging for Stuart). Three category-defining signals this run: (1) Mapogo — COL and Bomanbridge announced the world's first premium vertical-first wildlife documentary on June 4. Wildlife in portrait mode is the clearest real-world proof of Vertical 2.0 that has existed — not drama, not brand content, wildlife. Every journalist covering the category now has a concrete answer to 'beyond drama, what?' (2) ReelShort $1.2B gross consumer spend in 2025, up 119% YoY. The headline is exceptional; the fine print is that the business is loss-making at scale — this creates both a powerful content angle (honest operator take) and a serious reputation risk for APOS Bali next week where financial analysts will probe the unit economics. (3) Brazil/LatAm mainstreaming: Globo (world's largest soap opera producer, 120M viewers) is launching a 50-episode soccer microdrama in August, and Tele Tele launched as Brazil's first dedicated microdrama platform — the LatAm wave is the next market story after US and Australia validation. Additional signals: BayView Entertainment secured North American TVOD/VOD rights to FlareFlow (distribution milestone); Versant Media (Syfy/USA/Comcast spinoff) invested in GammaTime Series A (competitor activity); Content London added a Vertical Programming and Microdrama Summit track (new European speaking slot opportunity); SXSW 2027 PanelPicker opens June 23 — 15 days out. Award correction this run: Campaign Asia Media Awards 2026 — the July 14 'deadline' in state was wrong. The ceremony was April 30, 2026. Window is closed. Campaign Asia PR Awards (deadline July 14) remains open and should replace it as the near-term awards priority. SXSW 2027 cfpDeadline corrected to July 26 (was July 21). Categories still network-blocked: app-store chart rankings, Mandarin reputation watch (Weibo/Baidu 短剧 出海), Reddit qualitative (r/microdrama). RSS blocked 22/22 — environment network policy fix remains the only unblocker. All 24 OPPORTUNITY_RADAR categories walked: 1-13 and 17-24 produced signals. Category 14 (LinkedIn voices), 15 (public support), 16 (DM list expansion) remain network-blocked.",
+    "topOpportunities": [
+      {
+        "title": "MARKETING-INTERACTIVE Marketing Excellence Awards SG — deadline June 12 (4 days). File now.",
+        "type": "award",
+        "why": "Four days to deadline. This is the most time-critical item on the entire board. Best Content Marketing Strategy category — COL's vertical distribution campaign, Peacock licensing deal, Microdrama-in-a-Box launch all fall within the eligibility window (March 2025–April 2026). Stuart leads the draft; Tim reviews and approves. Missing this deadline means waiting another 12 months for an equivalent Singapore-market award. **~90 min total: 60 min to draft + evidence, 30 min to file. Fee: ~USD 270. Stuart owns the draft; Tim reviews by Jun 11.**",
+        "source": "https://awards.marketing-interactive.com/marketing-excellence-sg/ | data/state/awards.json — seed-marketing-interactive-marketing-excellence-awards-sg",
+        "dateChecked": "2026-06-08",
+        "scores": {
+          "timAuthorityFit": 4,
+          "colCommercialUpside": 4,
+          "microdramaRelevance": 4,
+          "mediaCoveragePotential": 4,
+          "relationshipValue": 3,
+          "personalityFit": 3,
+          "timeliness": 5,
+          "evidenceStrength": 5,
+          "easeOfAction": 4,
+          "reputationRisk": 1
+        },
+        "action": "Act now",
+        "evidence": "strong"
+      },
+      {
+        "title": "Mapogo piece-to-camera at NEM — 'We just announced a lion documentary. In portrait mode.' (shoot this week)",
+        "type": "visual content / on-camera",
+        "why": "Tim is in Dubrovnik right now. Mapogo was announced June 4. The world's first premium vertical-first wildlife documentary is the sharpest possible proof of Vertical 2.0 — not drama, not brand content, wildlife. Shooting this piece-to-camera outdoors at NEM (natural background, trade conference energy) makes the location itself part of the message. Full script at content.json (id: cn_mapogo_ptc_0608). **~25 min: record outdoors at NEM (15 min, 3-4 takes), select best, 5 min to caption + schedule. Shoot by Jun 10; post Jun 11 or 12.**",
+        "source": "https://deadline.com/2026/06/col-group-bomanbridge-media-wildlife-microdrama-mapogo-1236902141/ | data/state/intelligence.json — int_mapogo_documentary_0608",
+        "dateChecked": "2026-06-08",
+        "scores": {
+          "timAuthorityFit": 5,
+          "colCommercialUpside": 4,
+          "microdramaRelevance": 5,
+          "mediaCoveragePotential": 5,
+          "personalityFit": 5,
+          "relationshipValue": 4,
+          "timeliness": 5,
+          "evidenceStrength": 5,
+          "easeOfAction": 5,
+          "reputationRisk": 1
+        },
+        "action": "Post",
+        "evidence": "strong"
+      },
+      {
+        "title": "Co-opt 'dramaslop' — 'TechCrunch says microdramas kind of suck. They're not wrong.' LinkedIn post",
+        "type": "content / opinion",
+        "why": "TechCrunch's 'dramaslop' framing is gaining traction. The Category 22 mandatory play: co-opt the criticism before it defines the category. Tim's angle is operator credibility — he can name the quality tier (Issa Rae 100M views, Marc Jacobs luxury, Park Min-Kyu Netflix casting, Mapogo wildlife) that proves the dramaslop floor doesn't set the ceiling. Full draft at content.json (id: cn_dramaslop_coopt_0608). **~20 min: read draft, refine, schedule. Post this week.**",
+        "source": "https://techcrunch.com/2026/06/05/microdramas-are-having-a-moment/ | data/state/intelligence.json — int_dramaslop_criticism_0608",
+        "dateChecked": "2026-06-08",
+        "scores": {
+          "timAuthorityFit": 5,
+          "colCommercialUpside": 3,
+          "microdramaRelevance": 5,
+          "mediaCoveragePotential": 4,
+          "personalityFit": 5,
+          "relationshipValue": 3,
+          "timeliness": 5,
+          "evidenceStrength": 4,
+          "easeOfAction": 5,
+          "reputationRisk": 2
+        },
+        "action": "Post",
+        "evidence": "strong"
+      },
+      {
+        "title": "SXSW 2027 PanelPicker — draft proposal before window opens June 23",
+        "type": "speaking / conference",
+        "why": "PanelPicker opens June 23 (15 days). Closes July 26. The proposal needs to be ready before the window opens, not during it. Best angle: 'Vertical 2.0: Beyond Microdrama' — the Mapogo documentary + Issa Rae + Marc Jacobs as evidence that vertical storytelling is now a full-spectrum format. SXSW audience (tech/creator/media crossover) is exactly Tim's secondary authority zone. Proposal draft takes ~2 hours; Stuart can lead. **Watch — Stuart begins draft this week; Tim reviews by Jun 20 so it's ready for Jun 23 submission open.**",
+        "source": "https://www.sxsw.com/panelpicker/ | data/state/intelligence.json — int_sxsw_panelpicker_0608",
+        "dateChecked": "2026-06-08",
+        "scores": {
+          "timAuthorityFit": 5,
+          "colCommercialUpside": 3,
+          "microdramaRelevance": 4,
+          "mediaCoveragePotential": 4,
+          "personalityFit": 4,
+          "relationshipValue": 4,
+          "timeliness": 4,
+          "evidenceStrength": 4,
+          "easeOfAction": 3,
+          "reputationRisk": 1
+        },
+        "action": "Watch",
+        "evidence": "strong"
+      },
+      {
+        "title": "BayView Entertainment / North American FlareFlow distribution — monitor for press hook",
+        "type": "distribution / partner news",
+        "why": "BayView Entertainment secured North American TVOD/VOD rights to FlareFlow content. This is a meaningful distribution milestone — another US-market validation point alongside Peacock/ReelShort. Monitor for any public announcement or press coverage; if COL issues a release, Tim should amplify with the distribution infrastructure frame ('our catalogue is now available in North America through three channels'). **Park — no immediate action. If press release drops, Post within 24 hours.**",
+        "source": "data/state/intelligence.json — int_bayview_distribution_0608",
+        "dateChecked": "2026-06-08",
+        "scores": {
+          "timAuthorityFit": 4,
+          "colCommercialUpside": 4,
+          "microdramaRelevance": 4,
+          "mediaCoveragePotential": 3,
+          "personalityFit": 3,
+          "relationshipValue": 3,
+          "timeliness": 3,
+          "evidenceStrength": 3,
+          "easeOfAction": 4,
+          "reputationRisk": 1
+        },
+        "action": "Park",
+        "evidence": "moderate"
+      }
+    ],
+    "topPeople": [
+      {
+        "name": "Maria Rua Aguete",
+        "role": "Global Head of Media & Entertainment",
+        "organisation": "Omdia",
+        "whyMatters": "Co-panellist at NEM this week. Tim is in the same building as Maria right now. In-person relationship investment at a conference where she is the data authority and he is the operator evidence is the highest-ROI relationship move available anywhere this week.",
+        "source": "data/state/contacts.json — seed-maria-rua-aguete | data/state/speaking.json — seed-nem-dubrovnik-new-europe-market",
+        "timRelevance": "Move from 'pre-panel DM' to 'coffee or dinner during NEM.' Share the Mapogo documentary news as a conversation piece — Maria will want the data angle (what the Omdia market sizing looks like when you add wildlife to the vertical format definition). Offer to share COL's Australia 20% payment rate data for her next Omdia report.",
+        "colRelevance": "Omdia data citation = credibility with European TV buyers. Maria's consistent use of Tim/COL as a case study is worth more than a paid analyst brief.",
+        "bestApproach": "In person this week at NEM. 'Want to grab coffee between sessions? I want to show you the Mapogo announcement — changes your sizing model.'",
+        "publicMove": "Post a photo together at NEM (with her permission). Simple caption: name, event, one sentence on the panel.",
+        "privateMove": "Coffee or dinner during Jun 8-11. Share Australia 20% data. Ask for a quote on vertical format growth for Tim's LinkedIn newsletter launch.",
+        "risk": "Very low.",
+        "priority": "high"
+      },
+      {
+        "name": "Janine Stein",
+        "role": "Founder & Editorial Director",
+        "organisation": "ContentAsia",
+        "whyMatters": "The Mapogo documentary is a ContentAsia cover story — first premium vertical-first wildlife doc, COL + Bomanbridge, announced ahead of APOS Bali. Janine covers exactly this intersection: Asian content operators + global formats. APOS Bali next week is a natural peg for a Tim profile or interview slot.",
+        "source": "data/state/contacts.json — seed-janine-stein | data/state/intelligence.json — int_mapogo_documentary_0608",
+        "timRelevance": "Pitch: 'Mapogo was announced June 4. I'm at NEM this week and APOS next. Happy to give you the inside read on what a vertical-first wildlife documentary means for the format definition — before APOS.' ContentAsia's audience is the APAC content buyer layer COL needs most visible to.",
+        "colRelevance": "ContentAsia is the tier-1 APAC trade that covers COL consistently. A Mapogo exclusive + APOS preview keeps Tim in regular APAC coverage.",
+        "bestApproach": "Email + LinkedIn DM by Jun 9. After Mapogo piece-to-camera posts this week.",
+        "publicMove": "Tim can tag ContentAsia when he posts the Mapogo piece-to-camera.",
+        "privateMove": "Email pitch by Jun 9: 'Janine — Mapogo + APOS this week. Can give you the inside read. 20-min call or a short Q&A?'",
+        "risk": "Low.",
+        "priority": "high"
+      },
+      {
+        "name": "Mansha Daswani",
+        "role": "Editor-in-Chief",
+        "organisation": "International Television / World Screen",
+        "whyMatters": "On the APOS Bali speaker slate alongside Tim (Jun 16-18). World Screen covers the exact buyer community (US/global distributors, acquisitions executives) COL needs to be known to. Pre-event outreach turns a proximity into a relationship.",
+        "source": "data/state/contacts.json — seed-mansha-daswani | data/state/speaking.json — seed-apos-bali",
+        "timRelevance": "Prep for APOS — align on panel framing (ReelShort $1.2B vs loss-making context; Mapogo as Vertical 2.0 proof; Brazil/LatAm as next market). Mansha's coverage of the panel extends Tim's APOS reach to the World Screen readership.",
+        "colRelevance": "World Screen covers the global content acquisition layer. A COL profile in World Screen is equivalent to a Variety Asia feature for the buyer audience.",
+        "bestApproach": "LinkedIn DM by Jun 10. 'Mansha — looking forward to APOS next week. Lots has happened since the last time we spoke [Mapogo, $1.2B]. Happy to do a quick call before Bali to align on what's most interesting for the World Screen audience.'",
+        "publicMove": "None before APOS. Post together at APOS if opportunity arises.",
+        "privateMove": "DM by Jun 10. Short pre-APOS call Jun 12-13 to align on panel framing.",
+        "risk": "Low.",
+        "priority": "high"
+      },
+      {
+        "name": "Matthew Belloni",
+        "role": "Founding Partner",
+        "organisation": "Puck / The Town",
+        "whyMatters": "Pitch was recommended in the May 26 brief (target: May 27-28). media.json still shows status 'identified' — unclear if the pitch was sent. If not sent: send now. The $1.2B ReelShort gross spend and Mapogo documentary both strengthen the pitch. If already sent: follow up with the new data.",
+        "source": "data/state/contacts.json — seed-matthew-belloni | data/state/media.json — seed-the-town-with-matthew-belloni | data/state/intelligence.json — int_reelshort_revenue_0608",
+        "timRelevance": "Stuart: check media.json pitch status. If not sent: send this week with updated angle ('ReelShort $1.2B gross spend, up 119% YoY — and the supply-chain story Hollywood hasn't told yet'). New data point makes the pitch stronger than it was in May.",
+        "colRelevance": "Tier-1 US entertainment press. Puck feature + The Town appearance = narrative control over the infrastructure story in Hollywood.",
+        "bestApproach": "Cold email matthew@puck.news if not already sent. Subject: '$1.2 billion. Who built the supply chain behind it?' Body: 3 stats (1.2B gross, 119% YoY, 1,700+ titles distributed), 1 frame ('not the format story — the infrastructure story'), 1 ask ('15-min call').",
+        "publicMove": "None before private pitch lands.",
+        "privateMove": "Stuart confirms pitch status immediately. Send or follow up this week.",
+        "risk": "Generic pitch energy. Lead with the $1.2B number as the news peg, not Tim's credentials.",
+        "priority": "high"
+      },
+      {
+        "name": "Patrick Frater",
+        "role": "Asia Bureau Chief",
+        "organisation": "Variety",
+        "whyMatters": "Variety is the correct tier for the Mapogo documentary announcement and the ReelShort $1.2B story. Patrick covers Asian entertainment for a global audience — exactly Tim's positioning play.",
+        "source": "data/state/contacts.json — seed-patrick-frater | data/state/intelligence.json — int_mapogo_documentary_0608, int_reelshort_revenue_0608",
+        "timRelevance": "Pitch two angles: (1) Mapogo exclusive — 'World's first premium vertical-first wildlife documentary. What happens to the format definition when Attenborough-style content goes portrait?' (2) ReelShort $1.2B operator take — 'The honest read on what $1.2B gross means for the unit economics. Tim has the inside view.' Either angle is Variety Asia-worthy.",
+        "colRelevance": "Variety Asia coverage of COL as the Mapogo infrastructure operator = global entertainment press credibility.",
+        "bestApproach": "Email pitch by Jun 10 with Mapogo as primary angle. Tim can offer quotes from NEM this week as the live hook.",
+        "publicMove": "None before pitch lands.",
+        "privateMove": "Stuart drafts email by Jun 9. Tim reviews and sends Jun 10 from Dubrovnik.",
+        "risk": "Low. Mapogo is a genuine news story with a clean Variety angle.",
+        "priority": "medium"
+      }
+    ],
+    "bestMediaAngle": {
+      "angle": "World's first premium vertical-first wildlife documentary: 'When a wildlife documentary goes portrait mode, the format definition changes permanently. Vertical isn't drama — it's storytelling. Mapogo is the proof.' Tim has the inside read as COL's CMO: what it took to produce, why wildlife works in portrait, what this means for the $11B vertical category sizing. This is a category-defining story that ContentAsia and Variety Asia both need.",
+      "targetOutlet": "ContentAsia / Janine Stein (primary — APAC trade, existing relationship) | Variety Asia / Patrick Frater (secondary — global entertainment press)",
+      "why": "Mapogo is more than a press release. It's the answer to every journalist who has asked Tim 'but is vertical just for drama?' — a wildlife documentary in portrait mode, produced to premium standards, co-announced with Bomanbridge (an established global distributor). Janine Stein has covered COL consistently; the APOS Bali peg next week makes the timing right for a feature or interview. Patrick Frater gives global Variety visibility.",
+      "evidence": "COL + Bomanbridge Media announcement, June 4, 2026. Source: https://deadline.com/2026/06/col-group-bomanbridge-media-wildlife-microdrama-mapogo-1236902141/ | data/state/intelligence.json — int_mapogo_documentary_0608. Date checked: 2026-06-08."
+    },
+    "bestLinkedInAngle": {
+      "hook": "$1.2 billion. One app. One year.",
+      "angle": "LinkedIn post (written format). Open with the $1.2B gross spend figure, acknowledge the loss-making reality directly ('Netflix spent eight years losing money to win streaming. We're in year three of vertical.'), name what the number represents (119% YoY growth, 238M views in a single day, 77-minute sessions), close with a forward line about what $1.2B in consumer spend signals for the category's next phase. Full draft at content.json (id: cn_reelshort_1b_post_0608). The honest-operator angle is Tim's differentiator — any CMO can post a big number. Only Tim can post the number with the 'and here's what it really means' context.",
+      "why": "ReelShort $1.2B gross spend is the biggest commercial proof point in vertical drama history. Tim posting it with honest context (including the loss-making caveat) signals operator credibility vs competitor CMOs who would just lead with the headline. This is the post that gets cited by analysts at APOS Bali."
+    },
+    "bestCommentOpportunity": {
+      "targetPostUrl": "https://techcrunch.com/2026/06/05/microdramas-are-having-a-moment/",
+      "targetAuthor": "TechCrunch (Lauren Forristal or equivalent) — or any journalist/creator posting the 'dramaslop' frame this week",
+      "suggestedComment": "Not wrong. The floor of the market is terrible — fast, cheap, algorithmically optimised, creatively empty. 'Dramaslop' is accurate for maybe 80% of output. But the top 20% is doing something more interesting: Issa Rae at 100M views. Marc Jacobs with Rachel Sennott. Park Min-Kyu (Single's Inferno, Netflix) starring in a FlareFlow original. A wildlife documentary in portrait mode announced last week. The format didn't set the ceiling — the people building it did. Same story as YouTube in 2010.",
+      "why": "Co-opting the 'dramaslop' criticism is more powerful than defending against it. Tim agreeing with the floor-of-market critique while naming the quality tier proves he's an operator with taste, not a hype machine. This is the comment that gets screenshotted and shared by the people who matter.",
+      "risk": "Moderate. If the post Tim comments on is from a journalist who covers the space, they may quote Tim in a follow-up piece. That's upside, not risk. The only real risk is over-length or over-defense — keep it under 150 words, agree first, then pivot. Do not name-drop COL in the comment itself."
+    },
+    "bestRelationshipMove": {
+      "name": "Maria Rua Aguete",
+      "role": "Global Head of Media & Entertainment",
+      "organisation": "Omdia",
+      "whyMatters": "The highest-ROI relationship investment this week is the one that costs nothing and is available right now: having coffee with Maria Rua Aguete at NEM Dubrovnik. She is the data authority Tim cites most often; making that citation mutual — Tim's operator data appears in her Omdia reports — is the relationship upgrade that matters.",
+      "source": "data/state/contacts.json — seed-maria-rua-aguete | data/state/speaking.json — seed-nem-dubrovnik-new-europe-market",
+      "timRelevance": "Offer the Australia 20% payment rate data for her next Omdia sizing model. Ask for a quote from Maria for Tim's upcoming LinkedIn newsletter launch. Both are small asks that build a data-sharing partnership, not just a panel acquaintance.",
+      "colRelevance": "Omdia data cited alongside COL's commercial proof points = analyst-grade credibility in every future pitch, brief, and award entry.",
+      "bestApproach": "In person at NEM this week. Coffee between sessions. 'I want to show you the Mapogo announcement — changes the format sizing conversation. And I have some Australia data you might want for your next report.'",
+      "publicMove": "Post a photo together at NEM (with permission). One sentence caption: event, panel topic, one forward-looking observation.",
+      "privateMove": "Offer Australia 20% data and a quote slot in Tim's upcoming newsletter launch.",
+      "risk": "Very low.",
+      "priority": "high"
+    },
+    "bestColOpportunity": {
+      "title": "Mapogo documentary as global B2B proof case — pitch premium international broadcasters on vertical-first wildlife production as a new format category",
+      "why": "Mapogo is not just a content title — it's a proof case. The world's largest wildlife broadcasters (Discovery/Max, National Geographic/Disney, BBC Studios, ZDF) all commission wildlife content but none has a vertical-first production in their slate. Bomanbridge Media (co-producer) already has relationships with these buyers. COL's role as the vertical production infrastructure provider gives COL a B2B angle with a new class of content buyer who wasn't in the microdrama conversation six months ago.",
+      "commercialUpside": "A single white-label production deal or vertical-first commission from a Tier-1 wildlife broadcaster (Discovery/Max, NatGeo) would: establish COL as the vertical production standard outside drama; create a new revenue category; generate the most credible 'prestige' press moment in COL's history. Estimated value of a single commission deal: USD 2–5M production + licensing, with ongoing IP upside.",
+      "nextStep": "Stuart coordinates with Bomanbridge Media this week to identify which broadcasters they're already pitching Mapogo to. Tim frames the COL angle: 'Mapogo is the infrastructure proof. If you're a wildlife broadcaster and you want to understand what vertical-first production means for your next slate, COL is the operator who can make it work at scale.' Tim to raise with Mansha Daswani and Janine Stein at APOS Bali (Jun 16-18) — both cover the acquisitions layer."
+    },
+    "risingTrend": {
+      "trend": "Brazil and LatAm are the next vertical drama wave. Globo's entry marks the same legitimation moment for LatAm that Netflix/Amazon entering vertical marked for North America.",
+      "evidence": "Globo (Brazil, 120M viewers, world's largest soap opera producer outside the US) launching a 50-episode soccer microdrama in August 2026. Tele Tele launched as Brazil's first dedicated microdrama platform. Source: industry reports via web search, June 2026. Date checked: 2026-06-08. Context: Globo's soap opera heritage is directly analogous to microdrama — same audience behaviour (appointment, serial, emotional), new screen and format.",
+      "implication": "Tim's 'Vertical 2.0' thesis now has a LatAm chapter. When Globo enters a format, the format has arrived in the market. COL should be positioning for LatAm B2B partnerships now — before the market consolidates. MIPCOM Cannes (Oct 12-15) is the right moment to announce a LatAm entry story. Tim can build the LatAm angle into APOS Bali next week as a forward-looking data point."
+    },
+    "thingToIgnore": {
+      "item": "Campaign Asia Media Awards 2026 — Media Leader of the Year. The July 14 'deadline' in our awards.json is wrong. The Campaign Asia Media Awards 2026 ceremony was held April 30, 2026. The window is closed. Do not pursue this entry.",
+      "why": "A brief that recommends submitting to an awards cycle that closed six weeks ago destroys credibility. Campaign Asia PR Awards 2026 (separate programme, deadline July 14) IS open — that's the Campaign Asia near-term priority. Campaign Asia Media Awards 2027 cycle: track from Q1 2027. Awards.json is being corrected this run."
+    },
+    "reputationRisk": {
+      "risk": "At APOS Bali next week (Jun 16-18), financial analysts will ask the unit-economics question directly: ReelShort is reported to be loss-making despite $1.2B gross consumer spend in 2025. The 'dramaslop' framing is simultaneously circulating in tech press. Tim's APOS panel appearance is the highest-stakes earned-media moment of Q2 — being caught without a prepared answer on profitability, or being associated with the low-quality floor of the market, could undermine the COL B2B narrative he has built since MIP London.",
+      "mitigation": "Two prepared responses. On unit economics: 'ReelShort is in its scaling phase. Netflix spent eight years losing money to win streaming. We're in year three of vertical. The proof is $1.2B in gross consumer spend and 119% YoY growth — the market is real. The question is whether you build scale first or profitability first. We chose scale.' On dramaslop: 'That framing describes the floor. We're building the ceiling — FlareFlow ran 180 originals in 2026 on proper production standards with talent like Park Min-Kyu. Mapogo is a wildlife documentary in portrait mode. The format has an A-list tier. We're part of it.' Stuart to build a full APOS Q&A brief for Tim by Jun 12."
+    },
+    "suggestedAction": {
+      "for": "Stuart",
+      "action": "Immediate (Jun 8-9): Begin MARKETING-INTERACTIVE Marketing Excellence Awards SG draft — deadline Jun 12, four days away. ~60 min to draft, Tim reviews by Jun 11 from Dubrovnik. Also Jun 9: confirm whether the Belloni pitch was sent (check email sent folder). If not sent, send now with updated angle ($1.2B gross spend as news peg). Jun 10: Draft email to Patrick Frater (Variety Asia) pitching Mapogo as feature story; Tim sends from Dubrovnik. This week: Begin SXSW 2027 PanelPicker proposal draft — window opens Jun 23, proposal must be ready before it opens. Jun 12: Build APOS Q&A brief for Tim covering unit economics question and dramaslop response — Tim needs this before Jun 16. Jun 13: Coordinate with Bomanbridge Media on which wildlife broadcasters they're pitching Mapogo to (COL B2B angle).",
+      "urgency": "this-week"
+    },
+    "model": "claude-sonnet-4-6",
+    "tokens": { "input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0 },
+    "createdAt": "2026-06-08T08:00:00.000Z"
+  },
+  {
     "id": "br_2605_week2",
     "weekOf": "2026-05-25T00:00:00.000Z",
     "headline": "Hollywood IS vertical. Netflix + Amazon + Disney confirmed the trifecta this fortnight. LA in 6 days — the conversations just changed.",
@@ -221,7 +465,7 @@
     },
     "risingTrend": {
       "trend": "Every major US streaming platform now has a vertical video product. The format question is settled. The infrastructure race has begun.",
-      "evidence": "Netflix Clips: 9 markets, launched April 30 (Variety). Amazon Prime Video Clips: launched May 8 (Advanced Television). Disney+ Locker Diaries: February 2026 (Deadline). Peacock/ReelShort: May 11 (C21Media). Four of the five major US streamers now have a vertical vertical product or catalogue deal in place. Fifth (Max/Paramount+) has announced interest. Date checked: 2026-05-26.",
+      "evidence": "Netflix Clips: 9 markets, launched April 30 (Variety). Amazon Prime Video Clips: launched May 8 (Advanced Television). Disney+ Locker Diaries: February 2026 (Deadline). Peacock/ReelShort: May 11 (C21Media). Four of the five major US streamers now have a vertical product or catalogue deal in place. Fifth (Max/Paramount+) has announced interest. Date checked: 2026-05-26.",
       "implication": "Tim's messaging should shift from 'explaining vertical drama to Hollywood' to 'explaining who holds the infrastructure Hollywood now needs.' The 12-month 40K goal is now achievable not as a niche operator but as a necessary counterpart to US streaming's vertical build-out. COL is the Reuters of vertical content supply."
     },
     "thingToIgnore": {

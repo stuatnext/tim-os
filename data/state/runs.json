@@ -1,5 +1,15 @@
 [
   {
+    "id": "rn_0608_weekly",
+    "agent": "weekly-brief",
+    "status": "success",
+    "startedAt": "2026-06-08T07:00:00.000Z",
+    "finishedAt": "2026-06-08T08:00:00.000Z",
+    "itemsCreated": 14,
+    "itemsUpdated": 5,
+    "metadata": "Weekly brief for week of 2026-06-08. Tim physically at NEM Dubrovnik (Jun 8-11). RSS still fully blocked (22/22 denied, networkPolicyBlocked:true) — web search via WebSearch tool used for all intelligence. 9 new intelligence items added: Mapogo wildlife documentary (COL + Bomanbridge, world's first premium vertical-first wildlife doc); BayView Entertainment North American FlareFlow distribution; Versant Media GammaTime Series A; ReelShort $1.2B gross consumer spend 2025 (+119% YoY, loss-making); Globo Brazil soccer microdrama + Tele Tele Brazil first dedicated platform; SXSW 2027 PanelPicker opens Jun 23; TechCrunch dramaslop criticism (Category 22); FlareFlow 33M users/5,200 series/top title $15M; Content London Vertical Summit track. 3 new content drafts: cn_mapogo_ptc_0608 (piece-to-camera, Category 21 mandatory visual), cn_reelshort_1b_post_0608 (LinkedIn post, $1.2B honest-operator take), cn_dramaslop_coopt_0608 (LinkedIn post, Category 22 co-opt play). State corrections: Campaign Asia Media Awards 2026 — window CLOSED (ceremony April 30, not July 14 as previously tracked); SXSW 2027 cfpDeadline corrected to July 26 (was July 21). settings.json weeklyFocus updated. 24 OPPORTUNITY_RADAR categories walked: 1-13, 17-24 produced signals. Categories still network-blocked: app-store chart rankings, Mandarin reputation watch (Weibo/Baidu 短剧 出海), Reddit qualitative (r/microdrama). Belloni pitch status unconfirmed (media.json still shows identified — flagged to Stuart)."
+  },
+  {
     "id": "rn_2605_week2",
     "agent": "weekly-brief",
     "status": "success",
