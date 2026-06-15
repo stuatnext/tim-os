@@ -1,5 +1,237 @@
 [
   {
+    "id": "br_1506_weekly",
+    "weekOf": "2026-06-15T00:00:00.000Z",
+    "headline": "APOS opens today. Mapogo is Vertical 2.0 made real. The industry just arrived at Cannes Lions.",
+    "whatChanged": "Three weeks since the last brief (May 26). LA (Jun 1-4) and NEM Dubrovnik (Jun 8-11) are both done. The defining development this run is a three-part convergence happening simultaneously this week: (1) APOS Bali (Jun 16-18) opens TODAY — Tim is a confirmed speaker at the Asia streaming summit where microdramas are now named in the opening address; (2) FlareFlow launched the world's first premium vertical-first documentary series, 'Mapogo: The Lion Throne' (announced June 4, Variety/C21/Realscreen), which is the single most powerful proof case for Tim's Vertical 2.0 thesis — vertical is a format, not just a genre; (3) Cannes Lions runs 'The Microdrama Boom: Inside the Next Entertainment Economy' on its main Lions Creators stage on June 24 — the world's biggest advertising festival has the format on its main programme, simultaneously as Tim speaks at APOS Bali. Two rooms. Same week. That's the story. New intelligence this run: Versant Media (CNBC owner) invested in GammaTime (Alex Montalvo's company, Tim's MIP London co-panellist) — confirming every major US studio cluster is now in the category; The Wrap / Vertical Media Summit reported the industry is shifting terminology from 'microdrama' to 'microseries' — Tim's Vertical 2.0 and 'it's not just drama' framing is now being validated by the industry's own vocabulary; TikTok + Sundance Institute launched a joint microseries writing programme (June 7); China NRTA launched another crackdown campaign (June 2026) while simultaneously Patrick Frater Substack linked China's promotion side to Mapogo as a category-quality signal. SXSW 2027 PanelPicker opens June 23 — 8 days away, deadline July 26. Campaign Asia Media Awards deadline corrected to September 4 (was erroneously listed as July 14). MARKETING-INTERACTIVE Marketing Excellence Awards SG deadline June 12 has now passed. Categories that produced nothing due to RSS/network block: app-store chart rankings, Mandarin reputation watch (Weibo/Baidu), Reddit qualitative. Environment-level fix remains the only unblocker.",
+    "topOpportunities": [
+      {
+        "title": "APOS Bali daily vlog beats — TODAY through Jun 18",
+        "type": "visual content / on-camera / travel vlog",
+        "why": "Tim is a confirmed speaker at APOS Bali, which opens today. Microdramas are in Vivek Couto's opening address. Mansha Daswani (ScreenMDM) is on-site — Tim's most consistent non-APAC trade media relationship. Daily 60-second vlog beats (beat sheet at content.json: cn_apos_bali_vlog_2606) turn a three-day private trip into three public artefacts that compound across the APOS week and feed the ongoing 'vertical mogul who shows up in every room that matters' brand narrative. **~30 min/day: 10 to record, 5 to select, 15 for Stuart to caption + post. Start TODAY on arrival. Ask Mansha Daswani for a 15-min camera interview during the event.**",
+        "source": "data/state/speaking.json (seed-apos-bali). APOS official: https://aposlive.com/ | Variety APOS preview: https://variety.com/2026/tv/news/apos-2026-vivek-couto-asia-media-ai-microdramas-streaming-1236769221/ Date checked: 2026-06-15.",
+        "dateChecked": "2026-06-15",
+        "scores": {
+          "timAuthorityFit": 5,
+          "colCommercialUpside": 4,
+          "microdramaRelevance": 5,
+          "mediaCoveragePotential": 4,
+          "relationshipValue": 5,
+          "personalityFit": 5,
+          "timeliness": 5,
+          "evidenceStrength": 5,
+          "easeOfAction": 5,
+          "reputationRisk": 1
+        },
+        "action": "Act now",
+        "evidence": "strong"
+      },
+      {
+        "title": "Post about Mapogo: The Lion Throne — 'We just made a wildlife documentary. Vertical.'",
+        "type": "LinkedIn post",
+        "why": "FlareFlow's 'Mapogo: The Lion Throne' is the most powerful single proof point for Tim's Vertical 2.0 thesis to date — the world's first premium vertical-first documentary, covered by Variety, C21, Realscreen and Broadcast UK. Post this from APOS during the week. The contrast between Tim being at APOS (Asia streaming) and posting about a wildlife documentary filmed in South Africa, narrated by a microdrama star, premiering globally on FlareFlow — is exactly the 'category is everywhere' frame Tim needs. Draft at content.json (id: cn_mapogo_post_2606). **~20 min: Stuart finalises draft, Tim reviews and posts Tuesday or Wednesday from Bali.**",
+        "source": "Variety: https://variety.com/2026/tv/news/mapogo-the-lion-throne-vertical-documentary-series-flareflow-1236765685/ | Realscreen Jun 4: https://realscreen.com/2026/06/04/bomanbridge-reveals-vertical-wildlife-series-copro-with-col-group/ Intelligence item: int_mapogo_wildlife_doc_0626. Date checked: 2026-06-15.",
+        "dateChecked": "2026-06-15",
+        "scores": {
+          "timAuthorityFit": 5,
+          "colCommercialUpside": 5,
+          "microdramaRelevance": 4,
+          "mediaCoveragePotential": 5,
+          "relationshipValue": 4,
+          "personalityFit": 5,
+          "timeliness": 5,
+          "evidenceStrength": 5,
+          "easeOfAction": 5,
+          "reputationRisk": 1
+        },
+        "action": "Post",
+        "evidence": "strong"
+      },
+      {
+        "title": "SXSW 2027 PanelPicker — submit proposal when portal opens June 23",
+        "type": "speaking / CFP",
+        "why": "SXSW 2027 PanelPicker opens June 23 — 8 days from now — with a hard deadline of July 26. This is one of the highest-value CFP windows in Tim's 12-month plan: SXSW 2027 is the US platform where Tim's Vertical 2.0 thesis lands in front of the Austin creator-tech-media crossover audience. Proposed title: 'The Vertical Decade: From Microdrama to Microseries — Why Every Screen Is Now a Mobile Screen.' Supporting hook: 'I've been saying vertical content is a format, not a genre, for two years. Cannes Lions just scheduled a microdrama session. TikTok and Sundance just launched a microseries writing programme. The industry caught up. Here's what's next.' **~2 hrs: Stuart drafts the proposal by Jun 25, Tim reviews + submits by Jun 30. Do not miss this window.**",
+        "source": "SXSW 2027 deadlines: https://sxsw.com/deadlines/ | PanelPicker: https://panelpicker.sxsw.com/ Date checked: 2026-06-15.",
+        "dateChecked": "2026-06-15",
+        "scores": {
+          "timAuthorityFit": 5,
+          "colCommercialUpside": 4,
+          "microdramaRelevance": 5,
+          "mediaCoveragePotential": 5,
+          "relationshipValue": 4,
+          "personalityFit": 4,
+          "timeliness": 5,
+          "evidenceStrength": 5,
+          "easeOfAction": 4,
+          "reputationRisk": 1
+        },
+        "action": "Act now",
+        "evidence": "strong"
+      },
+      {
+        "title": "Shoot 'Bali. Cannes. Same week.' piece-to-camera — react to Cannes Lions microdrama session from APOS Bali",
+        "type": "visual content / on-camera / reaction",
+        "why": "Cannes Lions runs 'The Microdrama Boom' session on its main stage June 24. Tim is at APOS Bali the same days. Shoot a 60-sec piece-to-camera from the Mulia Resort on June 23 or 24: 'Bali. Cannes. Same week. Both rooms are happening simultaneously. That's how you know the category arrived globally.' This is also the opportunity to address the terminology shift to 'microseries' in Tim's voice. Draft at content.json (id: cn_cannes_lions_microseries_2606). **~20 min: record + post during APOS week. Natural extension of the daily vlog series.**",
+        "source": "Cannes Lions: https://www.canneslions.com/festival/experiences/lions-creators/programme/the-microdrama-boom-inside-the-next-entertainment-economy-71888 | Variety The Micro Pitch: https://variety.com/2026/tv/news/microdramas-brands-cannes-lions-preview-1236770634/ Date checked: 2026-06-15.",
+        "dateChecked": "2026-06-15",
+        "scores": {
+          "timAuthorityFit": 5,
+          "colCommercialUpside": 3,
+          "microdramaRelevance": 5,
+          "mediaCoveragePotential": 4,
+          "personalityFit": 5,
+          "timeliness": 5,
+          "evidenceStrength": 5,
+          "easeOfAction": 5,
+          "reputationRisk": 1
+        },
+        "action": "Post",
+        "evidence": "strong"
+      },
+      {
+        "title": "DM Alex Montalvo — GammaTime Series A congratulations",
+        "type": "relationship / DM",
+        "why": "Alex Montalvo (GammaTime co-founder, Tim's MIP London 2026 co-panellist) just closed a Series A with Versant Media (CNBC, MS Now owner). Warm, earned touchpoint. Tim DMing congratulations — 'Versant getting in confirms what we've both been saying. Congrats on this one' — keeps the peer relationship warm and signals Tim tracks the category. **~5 min. Send from Bali this week.**",
+        "source": "Variety: https://variety.com/2026/tv/news/versant-media-gammatime-microdramas-1236765109/ | data/state/contacts.json (seed-alex-montalvo). Date checked: 2026-06-15.",
+        "dateChecked": "2026-06-15",
+        "scores": {
+          "timAuthorityFit": 4,
+          "colCommercialUpside": 2,
+          "microdramaRelevance": 4,
+          "mediaCoveragePotential": 1,
+          "relationshipValue": 5,
+          "personalityFit": 5,
+          "timeliness": 4,
+          "evidenceStrength": 5,
+          "easeOfAction": 5,
+          "reputationRisk": 1
+        },
+        "action": "DM",
+        "evidence": "strong"
+      }
+    ],
+    "topPeople": [
+      {
+        "name": "Mansha Daswani",
+        "role": "Founder",
+        "organisation": "ScreenMDM / MD Media Biz",
+        "whyMatters": "Confirmed on-site at APOS Bali. Tim's most consistent international trade-media relationship outside ContentAsia. She covers for ScreenMDM and has done video + print with Tim before. An APOS interview with Mansha — 15 minutes, on the Mapogo announcement and Vertical 2.0 — would reach a distribution-focused audience that Tim's LinkedIn doesn't fully penetrate.",
+        "source": "data/state/contacts.json (seed-mansha-daswani). data/state/speaking.json (seed-apos-bali). APOS confirmed speaker page.",
+        "timRelevance": "Ask: 'Mansha, can we grab 15 mins on camera for ScreenMDM during the event? I'll talk about Mapogo, what Vertical 2.0 looks like in practice, and what we're seeing from the LA and NEM conversations.' She says yes — Tim gets trade amplification beyond LinkedIn.",
+        "colRelevance": "ScreenMDM distribution-focused readership is exactly the COL Microdrama-in-a-Box B2B audience. A Tim interview during APOS is the highest-ROI media touch this week.",
+        "bestApproach": "WhatsApp or LinkedIn DM on arrival at APOS. 'Mansha — can we grab 15 mins on camera during APOS? Mapogo, Vertical 2.0, what we're hearing from the market.' Arrange before Day 1 ends.",
+        "publicMove": "Tag Mansha in the Day 1 APOS vlog caption if she's mentioned.",
+        "privateMove": "DM on arrival. Arrange interview for Day 2.",
+        "risk": "Low. Established relationship.",
+        "priority": "high"
+      },
+      {
+        "name": "Vivek Couto",
+        "role": "CEO and Executive Director",
+        "organisation": "Media Partners Asia / APOS",
+        "whyMatters": "APOS organiser and host — Variety's pre-APOS preview ('APOS Boss Vivek Couto on AI, Microdramas and the Redefinition of the Region's Media Business') shows he is actively naming microdramas as a defining theme of the event. Tim speaking at APOS and being in Vivek's orbit = the clearest possible signal to the Asia media market that Tim is the vertical infrastructure authority.",
+        "source": "Variety APOS preview: https://variety.com/2026/tv/news/apos-2026-vivek-couto-asia-media-ai-microdramas-streaming-1236769221/ Data checked: 2026-06-15.",
+        "timRelevance": "If Tim hasn't already introduced himself to Vivek, APOS is the moment. Brief intro: 'I run international at COL Group — FlareFlow is the world's largest producer and distributor of vertical content. Microdramas are in your opening address this year. I'd love to be on your radar for next year's programme.' 5 minutes, warm, sets up APOS 2027 speaker conversation.",
+        "colRelevance": "APOS 2027 headliner slot = Asia media B-roll for Tim's recognisability. Vivek's network is the entire Asia content business.",
+        "bestApproach": "Brief introduction in the room during networking. Stuart identifies the moment. Don't pitch a speaking slot — just be memorable. The Mapogo post, if live during APOS, does the positioning work for Tim.",
+        "risk": "Low.",
+        "priority": "high"
+      },
+      {
+        "name": "Alex Montalvo",
+        "role": "Co-Founder",
+        "organisation": "GammaTime",
+        "whyMatters": "MIP London 2026 co-panellist. Just closed Series A with Versant Media. The touchpoint is earned: Tim DMing a peer operator on a funding milestone is relationship maintenance, not cold outreach. GammaTime competing in the same space as COL's US distribution means a warm peer relationship is commercially valuable.",
+        "source": "Variety: https://variety.com/2026/tv/news/versant-media-gammatime-microdramas-1236765109/ | data/state/contacts.json (seed-alex-montalvo). Date checked: 2026-06-15.",
+        "timRelevance": "Message: 'Congrats on the Versant round. Versant getting in confirms everything we've both been building toward. Let's catch up properly — I'm in LA next time.' Warm, peer-to-peer, no agenda.",
+        "colRelevance": "Alex's Versant relationship could be useful as COL continues US distribution expansion. Warm peer = future co-op/distribution conversation at minimum.",
+        "privateMove": "LinkedIn DM or WhatsApp this week from Bali. ~5 min.",
+        "risk": "Very low. Established relationship.",
+        "priority": "medium"
+      },
+      {
+        "name": "Patrick Frater",
+        "role": "Variety Asia Editor / Substack Author",
+        "organisation": "Variety / PatrickFrater.substack.com",
+        "whyMatters": "Patrick Frater actively covered the Mapogo/Bomanbridge announcement on his Substack alongside China's simultaneous regulation/promotion dual track. He is the Variety Asia editor and Tim's most likely byline for a follow-up profile piece. APOS is his natural event beat.",
+        "source": "Patrickfrater.substack.com (China Simultaneously Regulates and Promotes the Micro Drama Sector). Variety Asia APOS coverage (multiple pieces). Date checked: 2026-06-15.",
+        "timRelevance": "If Frater is at APOS, Tim should introduce himself or refresh the relationship. 'I saw your Substack piece on China regulation + Mapogo — you connected the dots correctly.' Specific + flattering. Opens a future profile conversation.",
+        "bestApproach": "LinkedIn DM if not at APOS. In-person if Frater is in Bali. Subject: 'Saw the Substack piece — Mapogo framing was right. Happy to give you more context on the Vertical 2.0 angle for a future piece.'",
+        "risk": "Very low.",
+        "priority": "medium"
+      },
+      {
+        "name": "BBC Studios representative (APOS speaker)",
+        "role": "CEO and CCO, Global Content",
+        "organisation": "BBC Studios",
+        "whyMatters": "Zai Bennett (BBC Studios Global Content CEO/CCO) is a confirmed APOS 2026 speaker. BBC Studios is one of the world's most prestigious natural history content producers. FlareFlow's 'Mapogo: The Lion Throne' is a natural co-distribution or prestige partnership conversation — BBC's wildlife expertise + FlareFlow's global vertical distribution infrastructure.",
+        "source": "Variety APOS 2026 speaker announcement: https://variety.com/2026/film/news/andy-serkis-bbc-studios-crunchyroll-apos-speakers-1236712369/ Date checked: 2026-06-15.",
+        "timRelevance": "Introduce Tim + Mapogo at APOS. 'We just announced the world's first premium vertical-first wildlife documentary. I'd love 15 minutes to talk about what global distribution looks like from FlareFlow's side.' Specific, short, clear ask.",
+        "colRelevance": "A BBC Studios co-distribution relationship for Mapogo would be a tier-1 institutional partnership for COL in premium factual. Even a 'watch list' conversation at APOS is commercially significant.",
+        "bestApproach": "Stuart identifies whether Zai Bennett is at APOS for in-person introduction. LinkedIn DM as backup: 'We just announced Mapogo — world's first premium vertical-first wildlife documentary on FlareFlow. Bomanbridge co-production. Happy to share the distribution thesis with you if relevant to BBC Studios' vertical strategy.'",
+        "risk": "Low. The ask is a conversation, not a deal.",
+        "priority": "medium"
+      }
+    ],
+    "bestMediaAngle": {
+      "angle": "Three weeks of signals converging: Tim at APOS Bali while Cannes Lions runs 'The Microdrama Boom' on its main stage; FlareFlow launches the world's first premium vertical wildlife documentary (Mapogo); the industry shifts to calling them microseries. The single story: 'Vertical content is no longer a niche — it's in every room simultaneously. The operator who built the infrastructure before the rooms filled up is sitting in Bali right now.' Janine Stein (ContentAsia) or Mansha Daswani (ScreenMDM) should have this exclusive from APOS.",
+      "targetOutlet": "ContentAsia (Janine Stein) for APAC exclusive — or ScreenMDM (Mansha Daswani) for APOS on-site interview. Secondary: Variety's Patrick Frater for Mapogo + Vertical 2.0 follow-up.",
+      "why": "The APOS + Cannes Lions simultaneity is a genuine news peg that no other outlet will have. Janine broke the CMO appointment. She should get the 'Vertical 2.0 in practice: Mapogo, microseries, APOS' exclusive during the event.",
+      "evidence": "APOS official: aposlive.com | Cannes Lions: canneslions.com/festival/experiences/lions-creators/programme/the-microdrama-boom... | Mapogo: Variety June 4 2026 | Microseries: The Wrap, Vertical Media Summit. Date checked: 2026-06-15."
+    },
+    "bestLinkedInAngle": {
+      "hook": "Bali. Three days. One question.",
+      "angle": "APOS Day 1 vlog beat (beat sheet at content.json: cn_apos_bali_vlog_2606). Tim records 60 seconds on arrival at Mulia Resort — 'Bali. Three days. One question: what is every streamer in Asia actually doing with vertical, versus what they're saying in press releases?' Direct to camera. Walking shot or beach exterior. No jacket. Daily cadence through June 18.",
+      "why": "APOS is live today. Daily vlog beats are the highest-leverage single touchpoint this week — they establish Tim as visibly present at the room where Asia media makes its bets, in the format (vertical video) that Tim argues is the future of the industry. Category 21 mandatory deliverable."
+    },
+    "bestCommentOpportunity": {
+      "targetPostUrl": "https://variety.com/2026/tv/news/microdramas-brands-cannes-lions-preview-1236770634/",
+      "targetAuthor": "Variety / anyone in Tim's LinkedIn feed posting about the Cannes Lions microdrama session",
+      "suggestedComment": "The fact that Cannes Lions has 'The Microdrama Boom' on its main stage this week — while I'm at APOS Bali where microdramas are in the opening address — tells you something about the category's moment. It's not sequential adoption. It's simultaneous global legitimisation. The format question is answered. What isn't answered is who builds the infrastructure that connects all these rooms to the same content supply chain. That's the conversation I'm having in Bali.",
+      "why": "Tim commenting on the Variety Cannes Lions preview positions him as the operator who can connect the dots between Cannes (advertising) and APOS (Asia streaming) — a perspective no other executive has. Short, specific, no COL name-drop needed.",
+      "risk": "Low. Keep under 150 words. One point, one implication. Do not be triumphalist."
+    },
+    "bestRelationshipMove": {
+      "name": "Mansha Daswani",
+      "role": "Founder",
+      "organisation": "ScreenMDM / MD Media Biz",
+      "whyMatters": "On-site at APOS. Tim's most consistent international trade-media relationship outside ContentAsia. An on-camera interview during APOS is the highest-ROI single media touch this week — she reaches distribution-focused audiences Tim's LinkedIn posts don't fully cover.",
+      "source": "data/state/contacts.json (seed-mansha-daswani). APOS speaker confirmation.",
+      "timRelevance": "Ask within first few hours of arriving at APOS. 'Mansha — can we do 15 minutes on camera for ScreenMDM? Mapogo, Vertical 2.0, what we're hearing from the market.' She says yes. Tim gets trade press amplification from his own event.",
+      "colRelevance": "ScreenMDM's distribution-focused readership is exactly the COL B2B audience for Microdrama-in-a-Box and international distribution conversations.",
+      "bestApproach": "WhatsApp or in-person on Day 1 arrival. Arrange for Day 2.",
+      "risk": "Low. Warm, established relationship.",
+      "priority": "high"
+    },
+    "bestColOpportunity": {
+      "title": "Mapogo distribution pitch to BBC Studios at APOS — first vertical wildlife documentary seeking global factual distribution",
+      "why": "Zai Bennett (BBC Studios Global Content CEO/CCO) is at APOS. Mapogo: The Lion Throne is the world's first premium vertical-first wildlife documentary, launched globally on FlareFlow in late Q3. BBC Studios is the world's leading producer of premium natural history content. A co-distribution conversation about Mapogo — 'FlareFlow distributes globally at scale; BBC has the factual programming brand prestige to amplify the documentary tier of vertical content' — is a tier-1 institutional relationship for COL that goes beyond the standard romance-drama catalogue.",
+      "commercialUpside": "A BBC Studios distribution arrangement for Mapogo would be: tier-1 PR moment ('world's first vertical wildlife documentary distributed by BBC Studios + FlareFlow'), a proof point for premium factual in the Vertical 2.0 narrative, and a material signal to every other major factual producer that FlareFlow is the vertical distribution platform for non-drama formats.",
+      "nextStep": "Stuart identifies whether Zai Bennett or a BBC Studios representative is attending APOS. Tim requests a 15-minute conversation during the event. Topic: 'Mapogo — what we built, what global distribution looks like, what we're looking for from a prestige factual partner.' Single sheet with Mapogo specs to hand."
+    },
+    "risingTrend": {
+      "trend": "The industry is rebranding 'microdrama' as 'microseries' — and the $150B vertical video economy (ex-China) confirms the format category is bigger than any single label.",
+      "evidence": "The Wrap / Vertical Media Summit (Owl & Co.): 'Microdramas are called microseries now' (June 2026). TikTok + Sundance Institute launched a 'microseries writing workshop' (Variety, June 7 2026). Cannes Lions 2026 session: 'The Microdrama Boom: Inside the Next Entertainment Economy' (June 24). Vertical video economy projected at $150B (ex-China) in 2026, up 42% YoY (Owl & Co., Vertical Media Summit). Date checked: 2026-06-15.",
+      "implication": "Tim's two-year Vertical 2.0 'it's not just drama, it's vertical content' framing is now being validated by the industry's own terminology shift. The post-APOS narrative should be: 'The category renamed itself while I was in Bali. I've been waiting for the industry to catch up to the framing. They got there.' Update Tim's standard pitch vocabulary: use 'vertical content' and 'microseries' alongside 'microdrama' — lead with the broader frame."
+    },
+    "thingToIgnore": {
+      "item": "MARKETING-INTERACTIVE Marketing Excellence Awards SG — the June 12 deadline has now passed. If an entry was filed, it's done. If not, it's too late. Either way, remove from active focus. The 'Act on this week' surface must reflect what is actually actionable (APOS vlog, Mapogo post, SXSW PanelPicker), not past deadlines.",
+      "why": "A brief that continues to recommend action on a closed window loses credibility and erodes Stuart's trust in the weekly priorities. Next awards priority: AACA Best Micro-Drama (deadline August 1), Campaign Asia Media Awards (September 4). Both need preparation in July — surface then, not now."
+    },
+    "reputationRisk": {
+      "risk": "Business Insider reported AI replacing human actors in US microdrama productions (June 2026), same week as The Wrap's Vertical Media Summit piece on AI-generated microseries achieving same retention as live-action (Holywater/My Muse). These will surface as direct questions at APOS Bali: 'Is AI going to replace your production model?' Without a prepared answer, Tim either dismisses legitimate technology questions or appears defensive about COL's production standards.",
+      "mitigation": "Tim's existing line is close: 'AI is the execution layer, not the industry.' Sharpen it for APOS: 'AI cuts production costs — that's real. But it doesn't create the IP, the casting relationships, or the audience trust that makes a title travel globally. FlareFlow's originals run on guild contracts and production standards. We're building the premium tier, not the floor. The floor is doing just fine without us.' One version for the panel; one shorter version for hallway conversations."
+    },
+    "suggestedAction": {
+      "for": "Stuart",
+      "action": "TODAY (Jun 16): Help Tim record APOS Day 1 vlog beat on arrival at Mulia Resort — 60 sec, outdoor, phone. DM Mansha Daswani within the first 2 hours: 'Can we grab 15 min on camera for ScreenMDM during APOS?' APOS days (Jun 16-18): Post daily vlog beats each evening between 6-9pm Bali time. Finalize Mapogo post (cn_mapogo_post_2606) for Tim to review and post Tuesday Jun 17. By Jun 20: DM Alex Montalvo re GammaTime Series A congratulations (LinkedIn or WhatsApp). By Jun 22: Draft SXSW 2027 PanelPicker proposal ahead of portal opening Jun 23. Title suggestion: 'The Vertical Decade: From Microdrama to Microseries — Why Every Screen Is Now a Mobile Screen.' Jun 23-24: Tim records Bali+Cannes reaction piece-to-camera (cn_cannes_lions_microseries_2606). Stuart posts Jun 24 to coincide with the Cannes Lions session. Jul 1 (hard deadline): SXSW 2027 PanelPicker proposal submitted. Ongoing: DM Patrick Frater re Mapogo follow-up piece. Campaign Asia Media Awards (Sep 4 deadline) — plan case study in July.",
+      "urgency": "this-week"
+    },
+    "model": "claude-sonnet-4-6",
+    "tokens": { "input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0 },
+    "createdAt": "2026-06-15T07:00:00.000Z"
+  },
+  {
     "id": "br_2605_week2",
     "weekOf": "2026-05-25T00:00:00.000Z",
     "headline": "Hollywood IS vertical. Netflix + Amazon + Disney confirmed the trifecta this fortnight. LA in 6 days — the conversations just changed.",

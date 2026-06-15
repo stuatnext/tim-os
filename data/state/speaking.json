@@ -20,9 +20,10 @@
     "startsAt": "2026-06-01T00:00:00.000Z",
     "endsAt": "2026-06-04T00:00:00.000Z",
     "role": "Attendee",
-    "status": "confirmed",
+    "status": "done",
     "fitScore": 80,
-    "fitRationale": "Not a speaking event. Platforms, producers, creators, studios, brands. Document with daily LinkedIn posts."
+    "fitRationale": "Not a speaking event. Platforms, producers, creators, studios, brands. Document with daily LinkedIn posts.",
+    "notes": "Completed Jun 1-4 2026. Jason Ander (new Head of US Partnerships) coordinated studio contact list."
   },
   {
     "id": "seed-nem-dubrovnik-new-europe-market",
@@ -32,9 +33,10 @@
     "startsAt": "2026-06-08T00:00:00.000Z",
     "endsAt": "2026-06-11T00:00:00.000Z",
     "role": "Panellist",
-    "status": "confirmed",
+    "status": "done",
     "fitScore": 90,
-    "fitRationale": "'Microdrama: risky business or industry's next guilty pleasure?' with Maria Rua Aguete, Cassandra Yang, Lukasz Wysocki."
+    "fitRationale": "'Microdrama: risky business or industry's next guilty pleasure?' with Maria Rua Aguete, Cassandra Yang, Lukasz Wysocki.",
+    "notes": "Completed Jun 8-11 2026. Panel ran; microdramas were a leading trend across multiple NEM sessions per Señal News / BroadbandTV News coverage."
   },
   {
     "id": "seed-apos-bali",
@@ -84,15 +86,16 @@
   },
   {
     "id": "seed-sxsw-2027",
-    "name": "SXSW 2027",
+    "name": "SXSW 2027 — PanelPicker",
     "organizer": "SXSW",
     "location": "Austin, USA",
     "startsAt": "2027-03-12T00:00:00.000Z",
-    "cfpDeadline": "2026-07-21T00:00:00.000Z",
+    "cfpDeadline": "2026-07-26T00:00:00.000Z",
+    "panelPickerOpens": "2026-06-23T00:00:00.000Z",
     "role": "Panellist",
     "status": "identified",
     "fitScore": 78,
-    "fitRationale": "PanelPicker opens summer 2026. Vertical 2.0 + creator-economy crossover."
+    "fitRationale": "PanelPicker opens June 23, 2026 — 8 days away. Deadline July 26. Submit 'The Vertical Decade: Why Every Screen Is Now a Mobile Screen' or 'Vertical 2.0: From Microdrama to Microseries — the Global Story'. Community voting Aug 5-23. Source: https://sxsw.com/deadlines/ Date checked: 2026-06-15."
   },
   {
     "id": "seed-cairns-crocodiles-presented-by-pinterest-",

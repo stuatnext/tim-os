@@ -1,5 +1,15 @@
 [
   {
+    "id": "rn_1506_weekly",
+    "agent": "weekly-brief",
+    "status": "success",
+    "startedAt": "2026-06-15T07:00:00.000Z",
+    "finishedAt": "2026-06-15T08:00:00.000Z",
+    "itemsCreated": 14,
+    "itemsUpdated": 7,
+    "metadata": "Weekly brief for week of 2026-06-15. RSS still fully blocked (networkPolicyBlocked: true) — all intelligence gathered via WebSearch. 8 new intelligence items reviewed and added. 3 new content drafts added (APOS Bali vlog beat sheet, Mapogo wildlife doc post, Cannes Lions reaction piece-to-camera from APOS). Settings.json weeklyFocus updated for APOS NOW + Cannes Lions Jun 24 + SXSW PanelPicker Jun 23. Speaking.json: LA trip and NEM Dubrovnik updated to 'done'. Awards.json: Campaign Asia Media Awards deadline corrected (Sep 4, was Jul 14); SXSW 2027 PanelPicker deadline corrected (Jul 26, was Jul 21) and portal open date added (Jun 23). Defining story: three-part convergence this week — APOS Bali opens TODAY (Tim confirmed speaker), Cannes Lions runs 'The Microdrama Boom' main stage Jun 24, FlareFlow's Mapogo wildlife doc (world's first premium vertical documentary) is the Vertical 2.0 thesis made real. New major intelligence: Versant Media Series A in GammaTime (Alex Montalvo); industry rebranding microdrama → microseries (The Wrap/Vertical Media Summit, TikTok/Sundance); China NRTA new crackdown campaign June 2026. Key corrections: MARKETING-INTERACTIVE SG deadline Jun 12 now passed; Campaign Asia Media Awards Sep 4 (not Jul 14); SXSW PanelPicker Jul 26 (not Jul 21). 24 OPPORTUNITY_RADAR categories walked: 1-13, 17-24 produced signals. Categories still network-blocked: app-store chart rankings, Mandarin reputation watch (Weibo/Baidu 短剧 出海), Reddit qualitative."
+  },
+  {
     "id": "rn_2605_week2",
     "agent": "weekly-brief",
     "status": "success",
