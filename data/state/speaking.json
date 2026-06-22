@@ -20,9 +20,10 @@
     "startsAt": "2026-06-01T00:00:00.000Z",
     "endsAt": "2026-06-04T00:00:00.000Z",
     "role": "Attendee",
-    "status": "confirmed",
+    "status": "done",
     "fitScore": 80,
-    "fitRationale": "Not a speaking event. Platforms, producers, creators, studios, brands. Document with daily LinkedIn posts."
+    "fitRationale": "Not a speaking event. Platforms, producers, creators, studios, brands. Document with daily LinkedIn posts.",
+    "notes": "Jun 1-4, 2026. Trip completed. Meetings with studios, streamers, brands in LA."
   },
   {
     "id": "seed-nem-dubrovnik-new-europe-market",
@@ -32,9 +33,10 @@
     "startsAt": "2026-06-08T00:00:00.000Z",
     "endsAt": "2026-06-11T00:00:00.000Z",
     "role": "Panellist",
-    "status": "confirmed",
+    "status": "done",
     "fitScore": 90,
-    "fitRationale": "'Microdrama: risky business or industry's next guilty pleasure?' with Maria Rua Aguete, Cassandra Yang, Lukasz Wysocki."
+    "fitRationale": "'Microdrama: risky business or industry's next guilty pleasure?' with Maria Rua Aguete, Cassandra Yang, Lukasz Wysocki.",
+    "notes": "Jun 8-11, 2026. Panel completed. Tim advocated hybrid monetisation + CEE regional strategy. Vanda Rapti (Viaplay) called microdrama 'overhyped' on same panel — Category 22 critical mention requiring public counter using APOS evidence."
   },
   {
     "id": "seed-apos-bali",
@@ -44,9 +46,10 @@
     "startsAt": "2026-06-16T00:00:00.000Z",
     "endsAt": "2026-06-18T00:00:00.000Z",
     "role": "Speaker",
-    "status": "confirmed",
+    "status": "done",
     "fitScore": 92,
-    "fitRationale": "Confirmed on speaker slate. Mansha Daswani on site."
+    "fitRationale": "Confirmed on speaker slate. Mansha Daswani on site.",
+    "notes": "Jun 16-18, 2026. Event completed. COL announced Neymar Jr. AI franchise (16 titles, first 6 live Jun 19-22), Virtue Asia / V47 Entertainment SEA brand entertainment partnership (6 markets), and FlareFlow milestone (10M+ downloads, 180 originals). Tim stated: 'We need to stop thinking of this as just the microdrama industry. What we're really building is the future of vertical content.' Mansha Daswani (Variety) on site. Biggest COL week of 2026."
   },
   {
     "id": "seed-mipcom-cannes-2026",

@@ -29,11 +29,12 @@
     "name": "Campaign Asia Media Awards — Media Leader of the Year",
     "organizer": "Campaign Asia-Pacific",
     "category": "Media Leader of the Year",
-    "deadline": "2026-07-14T00:00:00.000Z",
-    "priority": "high",
+    "deadline": "2026-03-01T00:00:00.000Z",
+    "priority": "low",
     "status": "identified",
     "fitScore": 90,
-    "fitRationale": "Strong category fit. Tim's COL Group earned-media campaign is a perfect case study."
+    "fitRationale": "Strong category fit. Tim's COL Group earned-media campaign is a perfect case study.",
+    "notes": "2026 CYCLE CLOSED — entry deadline was in early 2026, shortlists announced May 19, winners announced June 16, 2026. The July 14 deadline in state was incorrect. Flag for 2027 cycle — submission window expected early 2027. Source: campaignapacmediaawards.com. Date checked: 2026-06-22."
   },
   {
     "id": "seed-cannes-lions-entertainment-innovation",
@@ -96,16 +97,17 @@
     "status": "identified",
     "fitScore": 72,
     "fitRationale": "Best Content Marketing Strategy. Strong COL Group narrative ready.",
-    "notes": "Deadline corrected to June 12, 2026 23:59hrs (was erroneously listed as June 5). Eligibility period: work from March 2025 to April 2026. 49 categories. Source: https://awards.marketing-interactive.com/marketing-excellence-sg/ Date checked: 2026-05-26."
+    "notes": "Deadline corrected to June 12, 2026 23:59hrs (was erroneously listed as June 5). Eligibility period: work from March 2025 to April 2026. 49 categories. DEADLINE PASSED Jun 12 — confirm with Stuart whether submitted; if not, flag for 2027. Source: https://awards.marketing-interactive.com/marketing-excellence-sg/ Date checked: 2026-06-22."
   },
   {
     "id": "seed-campaign-asia-pr-awards",
     "name": "Campaign Asia PR Awards",
     "organizer": "Campaign Asia-Pacific",
-    "deadline": "2026-07-14T00:00:00.000Z",
-    "priority": "high",
+    "deadline": "2026-04-14T00:00:00.000Z",
+    "priority": "low",
     "status": "identified",
     "fitScore": 85,
-    "fitRationale": "COL Group's earned-media campaign as B2B PR case study."
+    "fitRationale": "COL Group's earned-media campaign as B2B PR case study.",
+    "notes": "2026 CYCLE CLOSED — actual deadline was April 14, 2026 (not July 14 as previously tracked). Do not action. Flag for 2027 cycle — submission window expected early 2027. Date checked: 2026-06-22."
   }
 ]

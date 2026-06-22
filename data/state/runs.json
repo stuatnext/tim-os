@@ -1,5 +1,15 @@
 [
   {
+    "id": "rn_2206_week1",
+    "agent": "weekly-brief",
+    "status": "success",
+    "startedAt": "2026-06-22T07:00:00.000Z",
+    "finishedAt": "2026-06-22T10:00:00.000Z",
+    "itemsCreated": 14,
+    "itemsUpdated": 8,
+    "metadata": "Weekly brief for week of 2026-06-22. Covers 4-week gap since May 26 run. RSS fully blocked (networkPolicyBlocked: true, 0 bytes from all endpoints) — all intelligence gathered via WebSearch tool. 9 new intelligence items reviewed and added (APOS Bali triple-announcement: Neymar/FlareFlow, Virtue Asia/COL, Showbox/ReelShort, APOS streaming chiefs, vertical franchise trend, Cannes Lions microdrama, Joey Jia, NEM outcome, SXSW PanelPicker). 3 new content drafts (Neymar PTC, Vertical 2.0 validated post, Cannes brands PTC). speaking.json: NEM Dubrovnik and APOS Bali both marked done with notes. awards.json: Campaign Asia PR Awards deadline corrected (April 14 not July 14, cycle closed, priority low); Marketing-Interactive SG June 12 deadline passed (confirm with Stuart). settings.json updated June 22. 24 OPPORTUNITY_RADAR categories walked: all 24 produced signals or confirmed status. Defining story: APOS week June 16-18 was COL's biggest of 2026 — Neymar AI franchise, Virtue Asia SEA deal, Showbox co-production. Vertical 2.0 thesis validated by Variety APOS headline. SXSW PanelPicker opens June 23 — act now. 3 Act-on-this-week items (Neymar PTC ~20 min, Vertical 2.0 post ~20 min, SXSW submission ~75 min Stuart+Tim). Category 22 critical mention: Vanda Rapti (Viaplay) 'overhyped' at NEM — counter with APOS evidence via Vertical 2.0 post."
+  },
+  {
     "id": "rn_2605_week2",
     "agent": "weekly-brief",
     "status": "success",

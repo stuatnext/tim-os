@@ -1,5 +1,239 @@
 [
   {
+    "id": "br_2206_week1",
+    "weekOf": "2026-06-22T00:00:00.000Z",
+    "headline": "APOS delivered the Vertical 2.0 proof. SXSW opens tomorrow. Three pieces-to-camera this week.",
+    "whatChanged": "This run covers four weeks since the May 26 brief — the longest gap of the year, and the most news-dense. Three major events completed: LA meetings trip (Jun 1-4), NEM Dubrovnik (Jun 8-11), APOS Bali (Jun 16-18). APOS was COL's biggest single week of 2026: (1) Neymar Jr. licensed his AI likeness to FlareFlow for a 16-title franchise — first 6 titles live June 19-22 during World Cup season, distributed via Xiaohongshu (200M+ daily users); (2) COL + Virtue Asia / V47 Entertainment struck a brand-funded microdrama partnership covering 6 SEA markets (Singapore, Malaysia, Indonesia, Thailand, Philippines, Vietnam); (3) Showbox (Exhuma, A Killer Paradox) signed a co-production deal with ReelShort. At NEM Dubrovnik, Vanda Rapti (EVP Viaplay Select) nominated microdrama for her 'overhyped' list on the same panel as Tim — a Category 22 critical mention that needs a public evidence-based counter before the moment fades. Variety published 'Vertical Content Outgrows the Microdrama Moment' as their APOS takeaway headline — the first time a trade wrote Tim's Vertical 2.0 thesis as a news lead. SXSW 2027 PanelPicker opens tomorrow June 23, deadline July 26. Cannes Lions 'The Microdrama Boom' session is Wednesday June 24 — P&G, Crocs, Maybelline are commissioning microdramas as media line items. AACA Best Micro-Drama deadline August 1 — Stuart needs to begin the submission dossier this week. Two awards corrections: Campaign Asia PR Awards 2026 actual deadline was April 14 (not July 14 as previously tracked — cycle closed); Marketing-Interactive SG deadline June 12 passed — confirm with Stuart. RSS feeds remain fully blocked (networkPolicyBlocked: true); all intelligence gathered via web search this run.",
+    "topOpportunities": [
+      {
+        "title": "Shoot 'Vertical just went football' piece-to-camera — Neymar + FlareFlow + World Cup season",
+        "type": "visual content / on-camera",
+        "why": "Neymar's first 6 titles are live right now. World Cup season. Variety, Deadline and Hollywood Reporter all covered it. Tim is the only English-language exec who can frame this as a Vertical 2.0 thesis — sports IP on vertical infrastructure — rather than a press release. Window is Monday-Tuesday only before the news cycle moves on. Draft at content.json (id: cn_neymar_ptc_2606). **~20 min: 10 to record (2–3 takes), 5 to caption + schedule.**",
+        "source": "https://variety.com/2026/tv/news/neymar-jr-flareflow-ai-microdrama-franchise-1236771243/",
+        "dateChecked": "2026-06-22",
+        "scores": {
+          "timAuthorityFit": 5,
+          "colCommercialUpside": 5,
+          "microdramaRelevance": 5,
+          "mediaCoveragePotential": 5,
+          "relationshipValue": 4,
+          "personalityFit": 5,
+          "timeliness": 5,
+          "evidenceStrength": 5,
+          "easeOfAction": 5,
+          "reputationRisk": 1
+        },
+        "action": "Act now",
+        "evidence": "strong"
+      },
+      {
+        "title": "SXSW 2027 PanelPicker — submit 'Vertical 2.0' proposal by July 26",
+        "type": "speaking / CFP",
+        "why": "PanelPicker opens tomorrow June 23, closes July 26. Stuart drafts the proposal, Tim submits. Proposal concept: 'Vertical 2.0 — Hollywood's Next 10 Years Starts on a Phone Screen.' APOS triple-announcement plus Cannes brand commissioning gives the abstract concrete evidence. **~75 min total: Stuart ~60 min to draft, Tim ~15 min to review + submit by June 24 (Wednesday).**",
+        "source": "https://sxsw.com/deadlines/",
+        "dateChecked": "2026-06-22",
+        "scores": {
+          "timAuthorityFit": 5,
+          "colCommercialUpside": 4,
+          "microdramaRelevance": 4,
+          "mediaCoveragePotential": 5,
+          "relationshipValue": 4,
+          "personalityFit": 5,
+          "timeliness": 5,
+          "evidenceStrength": 5,
+          "easeOfAction": 4,
+          "reputationRisk": 1
+        },
+        "action": "Act now",
+        "evidence": "strong"
+      },
+      {
+        "title": "Post 'Vertical 2.0 wasn't a prediction' — Variety APOS headline as receipt",
+        "type": "written content / LinkedIn post",
+        "why": "Variety published the Vertical 2.0 thesis as a news headline. Tim can publish the receipts post today — APOS stats, Neymar, Showbox, Cannes brands all in one paragraph — and it reads as evidence, not bragging. Highest-engagement post type in his repertoire (thesis + receipts + external validation). Draft at content.json (id: cn_vertical20_validated_2606). **~20 min: 10 to polish the draft, 5 to format, 5 to schedule.**",
+        "source": "https://variety.com/2026/tv/asia/vertical-content-franchise-apos-2026-1236784676/",
+        "dateChecked": "2026-06-22",
+        "scores": {
+          "timAuthorityFit": 5,
+          "colCommercialUpside": 4,
+          "microdramaRelevance": 5,
+          "mediaCoveragePotential": 4,
+          "relationshipValue": 3,
+          "personalityFit": 5,
+          "timeliness": 5,
+          "evidenceStrength": 5,
+          "easeOfAction": 5,
+          "reputationRisk": 1
+        },
+        "action": "Post",
+        "evidence": "strong"
+      },
+      {
+        "title": "AACA Best Micro-Drama — begin submission dossier (deadline Aug 1)",
+        "type": "award / submission",
+        "why": "World's first dedicated micro-drama award, Singapore (Tim's home market), ceremony December 3. 40 days to Aug 1 deadline. Stuart builds the dossier this week with Tim's top 3-5 titles. COL's APOS week gives the narrative arc. Fee: USD 299. Source: Asian Academy Creative Awards. Date checked: 2026-06-22.",
+        "source": "https://asianacademycreativeawards.com/",
+        "dateChecked": "2026-06-22",
+        "scores": {
+          "timAuthorityFit": 5,
+          "colCommercialUpside": 4,
+          "microdramaRelevance": 5,
+          "mediaCoveragePotential": 4,
+          "relationshipValue": 3,
+          "personalityFit": 4,
+          "timeliness": 4,
+          "evidenceStrength": 4,
+          "easeOfAction": 3,
+          "reputationRisk": 1
+        },
+        "action": "Pitch",
+        "evidence": "strong"
+      },
+      {
+        "title": "DM Joey Jia (ReelShort CEO) — shared Vertical 2.0 framing",
+        "type": "relationship / DM",
+        "why": "Joey Jia said at APOS: 'Vertical storytelling will be the most important channel for future IP' — the same framing as Tim's Vertical 2.0. Tim and Jia are publicly aligned but haven't engaged publicly. A short DM acknowledging the shared thesis opens a collegial COL-group relationship at CEO level. **~5 min to write.**",
+        "source": "https://deadline.com/2026/06/microdrama-ai-reelshort-joey-jia-crazy-maple-studio-asia-1236958231/",
+        "dateChecked": "2026-06-22",
+        "scores": {
+          "timAuthorityFit": 4,
+          "colCommercialUpside": 3,
+          "microdramaRelevance": 4,
+          "mediaCoveragePotential": 2,
+          "relationshipValue": 5,
+          "personalityFit": 4,
+          "timeliness": 3,
+          "evidenceStrength": 4,
+          "easeOfAction": 5,
+          "reputationRisk": 1
+        },
+        "action": "DM",
+        "evidence": "strong"
+      }
+    ],
+    "topPeople": [
+      {
+        "name": "Keenan Brown",
+        "role": "Co-founder",
+        "organisation": "Second Rodeo (formerly TikTok global content strategy)",
+        "whyMatters": "Speaking at Cannes Lions 'The Microdrama Boom' session June 24. Second Rodeo is building the creator-microdrama bridge in the US market — the exact space Tim's Vertical 2.0 thesis describes. Major US distribution relationships.",
+        "source": "https://www.canneslions.com/festival/experiences/lions-creators/programme/the-microdrama-boom-inside-the-next-entertainment-economy-71888",
+        "timRelevance": "Keenan is in the room where brand + vertical drama is being formally commissioned. Tim should comment on Keenan's Cannes post and DM to compare notes on the SEA-vs-US market dynamic.",
+        "colRelevance": "Second Rodeo could be a US distribution or co-production partner for FlareFlow brand-entertainment content.",
+        "bestApproach": "Comment on Keenan's LinkedIn post about the Cannes session Wednesday June 24. Short, specific, cite the SEA angle: 'Brands in SEA are moving even faster — the commissioning logic landed here first.'",
+        "publicMove": "Comment on his Cannes Lions session post with a specific SEA data point.",
+        "privateMove": "DM to compare notes on the brand-commissioning pipeline — where US brands are moving vs SEA brands.",
+        "priority": "high"
+      },
+      {
+        "name": "Mansha Daswani",
+        "role": "Editor, Asia Pacific",
+        "organisation": "Variety Asia",
+        "whyMatters": "Wrote 'Vertical Content Outgrows the Microdrama Moment' — the Variety headline that validates Tim's thesis. Was on site at APOS Bali. Tim has a direct relationship (she's been on site at his events). She is the most important trade journalist covering this space.",
+        "source": "https://variety.com/2026/tv/asia/vertical-content-franchise-apos-2026-1236784676/",
+        "timRelevance": "Tim should pitch Mansha a follow-up piece: the Vertical 2.0 framework as the lens for what APOS signals — with Tim as the subject-matter framing. She wrote the thesis; Tim can be the expert who names it.",
+        "colRelevance": "A Variety feature on Tim + Vertical 2.0 post-APOS would be the highest-tier media placement available right now.",
+        "bestApproach": "Email or LinkedIn DM. 'You wrote the headline — want to put a name and a framework to it?' Short pitch, no pressure. Offer a 20-min interview.",
+        "publicMove": "Comment on her APOS article or LinkedIn post crediting the framing.",
+        "privateMove": "DM or email pitching a follow-up piece on the Vertical 2.0 framework.",
+        "priority": "high"
+      },
+      {
+        "name": "Joey Jia",
+        "role": "Founder and CEO",
+        "organisation": "Crazy Maple Studio / ReelShort",
+        "whyMatters": "ReelShort CEO has publicly stated 'vertical storytelling will be the most important channel for future IP' — identical to Tim's Vertical 2.0 framing. Both are at the operating level of COL Group but in different roles (Tim: international/FlareFlow; Joey: US/ReelShort). Public alignment between the two strengthens the Vertical 2.0 narrative.",
+        "source": "https://deadline.com/2026/06/microdrama-ai-reelshort-joey-jia-crazy-maple-studio-asia-1236958231/",
+        "timRelevance": "Tim and Joey are both COL Group executives who have arrived at the same thesis independently via different markets. A public cross-reference between the two is credibility-amplifying.",
+        "colRelevance": "Internal COL relationship with commercial value — Tim covers international/FlareFlow, Joey covers US/ReelShort. Alignment on Vertical 2.0 framing strengthens investor narrative and editorial positioning.",
+        "bestApproach": "Short DM acknowledging the shared APOS week and the shared framing — 'sounds like we both landed in the same place from opposite ends.' Low pressure, high signal.",
+        "privateMove": "DM on LinkedIn.",
+        "priority": "high"
+      },
+      {
+        "name": "Cassandra Yang",
+        "role": "CEO",
+        "organisation": "RisingJoy",
+        "whyMatters": "Was on Tim's NEM Dubrovnik panel. Launched RJOY microdrama streaming on TikTok Minis at APOS with 20 originals. RisingJoy is one of the few non-COL operators building at the same scale as Tim's thesis — especially TikTok Minis distribution.",
+        "source": "https://variety.com/2026/tv/global/risingjoy-rjoy-microdrama-tiktok-minis-streaming-launch-1236781746/",
+        "timRelevance": "Fellow panellist at NEM. Cassandra is building the TikTok-native vertical infrastructure — a strategic data point Tim can reference in the 'which platforms matter' debate.",
+        "colRelevance": "Potential co-distribution or content partnership for FlareFlow via TikTok Minis channel.",
+        "bestApproach": "Follow up on the NEM panel — congratulate on the RJOY TikTok Minis launch. Short, warm.",
+        "privateMove": "DM or message following up post-NEM.",
+        "priority": "medium"
+      },
+      {
+        "name": "Vivek Couto",
+        "role": "Executive Director",
+        "organisation": "Media Partners Asia (MPA)",
+        "whyMatters": "Runs APOS. Published Variety APOS interview on AI, microdramas and Asia media reinvention. MPA is the most credible independent research and conference organisation in APAC media — Vivek shapes the industry narrative that Tim benefits from.",
+        "source": "https://variety.com/2026/tv/news/apos-2026-vivek-couto-asia-media-ai-microdramas-streaming-1236769221/",
+        "timRelevance": "Tim spoke at APOS — warmth note post-event is appropriate and expected. Maintaining the relationship keeps Tim on the speaker slate for APOS 2027.",
+        "colRelevance": "APOS is where COL's biggest announcements land. Relationship with Vivek = continued platform for COL.",
+        "bestApproach": "Short post-event thank-you message. Specific: 'The response to the Neymar announcement on the show floor was extraordinary — thank you for giving it the right stage.'",
+        "privateMove": "LinkedIn message or email.",
+        "priority": "medium"
+      }
+    ],
+    "bestMediaAngle": {
+      "angle": "COL Group's APOS triple announcement (Neymar, Virtue Asia, Showbox) as the supply-chain story — Tim is the only English-language exec who can explain how a Chinese-listed company became the infrastructure layer for global vertical IP",
+      "targetOutlet": "Bloomberg Screentime (Lucas Shaw)",
+      "why": "Lucas Shaw covers the streaming economy at the infrastructure level — deals, supply chains, platform economics. The three APOS announcements together (sports IP + brand entertainment + Korean prestige co-production) tell a coherent supply-chain story about COL going mainstream. This is not a trade-press angle; it's a business-press angle about a Chinese-listed company building the rails for global vertical content.",
+      "evidence": "Variety, Deadline and Hollywood Reporter all covered APOS announcements independently. The triple-announcement has not been aggregated into a single supply-chain narrative anywhere. Evidence: strong. Date checked: 2026-06-22."
+    },
+    "bestLinkedInAngle": {
+      "hook": "Vertical 2.0 wasn't a prediction. It was a description.",
+      "angle": "Use Variety's APOS headline as the external receipt, then list the APOS week evidence (Neymar, Showbox, Virtue Asia, $1.5B DramaBox+ReelShort revenue, Cannes brands) in a single dense paragraph. Close with the forward question: what gets built in the next layer?",
+      "why": "This is Tim's highest-leverage post type: thesis + third-party validation + specific receipts + forward question. The Variety headline does the credibility work; Tim just needs to connect the dots. Draft at content.json (id: cn_vertical20_validated_2606)."
+    },
+    "bestCommentOpportunity": {
+      "targetPostUrl": "https://www.linkedin.com/in/keenanbrown/",
+      "targetAuthor": "Keenan Brown (Second Rodeo)",
+      "suggestedComment": "The Cannes presence matters — but SEA is moving faster. Brands in Singapore, Thailand and Indonesia are already commissioning vertical drama as a media line item, not a pilot. The infrastructure landed here first because the audience behaviour was already there. Would love to compare notes on the US-vs-SEA commissioning curve.",
+      "why": "Keenan is the highest-profile voice at the Cannes session. A comment from Tim with a SEA-specific data point makes Tim the geographic anchor for the global conversation — he's the APAC half of a global narrative Keenan is telling.",
+      "risk": "Sounds competitive if framed wrong. Frame as a geographic complement, not a counter-claim."
+    },
+    "bestRelationshipMove": {
+      "name": "Mansha Daswani",
+      "role": "Editor, Asia Pacific",
+      "organisation": "Variety Asia",
+      "whyMatters": "Wrote the APOS headline that validates Tim's thesis. She is the most important trade journalist in Tim's lane and was physically present at APOS.",
+      "source": "https://variety.com/2026/tv/asia/vertical-content-franchise-apos-2026-1236784676/",
+      "timRelevance": "Tim should pitch a follow-up piece: 'Vertical 2.0 — you wrote the headline; let me give you the framework.' 20-min interview offer.",
+      "colRelevance": "A Variety feature on Tim's Vertical 2.0 framing would be the highest-tier English-language media placement available right now.",
+      "bestApproach": "Email or LinkedIn DM. Short: 'You wrote the headline — want to put a name and a framework to it?' No pressure, no essay.",
+      "privateMove": "DM or email to Mansha Daswani at Variety Asia.",
+      "priority": "high"
+    },
+    "bestColOpportunity": {
+      "title": "Virtue Asia SEA brand activation — announce first campaign partner",
+      "why": "The COL + Virtue Asia / V47 partnership was announced at APOS with six SEA markets in scope. The natural next step is announcing the first brand partner or campaign brief. This is the commercial proof point that turns the APOS partnership announcement into a B2B pipeline signal.",
+      "commercialUpside": "Each brand campaign in a single SEA market can generate six-figure fees at scale (precedent: Microdrama in a Box B2B revenue). With 6 markets in scope and P&G, Crocs and Maybelline-scale brands entering the category at Cannes, the timing for announcing initial briefs is now.",
+      "nextStep": "Stuart to coordinate with Virtue Asia on whether a first campaign partner can be announced in the next 2-3 weeks. If so, draft a joint press release for MARKETECH APAC and Campaign Brief Asia — both covered the APOS announcement. Date checked: 2026-06-22."
+    },
+    "risingTrend": {
+      "trend": "Sports IP in vertical content — Neymar is the first at scale; World Cup season is the catalyst",
+      "evidence": "Neymar Jr. (220M social followers) + FlareFlow AI franchise (16 titles) announced at APOS June 16. First 6 titles live June 19-22. Variety and Deadline both covered it as the lead APOS story. Joey Jia (ReelShort) named action and sports as the next genre frontiers at the same event. Sources: https://variety.com/2026/tv/news/neymar-jr-flareflow-ai-microdrama-franchise-1236771243/, https://deadline.com/2026/06/microdrama-ai-reelshort-joey-jia-crazy-maple-studio-asia-1236958231/. Date checked: 2026-06-22.",
+      "implication": "Neymar is the template. Other sports leagues, athletes and national federations will now enquire about vertical IP franchises. Tim should have a public framework ready ('sports is the next IP category in vertical') before the next sports-microdrama deal is announced. The first mover in the narrative wins the commentary."
+    },
+    "thingToIgnore": {
+      "item": "Campaign Asia PR Awards 2026 and Campaign Asia Media Awards 2026 — both cycles closed",
+      "why": "Campaign Asia PR Awards actual deadline was April 14, 2026 (not July 14 as previously tracked — 2026 cycle closed). Campaign Asia Media Awards winners announced June 16, 2026. Do not spend any time on these. Flag both for 2027 cycle — submission windows expected early 2027. Also: Cannes Lions 2026 entry window has passed (deadline was April 9). Nothing actionable until January 2027. Date checked: 2026-06-22."
+    },
+    "reputationRisk": {
+      "risk": "Vanda Rapti (EVP Viaplay Select) nominated microdrama for her 'overhyped' list at NEM Dubrovnik, June 11 — Tim was on the same panel. The framing is now documented in trade press (Señal News). Without a public counter, this quote circulates as the balanced view of the format.",
+      "mitigation": "Tim's counter should not engage Rapti directly by name. Instead, publish the APOS evidence: '$1.5B combined revenue, Netflix/Amazon/Disney/WBD all at APOS naming microdrama as a trend, Neymar first title 220M fans.' The Vertical 2.0 validated post (cn_vertical20_validated_2606) is the counter. Evidence answers 'overhyped' better than argument. Post this week before the NEM framing sets."
+    },
+    "suggestedAction": {
+      "for": "Stuart",
+      "action": "Two tasks this week: (1) Draft SXSW 2027 PanelPicker proposal 'Vertical 2.0 — Hollywood's Next 10 Years Starts on a Phone Screen' — Tim reviews and submits by June 24 (Wednesday). Deadline July 26. Source: https://sxsw.com/apply/panelpicker/ (2) Begin AACA Best Micro-Drama submission dossier — select top 3-5 titles, draft the entry narrative, budget USD 299 fee. August 1 deadline. 40 days.",
+      "urgency": "this-week"
+    },
+    "model": "claude-sonnet-4-6",
+    "tokens": { "input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0 },
+    "createdAt": "2026-06-22T10:00:00.000Z"
+  },
+  {
     "id": "br_2605_week2",
     "weekOf": "2026-05-25T00:00:00.000Z",
     "headline": "Hollywood IS vertical. Netflix + Amazon + Disney confirmed the trifecta this fortnight. LA in 6 days — the conversations just changed.",
