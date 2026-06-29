@@ -1,5 +1,15 @@
 [
   {
+    "id": "rn_2906_weekly",
+    "agent": "weekly-brief",
+    "status": "success",
+    "startedAt": "2026-06-29T06:00:00.000Z",
+    "finishedAt": "2026-06-29T07:30:00.000Z",
+    "itemsCreated": 14,
+    "itemsUpdated": 9,
+    "metadata": "Weekly brief for week of 2026-06-29. First run since May 26 — 5-week gap. RSS still fully blocked (22/22 denied, networkPolicyBlocked:true, 6th consecutive blocked run) — web search via WebSearch tool used for all intelligence. 8 new intelligence items added and reviewed (int_neymar_flareflow_apos_2906, int_vertical_franchise_apos_2906, int_col_virtue_asia_v47_2906, int_microseries_terminology_shift_2906, int_brands_cannes_lions_2906, int_google_100zeros_2906, int_ai_actors_replacing_humans_2906, int_verticast_launch_2906). 3 new content drafts added (cn_neymar_ptc_2906 [piece-to-camera — mandatory Category 21], cn_microseries_naming_2906, cn_sxsw_2027_submission_2906). speaking.json: 4 updates (LA trip → done, NEM Dubrovnik → done, APOS Bali → done with full notes, SXSW 2027 cfpDeadline corrected to July 26, fitScore 85). awards.json: 2 notes added (MARKETING-INTERACTIVE deadline passed June 12; Campaign Asia Media Awards 2026 cycle closed early, shortlists May 19). settings.json: weeklyFocus updated to reflect current priorities (Neymar PTC, SXSW CFP, AACA deadline). Defining signals this run: Neymar builds 16-title franchise on FlareFlow during World Cup (Vertical 2.0 made visible); US trade press shifts to 'microseries' nomenclature; SXSW 2027 PanelPicker open (deadline July 26, 27 days). APOS Bali recap: Tim quoted in Variety, COL+Virtue Asia SEA partnership, ReelShort Globe Philippines telco deal. 3 actionable items in Act-on-this-week surface (hard cap respected): Neymar PTC, Microseries post, SXSW submission. Categories walked (OPPORTUNITY_RADAR 1-24): categories 1-8, 10-11, 17-24 produced signals. Categories still blocked: app-store chart rankings (Sensor Tower — network), Mandarin reputation watch (Weibo/Baidu 短剧 出海 — network), Reddit qualitative — all three require environment-level network policy fix."
+  },
+  {
     "id": "rn_2605_week2",
     "agent": "weekly-brief",
     "status": "success",

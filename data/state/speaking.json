@@ -20,9 +20,10 @@
     "startsAt": "2026-06-01T00:00:00.000Z",
     "endsAt": "2026-06-04T00:00:00.000Z",
     "role": "Attendee",
-    "status": "confirmed",
+    "status": "done",
     "fitScore": 80,
-    "fitRationale": "Not a speaking event. Platforms, producers, creators, studios, brands. Document with daily LinkedIn posts."
+    "fitRationale": "Not a speaking event. Platforms, producers, creators, studios, brands. Document with daily LinkedIn posts.",
+    "notes": "Jun 1-4 2026 — completed."
   },
   {
     "id": "seed-nem-dubrovnik-new-europe-market",
@@ -32,9 +33,10 @@
     "startsAt": "2026-06-08T00:00:00.000Z",
     "endsAt": "2026-06-11T00:00:00.000Z",
     "role": "Panellist",
-    "status": "confirmed",
+    "status": "done",
     "fitScore": 90,
-    "fitRationale": "'Microdrama: risky business or industry's next guilty pleasure?' with Maria Rua Aguete, Cassandra Yang, Lukasz Wysocki."
+    "fitRationale": "'Microdrama: risky business or industry's next guilty pleasure?' with Maria Rua Aguete, Cassandra Yang, Lukasz Wysocki.",
+    "notes": "Jun 8-11 2026 — completed. Trifecta framing anchored the panel."
   },
   {
     "id": "seed-apos-bali",
@@ -44,9 +46,10 @@
     "startsAt": "2026-06-16T00:00:00.000Z",
     "endsAt": "2026-06-18T00:00:00.000Z",
     "role": "Speaker",
-    "status": "confirmed",
+    "status": "done",
     "fitScore": 92,
-    "fitRationale": "Confirmed on speaker slate. Mansha Daswani on site."
+    "fitRationale": "Confirmed on speaker slate. Mansha Daswani on site.",
+    "notes": "Jun 16-18 2026 — completed. Tim declared 'true dawn of Vertical 2.0' strategy (Neymar deal). Quoted in Variety APOS debrief. COL + Virtue Asia SEA partnership announced. ReelShort Globe Philippines telco deal announced. Coverage: THR, Variety, Deadline, Marketing-Interactive."
   },
   {
     "id": "seed-mipcom-cannes-2026",
@@ -84,15 +87,15 @@
   },
   {
     "id": "seed-sxsw-2027",
-    "name": "SXSW 2027",
+    "name": "SXSW 2027 — PanelPicker",
     "organizer": "SXSW",
     "location": "Austin, USA",
     "startsAt": "2027-03-12T00:00:00.000Z",
-    "cfpDeadline": "2026-07-21T00:00:00.000Z",
-    "role": "Panellist",
+    "cfpDeadline": "2026-07-26T00:00:00.000Z",
+    "role": "Panellist / Featured Session",
     "status": "identified",
-    "fitScore": 78,
-    "fitRationale": "PanelPicker opens summer 2026. Vertical 2.0 + creator-economy crossover."
+    "fitScore": 85,
+    "fitRationale": "PanelPicker is OPEN NOW — deadline July 26 2026 (27 days). Community voting Aug 5-23. Title: 'Hollywood for Mobile Phones: How We Built It' or 'The Vertical Decade.' This is Tim's highest-visibility US speaking stage. Submitting is itself a publishable story. Stuart leads submission prep, Tim reviews and submits. Source: panelpicker.sxsw.com. Date checked: 2026-06-29."
   },
   {
     "id": "seed-cairns-crocodiles-presented-by-pinterest-",

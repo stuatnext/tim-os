@@ -1,5 +1,246 @@
 [
   {
+    "id": "br_2906_weekly",
+    "weekOf": "2026-06-29T00:00:00.000Z",
+    "headline": "Neymar is building on FlareFlow during the World Cup. Vertical 2.0 isn't a thesis anymore — it's live. Act this week.",
+    "whatChanged": "First run since the May 26 brief. Five weeks elapsed. Three major events completed: LA trip (Jun 1-4), NEM Dubrovnik (Jun 8-11, panel: 'Microdrama: risky business or industry's next guilty pleasure?'), APOS Bali (Jun 16-18). APOS was the breakout moment: Tim declared 'true dawn of Vertical 2.0', was quoted in Variety's APOS debrief, COL + Virtue Asia SEA partnership was announced, and ReelShort Globe Philippines telco deal was revealed. Coverage: THR, Variety, Deadline, Marketing-Interactive. Post-APOS, Neymar's partnership with FlareFlow is the week's lead story: 16 original vertical drama titles launched June 19, live during the 2026 FIFA World Cup — the first global sports star to build a content franchise on a vertical platform, not just sponsor one. This is Vertical 2.0 made visible. Separately: US trade press (The Wrap, Deadline, Bloomberg) has begun shifting from 'microdrama' to 'microseries' nomenclature — the language catching up to where Tim has been for two years. Two time-sensitive opportunities this week: SXSW 2027 PanelPicker is OPEN NOW (deadline July 26 — 27 days), and AACA Best Micro-Drama deadline is August 1 (33 days, $299). Campaign Asia Agency of the Year early bird deadline is TOMORROW June 30 — Stuart to confirm whether COL qualifies for this category. Awards corrections this run: Campaign Asia Media Awards 2026 cycle closed early (shortlists May 19, winners June 16); July 14 deadline in state appears to refer to a different program. MARKETING-INTERACTIVE Excellence Awards deadline June 12 — now passed; Stuart to confirm if submitted. RSS still blocked 22/22 for the sixth consecutive run — network policy fix remains environment-level. Categories that produced nothing: app-store chart rankings, Mandarin reputation watch (Weibo/Baidu 短剧 出海), Reddit qualitative. All three require environment-level network unlock.",
+    "topOpportunities": [
+      {
+        "title": "Shoot Neymar/FlareFlow piece-to-camera — 'Neymar. FlareFlow. Round of 32.' (TODAY or Tuesday June 30)",
+        "type": "visual content / on-camera",
+        "why": "16 FlareFlow titles launched June 19. World Cup Round of 32 window closes approximately July 5 — maximum relevance window is the next 6 days. The shot: Tim direct to camera, outdoor, clean shirt. Hook: 3 words, 3 seconds. Frame: 'He didn't endorse the platform. He built a franchise on it.' The forward close: 'I'll tell you what the numbers look like when the tournament ends.' Full script in content.json (id: cn_neymar_ptc_2906). **~25 min total: 15 to record 3-4 takes, 5 to pick best take, 5 to caption and schedule. Shoot TODAY or Tuesday June 30.**",
+        "source": "intelligence.json int_neymar_flareflow_apos_2906. Variety APOS debrief (COL Group cited). data/state/speaking.json APOS Bali June 16-18. Date checked: 2026-06-29.",
+        "dateChecked": "2026-06-29",
+        "scores": {
+          "timAuthorityFit": 5,
+          "colCommercialUpside": 5,
+          "microdramaRelevance": 5,
+          "mediaCoveragePotential": 5,
+          "relationshipValue": 4,
+          "personalityFit": 5,
+          "timeliness": 5,
+          "evidenceStrength": 5,
+          "easeOfAction": 5,
+          "reputationRisk": 1
+        },
+        "action": "Act now",
+        "evidence": "strong"
+      },
+      {
+        "title": "Post microseries naming shift — 'The Wrap just called them microseries. That took two years.' (this week, while framing is fresh)",
+        "type": "LinkedIn post",
+        "why": "The Wrap, Deadline, and Bloomberg have shifted to 'microseries' nomenclature in June 2026 coverage — the first major US trade adoption of the broader format framing Tim has been using for two years. The post documents the shift and owns the next frame: 'vertical storytelling doesn't have a naming problem anymore. It has an infrastructure problem.' Full draft in content.json (id: cn_microseries_naming_2906). No hard deadline, but strikes while the terminology shift is freshest in the trade press cycle. **~20 min: review/edit draft, post. Predicted engagement: high.**",
+        "source": "intelligence.json int_microseries_terminology_shift_2906. Tim's Feb 2026 LinkedIn post (137 reactions). Date checked: 2026-06-29.",
+        "dateChecked": "2026-06-29",
+        "scores": {
+          "timAuthorityFit": 5,
+          "colCommercialUpside": 4,
+          "microdramaRelevance": 5,
+          "mediaCoveragePotential": 4,
+          "relationshipValue": 3,
+          "personalityFit": 5,
+          "timeliness": 4,
+          "evidenceStrength": 4,
+          "easeOfAction": 5,
+          "reputationRisk": 1
+        },
+        "action": "Post",
+        "evidence": "strong"
+      },
+      {
+        "title": "SXSW 2027 PanelPicker — begin submission this week (deadline July 26, 27 days)",
+        "type": "speaking / US market",
+        "why": "PanelPicker is OPEN NOW. Deadline July 26 (27 days). Community voting August 5-23. Session concept: 'Hollywood for Mobile Phones: How We Built It.' Tim's highest-visibility US stage — unique crossover of media, tech, and entertainment audiences. Stuart leads submission draft, Tim reviews and submits. Posting about the submission concept generates votes and surfaces the title to US audiences before the committee decides. LinkedIn post draft in content.json (id: cn_sxsw_2027_submission_2906). **~2-3 hrs total: Stuart builds submission draft this week; Tim reviews by July 7; submits well before July 26.**",
+        "source": "panelpicker.sxsw.com. data/state/speaking.json seed-sxsw-2027. Date checked: 2026-06-29.",
+        "dateChecked": "2026-06-29",
+        "scores": {
+          "timAuthorityFit": 5,
+          "colCommercialUpside": 4,
+          "microdramaRelevance": 4,
+          "mediaCoveragePotential": 5,
+          "relationshipValue": 5,
+          "personalityFit": 5,
+          "timeliness": 5,
+          "evidenceStrength": 4,
+          "easeOfAction": 4,
+          "reputationRisk": 1
+        },
+        "action": "Act now",
+        "evidence": "strong"
+      },
+      {
+        "title": "AACA Best Micro-Drama — prepare and submit by August 1 (33 days, $299 entry fee)",
+        "type": "award",
+        "why": "World's first dedicated micro-drama award. Tim's home event (Singapore). Ceremony December 3. Stuart to pull top 3-5 FlareFlow/ReelShort titles from the COL catalogue and initiate submission. $299 fee is low relative to category fit (fitScore 88). Deadline August 1 — 33 days. Target: start title selection by July 7, file submission by July 20 with 10-day buffer. **~2 hrs total: title curation + submission form.**",
+        "source": "data/state/awards.json seed-aaca-best-micro-drama. asiaacademy.org. Date checked: 2026-06-29.",
+        "dateChecked": "2026-06-29",
+        "scores": {
+          "timAuthorityFit": 4,
+          "colCommercialUpside": 4,
+          "microdramaRelevance": 5,
+          "mediaCoveragePotential": 4,
+          "relationshipValue": 3,
+          "personalityFit": 4,
+          "timeliness": 4,
+          "evidenceStrength": 4,
+          "easeOfAction": 4,
+          "reputationRisk": 1
+        },
+        "action": "Act now",
+        "evidence": "strong"
+      },
+      {
+        "title": "MIPCOM Cannes 2026 — begin outreach via Anne Chan (October 12-15, Cannes)",
+        "type": "speaking / flagship",
+        "why": "Natural progression from MIP London (Feb 2026, headline panellist). MIPCOM is the flagship global content market — the clearest path to a Cannes keynote. Anne Chan can broker. Pitch angle: Vertical 2.0 keynote — the infrastructure story, post-Neymar. No hard outreach deadline yet, but festival programme preparation typically begins July-August. **Watch for July — flag to Anne Chan now so she knows Tim is interested in a keynote slot.**",
+        "source": "data/state/speaking.json seed-mipcom-cannes-2026. Date checked: 2026-06-29.",
+        "dateChecked": "2026-06-29",
+        "scores": {
+          "timAuthorityFit": 5,
+          "colCommercialUpside": 5,
+          "microdramaRelevance": 5,
+          "mediaCoveragePotential": 5,
+          "relationshipValue": 5,
+          "personalityFit": 5,
+          "timeliness": 3,
+          "evidenceStrength": 3,
+          "easeOfAction": 3,
+          "reputationRisk": 1
+        },
+        "action": "Watch",
+        "evidence": "moderate"
+      }
+    ],
+    "topPeople": [
+      {
+        "name": "Mansha Daswani",
+        "role": "Editor-in-Chief / Events Director",
+        "organisation": "World Screen / International Emmy",
+        "whyMatters": "Was on site at APOS Bali. Wrote coverage that cited COL Group. Warm contact, post-event relationship window is open right now. A DM thanking her for the APOS coverage + offering one unreported detail from the room is the highest-ROI relationship move this week.",
+        "source": "data/state/speaking.json seed-apos-bali. APOS coverage (Variety APOS debrief). Date checked: 2026-06-29.",
+        "timRelevance": "World Screen reaches the exact buyer and decision-maker layer Tim needs visible to — APAC content distributors, SVPs, programme directors. Regular Mansha coverage = quarterly press visibility without pitching.",
+        "colRelevance": "International Emmy is the awards circuit Tim hasn't touched. World Screen is ContentAsia's English-language peer for the Americas market.",
+        "bestApproach": "LinkedIn DM or email. Thank her for APOS coverage. Offer one detail she didn't report (e.g., a specific data point from the room on the Neymar deal engagement) as a follow-up note. No ask in the first message.",
+        "publicMove": "Comment on Mansha's LinkedIn post if she writes an APOS debrief — add one detail from the room that her article didn't have.",
+        "privateMove": "DM this week. Keep it warm and peer-level. This is a relationship, not a pitch.",
+        "risk": "Very low.",
+        "priority": "high"
+      },
+      {
+        "name": "Maria Rua Aguete",
+        "role": "Global Head of Media & Entertainment Research",
+        "organisation": "Omdia",
+        "whyMatters": "NEM Dubrovnik co-panellist (Jun 8-11). Tim's published quote about her: 'She grounds every point in data and research. Beyond that, she is kind.' Relationship is post-event warm. The data partnership (Tim's receipts + Maria's market sizing) is the most credible double-act in the vertical media category.",
+        "source": "data/state/contacts.json seed-maria-rua-aguete. data/state/speaking.json seed-nem-dubrovnik-new-europe-market. VOICE.md quote. Date checked: 2026-06-29.",
+        "timRelevance": "Maria's Omdia data cited in Tim's content establishes category authority. Regular co-citation builds the 'Tim + Maria = the authoritative lens on vertical media' brand for future panels and press.",
+        "colRelevance": "Omdia market sizing ($11B vertical content by 2028) is the third-party validation COL needs in enterprise and B2B pitches.",
+        "bestApproach": "LinkedIn DM or WhatsApp (warm). 'How did the panel land for you? I've been watching the 'microseries' naming shift in trade press since we got back — curious if Omdia is tracking the terminology evolution too.'",
+        "publicMove": "Tim can tag Maria in a post referencing the NEM panel as a data-meets-receipts conversation — with her permission.",
+        "privateMove": "DM within the next 10 days while NEM is still recent.",
+        "risk": "Very low.",
+        "priority": "high"
+      },
+      {
+        "name": "Anne Chan",
+        "role": "Conference Producer / Broker",
+        "organisation": "RX France / MIPCOM",
+        "whyMatters": "Named in speaking.json as the person who can broker a MIPCOM Cannes 2026 keynote slot. With Tim's APOS Variety quote and NEM panellist credit now live, the Vertical 2.0 keynote pitch to MIPCOM is stronger than at any previous point.",
+        "source": "data/state/speaking.json seed-mipcom-cannes-2026. Date checked: 2026-06-29.",
+        "timRelevance": "MIPCOM is the flagship global content market — a keynote slot is Tim's tier-1 European moment. Programme prep typically begins July-August for October events.",
+        "colRelevance": "MIPCOM keynote = the definitive European market signal for COL's Vertical 2.0 positioning.",
+        "bestApproach": "Stuart drafts the outreach to Anne Chan this week. Pitch: 'Tim is coming off APOS (Variety quote, Vertical 2.0 declaration, Neymar/FlareFlow). He has the story MIPCOM 2026 should open with.'",
+        "privateMove": "Stuart initiates contact by July 7 to land in the programme planning window.",
+        "risk": "Low — programme planning timeline creates natural urgency without pressure.",
+        "priority": "high"
+      },
+      {
+        "name": "Cassandra Yang",
+        "role": "Founder / CEO",
+        "organisation": "RisingJoy",
+        "whyMatters": "NEM Dubrovnik co-panellist. Chinese-Western vertical content bridge — her perspective on the naming shift (microdrama → microseries) and the franchise model (Neymar) will differ from Tim's. Keep the relationship warm post-NEM.",
+        "source": "data/state/speaking.json seed-nem-dubrovnik-new-europe-market. Date checked: 2026-06-29.",
+        "timRelevance": "Cassandra's network reaches Chinese studio production tier — relevant to COL's Vertical 2.0 content supply chain. She is a peer who validates Tim's framing when she independently arrives at the same conclusions.",
+        "colRelevance": "Joint appearances with Cassandra reinforce COL's Chinese-speed execution with global-market credibility.",
+        "bestApproach": "LinkedIn comment or DM on Cassandra's post-NEM content if she posts. Keep it peer-level.",
+        "risk": "Very low.",
+        "priority": "medium"
+      },
+      {
+        "name": "Janine Stein",
+        "role": "Founder & Editorial Director",
+        "organisation": "ContentAsia",
+        "whyMatters": "Most consistent APAC media amplifier. ContentAsia Summit 2026 is an identified speaking opportunity (fitScore 93). Tim is the obvious headline speaker for the micro-drama / vertical session — but the relationship needs activating post-APOS.",
+        "source": "data/state/contacts.json seed-janine-stein. data/state/speaking.json seed-contentasia-summit-2026. Date checked: 2026-06-29.",
+        "timRelevance": "ContentAsia Summit speaking slot = APAC credentialing event that ContentAsia's buyer/distributor audience attends. Janine is the gatekeeper.",
+        "colRelevance": "ContentAsia audience includes APAC platform buyers, pay-TV operators, VOD commissioners — the exact commercial targets for COL's catalogue licensing.",
+        "bestApproach": "Email or LinkedIn DM. 'Janine — coming off APOS. Big week: Neymar/FlareFlow, Virtue Asia SEA deal, ReelShort Globe Philippines. If ContentAsia Summit has a vertical/micro-drama slot that needs a keynote, I'd love to talk.' Simple, warm, direct.",
+        "privateMove": "Stuart drafts and sends by July 7.",
+        "risk": "Low.",
+        "priority": "medium"
+      }
+    ],
+    "bestMediaAngle": {
+      "angle": "Neymar didn't endorse a platform — he built a content franchise on one. 16 FlareFlow titles, live during the World Cup. First global sports star to construct a vertical drama franchise. The story is not the celebrity deal; it's the franchise model. Tim, as the CMO who declared 'true dawn of Vertical 2.0' at APOS and was quoted in Variety, is the operator who can explain why this matters for the media industry — not just sports marketing.",
+      "targetOutlet": "Variety (Alex Ritman or Mansha Daswani — both have Tim in the trail from APOS coverage)",
+      "why": "Variety already quoted Tim at APOS. The Neymar/FlareFlow story is a follow-on with a live World Cup news hook. The angle nobody else can tell is the franchise model vs. endorsement model — and Tim can tell it from the inside with data. A 'five days after APOS' follow-up to Alex Ritman or Mansha Daswani is a warm outreach, not a cold pitch.",
+      "evidence": "Variety APOS debrief (COL Group cited, June 2026). Intelligence item int_neymar_flareflow_apos_2906 (16 FlareFlow titles, launched June 19, during World Cup 2026). data/state/speaking.json APOS Bali June 16-18. Date checked: 2026-06-29."
+    },
+    "bestLinkedInAngle": {
+      "hook": "Neymar. FlareFlow. Round of 32.",
+      "angle": "Piece-to-camera, ~65 seconds, phone-shot, outdoors, no jacket. Hook: 3 words, 3 seconds. Beat: he didn't endorse — he built. Beat: Vertical 2.0 isn't about drama anymore, it's about the format for every kind of story. Beat: nobody is calling it an ad, because it isn't one. Close: 'I'll tell you what the numbers look like when the tournament ends.' Full script in content.json (id: cn_neymar_ptc_2906).",
+      "why": "World Cup timing maximizes cross-audience reach — sports followers + media industry + vertical content operators all in the same news cycle. The rhetorical frame ('he didn't endorse — he built') is distinctly Tim's POV. The follow-on hook ('numbers when the tournament ends') creates a content thread and signals Tim has insider data access. Maximum relevance window: June 29 – July 5."
+    },
+    "bestCommentOpportunity": {
+      "targetPostUrl": "Monitor LinkedIn for Mansha Daswani (World Screen), Alex Ritman (Variety), or Cassandra Yang (RisingJoy) posting about APOS, Neymar/FlareFlow, or Vertical 2.0 — expected in the next 7 days",
+      "targetAuthor": "Mansha Daswani (World Screen), Alex Ritman (Variety APAC), or Cassandra Yang (RisingJoy)",
+      "suggestedComment": "On a Neymar/FlareFlow post: 'What's interesting here isn't the celebrity deal — it's the model. Neymar didn't sponsor a vertical platform. He built a content franchise on one. That's the shift: from brand endorsement to IP ownership on a vertical-native infrastructure. We've been watching this transition in the drama category for two years. Sports IP getting there is just the next chapter of the same story.'",
+      "why": "Commenting on a trade journalist's post about APOS or Neymar/FlareFlow with inside context positions Tim as the operator who was in the room and can add depth that the article missed. Short, specific, one move — not a retweet.",
+      "risk": "Keep it under 100 words. One point, one implication. Do not mention COL by name in the comment text — profile does that work. Do not be self-promotional."
+    },
+    "bestRelationshipMove": {
+      "name": "Mansha Daswani",
+      "role": "Editor-in-Chief / Events Director",
+      "organisation": "World Screen / International Emmy",
+      "whyMatters": "Was on site at APOS, wrote coverage citing COL Group, post-event warm. One DM this week — thanking her for the coverage + sharing an unreported detail from the room — costs 5 minutes and builds the relationship that generates regular World Screen coverage.",
+      "source": "APOS Bali June 16-18 (data/state/speaking.json). APOS Variety debrief. Date checked: 2026-06-29.",
+      "timRelevance": "World Screen reaches the Americas content-buyer layer. Regular Mansha coverage = sustained English-language press presence outside Singapore/APAC.",
+      "colRelevance": "International Emmy is the awards circuit COL hasn't touched. World Screen is the distribution-industry press tier Tim needs in the US market.",
+      "bestApproach": "LinkedIn DM. Keep it warm. Thank her. Share one detail. Ask nothing.",
+      "publicMove": "Comment on Mansha's APOS post if she writes one — add inside context without being promotional.",
+      "privateMove": "Tim DMs this week while APOS is still the most recent event in both their timelines.",
+      "risk": "Minimal. The worst outcome is no reply — the relationship is warm enough that a message won't read as cold.",
+      "priority": "high"
+    },
+    "bestColOpportunity": {
+      "title": "Virtue Asia SEA partnership — signal the creative-commercial bridge to brand CMOs on LinkedIn",
+      "why": "COL + Virtue Asia SEA partnership was announced at APOS (June 16-18). This is the first public signal that COL's content infrastructure now has a brand-activation channel in Southeast Asia. COL distributes 1,700+ titles; Virtue brings brand clients and creative capability. The partnership enables branded vertical content at SEA scale — exactly what brand CMOs in Tim's LinkedIn network have been watching for.",
+      "commercialUpside": "The COL/Virtue Asia partnership converts COL's distribution reach into a packaged proposition for brand advertisers — addressable market includes every major FMCG, tech, and lifestyle brand with SEA marketing budgets. First branded microseries client under the partnership would be a tier-1 case study and a PR moment.",
+      "nextStep": "Tim posts a LinkedIn piece (or piece-to-camera) about what the partnership means from the CMO perspective: 'Virtue Asia + COL Group. We now have the creative and the infrastructure on the same side of the table. Here's what that means for brands building in Southeast Asia.' Stuart drafts for Tim's review this week."
+    },
+    "risingTrend": {
+      "trend": "Athlete IP on vertical platforms. Neymar/FlareFlow is the first data point in a pattern where sports stars build content franchises on vertical-native infrastructure — not TV networks, not YouTube, not streaming platforms.",
+      "evidence": "16 FlareFlow titles by Neymar, launched June 19 during World Cup 2026. Intelligence item int_neymar_flareflow_apos_2906. Tim's APOS declaration: 'true dawn of Vertical 2.0.' Variety APOS debrief (COL Group cited). Date checked: 2026-06-29.",
+      "implication": "The next question is which athlete or sports IP builds the second vertical franchise. For COL: FlareFlow is positioned as the infrastructure layer for this category — the platform where athlete IP becomes episodic content at mobile scale. Tim should watch for NBA, football (soccer), cricket, and Formula 1 athletes signalling content ambition in the next 6 months."
+    },
+    "thingToIgnore": {
+      "item": "Campaign Asia Agency of the Year early bird deadline (June 30, tomorrow) — unless Stuart confirms today that COL Group qualifies as an 'agency' for this category.",
+      "why": "The Campaign Asia Agency of the Year awards are designed for media, PR, and communications agencies — not content companies or distributors. Entering without category fit dilutes the awards strategy and costs entry fee budget that is better spent on AACA ($299, August 1) or MIPCOM preparation. If COL cannot credibly be positioned as an 'agency', park this for 2027 or identify a sub-entity (e.g., Virtue Asia partnership) that could enter separately."
+    },
+    "reputationRisk": {
+      "risk": "The AI replacing human actors story (int_ai_actors_replacing_humans_2906 — casting agencies issuing AI ethics guidelines; SXSW panellists citing vertical drama as a primary site of AI talent displacement) creates a reputational exposure for Tim at the exact moment he is pitching SXSW and building US media relationships. Any comment on production efficiency that sounds like endorsing AI talent replacement will be amplified.",
+      "mitigation": "Tim's position: AI assists production logistics (delivery, localization, dubbing, subtitling) — not performance. FlareFlow's originals run on production standards that include human cast, guild alignment, and editorial discipline. The difference between the top decile of vertical production and the bottom is not AI capability — it's the operator's editorial choices. Stuart should build a one-pager on COL's production standards before Tim appears at SXSW or any US-facing event."
+    },
+    "suggestedAction": {
+      "for": "Stuart AND Tim",
+      "action": "TODAY (June 29): Tim — shoot Neymar/FlareFlow piece-to-camera (content.json: cn_neymar_ptc_2906). 25 minutes. World Cup window closes in 6 days. This is the single highest-leverage brand action of the week. TOMORROW (June 30): Stuart — confirm Campaign Asia Agency of the Year eligibility TODAY before early bird deadline passes; if COL qualifies, advise Tim to enter; if not, park it. THIS WEEK: Stuart — draft SXSW 2027 PanelPicker submission (session title: 'Hollywood for Mobile Phones: How We Built It'); target Tim review by July 7. Stuart — pull top 3-5 FlareFlow/ReelShort titles for AACA Best Micro-Drama submission (August 1 deadline, $299); target complete by July 20. Stuart — initiate MIPCOM outreach via Anne Chan; brief her on APOS Variety quote + Vertical 2.0 declaration as the pitch foundation. Tim — review and post microseries naming shift draft (content.json: cn_microseries_naming_2906); predicted engagement high, no hard deadline but time-sensitive. WITHIN 10 DAYS: Tim — DM Mansha Daswani (World Screen) to thank her for APOS coverage + share one unreported detail. Tim — DM Janine Stein re ContentAsia Summit keynote slot. Tim — DM Maria Rua Aguete post-NEM check-in.",
+      "urgency": "this-week"
+    },
+    "model": "claude-sonnet-4-6",
+    "tokens": { "input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0 },
+    "id": "br_2906_weekly",
+    "createdAt": "2026-06-29T07:00:00.000Z"
+  },
+  {
     "id": "br_2605_week2",
     "weekOf": "2026-05-25T00:00:00.000Z",
     "headline": "Hollywood IS vertical. Netflix + Amazon + Disney confirmed the trifecta this fortnight. LA in 6 days — the conversations just changed.",

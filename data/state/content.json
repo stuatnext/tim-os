@@ -259,5 +259,83 @@
     "predictedEngagement": "medium",
     "status": "draft",
     "createdAt": "2026-05-26T22:12:00.000Z"
+  },
+  {
+    "id": "cn_neymar_ptc_2906",
+    "platform": "linkedin",
+    "format": "piece-to-camera",
+    "title": "Neymar x FlareFlow — 'Vertical 2.0 is happening now'",
+    "hook": "Neymar. FlareFlow. Round of 32.",
+    "coreArgument": "Neymar isn't sponsoring FlareFlow — he built 16 vertical drama titles on it, becoming the first global sports star to construct a content franchise on a vertical platform, which proves Vertical 2.0 is about format-native creators, not brand endorsements.",
+    "whyNow": "World Cup 2026 Round of 32 is underway (week of June 29). The 16 FlareFlow titles launched June 19. Tim declared 'true dawn of Vertical 2.0' at APOS Bali and was quoted in Variety. Maximum relevance window: June 29 – July 5 before Round of 16 draws attention away.",
+    "sourceEvidence": "intelligence.json int_neymar_flareflow_apos_2906. Variety APOS debrief (COL Group cited). Speaking record APOS Bali June 16-18 (data/state/speaking.json). World Cup 2026 schedule: Round of 32 June 27 – July 2. Date checked: 2026-06-29.",
+    "timPOV": "He didn't sponsor a vertical platform. He built 16 shows on it. During the World Cup. That's not an endorsement deal — that's a content franchise.",
+    "colRelevance": "Directly validates COL's Vertical 2.0 thesis announced at APOS. Neymar's FlareFlow deal signals athlete-IP entering vertical — adjacent to COL's global distribution network. Story reinforces Tim as the operator who called it.",
+    "supportingPoints": [
+      "**Open (0–3 sec):** Tim direct to camera, outdoors or office with natural light. 'Neymar. FlareFlow. Round of 32.' One beat.",
+      "**Beat 1 (3–20 sec):** 'He didn't endorse the platform. He built 16 shows on it. During the World Cup. That's not an endorsement — that's a content franchise.' Pause.",
+      "**Beat 2 (20–40 sec):** 'At APOS three weeks ago I said we were at the true dawn of Vertical 2.0. I meant that vertical isn't just drama anymore — it's the format for every kind of story. Sports. Reality. Docs. Now the most famous athlete on the planet is living that bet.'",
+      "**Beat 3 (40–55 sec):** 'What's interesting isn't the celebrity deal. What's interesting is nobody is calling it an ad. Because it isn't one.'",
+      "**Close (55–65 sec):** 'I'll tell you what the numbers look like when the tournament ends.' Forward line. No sign-off. Cut.",
+      "**Caption (~100 words):** Open with stat (16 titles, live June 19). Neymar's model vs. legacy endorsement deals. Vertical 2.0 = not just drama. Reference APOS declaration. End: 'When the tournament ends, I'll share what the engagement data looks like. Watch this space.'"
+    ],
+    "risk": "World Cup result risk: if Neymar's team exits early in embarrassing fashion, timing looks awkward. Mitigation: post now while tournament narrative is positive. The story is about his platform franchise, not his football performance — keep it there. Don't speculate on tournament outcomes.",
+    "body": "[SHOOT INSTRUCTIONS]\nLocation: Natural light, outdoors or by a window. Not a desk. Not a logo wall.\nWardrobe: Clean shirt, no jacket. Phone vertical, chest height. Single native take.\nAudio: phone mic, quiet environment preferred.\nShoot Monday June 29 or Tuesday June 30 — maximum World Cup relevance window.\n\n[ON-CAMERA SCRIPT — ~65 seconds]\n\nNeymar. FlareFlow. Round of 32.\n\n(Beat. Don't explain. Let them process.)\n\nHe didn't endorse the platform.\n\nHe built 16 shows on it. During the World Cup.\n\nThat's not an endorsement deal. That's a content franchise.\n\n(Half-beat.)\n\nAt APOS three weeks ago, I said we were at the true dawn of Vertical 2.0. I didn't mean just more dramas. I meant vertical is becoming the format for every kind of story — sports, reality, documentary, original IP.\n\nNow the most famous athlete on the planet is living that bet.\n\n(Pause.)\n\nWhat's interesting isn't the celebrity deal. What's interesting is nobody is calling it an ad.\n\nBecause it isn't one.\n\nI'll tell you what the numbers look like when the tournament ends.\n\n[CAPTION TEXT]\n16 FlareFlow titles. Launched June 19. During the World Cup.\n\nNeymar didn't sponsor a vertical platform. He built a franchise on one.\n\nAt APOS Bali two weeks ago, I told the room we were at the true dawn of Vertical 2.0. What I meant was: vertical stops being just drama. It becomes the format for sports, reality, docs, athlete IP — everything.\n\nThis is what that looks like in practice.\n\nNobody is calling it an ad. Because it isn't one. It's the Vertical 2.0 playbook — made famous.\n\nWhen the tournament ends, I'll share what the engagement data looks like.",
+    "rationale": "Hook in 5 words, passes VOICE.md on-camera test. World Cup timing maximizes organic reach — sports + media + vertical crossover audience. The rhetorical frame ('he didn't endorse — he built') differentiates Tim from generic commentary. 'I'll tell you the numbers when the tournament ends' creates a follow-on anchor and signals Tim has insider data access. Directly references APOS Bali declaration — connects to the Variety press coverage trail.",
+    "predictedEngagement": "high",
+    "sourceItemId": "int_neymar_flareflow_apos_2906",
+    "status": "draft",
+    "createdAt": "2026-06-29T06:00:00.000Z"
+  },
+  {
+    "id": "cn_microseries_naming_2906",
+    "platform": "linkedin",
+    "format": "post",
+    "title": "Microseries naming shift — 'The terminology just caught up'",
+    "hook": "The Wrap just called them 'microseries.' That took two years.",
+    "coreArgument": "Trade press shifting from 'microdrama' to 'microseries' isn't just semantics — it's the language catching up to Tim's own position that this is a full storytelling format, not a viral niche, validating the Vertical 2.0 terminology strategy.",
+    "whyNow": "The Wrap's coverage using 'microseries' nomenclature (June 2026) is a first major US trade adoption of the broader format framing. Tim has been using 'vertical storytelling' and 'vertical content' for two years. The naming shift is the signal the category has arrived in US press consciousness.",
+    "sourceEvidence": "intelligence.json int_microseries_terminology_shift_2906 (The Wrap, Deadline, Bloomberg adopting 'microseries' terminology, June 2026). Tim's LinkedIn post Feb 2026: 'We need to stop thinking of this as just the microdrama industry. What we're really building is the future of vertical content.' (137 reactions). Date checked: 2026-06-29.",
+    "timPOV": "I stopped using 'microdrama' as the primary frame two years ago. The format always had drama, reality, sports, doc potential — drama was just the first use case. The trade press catching up to that language isn't news. It's confirmation.",
+    "colRelevance": "Tim's category definition leadership (Vertical 2.0 thesis) is COL's brand equity moat. Every time press adopts his framing, the thesis strengthens and COL's positioning as the infrastructure play becomes the obvious conclusion.",
+    "supportingPoints": [
+      "The Wrap calling them 'microseries' signals the US press is finally treating the format as storytelling infrastructure, not a viral moment.",
+      "Tim's Feb 2026 LinkedIn (137 reactions): 'We need to stop thinking of this as just the microdrama industry. What we're really building is the future of vertical content.'",
+      "The naming ladder: microvideo → microdrama → microseries → vertical content. Each step is the market catching up to the most sophisticated operators.",
+      "COL distributes 1,700+ titles — drama, reality, lifestyle, now athlete IP. The 'microseries' frame catches press up to what Tim has been running for two years.",
+      "The right response isn't to correct The Wrap. It's to document the shift and own the next frame: vertical storytelling doesn't have a naming problem anymore. It has an infrastructure problem."
+    ],
+    "risk": "Risk: sounds like Tim is taking credit for a lexical shift he didn't single-handedly cause. Mitigation: frame it as 'the market caught up' not 'I told you so.' Tone must be satisfied-operator, not self-congratulatory. One line max on the timeline — then pivot to what this means for the future.",
+    "body": "The Wrap just called them 'microseries.'\n\nThat took two years.\n\nIn February I posted that we needed to stop thinking about this as just the microdrama industry — that drama was only one format, and what we were really building was the future of vertical content.\n\n137 people agreed at the time. Most of the room thought the category was a TikTok derivative.\n\nNow The Wrap, Deadline, and Bloomberg are all reaching for the same word.\n\nThis is not a naming thing.\n\nIt is a signal that the US press has finally started treating vertical content as storytelling infrastructure — not a viral moment.\n\nThe naming ladder goes: microvideo → microdrama → microseries → vertical storytelling. Each step is the market catching up to the operators building furthest ahead.\n\nCOL distributes 1,700+ titles across formats — drama, reality, lifestyle, now athlete IP. We never called ourselves a drama platform.\n\nThe terminology just caught up.\n\nWhat happens next is the interesting question. The format is settled. The infrastructure race is on.\n\nWho builds the rails wins.",
+    "rationale": "Positions Tim as ahead of the language shift — demonstrates thought leadership without arrogance. Quotes his own Feb post (with the engagement number) as evidence — receipts, not rhetoric. Ends with a forward-looking frame ('infrastructure race is on, who builds the rails wins') that anchors the Vertical 2.0 thesis without restating it verbatim. Short paragraphs, punchy rhythm — follows VOICE.md style rules.",
+    "predictedEngagement": "high",
+    "sourceItemId": "int_microseries_terminology_shift_2906",
+    "status": "draft",
+    "createdAt": "2026-06-29T06:05:00.000Z"
+  },
+  {
+    "id": "cn_sxsw_2027_submission_2906",
+    "platform": "linkedin",
+    "format": "post",
+    "title": "SXSW 2027 PanelPicker — 'Here's what I'm submitting'",
+    "hook": "PanelPicker just opened. Here's what I'm pitching.",
+    "coreArgument": "Publishing your SXSW panel submission is itself a positioning move — it signals US ambition, invites community votes, and tests messaging before you arrive on stage.",
+    "whyNow": "SXSW 2027 PanelPicker is open. Deadline July 26, 2026 — 27 days away. Community voting opens August 5. Posting about the submission now generates votes and surfaces the session title to Austin-adjacent media/tech/entertainment audiences before the committee decides.",
+    "sourceEvidence": "SXSW 2027 PanelPicker: panelpicker.sxsw.com. Deadline confirmed July 26, 2026. Community voting August 5-23. data/state/speaking.json (seed-sxsw-2027). Date checked: 2026-06-29.",
+    "timPOV": "SXSW is the only stage where media, tech, and entertainment audiences collide. The session we're submitting: 'Hollywood for Mobile Phones: How We Built It.' Not a trend panel. A building story.",
+    "colRelevance": "US market presence is COL's next frontier. A SXSW slot puts Tim in front of the creative-tech community that decides what gets funded, adapted, or licensed next. The submission post generates inbound before the event.",
+    "supportingPoints": [
+      "SXSW 2027 PanelPicker is open — deadline July 26. Community voting opens August 5.",
+      "Session concept: 'Hollywood for Mobile Phones: How We Built It' — 45-minute building story from zero vertical infrastructure to 1,700+ titles, 2.4B+ views, and athlete IP.",
+      "The sub-message: this is not a format story. It's a market-creation story. COL didn't join an industry — it helped create one.",
+      "Publishing the submission concept invites community votes and surfaces the idea to US tech/media audiences before a committee ever reviews it.",
+      "SXSW is Tim's highest-visibility US stage — unique crossover of media, technology, and entertainment. Nothing else reaches all three simultaneously."
+    ],
+    "risk": "Risk 1: Posting publicly before the submission is live on PanelPicker creates expectation mismatch. Mitigation: make clear this is the concept being submitted, not a confirmed session. Risk 2: Community votes are public — if low, it's visible. Mitigation: a genuine vote ask works; frame as participation, not a numbers chase.",
+    "body": "PanelPicker just opened.\n\nHere's what I'm pitching to SXSW 2027.\n\nSession title: 'Hollywood for Mobile Phones: How We Built It.'\n\nNot a trend panel. Not 'the future of vertical content.' A building story.\n\n45 minutes. The real version of how you go from zero vertical infrastructure outside China and the US, to 1,700+ titles distributed, 2.4 billion views, and the biggest athlete in the world building shows on a vertical platform during the World Cup.\n\nWhy SXSW?\n\nBecause it's the only stage where media people, tech people, and entertainment people are all in the same room — and they don't all agree. That's the panel I want to be on.\n\nCommunity voting opens August 5.\n\nIf this sounds like a session you'd sit in, the link is below.\n\nAnd if it's not — tell me what you'd rather hear. I'm genuinely asking.",
+    "rationale": "The post is the pitch, not a teaser for the pitch — follows VOICE.md (open with a claim, give the substance). The rhetorical move ('not a trend panel — a building story') signals Tim's panel philosophy (no fluff, no sales pitches) which is itself a reason to vote. The 'genuinely asking' close is Tim-authentic — invites dialogue without being a CTA machine. Listing receipts (1,700+ titles, 2.4B views, Neymar) in the middle earns the ask.",
+    "predictedEngagement": "medium",
+    "status": "draft",
+    "createdAt": "2026-06-29T06:10:00.000Z"
   }
 ]
