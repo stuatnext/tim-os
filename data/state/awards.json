@@ -1,7 +1,7 @@
 [
   {
     "id": "seed-streamtv-awards-content-partnerships-executive-of-the-year",
-    "name": "StreamTV Awards — Content Partnerships Executive of the Year",
+    "name": "StreamTV Awards \u2014 Content Partnerships Executive of the Year",
     "organizer": "StreamTV",
     "category": "Content Partnerships Executive",
     "deadline": "2026-05-09T00:00:00.000Z",
@@ -10,7 +10,7 @@
     "status": "identified",
     "fitScore": 95,
     "fitRationale": "Best category match for Tim's exact role: 1,700+ titles distributed, USD 1M+ B2B revenue, Microdrama in a Box.",
-    "notes": "2026 CYCLE CLOSED — finalists announced May 12, 2026. Previous deadline entry (Jun 15) was incorrect. Flag for 2027 cycle: set reminder Q1 2027 when submissions reopen. Ceremony Denver Jun 16-19 2026. Source: https://www.streamtvinsider.com/content/streamtv-show-announces-2026-streamtv-awards-finalists. Date checked: 2026-05-26."
+    "notes": "2026 CYCLE CLOSED \u2014 finalists announced May 12, 2026. Previous deadline entry (Jun 15) was incorrect. Flag for 2027 cycle: set reminder Q1 2027 when submissions reopen. Ceremony Denver Jun 16-19 2026. Source: https://www.streamtvinsider.com/content/streamtv-show-announces-2026-streamtv-awards-finalists. Date checked: 2026-05-26."
   },
   {
     "id": "seed-campaign-asia-40-under-40",
@@ -21,23 +21,24 @@
     "priority": "medium",
     "status": "identified",
     "fitScore": 92,
-    "fitRationale": "Tim just turned 40 — eligibility requires birth date of April 18 1985 or later. If Tim's birthday is after April 17, he may not have been eligible for 2026 edition.",
-    "notes": "2026 CYCLE CLOSED — actual deadline was April 17, 2026 (not June 30 as previously tracked). Eligibility cutoff: born April 18 1985 or later. Tim turned 40 in May 2026 — verify exact birth date to confirm 2026 eligibility window; moot as deadline passed. 2027 edition: Tim will be 41, ineligible. Source: https://www.campaignasia.com/article/40-under-40-2026-open-for-nominations/4gjgrp6hdwj375z6prf0a2gnne. Date checked: 2026-05-26."
+    "fitRationale": "Tim just turned 40 \u2014 eligibility requires birth date of April 18 1985 or later. If Tim's birthday is after April 17, he may not have been eligible for 2026 edition.",
+    "notes": "2026 CYCLE CLOSED \u2014 actual deadline was April 17, 2026 (not June 30 as previously tracked). Eligibility cutoff: born April 18 1985 or later. Tim turned 40 in May 2026 \u2014 verify exact birth date to confirm 2026 eligibility window; moot as deadline passed. 2027 edition: Tim will be 41, ineligible. Source: https://www.campaignasia.com/article/40-under-40-2026-open-for-nominations/4gjgrp6hdwj375z6prf0a2gnne. Date checked: 2026-05-26."
   },
   {
     "id": "seed-campaign-asia-media-awards-media-leader-of-the-year",
-    "name": "Campaign Asia Media Awards — Media Leader of the Year",
+    "name": "Campaign Asia Media Awards \u2014 Media Leader of the Year",
     "organizer": "Campaign Asia-Pacific",
     "category": "Media Leader of the Year",
     "deadline": "2026-07-14T00:00:00.000Z",
-    "priority": "high",
+    "priority": "low",
     "status": "identified",
     "fitScore": 90,
-    "fitRationale": "Strong category fit. Tim's COL Group earned-media campaign is a perfect case study."
+    "fitRationale": "Strong category fit. Tim's COL Group earned-media campaign is a perfect case study.",
+    "notes": "VERIFY BEFORE ACTING: WebSearch synthesis (2026-07-06) suggests Campaign Asia Media Awards 2026 submissions may already be closed, but no primary-source page confirmed the exact closure date this run. Do not rely on the July 14 deadline without direct verification at https://www.campaignasia.com/awards. Downgraded to low priority pending confirmation."
   },
   {
     "id": "seed-cannes-lions-entertainment-innovation",
-    "name": "Cannes Lions — Entertainment / Innovation",
+    "name": "Cannes Lions \u2014 Entertainment / Innovation",
     "organizer": "Cannes Lions",
     "category": "Innovation Lion / Creative Business Transformation",
     "feeUsd": 1200,
@@ -56,17 +57,19 @@
     "priority": "high",
     "status": "identified",
     "fitScore": 88,
-    "fitRationale": "World's first dedicated micro-drama award. Tim's home event (Singapore). Submit top 3-5 titles."
+    "fitRationale": "World's first dedicated micro-drama award. Tim's home event (Singapore). Submit top 3-5 titles.",
+    "notes": "CONFIRMED via asianacademycreativeawards.com (2026-07-06): entries opened Feb 26, close Aug 1, 2026. Early-bird fee (USD 279) expired Mar 31 \u2014 standard USD 299 fee applies now. Eligibility window: productions released Aug 1 2025 \u2013 Jul 31 2026. Gala Dec 3, Capitol Theatre Singapore. Still the best live submission opportunity this cycle \u2014 start the entry now, 26 days out."
   },
   {
     "id": "seed-the-drum-awards-apac",
     "name": "The Drum Awards APAC",
     "organizer": "The Drum",
     "ceremonyAt": "2026-05-21T00:00:00.000Z",
-    "priority": "high",
+    "priority": "low",
     "status": "identified",
     "fitScore": 75,
-    "fitRationale": "Singapore ceremony — Tim's home market. Best Content Marketing or Entertainment Marketing."
+    "fitRationale": "Singapore ceremony \u2014 Tim's home market. Best Content Marketing or Entertainment Marketing.",
+    "notes": "Ceremony was held May 21, 2026 \u2014 2026 cycle closed, no submission was filed. Track for 2027."
   },
   {
     "id": "seed-tedxsingapore-nomination",
@@ -79,7 +82,7 @@
   },
   {
     "id": "seed-aces-asia-s-most-inspiring-executives",
-    "name": "ACES — Asia's Most Inspiring Executives",
+    "name": "ACES \u2014 Asia's Most Inspiring Executives",
     "organizer": "ACES",
     "priority": "medium",
     "status": "identified",
@@ -103,9 +106,10 @@
     "name": "Campaign Asia PR Awards",
     "organizer": "Campaign Asia-Pacific",
     "deadline": "2026-07-14T00:00:00.000Z",
-    "priority": "high",
+    "priority": "low",
     "status": "identified",
     "fitScore": 85,
-    "fitRationale": "COL Group's earned-media campaign as B2B PR case study."
+    "fitRationale": "COL Group's earned-media campaign as B2B PR case study.",
+    "notes": "VERIFY BEFORE ACTING: WebSearch this run surfaced a separate 'PR Awards Asia-Pacific 2026 open for entries' listing that may not be the same programme as tracked here, and could not confirm this row's July 14 deadline against a primary source. Verify at https://www.campaignasia.com/awards before treating as actionable. Date checked: 2026-07-06."
   }
 ]

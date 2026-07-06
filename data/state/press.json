@@ -18,7 +18,7 @@
   {
     "id": "seed-variety-supermodelme-goes-vertical-first-reality-tv-adaptati",
     "outlet": "Variety",
-    "title": "SupermodelMe goes vertical — first reality TV adaptation in micro-drama",
+    "title": "SupermodelMe goes vertical \u2014 first reality TV adaptation in micro-drama",
     "type": "article",
     "tier": 1,
     "summary": "Exclusive on Tim's deal with Refinery Media."
@@ -38,7 +38,7 @@
     "type": "article",
     "tier": 1,
     "publishedAt": "2026-03-18T00:00:00.000Z",
-    "summary": "Launch SaaS — any broadcaster can run a vertical platform in 30 days."
+    "summary": "Launch SaaS \u2014 any broadcaster can run a vertical platform in 30 days."
   },
   {
     "id": "seed-deadline-col-group-inks-narativ-media-mena-cis-africa-distri",
@@ -134,10 +134,30 @@
   },
   {
     "id": "seed-jay-tony-show-vertically-challenged-inside-the-mind-of-timot",
-    "outlet": "Jay & Tony Show — Vertically Challenged",
+    "outlet": "Jay & Tony Show \u2014 Vertically Challenged",
     "title": "Inside the Mind of Timothy Oh: The Vertical Visionary Who Outran the Mob",
     "type": "podcast",
     "tier": 2,
     "summary": "Apple Podcasts episode #109, 2-part series. 'Survived dinner with Taiwanese mafia.'"
+  },
+  {
+    "id": "neymar_flareflow_deadline_2606",
+    "outlet": "Deadline",
+    "title": "Brazilian Football Icon Neymar Jr. Launching AI-Powered, 16-Title Microdrama Slate On FlareFlow",
+    "url": "https://deadline.com/2026/06/neymar-jr-microdrama-flareflow-world-cup-2026-1236950043/",
+    "publishedAt": "2026-06-16T00:00:00.000Z",
+    "type": "article",
+    "tier": 1,
+    "summary": "APOS Bali unveiling of FlareFlow's Vertical 2.0 World Cup franchise; Tim quoted calling it 'the true dawn of our Vertical 2.0 strategy.'"
+  },
+  {
+    "id": "virtue_asia_col_variety_2606",
+    "outlet": "Variety",
+    "title": "COL Group, Virtue Asia Team for Southeast Asia Microdrama Brand Push",
+    "url": "https://variety.com/2026/tv/news/col-group-virtue-asia-southeast-asia-microdrama-partnership-1236783201/",
+    "publishedAt": "2026-06-17T00:00:00.000Z",
+    "type": "article",
+    "tier": 1,
+    "summary": "COL-level brand partnership announced at APOS Bali covering six Southeast Asian markets."
   }
 ]

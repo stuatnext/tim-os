@@ -187,7 +187,7 @@
     "tier": 3,
     "category": "media",
     "notes": "Numbers-first founder audience.",
-    "strategicValue": "$250K → $15M unit economics story; perfect format fit."
+    "strategicValue": "$250K \u2192 $15M unit economics story; perfect format fit."
   },
   {
     "id": "seed-colin-samir",
@@ -228,5 +228,25 @@
     "category": "media",
     "notes": "Wrote SCMP full-page feature. Tim 'clicked with instantly.'",
     "strategicValue": "Bridge into Chinese-language Western media."
+  },
+  {
+    "id": "seed-douglas-choy",
+    "name": "Douglas Choy",
+    "role": "GM, Inventory Development, North Asia",
+    "company": "The Trade Desk",
+    "tier": 2,
+    "category": "industry",
+    "notes": "Named exec behind The Trade Desk's DSP partnership with DramaBox (Apr 2026) \u2014 first programmatic ad infrastructure deal in vertical drama.",
+    "strategicValue": "Relationship-building conversation about ad-infrastructure parity for FlareFlow \u2014 a category conversation, not a sales pitch. FlareFlow currently has no known equivalent DSP partner."
+  },
+  {
+    "id": "seed-taye-diggs",
+    "name": "Taye Diggs",
+    "role": "Founder",
+    "company": "Microhouse Films",
+    "tier": 3,
+    "category": "industry",
+    "notes": "Actor-led vertical platform; partnered with Lifetime for 'Tides of Temptation' (premieres Jul 7, 2026).",
+    "strategicValue": "Category 24 partner discovery + Category 15 public-support candidate \u2014 Black creator-led platform entrant worth amplifying publicly, not competing against."
   }
 ]

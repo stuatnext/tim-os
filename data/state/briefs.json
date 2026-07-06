@@ -1,14 +1,263 @@
 [
   {
-    "id": "br_2605_week2",
-    "weekOf": "2026-05-25T00:00:00.000Z",
-    "headline": "Hollywood IS vertical. Netflix + Amazon + Disney confirmed the trifecta this fortnight. LA in 6 days — the conversations just changed.",
-    "whatChanged": "This run covers the week of May 25, picking up where the May 23 brief left off. The defining development: the three largest US streaming companies all now have vertical video infrastructure. Netflix launched 'Clips' on April 30 in 9 markets, Amazon Prime Video launched its 'Clips' vertical feed on May 8, and Disney+ has been running vertical ('Locker Diaries') since February. Industry observers confirmed in the week of May 4-10 that vertical is no longer an experiment — it is standard premium-streaming infrastructure. This is bigger than the Peacock licensing deal from last week, because all three together is the entire Hollywood establishment. Tim's LA meetings (Jun 1-4) are now set against this backdrop. Every Microdrama-in-a-Box B2B conversation now has three additional proof points from the world's largest streamers. Two critical awards corrections: (1) StreamTV Awards — finalists announced May 12, the 2026 window is closed; the Jun 15 deadline in state was incorrect. (2) Campaign Asia 40 Under 40 — actual deadline was April 17, 2026 (not June 30); window is closed. MARKETING-INTERACTIVE Marketing Excellence Awards SG deadline corrected to June 12 (was listed as June 5) — 17 days out, still actionable. New intelligence this run: Issa Rae's 'Screen Time' on PineDrama hit 100M views (prestige Hollywood creator formally in microdrama); Marc Jacobs launched a luxury microdrama with Rachel Sennott (brand spectrum now spans FMCG to luxury fashion — seven confirmed brands); Park Min-Kyu (Single's Inferno, Netflix) cast in FlareFlow original 'One Year Love' (Vertical 2.0 casting); LA Vertical Drama Market held second edition May 7-10 at FAB Factory Hollywood with Apollo Awards (IAVA Gala — new award category for tracking); 'Clearly me' second AI consent violation in Chinese microdrama production (Category 22 — NEM prep). Categories that still produced nothing due to network policy: app-store chart rankings, Mandarin reputation watch (Weibo/Baidu), Reddit qualitative. RSS blocked 22/22 — environment-level fix remains the only unblocker.",
+    "id": "br_2607_week1",
+    "weekOf": "2026-07-06T00:00:00.000Z",
+    "headline": "Neymar's licensed AI deal is the clean answer to this year's AI-consent backlash \u2014 and China's new draft rules hand Tim the mic before July 23.",
+    "whatChanged": "This run picks up after a roughly six-week gap since the last routine fire (May 26 brief, May 23 prior) \u2014 the LA meetings trip (Jun 1-4), NEM Dubrovnik (Jun 8-11) and APOS Bali (Jun 16-18) have all now happened with no confirmed evidence any of the drafted content for those windows was shot or posted. All eight stale content.json drafts tied to those dates were dismissed this run rather than assumed complete \u2014 Stuart should confirm with Tim what actually ran versus what quietly expired. RSS ingestion remains fully blocked (22/22 sources denied, networkPolicyBlocked: true) \u2014 the same result as every run since May 23; this is an environment network-policy fix, not something another routine run can resolve, so intelligence this run again came entirely from WebSearch. The single biggest development: at APOS Bali, FlareFlow unveiled a 16-title, AI-powered World Cup microdrama franchise with Neymar Jr. \u2014 a formally licensed AI-likeness deal, not a scraped one \u2014 and Tim called it 'the true dawn of our Vertical 2.0 strategy.' The first wave of six titles launched June 19-22, with distribution including mainland China via Xiaohongshu. On the sidelines of the same event, COL Group signed a separate, COL-level brand-funded microdrama partnership with VIRTUE Asia (V47 Entertainment) spanning six Southeast Asian markets. At NEM Dubrovnik, Omdia's Maria Rua Aguete updated the market-sizing citation to $14B globally / $3B outside China and flagged Poland/CEE as an underrated growth pocket. On the competitive side, The Trade Desk became DramaBox's exclusive programmatic ad DSP (announced April 26, surfaced this run) \u2014 the first formal ad-infrastructure deal in the category, and one FlareFlow doesn't appear to have an answer to yet. Taye Diggs launched a new creator-led platform, Microhouse Films, with Lifetime's first microdrama premiering July 7. China's NRTA published a draft regulatory framework for micro-short dramas on June 24 (comment window closes July 23), and the AI-consent backlash (iQIYI's AI performer library, the earlier 'Clearly me' case) intensified \u2014 both feed directly into a 'Built to Last' response Tim can make this week. ReelShort's LATAM installs are up 913% year-over-year, a second data point (after Australia) against the 'vertical drama is only an emerging-market habit' assumption. P&G extended its brand-microdrama commitment into physical retail with serialized content on in-store Albertsons screens \u2014 the format's first documented move off mobile entirely. Two awards corrections: the Campaign Asia Media Awards and Campaign Asia PR Awards entries could not be confirmed against a primary source this run and are flagged for direct verification rather than trusted as-is; AACA Best Micro-Drama (deadline Aug 1) was confirmed directly and remains open. The SXSW 2027 PanelPicker deadline in state was corrected from July 21 to the confirmed July 26 (window: June 23-July 26). One flat data point, treated as watch-only: COL Group (SZSE: 300364) shares are down ~23% over the past month with no specific catalyst found \u2014 flagged for awareness, not for public comment. Categories that produced nothing new this run: podcasts (no fresh pitch signal beyond the existing tier-1 list), named-journalist byline activity (not checked individually this run), LinkedIn-voices-to-engage (no new named executive identified beyond existing contacts), and out-of-the-box plays (no new concept originated \u2014 the LA Vertical Drama Market September edition speaking option from the prior cycle remains the live one). Tim's Wikipedia page still does not exist (COL Group's corporate page does) \u2014 the 12-month goal is untouched this cycle.",
     "topOpportunities": [
       {
-        "title": "Shoot trifecta piece-to-camera — 'Netflix. Amazon. Disney. Now what?' (this weekend, May 30-31)",
+        "title": "Shoot the China-regulation piece-to-camera \u2014 'They just wrote down what I've been saying.'",
         "type": "visual content / on-camera",
-        "why": "Netflix, Amazon, and Disney all launched vertical video feeds in the same fortnight — the entire Hollywood establishment has now signalled vertical as infrastructure. This is the single most important validation moment in Tim's public narrative to date, and it needs an on-camera reaction before he lands in LA. Every LA conversation starts from this frame. Draft at content.json (id: cn_trifecta_ptc_2605). **~25 min: 15 to record (3–4 takes), 5 to select, 5 to caption + schedule. Shoot Saturday or Sunday May 30-31.**",
+        "why": "China's NRTA published draft regulatory rules for micro-short dramas June 24 (public comment closes July 23) \u2014 a live, time-boxed hook for Tim's 'Built to Last' framing, set directly against this year's AI-consent backlash and FlareFlow's own licensed Neymar AI deal. Draft ready at content.json (id: cn_china_reg_ptc_2607). **~35 min: 15 to record (3-4 takes), 10 to select + caption, 10 to schedule. Shoot before July 23.**",
+        "source": "NRTA draft: https://news.mydramalist.com/article/china-proposes-new-regulatory-framework-for-micro-short-dramas | AI slop backlash: https://futurism.com/artificial-intelligence/tiktok-taken-over-ai-slop | Neymar deal: https://deadline.com/2026/06/neymar-jr-microdrama-flareflow-world-cup-2026-1236950043/ Intelligence item: int_china_nrta_draft_framework_2026",
+        "dateChecked": "2026-07-06",
+        "scores": {
+          "timAuthorityFit": 5,
+          "colCommercialUpside": 3,
+          "microdramaRelevance": 5,
+          "mediaCoveragePotential": 4,
+          "relationshipValue": 2,
+          "personalityFit": 5,
+          "timeliness": 5,
+          "evidenceStrength": 5,
+          "easeOfAction": 5,
+          "reputationRisk": 2
+        },
+        "action": "Post",
+        "evidence": "strong"
+      },
+      {
+        "title": "Submit SXSW 2027 PanelPicker entry \u2014 Vertical 2.0 + creator-economy crossover",
+        "type": "conference CFP",
+        "why": "PanelPicker's entry window is June 23-July 26, 2026 \u2014 a hard deadline, 20 days out, corrected this run from a prior July 21 estimate. Concept already scoped in speaking.json (seed-sxsw-2027, fitScore 78) and is stronger now with the Neymar/FlareFlow World Cup franchise as a concrete case study. **~60 min: draft panel abstract + speaker bio, submit via panelpicker.sxsw.com before July 26.**",
+        "source": "https://sxsw.com/news/2026/sxsw-2027-panelpicker-is-open/ | https://sxsw.com/deadlines/ Date checked: 2026-07-06.",
+        "dateChecked": "2026-07-06",
+        "scores": {
+          "timAuthorityFit": 4,
+          "colCommercialUpside": 3,
+          "microdramaRelevance": 4,
+          "mediaCoveragePotential": 4,
+          "relationshipValue": 3,
+          "personalityFit": 4,
+          "timeliness": 5,
+          "evidenceStrength": 5,
+          "easeOfAction": 3,
+          "reputationRisk": 1
+        },
+        "action": "Act now",
+        "evidence": "strong"
+      },
+      {
+        "title": "Refresh and send the Belloni / The Town pitch",
+        "type": "podcast / media pitch",
+        "why": "No confirmation the original pitch (flagged in the May 26 brief) was ever sent. The story is materially stronger now: the Neymar World Cup deal, the new VIRTUE Asia Southeast Asia brand partnership, and a competitor (DramaBox) landing ad infrastructure COL doesn't have yet \u2014 three fresh hooks in six weeks. **~30 min: Stuart drafts today referencing all three, Tim reviews and sends this week.**",
+        "source": "data/state/media.json \u2014 seed-the-town-with-matthew-belloni (matthew@puck.news). Intelligence items: int_neymar_flareflow_wc_2026, int_virtue_asia_col_brand_partnership_2026, int_tradedesk_dramabox_dsp_2026.",
+        "dateChecked": "2026-07-06",
+        "scores": {
+          "timAuthorityFit": 5,
+          "colCommercialUpside": 5,
+          "microdramaRelevance": 5,
+          "mediaCoveragePotential": 5,
+          "relationshipValue": 5,
+          "personalityFit": 5,
+          "timeliness": 4,
+          "evidenceStrength": 5,
+          "easeOfAction": 4,
+          "reputationRisk": 1
+        },
+        "action": "Pitch",
+        "evidence": "strong"
+      },
+      {
+        "title": "AACA Best Micro-Drama submission \u2014 deadline Aug 1 (26 days)",
+        "type": "award",
+        "why": "Confirmed directly against asianacademycreativeawards.com this run \u2014 still genuinely actionable, but this week's ~5-8hr budget is committed to the harder SXSW deadline (July 26) and the live China-regulation news hook. Start the entry next week; don't let a 26-day runway repeat the pattern that already cost StreamTV Awards and Campaign Asia 40 Under 40 this year.",
+        "source": "https://www.asianacademycreativeawards.com/entry-information/ Date checked: 2026-07-06.",
+        "dateChecked": "2026-07-06",
+        "scores": {
+          "timAuthorityFit": 4,
+          "colCommercialUpside": 4,
+          "microdramaRelevance": 5,
+          "mediaCoveragePotential": 3,
+          "relationshipValue": 2,
+          "personalityFit": 3,
+          "timeliness": 3,
+          "evidenceStrength": 5,
+          "easeOfAction": 3,
+          "reputationRisk": 1
+        },
+        "action": "Park",
+        "evidence": "strong"
+      },
+      {
+        "title": "Watch: VIRTUE Asia Southeast Asia brand-partnership first campaign",
+        "type": "COL positioning / brand partnership",
+        "why": "COL Group's new brand-funded microdrama partnership with VIRTUE Asia (V47 Entertainment) covers six Southeast Asian markets, with 'initial campaigns' promised in coming months \u2014 nothing concrete to react to publicly yet. Once the first campaign is named, this becomes a Post or Pitch opportunity.",
+        "source": "https://variety.com/2026/tv/news/col-group-virtue-asia-southeast-asia-microdrama-partnership-1236783201/ Intelligence item: int_virtue_asia_col_brand_partnership_2026.",
+        "dateChecked": "2026-07-06",
+        "scores": {
+          "timAuthorityFit": 3,
+          "colCommercialUpside": 5,
+          "microdramaRelevance": 4,
+          "mediaCoveragePotential": 3,
+          "relationshipValue": 3,
+          "personalityFit": 2,
+          "timeliness": 2,
+          "evidenceStrength": 5,
+          "easeOfAction": 5,
+          "reputationRisk": 1
+        },
+        "action": "Watch",
+        "evidence": "strong"
+      }
+    ],
+    "topPeople": [
+      {
+        "name": "Maria Rua Aguete",
+        "role": "Global Head of Media & Entertainment",
+        "organisation": "Omdia",
+        "whyMatters": "Delivered the NEM Dubrovnik microdrama panel alongside Tim and just updated the market sizing Tim cites everywhere \u2014 now $14B globally, $3B outside China, up from the $11-14B range used in May.",
+        "source": "https://senalnews.com/en/events/nem-dubrovnik-2026-ma-ai-and-microdramas-lead-industry-trends Date checked: 2026-07-06.",
+        "timRelevance": "Tim's primary data anchor \u2014 every pitch and panel needs the freshest number, and she just produced one.",
+        "colRelevance": "Omdia citations lend third-party credibility to COL's B2B pitch deck and press quotes.",
+        "bestApproach": "Short thank-you message referencing a specific moment from the Dubrovnik panel, then share the Neymar/FlareFlow news as something she'd find useful for her own coverage.",
+        "publicMove": "Comment on or share her NEM Dubrovnik panel recap if she posts one.",
+        "privateMove": "DM/WhatsApp thanking her for the panel and citing the updated $14B figure correctly in his next deck.",
+        "risk": "None significant \u2014 established warm relationship.",
+        "priority": "high"
+      },
+      {
+        "name": "Douglas Choy",
+        "role": "GM, Inventory Development, North Asia",
+        "organisation": "The Trade Desk",
+        "whyMatters": "Named exec behind the first-ever DSP deal in vertical drama (DramaBox) \u2014 exactly the ad-infrastructure gap FlareFlow appears to have.",
+        "source": "https://www.prnewswire.com/news-releases/the-trade-desk-powers-open-internet-growth-with-dramabox-short-drama-partnership-302752834.html Date checked: 2026-07-06.",
+        "timRelevance": "A conversation here is category-building, not sales \u2014 useful whether or not FlareFlow ever signs with Trade Desk.",
+        "colRelevance": "If FlareFlow can't access equivalent programmatic infrastructure, its B2B pitch to brand advertisers is one step behind DramaBox's.",
+        "bestApproach": "Public comment on the Trade Desk/DramaBox announcement first (low-risk), then a direct message introducing himself as the FlareFlow counterpart \u2014 not proposing a deal.",
+        "publicMove": "Comment on the Trade Desk/DramaBox LinkedIn announcement with an operator's observation about category infrastructure.",
+        "privateMove": "DM after the comment: curious how he's thinking about the category beyond DramaBox.",
+        "risk": "Could read as courting a competitor's partner if framed wrong \u2014 keep it about the category, not the deal.",
+        "priority": "medium"
+      },
+      {
+        "name": "Taye Diggs",
+        "role": "Founder",
+        "organisation": "Microhouse Films",
+        "whyMatters": "First major Black-celebrity-led vertical platform, backed by a legacy network (Lifetime) \u2014 a builder entering the category, not a threat to it.",
+        "source": "https://deadline.com/2026/04/taye-diggs-launches-microhouse-films-vertical-platform-1236877086/ Date checked: 2026-07-06.",
+        "timRelevance": "Publicly supporting a differently-positioned new entrant builds Tim's reputation as an ally to the category, not a gatekeeper.",
+        "colRelevance": "Potential long-term distribution or co-production conversation once Microhouse Films' first titles perform.",
+        "bestApproach": "Public repost/amplify of the 'Tides of Temptation' launch (premieres July 7) with a specific, warm one-liner \u2014 no ask attached.",
+        "publicMove": "Repost the Microhouse Films launch with a one-line welcome to the category.",
+        "privateMove": "None yet \u2014 public support first, relationship-building once there's a natural reason to talk.",
+        "risk": "Low.",
+        "priority": "medium"
+      },
+      {
+        "name": "Anna Saalfeld",
+        "role": "Head of P&G Studios",
+        "organisation": "Procter & Gamble",
+        "whyMatters": "P&G just extended its microdrama commitment into physical retail (Albertsons in-store screens) \u2014 a second data point on the same 'brands are coming' thesis, and still no confirmed outreach made despite being flagged in an earlier cycle.",
+        "source": "https://adage.com/brand-marketing/aa-microdramas-brands-mcobeauty-crocs-bilt-marc-jacobs/ Date checked: 2026-07-06.",
+        "timRelevance": "Direct proof of Tim's 'brands are coming' thesis, now with fresher evidence than the original Golden Pear Affair citation.",
+        "colRelevance": "COL's branded-vertical infrastructure \u2014 and the new VIRTUE Asia Southeast Asia deal \u2014 is exactly what a P&G-style advertiser would want replicated in other markets.",
+        "bestApproach": "DM referencing the Albertsons in-store news specifically, not the two-month-stale Golden Pear Affair citation.",
+        "publicMove": "None planned this week.",
+        "privateMove": "DM: 'Saw the Albertsons in-store microdrama placement \u2014 most interesting distribution move I've seen from a brand this year. Would love to compare notes.'",
+        "risk": "None.",
+        "priority": "medium"
+      },
+      {
+        "name": "Janine Stein",
+        "role": "Founder & Editorial Director",
+        "organisation": "ContentAsia",
+        "whyMatters": "Most consistent media relationship; broke the CMO news and continues to file COL updates.",
+        "source": "data/state/contacts.json \u2014 seed-janine-stein.",
+        "timRelevance": "Exclusives keep the relationship warm; she has covered every major COL update to date.",
+        "colRelevance": "Reliable amplifier for both Tim-level and COL-level news.",
+        "bestApproach": "Offer first look at the AACA submission once filed, or the SXSW panel news if accepted.",
+        "publicMove": "None new this week.",
+        "privateMove": "Share the AACA entry plan directly \u2014 she may want to cover the submission as its own story.",
+        "risk": "None.",
+        "priority": "low"
+      }
+    ],
+    "bestMediaAngle": {
+      "angle": "The Neymar/FlareFlow deal is the 'brands + AI + sports' story no one has told yet \u2014 a World Cup-timed, licensed-AI, live-action franchise built by the same company that produces DramaBox's rival, unveiled the same month a competitor landed Wall Street-grade ad infrastructure.",
+      "targetOutlet": "The Town (Puck) \u2014 Matthew Belloni",
+      "why": "Combines three threads Belloni's audience already follows \u2014 AI in Hollywood, sports/brand crossover, and the content-vs-infrastructure debate \u2014 landed inside a single six-week window.",
+      "evidence": "https://deadline.com/2026/06/neymar-jr-microdrama-flareflow-world-cup-2026-1236950043/ | data/state/media.json seed-the-town-with-matthew-belloni. Date checked: 2026-07-06."
+    },
+    "bestLinkedInAngle": {
+      "hook": "China just wrote down what I've been saying for two years.",
+      "angle": "China's draft microdrama regulation plus this year's AI-consent backlash, set against FlareFlow's fully licensed Neymar deal \u2014 turns 'Built to Last' from a slogan into a live, evidenced argument.",
+      "why": "Live news hook with a hard deadline (comment window closes July 23), reinforces Tim's signature framework with facts instead of platitudes, and satisfies the mandatory visual/on-camera content requirement for this run."
+    },
+    "bestCommentOpportunity": {
+      "targetPostUrl": null,
+      "targetAuthor": "The Trade Desk or DramaBox's official LinkedIn (whichever posts the DSP partnership announcement organically) \u2014 no specific post URL identified yet this run.",
+      "suggestedComment": "As someone building distribution infrastructure in the same category: content solved discovery. Now the ad stack has to solve scale. Good to see this get built by someone.",
+      "why": "Positions Tim as engaging with competitor news from a position of category leadership, not defensiveness, and creates a natural, low-risk opening toward Douglas Choy.",
+      "risk": "Must not read as competitive or sour \u2014 frame purely as a category observation, never about DramaBox specifically."
+    },
+    "bestRelationshipMove": {
+      "name": "Maria Rua Aguete",
+      "role": "Global Head of Media & Entertainment",
+      "organisation": "Omdia",
+      "whyMatters": "Delivered the NEM Dubrovnik microdrama panel alongside Tim and just updated the market sizing Tim cites everywhere \u2014 now $14B globally, $3B outside China, up from the $11-14B range used in May.",
+      "source": "https://senalnews.com/en/events/nem-dubrovnik-2026-ma-ai-and-microdramas-lead-industry-trends Date checked: 2026-07-06.",
+      "timRelevance": "Tim's primary data anchor \u2014 every pitch and panel needs the freshest number, and she just produced one.",
+      "colRelevance": "Omdia citations lend third-party credibility to COL's B2B pitch deck and press quotes.",
+      "bestApproach": "Short thank-you message referencing a specific moment from the Dubrovnik panel, then share the Neymar/FlareFlow news as something she'd find useful for her own coverage.",
+      "publicMove": "Comment on or share her NEM Dubrovnik panel recap if she posts one.",
+      "privateMove": "DM/WhatsApp thanking her for the panel and citing the updated $14B figure correctly in his next deck.",
+      "risk": "None significant \u2014 established warm relationship.",
+      "priority": "high"
+    },
+    "bestColOpportunity": {
+      "title": "Turn the VIRTUE Asia Southeast Asia brand partnership into a named case study the moment the first campaign lands",
+      "why": "This is a COL-level, not just Tim-level, commercial deal spanning six Southeast Asian markets \u2014 a concrete new revenue line for brand-funded microdrama, announced but not yet activated.",
+      "commercialUpside": "A six-market brand-funded content pipeline (Singapore, Malaysia, Indonesia, Thailand, Philippines, Vietnam) proves the Microdrama-in-a-Box thesis with a named brand-culture partner, strengthening every future B2B pitch.",
+      "nextStep": "Ask VIRTUE Asia/COL comms for advance notice of the first campaign announcement date so Tim has a LinkedIn post \u2014 and ideally a press quote \u2014 ready same-day instead of reacting late."
+    },
+    "risingTrend": {
+      "trend": "Vertical storytelling is leaving the phone in three directions at once: retail screens (P&G/Albertsons), sports and celebrity IP (Neymar/FlareFlow), and formal ad infrastructure (Trade Desk/DramaBox). The category is diversifying its distribution surfaces and monetisation rails simultaneously, not just its content slate.",
+      "evidence": "P&G/Albertsons: https://adage.com/brand-marketing/aa-microdramas-brands-mcobeauty-crocs-bilt-marc-jacobs/ | Neymar/FlareFlow: https://deadline.com/2026/06/neymar-jr-microdrama-flareflow-world-cup-2026-1236950043/ | Trade Desk/DramaBox: https://www.prnewswire.com/news-releases/the-trade-desk-powers-open-internet-growth-with-dramabox-short-drama-partnership-302752834.html All dated April-June 2026, checked 2026-07-06.",
+      "implication": "The competitive question is no longer just 'who has the best titles' \u2014 it's who owns the most distribution surfaces and monetisation rails. COL should be evaluating its own retail-media and programmatic-ad options now, before a competitor locks up the category's infrastructure the way DramaBox just did with advertising."
+    },
+    "thingToIgnore": {
+      "item": "COL Group's (SZSE: 300364) ~23% one-month share-price decline.",
+      "why": "No specific news catalyst was found this run \u2014 most likely broader China small-cap conditions rather than a COL-specific event. Publicly commenting or speculating on it, even to pre-empt questions, invites a story that doesn't exist yet. If a journalist raises it, redirect to operational metrics (Neymar deal, TikTok revenue, VIRTUE Asia partnership) rather than the share price."
+    },
+    "reputationRisk": {
+      "risk": "The AI-consent backlash (iQIYI's AI performer library, the earlier 'Clearly me' case, AI content now ~40% of China's top charts) creates a guilt-by-category-association risk for FlareFlow's own AI-powered Neymar franchise, even though that specific deal is fully licensed.",
+      "mitigation": "Get ahead of the comparison proactively \u2014 the China-regulation piece-to-camera does exactly this \u2014 rather than waiting for a journalist to draw the parallel unprompted. Keep the contrast strictly factual (licensed vs. unlicensed, contracted vs. scraped); never claim COL is uniquely virtuous, only that this specific deal is above-board."
+    },
+    "suggestedAction": {
+      "for": "Stuart",
+      "action": "Confirm with Tim directly whether the Belloni/Town pitch, and the LA/NEM/APOS content drafts from the last two cycles, were actually executed \u2014 this run found no evidence either way and had to dismiss eight stale drafts rather than guess. Separately, escalate the RSS network-policy block (denied on every run since May 23) to whoever manages this Claude Code on the web environment \u2014 it needs an allowlist change, not another routine run.",
+      "urgency": "this-week"
+    },
+    "model": "claude-sonnet-5",
+    "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheRead": 0,
+      "cacheWrite": 0
+    },
+    "createdAt": "2026-07-06T10:00:00.000Z"
+  },
+  {
+    "id": "br_2605_week2",
+    "weekOf": "2026-05-25T00:00:00.000Z",
+    "headline": "Hollywood IS vertical. Netflix + Amazon + Disney confirmed the trifecta this fortnight. LA in 6 days \u2014 the conversations just changed.",
+    "whatChanged": "This run covers the week of May 25, picking up where the May 23 brief left off. The defining development: the three largest US streaming companies all now have vertical video infrastructure. Netflix launched 'Clips' on April 30 in 9 markets, Amazon Prime Video launched its 'Clips' vertical feed on May 8, and Disney+ has been running vertical ('Locker Diaries') since February. Industry observers confirmed in the week of May 4-10 that vertical is no longer an experiment \u2014 it is standard premium-streaming infrastructure. This is bigger than the Peacock licensing deal from last week, because all three together is the entire Hollywood establishment. Tim's LA meetings (Jun 1-4) are now set against this backdrop. Every Microdrama-in-a-Box B2B conversation now has three additional proof points from the world's largest streamers. Two critical awards corrections: (1) StreamTV Awards \u2014 finalists announced May 12, the 2026 window is closed; the Jun 15 deadline in state was incorrect. (2) Campaign Asia 40 Under 40 \u2014 actual deadline was April 17, 2026 (not June 30); window is closed. MARKETING-INTERACTIVE Marketing Excellence Awards SG deadline corrected to June 12 (was listed as June 5) \u2014 17 days out, still actionable. New intelligence this run: Issa Rae's 'Screen Time' on PineDrama hit 100M views (prestige Hollywood creator formally in microdrama); Marc Jacobs launched a luxury microdrama with Rachel Sennott (brand spectrum now spans FMCG to luxury fashion \u2014 seven confirmed brands); Park Min-Kyu (Single's Inferno, Netflix) cast in FlareFlow original 'One Year Love' (Vertical 2.0 casting); LA Vertical Drama Market held second edition May 7-10 at FAB Factory Hollywood with Apollo Awards (IAVA Gala \u2014 new award category for tracking); 'Clearly me' second AI consent violation in Chinese microdrama production (Category 22 \u2014 NEM prep). Categories that still produced nothing due to network policy: app-store chart rankings, Mandarin reputation watch (Weibo/Baidu), Reddit qualitative. RSS blocked 22/22 \u2014 environment-level fix remains the only unblocker.",
+    "topOpportunities": [
+      {
+        "title": "Shoot trifecta piece-to-camera \u2014 'Netflix. Amazon. Disney. Now what?' (this weekend, May 30-31)",
+        "type": "visual content / on-camera",
+        "why": "Netflix, Amazon, and Disney all launched vertical video feeds in the same fortnight \u2014 the entire Hollywood establishment has now signalled vertical as infrastructure. This is the single most important validation moment in Tim's public narrative to date, and it needs an on-camera reaction before he lands in LA. Every LA conversation starts from this frame. Draft at content.json (id: cn_trifecta_ptc_2605). **~25 min: 15 to record (3\u20134 takes), 5 to select, 5 to caption + schedule. Shoot Saturday or Sunday May 30-31.**",
         "source": "Netflix Clips: https://variety.com/2026/digital/news/netflix-new-mobile-app-vertical-video-feed-clips-1236734258/ | Amazon Clips: https://www.advanced-television.com/2026/05/11/prime-video-rolling-out-clips-vertical-feed/ | Disney+: https://deadline.com/2026/02/disney-locker-diaries-vertical-drama-zombies-characters-1236724682/ Intelligence item: int_trifecta_vertical_2605",
         "dateChecked": "2026-05-26",
         "scores": {
@@ -29,8 +278,8 @@
       {
         "title": "Send Matthew Belloni / The Town pitch before Tim boards for LA (target: Wednesday May 27)",
         "type": "podcast / media pitch",
-        "why": "The trifecta news makes the Belloni pitch even stronger. Lead: 'Netflix, Amazon, Disney all launched vertical feeds this month. Peacock licensed ReelShort last week. You covered DramaBox (consumer). The story you haven't told is who built the supply chain all of these platforms are now buying from — that's COL.' Send before Tim lands in LA so Belloni has time to Google Tim and find the video. **~30 min: Stuart drafts Wednesday, Tim reviews and sends. Target: Wednesday May 27 or Thursday May 28 at latest.**",
-        "source": "data/state/media.json — seed-the-town-with-matthew-belloni. Intelligence item int_trifecta_vertical_2605. Contact: matthew@puck.news",
+        "why": "The trifecta news makes the Belloni pitch even stronger. Lead: 'Netflix, Amazon, Disney all launched vertical feeds this month. Peacock licensed ReelShort last week. You covered DramaBox (consumer). The story you haven't told is who built the supply chain all of these platforms are now buying from \u2014 that's COL.' Send before Tim lands in LA so Belloni has time to Google Tim and find the video. **~30 min: Stuart drafts Wednesday, Tim reviews and sends. Target: Wednesday May 27 or Thursday May 28 at latest.**",
+        "source": "data/state/media.json \u2014 seed-the-town-with-matthew-belloni. Intelligence item int_trifecta_vertical_2605. Contact: matthew@puck.news",
         "dateChecked": "2026-05-26",
         "scores": {
           "timAuthorityFit": 5,
@@ -48,10 +297,10 @@
         "evidence": "strong"
       },
       {
-        "title": "MARKETING-INTERACTIVE Marketing Excellence Awards SG — deadline June 12 (17 days)",
+        "title": "MARKETING-INTERACTIVE Marketing Excellence Awards SG \u2014 deadline June 12 (17 days)",
         "type": "award",
-        "why": "Best Content Marketing Strategy category. June 12 deadline, 17 days out. Eligibility period: March 2025 to April 2026 — COL's vertical distribution campaign, the Peacock licensing deal, and the Microdrama-in-a-Box launch all fall within scope. Previous deadline entry (June 5) was incorrect — there is more time than previously thought. This is still Tim's best near-term Singapore-market award. **~90 min total: 60 min to draft responses + evidence, 30 min to file. Fee: ~USD 270. Stuart leads the draft, Tim reviews.**",
-        "source": "https://awards.marketing-interactive.com/marketing-excellence-sg/ data/state/awards.json — seed-marketing-interactive-marketing-excellence-awards-sg. Date checked: 2026-05-26.",
+        "why": "Best Content Marketing Strategy category. June 12 deadline, 17 days out. Eligibility period: March 2025 to April 2026 \u2014 COL's vertical distribution campaign, the Peacock licensing deal, and the Microdrama-in-a-Box launch all fall within scope. Previous deadline entry (June 5) was incorrect \u2014 there is more time than previously thought. This is still Tim's best near-term Singapore-market award. **~90 min total: 60 min to draft responses + evidence, 30 min to file. Fee: ~USD 270. Stuart leads the draft, Tim reviews.**",
+        "source": "https://awards.marketing-interactive.com/marketing-excellence-sg/ data/state/awards.json \u2014 seed-marketing-interactive-marketing-excellence-awards-sg. Date checked: 2026-05-26.",
         "dateChecked": "2026-05-26",
         "scores": {
           "timAuthorityFit": 4,
@@ -69,10 +318,10 @@
         "evidence": "strong"
       },
       {
-        "title": "DM Maria Rua Aguete — NEM pre-panel sync on trifecta data and panel framing",
+        "title": "DM Maria Rua Aguete \u2014 NEM pre-panel sync on trifecta data and panel framing",
         "type": "relationship / NEM prep",
-        "why": "NEM Dubrovnik panel (Jun 8-11) is 13 days out. With Netflix/Amazon/Disney all in vertical this week, Tim and Maria need to agree on: (1) which market sizing number leads on panel ($11B Omdia preferred), (2) how the trifecta changes the panel framing ('risky business' framing is now harder to argue — Tim can open by naming the trifecta), (3) data alignment on Australia 20% proof point. **Watch — send a WhatsApp or LinkedIn DM by Thursday May 28. ~5 min.**",
-        "source": "data/state/contacts.json — seed-maria-rua-aguete | data/state/speaking.json — seed-nem-dubrovnik-new-europe-market",
+        "why": "NEM Dubrovnik panel (Jun 8-11) is 13 days out. With Netflix/Amazon/Disney all in vertical this week, Tim and Maria need to agree on: (1) which market sizing number leads on panel ($11B Omdia preferred), (2) how the trifecta changes the panel framing ('risky business' framing is now harder to argue \u2014 Tim can open by naming the trifecta), (3) data alignment on Australia 20% proof point. **Watch \u2014 send a WhatsApp or LinkedIn DM by Thursday May 28. ~5 min.**",
+        "source": "data/state/contacts.json \u2014 seed-maria-rua-aguete | data/state/speaking.json \u2014 seed-nem-dubrovnik-new-europe-market",
         "dateChecked": "2026-05-26",
         "scores": {
           "timAuthorityFit": 5,
@@ -90,9 +339,9 @@
         "evidence": "strong"
       },
       {
-        "title": "IAVA Apollo Awards — track for next cycle; meet LAVDM organizers during LA Jun 1-4",
+        "title": "IAVA Apollo Awards \u2014 track for next cycle; meet LAVDM organizers during LA Jun 1-4",
         "type": "award / out-of-the-box play",
-        "why": "The LA Vertical Drama Market (LAVDM) held its second edition May 7-10 at FAB Factory Hollywood, with Apollo Awards (IAVA Gala, 15 categories: acting, directing, writing, art design, technology). The event runs semi-annually — next edition likely Sep 2026. This is the Hollywood home for the vertical drama category. LA trip Jun 1-4 is an opportunity to meet the LAVDM organizers in person, discuss Sep speaking slot, and flag IAVA Apollo Awards as a new award category for FlareFlow originals. **Watch — no formal action yet, just note for LA meeting calendar.**",
+        "why": "The LA Vertical Drama Market (LAVDM) held its second edition May 7-10 at FAB Factory Hollywood, with Apollo Awards (IAVA Gala, 15 categories: acting, directing, writing, art design, technology). The event runs semi-annually \u2014 next edition likely Sep 2026. This is the Hollywood home for the vertical drama category. LA trip Jun 1-4 is an opportunity to meet the LAVDM organizers in person, discuss Sep speaking slot, and flag IAVA Apollo Awards as a new award category for FlareFlow originals. **Watch \u2014 no formal action yet, just note for LA meeting calendar.**",
         "source": "https://www.mediaplaynews.com/second-la-vertical-drama-market-takes-place-may-7-10/ Intelligence item: int_la_vertical_drama_market_2605. Date checked: 2026-05-26.",
         "dateChecked": "2026-05-26",
         "scores": {
@@ -117,24 +366,24 @@
         "role": "Founding Partner",
         "organisation": "Puck / The Town",
         "whyMatters": "Pitch just got stronger: Netflix + Amazon + Disney all in vertical this week, plus the Peacock/ReelShort supply-chain story from last week. Belloni's audience is exactly who needs to hear the infrastructure narrative. One email unlocks Puck feature + The Town episode.",
-        "source": "data/state/contacts.json — seed-matthew-belloni | int_trifecta_vertical_2605 | int_peacock_reelshort_license_2605",
-        "timRelevance": "The Peacock deal is the news peg; the trifecta is the trend confirmation. Pitch: 'You covered DramaBox (consumer). Now Netflix, Amazon, Disney, and Peacock are all buying vertical infrastructure. The story nobody has told yet is who built the rails — and what the next 18 months look like.'",
+        "source": "data/state/contacts.json \u2014 seed-matthew-belloni | int_trifecta_vertical_2605 | int_peacock_reelshort_license_2605",
+        "timRelevance": "The Peacock deal is the news peg; the trifecta is the trend confirmation. Pitch: 'You covered DramaBox (consumer). Now Netflix, Amazon, Disney, and Peacock are all buying vertical infrastructure. The story nobody has told yet is who built the rails \u2014 and what the next 18 months look like.'",
         "colRelevance": "US entertainment-business press tier-1 coverage of the infrastructure story. Narrative control over 'who built the supply chain Hollywood is now buying from.'",
         "bestApproach": "Cold email matthew@puck.news. Subject: 'The supply chain story behind the Netflix/Amazon/Disney vertical week.' Body: 3 stats, 1 frame, 1 ask (15-min call during LA Jun 1-4).",
         "publicMove": "None before private pitch lands.",
         "privateMove": "Stuart drafts Wednesday May 27. Tim sends Thursday May 28 at latest. Pitch goes after trifecta piece-to-camera is live so Belloni can watch it.",
-        "risk": "Generic founder pitch. Lead with 'Netflix + Amazon + Disney all went vertical this week — here's the supply-chain side nobody is reporting' not with COL's credentials.",
+        "risk": "Generic founder pitch. Lead with 'Netflix + Amazon + Disney all went vertical this week \u2014 here's the supply-chain side nobody is reporting' not with COL's credentials.",
         "priority": "high"
       },
       {
         "name": "Maria Rua Aguete",
         "role": "Global Head of Media & Entertainment",
         "organisation": "Omdia",
-        "whyMatters": "Co-panellist NEM Dubrovnik Jun 8. With Netflix/Amazon/Disney in vertical this week, the panel framing 'risky business or guilty pleasure?' needs a quick pre-panel sync — the trifecta shifts Tim's opening line and may shift which data points Maria leads with.",
-        "source": "data/state/contacts.json — seed-maria-rua-aguete | data/state/speaking.json — seed-nem-dubrovnik-new-europe-market",
+        "whyMatters": "Co-panellist NEM Dubrovnik Jun 8. With Netflix/Amazon/Disney in vertical this week, the panel framing 'risky business or guilty pleasure?' needs a quick pre-panel sync \u2014 the trifecta shifts Tim's opening line and may shift which data points Maria leads with.",
+        "source": "data/state/contacts.json \u2014 seed-maria-rua-aguete | data/state/speaking.json \u2014 seed-nem-dubrovnik-new-europe-market",
         "timRelevance": "Sync by Thursday May 28: which sizing number leads ($11B Omdia), how the trifecta changes the narrative, whether Tim's NEM panel opener uses the Netflix/Amazon/Disney moment as the opening provocation.",
         "colRelevance": "Omdia data citation = credibility with European TV market buyers at NEM. Maria's data + Tim's receipts = the most authoritative panel in the room.",
-        "bestApproach": "WhatsApp or LinkedIn DM. Warm peer. 'NEM prep — have you seen the Netflix/Amazon/Disney week? Changes my opening. Let's do a 20-min call before Jun 8.'",
+        "bestApproach": "WhatsApp or LinkedIn DM. Warm peer. 'NEM prep \u2014 have you seen the Netflix/Amazon/Disney week? Changes my opening. Let's do a 20-min call before Jun 8.'",
         "privateMove": "DM Thursday May 28. Offer to share COL's Australia 20% data for her Omdia deck.",
         "risk": "Very low.",
         "priority": "high"
@@ -143,28 +392,28 @@
         "name": "Anna Saalfeld",
         "role": "Head of P&G Studios",
         "organisation": "Procter & Gamble",
-        "whyMatters": "P&G Studios architect of 'The Golden Pear Affair' — the most documented FMCG microdrama entry. Tim's piece-to-camera is live, establishing authority. DM window is open now. Tim in LA Jun 1-4 creates a natural meeting context.",
+        "whyMatters": "P&G Studios architect of 'The Golden Pear Affair' \u2014 the most documented FMCG microdrama entry. Tim's piece-to-camera is live, establishing authority. DM window is open now. Tim in LA Jun 1-4 creates a natural meeting context.",
         "source": "https://www.marketingdive.com/news/pg-native-to-debut-50-part-microdrama-series-as-genre-takes-off/807512/ | int_pg_microdrama_2605",
         "timRelevance": "Tim has been saying 'brands are coming' for two years; Saalfeld built the proof case. DM opens the COL-to-FMCG pipeline at the most valuable possible entry point. LA trip creates a potential in-person meeting opportunity.",
         "colRelevance": "P&G is the world's largest advertiser. A COL partnership conversation at this level is a tier-1 commercial signal.",
-        "bestApproach": "LinkedIn DM after trifecta piece-to-camera posts. 'Saw what you built with Native — the soap-opera heritage reframe is exactly right. If you're thinking about what this looks like at scale, happy to share what the distribution side looks like from inside the largest vertical catalogue. Are you in LA at all during the week of June 1?'",
-        "publicMove": "Tim reposts the Marketing Dive P&G piece with a one-liner: 'P&G just proved what I've been saying for two years. Brands didn't adopt vertical — they came home to the format that always worked, just on the right screen.'",
+        "bestApproach": "LinkedIn DM after trifecta piece-to-camera posts. 'Saw what you built with Native \u2014 the soap-opera heritage reframe is exactly right. If you're thinking about what this looks like at scale, happy to share what the distribution side looks like from inside the largest vertical catalogue. Are you in LA at all during the week of June 1?'",
+        "publicMove": "Tim reposts the Marketing Dive P&G piece with a one-liner: 'P&G just proved what I've been saying for two years. Brands didn't adopt vertical \u2014 they came home to the format that always worked, just on the right screen.'",
         "privateMove": "DM after trifecta piece-to-camera posts (target: Sunday May 31). Stuart checks for mutual connections via Campaign Asia or Cannes Lions.",
-        "risk": "Approaching as a vendor. Lead as peer operator — creative leader to creative leader. No COL product pitch in opening DM.",
+        "risk": "Approaching as a vendor. Lead as peer operator \u2014 creative leader to creative leader. No COL product pitch in opening DM.",
         "priority": "high"
       },
       {
         "name": "LAVDM / IAVA Organizers",
         "role": "Organizers",
         "organisation": "LA Vertical Drama Market / International Association of Vertical Arts",
-        "whyMatters": "The LAVDM is the Hollywood home for the vertical drama category — the event Tim should be headlining. Second edition ran May 7-10 with Apollo Awards (IAVA Gala). Semi-annual cadence means next edition likely September 2026. Tim is in LA Jun 1-4 — first opportunity to meet in person.",
+        "whyMatters": "The LAVDM is the Hollywood home for the vertical drama category \u2014 the event Tim should be headlining. Second edition ran May 7-10 with Apollo Awards (IAVA Gala). Semi-annual cadence means next edition likely September 2026. Tim is in LA Jun 1-4 \u2014 first opportunity to meet in person.",
         "source": "https://laverticaldramamarket.com/ | https://www.mediaplaynews.com/second-la-vertical-drama-market-takes-place-may-7-10/ Date checked: 2026-05-26.",
         "timRelevance": "Speaking slot at Sep 2026 LAVDM = Tim's Hollywood home stage for the category. IAVA Apollo Awards = new award tier to nominate FlareFlow originals. Meeting in person during LA trip is the cleanest path to both.",
-        "colRelevance": "Hollywood-market visibility for COL. The LAVDM speaker roster is the B-roll Tim needs for recognisability — same value as NEM Dubrovnik for the European market.",
+        "colRelevance": "Hollywood-market visibility for COL. The LAVDM speaker roster is the B-roll Tim needs for recognisability \u2014 same value as NEM Dubrovnik for the European market.",
         "bestApproach": "Stuart finds the LAVDM organizer contact (laverticaldramamarket.com) and requests a brief in-person meeting during Tim's Jun 1-4 trip. Tim's pitch: 'We run the global distribution rails. I'd like to be on your September stage.'",
-        "publicMove": "Repost / comment on LAVDM's own social posts about the May 7-10 edition — 'This is the room. Glad it exists.'",
+        "publicMove": "Repost / comment on LAVDM's own social posts about the May 7-10 edition \u2014 'This is the room. Glad it exists.'",
         "privateMove": "Stuart identifies organizer contact by Friday May 29. Tim requests a 20-min coffee for Jun 1 or 2.",
-        "risk": "Low. They want Tim — he is the ideal speaker for this audience.",
+        "risk": "Low. They want Tim \u2014 he is the ideal speaker for this audience.",
         "priority": "medium"
       },
       {
@@ -172,52 +421,52 @@
         "role": "Founder & Editorial Director",
         "organisation": "ContentAsia",
         "whyMatters": "Most consistent APAC media amplifier. The Netflix/Amazon/Disney trifecta + Peacock deal + COL new hires + Park Min-Kyu casting is a four-story cycle ContentAsia should cover this week.",
-        "source": "data/state/contacts.json — seed-janine-stein",
-        "timRelevance": "ContentAsia's audience is the Asian content-business decision-maker layer COL needs visible to. A 'big week for vertical infrastructure' exclusive from Tim — before he lands in LA — keeps him in regular APAC coverage between ATxEnterprise (done) and NEM Dubrovnik.",
+        "source": "data/state/contacts.json \u2014 seed-janine-stein",
+        "timRelevance": "ContentAsia's audience is the Asian content-business decision-maker layer COL needs visible to. A 'big week for vertical infrastructure' exclusive from Tim \u2014 before he lands in LA \u2014 keeps him in regular APAC coverage between ATxEnterprise (done) and NEM Dubrovnik.",
         "colRelevance": "Four COL-adjacent stories in two weeks. ContentAsia should have the Tim exclusive ahead of NEM.",
-        "bestApproach": "Email + LinkedIn DM. 'Janine — big two weeks for vertical. Netflix + Amazon + Disney all in. Park Min-Kyu cast in FlareFlow. Peacock supply-chain story. Can give you the inside read before I land in LA on June 1.'",
+        "bestApproach": "Email + LinkedIn DM. 'Janine \u2014 big two weeks for vertical. Netflix + Amazon + Disney all in. Park Min-Kyu cast in FlareFlow. Peacock supply-chain story. Can give you the inside read before I land in LA on June 1.'",
         "privateMove": "Email by Wednesday May 27. After trifecta piece-to-camera posts.",
         "risk": "Low.",
         "priority": "medium"
       }
     ],
     "bestMediaAngle": {
-      "angle": "The supply chain story behind the streaming trifecta: 'Netflix, Amazon, and Disney all launched vertical feeds this month. Peacock licensed ReelShort last week. Every major US streamer is now building vertical infrastructure — but none of them built the content supply chain. That story is COL.' Tim has the receipts: 1,700 titles, USD 1M+ B2B, $2M TikTok Q1, Peacock licensing, Park Min-Kyu, Microdrama-in-a-Box.",
-      "targetOutlet": "The Town (Puck) / Matthew Belloni — matthew@puck.news",
-      "why": "The trifecta is the news peg that makes this a breaking story, not a profile. Belloni's audience (US entertainment-business decision-makers) is exactly who needs to understand the supply-chain question the trifecta creates. One email → Puck feature + The Town episode. Tim should be able to take a call during LA Jun 1-4 if pitch lands this week.",
+      "angle": "The supply chain story behind the streaming trifecta: 'Netflix, Amazon, and Disney all launched vertical feeds this month. Peacock licensed ReelShort last week. Every major US streamer is now building vertical infrastructure \u2014 but none of them built the content supply chain. That story is COL.' Tim has the receipts: 1,700 titles, USD 1M+ B2B, $2M TikTok Q1, Peacock licensing, Park Min-Kyu, Microdrama-in-a-Box.",
+      "targetOutlet": "The Town (Puck) / Matthew Belloni \u2014 matthew@puck.news",
+      "why": "The trifecta is the news peg that makes this a breaking story, not a profile. Belloni's audience (US entertainment-business decision-makers) is exactly who needs to understand the supply-chain question the trifecta creates. One email \u2192 Puck feature + The Town episode. Tim should be able to take a call during LA Jun 1-4 if pitch lands this week.",
       "evidence": "Netflix Clips (Variety Apr 30), Amazon Prime Clips (Advanced Television May 11), Disney+ Locker Diaries (Deadline Feb 2026), Peacock/ReelShort (C21Media May 11). Tim's B2B receipts: Deadline/Variety May 2026. Date checked: 2026-05-26."
     },
     "bestLinkedInAngle": {
       "hook": "Netflix. Amazon. Disney. All vertical. Now what?",
-      "angle": "Piece-to-camera, ~60 seconds, phone-shot, no edit. Tim direct to camera outdoors, no jacket. Hook: three names, three seconds. Beat structure: name the trifecta → 'Three is a supply-chain decision' → 'I'm in LA next week. Guess what we're talking about.' Forward close. Full script and shoot instructions in content.json (id: cn_trifecta_ptc_2605). Shoot Saturday or Sunday May 30-31.",
-      "why": "The trifecta is the clearest validation moment in vertical drama history — bigger than Peacock because it is the entire Hollywood establishment. Reacting on camera (not in writing) is the Category 21 imperative for a category that IS mobile-first video. Tim in LA in 6 days makes the forward close feel live and urgent."
+      "angle": "Piece-to-camera, ~60 seconds, phone-shot, no edit. Tim direct to camera outdoors, no jacket. Hook: three names, three seconds. Beat structure: name the trifecta \u2192 'Three is a supply-chain decision' \u2192 'I'm in LA next week. Guess what we're talking about.' Forward close. Full script and shoot instructions in content.json (id: cn_trifecta_ptc_2605). Shoot Saturday or Sunday May 30-31.",
+      "why": "The trifecta is the clearest validation moment in vertical drama history \u2014 bigger than Peacock because it is the entire Hollywood establishment. Reacting on camera (not in writing) is the Category 21 imperative for a category that IS mobile-first video. Tim in LA in 6 days makes the forward close feel live and urgent."
     },
     "bestCommentOpportunity": {
       "targetPostUrl": "https://variety.com/2026/digital/news/netflix-new-mobile-app-vertical-video-feed-clips-1236734258/",
       "targetAuthor": "Patrick Frater or Todd Spangler (Variety), or Lauren Forristal (TechCrunch), or anyone in Tim's LinkedIn feed posting about Netflix/Amazon/Disney vertical feeds",
-      "suggestedComment": "Three streamers in 30 days isn't a coincidence. Netflix Clips, Amazon Clips, Disney+ vertical — that's every major US subscription platform signalling that portrait mode is now standard streaming infrastructure, not an experiment. The interesting question this creates isn't 'is vertical real?' — that conversation ended this week. The question now is who has the content supply chain that connects these platforms to the shows they need. That's where the real race starts.",
-      "why": "Tim commenting on the trifecta story positions him as the operator who can explain the supply-chain dimension that consumer-focused coverage misses. Short, specific, operator POV — not a retweet. Every LinkedIn connection who sees the comment gets the COL context from Tim's profile.",
-      "risk": "Low. Keep it under 150 words. One point, one implication. Do not mention COL by name in the comment — profile does that work. Do not be triumphalist."
+      "suggestedComment": "Three streamers in 30 days isn't a coincidence. Netflix Clips, Amazon Clips, Disney+ vertical \u2014 that's every major US subscription platform signalling that portrait mode is now standard streaming infrastructure, not an experiment. The interesting question this creates isn't 'is vertical real?' \u2014 that conversation ended this week. The question now is who has the content supply chain that connects these platforms to the shows they need. That's where the real race starts.",
+      "why": "Tim commenting on the trifecta story positions him as the operator who can explain the supply-chain dimension that consumer-focused coverage misses. Short, specific, operator POV \u2014 not a retweet. Every LinkedIn connection who sees the comment gets the COL context from Tim's profile.",
+      "risk": "Low. Keep it under 150 words. One point, one implication. Do not mention COL by name in the comment \u2014 profile does that work. Do not be triumphalist."
     },
     "bestRelationshipMove": {
       "name": "Matthew Belloni",
       "role": "Founding Partner",
       "organisation": "Puck / The Town",
-      "whyMatters": "The trifecta plus Peacock together is a genuine news moment for Belloni's audience. One cold email this week → potential podcast appearance during or after LA trip. This is the highest-ROI single outreach in Tim's pipeline.",
-      "source": "data/state/contacts.json — seed-matthew-belloni",
+      "whyMatters": "The trifecta plus Peacock together is a genuine news moment for Belloni's audience. One cold email this week \u2192 potential podcast appearance during or after LA trip. This is the highest-ROI single outreach in Tim's pipeline.",
+      "source": "data/state/contacts.json \u2014 seed-matthew-belloni",
       "timRelevance": "Subject line writes itself: 'The supply chain story behind the Netflix/Amazon/Disney vertical week.' Body: 3 stats, 1 frame, 1 ask. Shoot the trifecta piece-to-camera first so Belloni can watch it when he Googles Tim.",
       "colRelevance": "Tier-1 US entertainment press. Puck feature + The Town appearance = the narrative control COL needs in the Hollywood conversation.",
       "bestApproach": "Cold email matthew@puck.news. Subject: 'The supply chain story behind the Netflix/Amazon/Disney vertical week.' 3 stats: 1,700 titles, $2M TikTok Q1, Peacock licensed ReelShort. 1 frame: 'COL built the rails before the streamers needed them.' 1 ask: '15-min call, I'm in LA June 1-4.'",
       "publicMove": "None before pitch lands.",
       "privateMove": "Stuart drafts Wednesday May 27. Tim sends Thursday May 28. Pitch goes after trifecta piece-to-camera is live.",
-      "risk": "Generic pitch energy. First sentence must be the news peg — 'Netflix, Amazon, Disney all went vertical this week' — not Tim's credentials.",
+      "risk": "Generic pitch energy. First sentence must be the news peg \u2014 'Netflix, Amazon, Disney all went vertical this week' \u2014 not Tim's credentials.",
       "priority": "high"
     },
     "bestColOpportunity": {
       "title": "LA streaming meetings: position COL/Microdrama-in-a-Box as the supply-chain standard for every streamer now building vertical infrastructure",
-      "why": "Peacock validated the licensing model last week. Netflix, Amazon, and Disney launching vertical feeds this week means every major US streamer is now facing the same question: where does the content come from? LA trip Jun 1-4, with Jason Ander (new Head of US Partnerships, ex-Paramount/Hulu) in the room, is the window to position COL as the infrastructure answer — before competitors do.",
+      "why": "Peacock validated the licensing model last week. Netflix, Amazon, and Disney launching vertical feeds this week means every major US streamer is now facing the same question: where does the content come from? LA trip Jun 1-4, with Jason Ander (new Head of US Partnerships, ex-Paramount/Hulu) in the room, is the window to position COL as the infrastructure answer \u2014 before competitors do.",
       "commercialUpside": "A content licensing or white-label deal with any single additional major US streamer (Netflix, Amazon, Disney+, Max, Paramount+) would be: multi-million-dollar recurring revenue, tier-1 PR moment ('second major US streamer after Peacock chooses COL'), and a step-change in Microdrama-in-a-Box B2B credibility. Even a 'watch list' meeting with a SVP+ at any of the three is commercially significant.",
-      "nextStep": "Stuart + Tim build a single-page LA brief by Thursday May 29: 'From Peacock to the trifecta — what the supply-chain conversation looks like in 2026.' Tim brings it to every LA meeting Jun 1-4. Jason Ander coordinates studio contact list. Target: SVP+ content at Netflix Mobile, Amazon Prime Video originals, Disney+ digital, Max, Paramount+."
+      "nextStep": "Stuart + Tim build a single-page LA brief by Thursday May 29: 'From Peacock to the trifecta \u2014 what the supply-chain conversation looks like in 2026.' Tim brings it to every LA meeting Jun 1-4. Jason Ander coordinates studio contact list. Target: SVP+ content at Netflix Mobile, Amazon Prime Video originals, Disney+ digital, Max, Paramount+."
     },
     "risingTrend": {
       "trend": "Every major US streaming platform now has a vertical video product. The format question is settled. The infrastructure race has begun.",
@@ -225,32 +474,37 @@
       "implication": "Tim's messaging should shift from 'explaining vertical drama to Hollywood' to 'explaining who holds the infrastructure Hollywood now needs.' The 12-month 40K goal is now achievable not as a niche operator but as a necessary counterpart to US streaming's vertical build-out. COL is the Reuters of vertical content supply."
     },
     "thingToIgnore": {
-      "item": "StreamTV Awards 2026 — and Campaign Asia 40 Under 40 2026. Both windows are closed. StreamTV finalists were announced May 12; Campaign Asia 40U40 deadline was April 17. Neither can be acted on this cycle.",
-      "why": "A brief that recommends 'submit to StreamTV Awards' when the window closed two weeks ago loses credibility. Same for 40U40. Both are removed from the 'Act on this week' surface. StreamTV and a new 'vertical mogul' award category (IAVA Apollo Awards) go into the 2027 planning cycle. Campaign Asia 40U40 — Tim has aged out for next year (will be 41). Replace with Campaign Asia Media Awards (Media Leader of the Year, deadline July 14) as the next personal awards priority."
+      "item": "StreamTV Awards 2026 \u2014 and Campaign Asia 40 Under 40 2026. Both windows are closed. StreamTV finalists were announced May 12; Campaign Asia 40U40 deadline was April 17. Neither can be acted on this cycle.",
+      "why": "A brief that recommends 'submit to StreamTV Awards' when the window closed two weeks ago loses credibility. Same for 40U40. Both are removed from the 'Act on this week' surface. StreamTV and a new 'vertical mogul' award category (IAVA Apollo Awards) go into the 2027 planning cycle. Campaign Asia 40U40 \u2014 Tim has aged out for next year (will be 41). Replace with Campaign Asia Media Awards (Media Leader of the Year, deadline July 14) as the next personal awards priority."
     },
     "reputationRisk": {
-      "risk": "Two critical framings are now sharpening as Tim enters LA and NEM: (1) The 'Chinese soft power' frame from the Yale Journal is getting more traction as the US vertical market grows — Hollywood meetings will surface it. (2) AI consent violations ('Clearly me' on May 2, 'The Peach Blossom Hairpin' earlier) are becoming a systemic story. Both will be asked in LA and at NEM. Without prepared responses, Tim either dismisses legitimate criticism (undermining his 'I say it as it is' brand) or over-defends (looking scared).",
-      "mitigation": "Finalize two one-liners by Thursday May 29. On soft power: 'COL builds platforms that serve local audiences with global IP. We're not exporting ideology — we're exporting infrastructure. The difference is who controls the algorithm and the monetisation.' On AI consent: 'These cases describe the floor of the market. FlareFlow's 180-title slate runs on guild contracts and production standards. The difference between the top decile and the bottom is editorial discipline — not just AI capability.' Stuart builds the full LA Q&A brief by Thursday May 29."
+      "risk": "Two critical framings are now sharpening as Tim enters LA and NEM: (1) The 'Chinese soft power' frame from the Yale Journal is getting more traction as the US vertical market grows \u2014 Hollywood meetings will surface it. (2) AI consent violations ('Clearly me' on May 2, 'The Peach Blossom Hairpin' earlier) are becoming a systemic story. Both will be asked in LA and at NEM. Without prepared responses, Tim either dismisses legitimate criticism (undermining his 'I say it as it is' brand) or over-defends (looking scared).",
+      "mitigation": "Finalize two one-liners by Thursday May 29. On soft power: 'COL builds platforms that serve local audiences with global IP. We're not exporting ideology \u2014 we're exporting infrastructure. The difference is who controls the algorithm and the monetisation.' On AI consent: 'These cases describe the floor of the market. FlareFlow's 180-title slate runs on guild contracts and production standards. The difference between the top decile and the bottom is editorial discipline \u2014 not just AI capability.' Stuart builds the full LA Q&A brief by Thursday May 29."
     },
     "suggestedAction": {
       "for": "Stuart",
-      "action": "This weekend (May 30-31): Help Tim record the trifecta piece-to-camera (content.json: cn_trifecta_ptc_2605) — 25 min total, highest leverage piece this cycle. Also record the NEM pre-panel piece-to-camera (cn_nem_panel_ptc_2605) — shoot Thursday/Friday May 28-29, post Friday evening so it's live during LA. Wednesday May 27: Draft Belloni pitch letter. Tim sends Thursday May 28 before landing in LA. Thursday May 28: Send Maria Rua Aguete WhatsApp re NEM pre-panel sync. Thursday May 29: Build LA Q&A brief for Tim (soft power + AI consent framings). Thu May 29: Begin MARKETING-INTERACTIVE Marketing Excellence Awards SG draft — deadline June 12. By Friday May 30: LAVDM organizer contact identified, coffee meeting requested for Jun 1 or 2. During LA (Jun 1-4): help Tim post daily vlog beats (beat sheet at content.json: cn1lpgxh9v8k3p9q).",
+      "action": "This weekend (May 30-31): Help Tim record the trifecta piece-to-camera (content.json: cn_trifecta_ptc_2605) \u2014 25 min total, highest leverage piece this cycle. Also record the NEM pre-panel piece-to-camera (cn_nem_panel_ptc_2605) \u2014 shoot Thursday/Friday May 28-29, post Friday evening so it's live during LA. Wednesday May 27: Draft Belloni pitch letter. Tim sends Thursday May 28 before landing in LA. Thursday May 28: Send Maria Rua Aguete WhatsApp re NEM pre-panel sync. Thursday May 29: Build LA Q&A brief for Tim (soft power + AI consent framings). Thu May 29: Begin MARKETING-INTERACTIVE Marketing Excellence Awards SG draft \u2014 deadline June 12. By Friday May 30: LAVDM organizer contact identified, coffee meeting requested for Jun 1 or 2. During LA (Jun 1-4): help Tim post daily vlog beats (beat sheet at content.json: cn1lpgxh9v8k3p9q).",
       "urgency": "this-week"
     },
     "model": "claude-sonnet-4-6",
-    "tokens": { "input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0 },
+    "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheRead": 0,
+      "cacheWrite": 0
+    },
     "createdAt": "2026-05-26T22:30:00.000Z"
   },
   {
     "id": "br_2605_weekly_real",
     "weekOf": "2026-05-18T00:00:00.000Z",
     "headline": "Hollywood just said yes. Shoot the reaction this weekend. Everything else is noise.",
-    "whatChanged": "This is the first real intelligence sweep of the week — the two previous runs (both today, both logged as low-value) were code-verification passes, not actual runs. Today's sweep via web search (RSS still fully blocked, 22/22 denied) produced 13 reviewed intelligence items. The week's defining signal: Peacock licensed a ReelShort content package for its mobile app, launching summer 2026 — making Peacock the first major US streamer to formally treat a microdrama-native platform as a content supplier. Tim has been predicting this exact inflection point since MIP London 2026. The moment to react on camera is this weekend, before the news cycle moves on. Second major signal: COL announced the hires of Jason Ander (ex-Paramount, Hulu) as Head of US Partnerships and Eileen Low (ex-Disney) as Head of Asia Partnerships, alongside Tim's formal appointment as FlareFlow CMO — covered in Deadline and Variety this week. Third: China's major platforms (Douyin, WeChat, Taobao, Kuaishou) conducted a coordinated crackdown in May, removing 500+ microdramas for content violations — validates Tim's 'Built to Last' framing ahead of the NEM Dubrovnik panel. Fourth: P&G Studios launched 'The Golden Pear Affair', a 50-episode scripted microdrama for the Native brand — the most documented FMCG brand entry yet, adding Anna Saalfeld (P&G Studios) as a category-defining relationship target. Fifth: FlareFlow's $2M TikTok revenue in Q1 2026 is now a public proof point (per Deadline) — add to every pitch. Sixth: ATxEnterprise Singapore (May 20-22) was a confirmed Tim speaking event not previously in state — added to speaking.json. CORRECTION: Cannes Lions 2026 submission deadline was April 9, 2026 — already passed. The weekly focus entry 'Close Cannes Lions submission' is now moot; settings.json updated to remove it. Categories that still produced nothing this run: app-store chart intelligence (need network for Sensor Tower), Mandarin reputation watch (Weibo/Baidu — need network), Reddit qualitative (r/microdrama — need network). All three require environment-level network policy fix.",
+    "whatChanged": "This is the first real intelligence sweep of the week \u2014 the two previous runs (both today, both logged as low-value) were code-verification passes, not actual runs. Today's sweep via web search (RSS still fully blocked, 22/22 denied) produced 13 reviewed intelligence items. The week's defining signal: Peacock licensed a ReelShort content package for its mobile app, launching summer 2026 \u2014 making Peacock the first major US streamer to formally treat a microdrama-native platform as a content supplier. Tim has been predicting this exact inflection point since MIP London 2026. The moment to react on camera is this weekend, before the news cycle moves on. Second major signal: COL announced the hires of Jason Ander (ex-Paramount, Hulu) as Head of US Partnerships and Eileen Low (ex-Disney) as Head of Asia Partnerships, alongside Tim's formal appointment as FlareFlow CMO \u2014 covered in Deadline and Variety this week. Third: China's major platforms (Douyin, WeChat, Taobao, Kuaishou) conducted a coordinated crackdown in May, removing 500+ microdramas for content violations \u2014 validates Tim's 'Built to Last' framing ahead of the NEM Dubrovnik panel. Fourth: P&G Studios launched 'The Golden Pear Affair', a 50-episode scripted microdrama for the Native brand \u2014 the most documented FMCG brand entry yet, adding Anna Saalfeld (P&G Studios) as a category-defining relationship target. Fifth: FlareFlow's $2M TikTok revenue in Q1 2026 is now a public proof point (per Deadline) \u2014 add to every pitch. Sixth: ATxEnterprise Singapore (May 20-22) was a confirmed Tim speaking event not previously in state \u2014 added to speaking.json. CORRECTION: Cannes Lions 2026 submission deadline was April 9, 2026 \u2014 already passed. The weekly focus entry 'Close Cannes Lions submission' is now moot; settings.json updated to remove it. Categories that still produced nothing this run: app-store chart intelligence (need network for Sensor Tower), Mandarin reputation watch (Weibo/Baidu \u2014 need network), Reddit qualitative (r/microdrama \u2014 need network). All three require environment-level network policy fix.",
     "topOpportunities": [
       {
-        "title": "Shoot Peacock/ReelShort reaction piece-to-camera — 'Hollywood just licensed vertical drama.'",
+        "title": "Shoot Peacock/ReelShort reaction piece-to-camera \u2014 'Hollywood just licensed vertical drama.'",
         "type": "visual content / on-camera",
-        "why": "Peacock licensing ReelShort content (announced May 11) is the exact commercial trajectory Tim has been predicting publicly since MIP London. The window to react with authority closes this weekend. Every day he waits, someone else owns the frame. This is the run's mandatory Category 21 deliverable. **~25 min: 15 to record (3–4 takes), 5 to choose the best, 5 to caption + post. Shoot Saturday or Sunday.**",
+        "why": "Peacock licensing ReelShort content (announced May 11) is the exact commercial trajectory Tim has been predicting publicly since MIP London. The window to react with authority closes this weekend. Every day he waits, someone else owns the frame. This is the run's mandatory Category 21 deliverable. **~25 min: 15 to record (3\u20134 takes), 5 to choose the best, 5 to caption + post. Shoot Saturday or Sunday.**",
         "source": "https://www.c21media.net/news/us-streamer-peacock-picks-up-reelshort-package-to-get-into-microdrama-game/ | intelligence item int_peacock_reelshort_license_2605",
         "dateChecked": "2026-05-23",
         "scores": {
@@ -269,10 +523,10 @@
         "evidence": "strong"
       },
       {
-        "title": "StreamTV Awards — Content Partnerships Executive of the Year (deadline Jun 15)",
+        "title": "StreamTV Awards \u2014 Content Partnerships Executive of the Year (deadline Jun 15)",
         "type": "award",
         "why": "23 days to deadline. Category title literally matches Tim's role. Writes itself from existing receipts: 1,700+ titles, USD 1M+ B2B revenue in 6 months, FlareFlow $2M TikTok Q1, Microdrama-in-a-Box. Highest-fit award on the pipeline (fitScore 95). With the Peacock deal and COL new hires announced this week, the submission now has a stronger 2026 narrative than ever. **~90 min total: 60 to assemble answers + receipts, 30 to file.**",
-        "source": "data/state/awards.json — seed-streamtv-awards-content-partnerships-executive-of-the-year",
+        "source": "data/state/awards.json \u2014 seed-streamtv-awards-content-partnerships-executive-of-the-year",
         "dateChecked": "2026-05-23",
         "scores": {
           "timAuthorityFit": 5,
@@ -290,10 +544,10 @@
         "evidence": "strong"
       },
       {
-        "title": "Pre-LA piece-to-camera — 'Nine days. LA. Five questions.' (already drafted, shoot Sat May 30)",
+        "title": "Pre-LA piece-to-camera \u2014 'Nine days. LA. Five questions.' (already drafted, shoot Sat May 30)",
         "type": "visual content / on-camera",
-        "why": "LA trip Jun 1–4. The pre-trip piece-to-camera (draft already in content.json) turns the trip from a private calendar item into a public agenda-setter before Tim lands. With Peacock/ReelShort validation and new COL hires announced this week, the five questions now have sharper answers worth pursuing. **~25 min: record + post Sat May 30. Stuart captions and schedules.**",
-        "source": "data/state/content.json — cn1lpgxh9j4r8mq2 | data/state/speaking.json — seed-la-meetings-trip",
+        "why": "LA trip Jun 1\u20134. The pre-trip piece-to-camera (draft already in content.json) turns the trip from a private calendar item into a public agenda-setter before Tim lands. With Peacock/ReelShort validation and new COL hires announced this week, the five questions now have sharper answers worth pursuing. **~25 min: record + post Sat May 30. Stuart captions and schedules.**",
+        "source": "data/state/content.json \u2014 cn1lpgxh9j4r8mq2 | data/state/speaking.json \u2014 seed-la-meetings-trip",
         "dateChecked": "2026-05-23",
         "scores": {
           "timAuthorityFit": 5,
@@ -311,10 +565,10 @@
         "evidence": "strong"
       },
       {
-        "title": "Pitch Matthew Belloni / The Town — now with Peacock angle added",
+        "title": "Pitch Matthew Belloni / The Town \u2014 now with Peacock angle added",
         "type": "podcast / media pitch",
-        "why": "The pitch angle just got stronger: 'You covered DramaBox (consumer). Now Peacock has licensed ReelShort (supply chain). The story this week is who built the rails Peacock just started buying — that's COL.' Send this week so Tim can take a 15-min call during LA Jun 1–4. **Park until after Peacock piece-to-camera posts (so Tim's public stance is established before the pitch).** Draft pitch by Mon May 25, send Tue May 26.",
-        "source": "data/state/media.json — seed-the-town-with-matthew-belloni | intelligence item int_peacock_reelshort_license_2605",
+        "why": "The pitch angle just got stronger: 'You covered DramaBox (consumer). Now Peacock has licensed ReelShort (supply chain). The story this week is who built the rails Peacock just started buying \u2014 that's COL.' Send this week so Tim can take a 15-min call during LA Jun 1\u20134. **Park until after Peacock piece-to-camera posts (so Tim's public stance is established before the pitch).** Draft pitch by Mon May 25, send Tue May 26.",
+        "source": "data/state/media.json \u2014 seed-the-town-with-matthew-belloni | intelligence item int_peacock_reelshort_license_2605",
         "dateChecked": "2026-05-23",
         "scores": {
           "timAuthorityFit": 5,
@@ -332,9 +586,9 @@
         "evidence": "strong"
       },
       {
-        "title": "DM Anna Saalfeld (P&G Studios) — 'The Golden Pear Affair' brand entry into vertical",
+        "title": "DM Anna Saalfeld (P&G Studios) \u2014 'The Golden Pear Affair' brand entry into vertical",
         "type": "partner discovery / DM",
-        "why": "P&G Studios launched a 50-episode scripted microdrama for Native personal care brand — the most documented FMCG brand entry yet. Anna Saalfeld (Head of P&G Studios) is the architect. Tim has been publicly saying 'brands are coming' for two years; this is the proof. A DM to Saalfeld — 'your approach to soap-opera heritage for vertical is the right frame, here's what the infrastructure looks like at scale' — opens a COL-B2B conversation with the world's largest advertiser. **Watch for now — prepare the DM draft this week, send when Tim has a confirmed mutual connection or a strong context hook (e.g. post-Peacock reaction piece creates public authority).**",
+        "why": "P&G Studios launched a 50-episode scripted microdrama for Native personal care brand \u2014 the most documented FMCG brand entry yet. Anna Saalfeld (Head of P&G Studios) is the architect. Tim has been publicly saying 'brands are coming' for two years; this is the proof. A DM to Saalfeld \u2014 'your approach to soap-opera heritage for vertical is the right frame, here's what the infrastructure looks like at scale' \u2014 opens a COL-B2B conversation with the world's largest advertiser. **Watch for now \u2014 prepare the DM draft this week, send when Tim has a confirmed mutual connection or a strong context hook (e.g. post-Peacock reaction piece creates public authority).**",
         "source": "https://www.marketingdive.com/news/pg-native-to-debut-50-part-microdrama-series-as-genre-takes-off/807512/ | intelligence item int_pg_microdrama_2605",
         "dateChecked": "2026-05-23",
         "scores": {
@@ -358,12 +612,12 @@
         "name": "Anna Saalfeld",
         "role": "Head of P&G Studios",
         "organisation": "Procter & Gamble",
-        "whyMatters": "P&G Studios just launched a 50-episode microdrama series for Native — the most documented FMCG brand entry into vertical yet. Saalfeld is the strategic architect. Brand-CMO-to-vertical-operator relationship Tim has been building towards.",
+        "whyMatters": "P&G Studios just launched a 50-episode microdrama series for Native \u2014 the most documented FMCG brand entry into vertical yet. Saalfeld is the strategic architect. Brand-CMO-to-vertical-operator relationship Tim has been building towards.",
         "source": "https://www.marketingdive.com/news/pg-native-to-debut-50-part-microdrama-series-as-genre-takes-off/807512/",
         "timRelevance": "Tim's 'brands are coming' thesis now has a named P&G architect. This is the relationship that turns Tim from 'person who predicted brand entry' to 'person brands call when they want to scale it'.",
         "colRelevance": "Direct B2B upside. P&G running 50 episodes independently means they'll need infrastructure to scale. COL's Microdrama-in-a-Box is the answer.",
-        "bestApproach": "LinkedIn DM after Tim's Peacock reaction piece posts — leads with 'saw what you built with Native, here's what it looks like at scale' + one specific data point. No cold pitch.",
-        "publicMove": "Tim can repost the Marketing Dive piece on P&G's microdrama with a one-liner: 'P&G just proved what I've been saying for two years. Brands didn't adopt vertical — they came back to what they always did, just on the right screen.'",
+        "bestApproach": "LinkedIn DM after Tim's Peacock reaction piece posts \u2014 leads with 'saw what you built with Native, here's what it looks like at scale' + one specific data point. No cold pitch.",
+        "publicMove": "Tim can repost the Marketing Dive piece on P&G's microdrama with a one-liner: 'P&G just proved what I've been saying for two years. Brands didn't adopt vertical \u2014 they came back to what they always did, just on the right screen.'",
         "privateMove": "Draft DM this week. Send after Peacock piece-to-camera posts and establishes Tim's public authority. Stuart finds a warm intro vector via LinkedIn mutual or Campaign Asia connection.",
         "risk": "Approaching as a vendor, not a peer. P&G Studios is building creatively, not just buying media. Tim's frame should be peer operator to creative leader.",
         "priority": "high"
@@ -372,12 +626,12 @@
         "name": "Matthew Belloni",
         "role": "Founding Partner",
         "organisation": "Puck / The Town",
-        "whyMatters": "Pitch now stronger than ever: Peacock licensed ReelShort this week — Belloni's audience (US entertainment-business decision-makers) is exactly who needs to hear the supply-chain story. The B2B counterpart to DramaBox consumer story.",
-        "source": "data/state/contacts.json — seed-matthew-belloni | intelligence item int_peacock_reelshort_license_2605",
-        "timRelevance": "One email unlocks Puck feature + The Town episode. Now there's a news hook — Peacock/ReelShort deal — that makes the pitch even easier to open.",
+        "whyMatters": "Pitch now stronger than ever: Peacock licensed ReelShort this week \u2014 Belloni's audience (US entertainment-business decision-makers) is exactly who needs to hear the supply-chain story. The B2B counterpart to DramaBox consumer story.",
+        "source": "data/state/contacts.json \u2014 seed-matthew-belloni | intelligence item int_peacock_reelshort_license_2605",
+        "timRelevance": "One email unlocks Puck feature + The Town episode. Now there's a news hook \u2014 Peacock/ReelShort deal \u2014 that makes the pitch even easier to open.",
         "colRelevance": "US entertainment-business press tier-1 coverage; narrative control over the 'infrastructure story'.",
-        "bestApproach": "Cold email matthew@puck.news. Subject: 'The B2B story behind the Peacock/ReelShort deal.' Body: 3 numbers (1,700 titles, USD 1M+ B2B, $2M TikTok Q1), 1 frame (supply chain, not format), 1 ask (15-min call before or during LA Jun 1–4).",
-        "publicMove": "None — do not engage Belloni publicly before the private pitch lands.",
+        "bestApproach": "Cold email matthew@puck.news. Subject: 'The B2B story behind the Peacock/ReelShort deal.' Body: 3 numbers (1,700 titles, USD 1M+ B2B, $2M TikTok Q1), 1 frame (supply chain, not format), 1 ask (15-min call before or during LA Jun 1\u20134).",
+        "publicMove": "None \u2014 do not engage Belloni publicly before the private pitch lands.",
         "privateMove": "Stuart drafts Monday May 25. Tim sends Tuesday May 26. Pitched after Peacock piece-to-camera is live (so Belloni can Google Tim and find the on-camera presence, not just press links).",
         "risk": "Generic founder pitch energy. Mitigation: lead with 'Peacock just licensed ReelShort' as the news peg, then: 'I ran the distribution side. Here's the story nobody's told yet.'",
         "priority": "high"
@@ -387,10 +641,10 @@
         "role": "Global Head of Media & Entertainment",
         "organisation": "Omdia",
         "whyMatters": "Co-panellist NEM Dubrovnik (Jun 8). Panel topic: 'Microdrama: risky business or industry's next guilty pleasure?' With the China crackdown and Peacock validation happening this week, Tim and Maria need a pre-panel sync to align on data and framing.",
-        "source": "data/state/contacts.json — seed-maria-rua-aguete | data/state/speaking.json — seed-nem-dubrovnik-new-europe-market",
+        "source": "data/state/contacts.json \u2014 seed-maria-rua-aguete | data/state/speaking.json \u2014 seed-nem-dubrovnik-new-europe-market",
         "timRelevance": "Sync on: which sizing number leads on panel ($11B Omdia vs $14B others), China crackdown context, and Tim's 'Built to Last' vs 'risky business' framing. Maria can be the data anchor; Tim is the operator evidence.",
         "colRelevance": "Omdia data citation = credibility with European TV market buyers and distributors at NEM.",
-        "bestApproach": "WhatsApp / LinkedIn DM. Warm peer. 'NEM prep — have you seen the Peacock/ReelShort news? Changes my opening.' Include the China crackdown update.",
+        "bestApproach": "WhatsApp / LinkedIn DM. Warm peer. 'NEM prep \u2014 have you seen the Peacock/ReelShort news? Changes my opening.' Include the China crackdown update.",
         "privateMove": "DM by end of May 27. Offer to share COL's Australia 20% data for her Omdia deck.",
         "risk": "Very low.",
         "priority": "high"
@@ -399,9 +653,9 @@
         "name": "Jason Ander",
         "role": "Head of US Partnerships",
         "organisation": "COL Group (new hire)",
-        "whyMatters": "Just announced in Deadline. Tim should write the welcome post this week (drafted above in content.json). Also: coordinate for LA — Jason's Paramount/Hulu network is the warm-intro pipeline for studio meetings Tim is building.",
+        "whyMatters": "Just announced in Deadline. Tim should write the welcome post this week (drafted above in content.json). Also: coordinate for LA \u2014 Jason's Paramount/Hulu network is the warm-intro pipeline for studio meetings Tim is building.",
         "source": "https://deadline.com/2026/05/col-group-hires-ex-paramount-disney-microdrama-execs-1236900910/ | intelligence item int_col_new_hires_2605",
-        "timRelevance": "Jason's institutional Hollywood network (Paramount, Hulu) fills a gap in Tim's LA access — Tim brings vertical operator credibility, Jason brings traditional-media relationship capital.",
+        "timRelevance": "Jason's institutional Hollywood network (Paramount, Hulu) fills a gap in Tim's LA access \u2014 Tim brings vertical operator credibility, Jason brings traditional-media relationship capital.",
         "colRelevance": "The US team Tim is building around the LA trip. Jason should be in the room for Microdrama-in-a-Box conversations with studios/streamers.",
         "bestApproach": "Welcome post this week (draft in content.json). Privately: coordinate LA meeting list by Thu May 28.",
         "publicMove": "Welcome LinkedIn post (draft: cn_col_team_post_2605). Warm, named, non-triumphalist.",
@@ -414,32 +668,32 @@
         "role": "Founder & Editorial Director",
         "organisation": "ContentAsia",
         "whyMatters": "Most consistent APAC media amplifier. The Peacock/ReelShort deal + COL new hires + China crackdown is a three-story cycle that ContentAsia should cover. Give Janine the exclusive angle: 'How COL's infrastructure play looks from inside the Peacock deal week.'",
-        "source": "data/state/contacts.json — seed-janine-stein",
+        "source": "data/state/contacts.json \u2014 seed-janine-stein",
         "timRelevance": "Keeps Tim in regular APAC trade coverage between the LA trip and NEM Dubrovnik. ContentAsia's audience IS the Asian content-business decision-maker layer COL needs visible to.",
         "colRelevance": "COL announcement coverage (hires + Peacock validation) with a ContentAsia exclusive frame.",
-        "bestApproach": "Email + LinkedIn DM. Offer: 'Janine — big week. Three things happened. I can give you the inside read.' Her audience wants the distribution infrastructure story.",
+        "bestApproach": "Email + LinkedIn DM. Offer: 'Janine \u2014 big week. Three things happened. I can give you the inside read.' Her audience wants the distribution infrastructure story.",
         "privateMove": "Email by Wednesday May 27. After Tim's Peacock piece-to-camera posts.",
         "risk": "Low.",
         "priority": "medium"
       }
     ],
     "bestMediaAngle": {
-      "angle": "The supply chain story behind the Peacock/ReelShort deal: 'You covered DramaBox (consumer). Now Peacock has licensed ReelShort (supply chain). The story nobody has told yet is who built the rails that Peacock just started buying — and what that means for every other major streamer watching.' Tim has the receipts: 1,700 titles, USD 1M+ B2B, $2M TikTok Q1, Microdrama-in-a-Box.",
-      "targetOutlet": "The Town (Puck) / Matthew Belloni — matthew@puck.news",
-      "why": "Peacock/ReelShort is the news peg that makes the pitch a news story, not a profile. Belloni's audience (US entertainment-business decision-makers) is exactly who needs to understand the supply chain, not just the format. One email → Puck feature + The Town episode.",
+      "angle": "The supply chain story behind the Peacock/ReelShort deal: 'You covered DramaBox (consumer). Now Peacock has licensed ReelShort (supply chain). The story nobody has told yet is who built the rails that Peacock just started buying \u2014 and what that means for every other major streamer watching.' Tim has the receipts: 1,700 titles, USD 1M+ B2B, $2M TikTok Q1, Microdrama-in-a-Box.",
+      "targetOutlet": "The Town (Puck) / Matthew Belloni \u2014 matthew@puck.news",
+      "why": "Peacock/ReelShort is the news peg that makes the pitch a news story, not a profile. Belloni's audience (US entertainment-business decision-makers) is exactly who needs to understand the supply chain, not just the format. One email \u2192 Puck feature + The Town episode.",
       "evidence": "Peacock/ReelShort deal confirmed via C21Media, Deadline, TechCrunch, Peacock official (May 2026). Tim's B2B receipts publicly documented in Deadline/Variety this week. Date checked: 2026-05-23."
     },
     "bestLinkedInAngle": {
       "hook": "Hollywood just licensed vertical drama.",
-      "angle": "Piece-to-camera, 60 seconds, phone-shot, no edit. Tim direct to camera, outdoors, no jacket. Hook in 5 words ('Hollywood just licensed vertical drama.'). Three-beat time progression: '2 years ago / last year / this week — they stopped asking.' Forward close: 'I'm in LA next week. Guess what we're talking about.' This is the 'I told you so' moment done with operator confidence. Full script and beat sheet in content.json (id: cn_peacock_reaction_2605). Shoot Sat or Sun May 23-24.",
-      "why": "The Peacock/ReelShort deal is the clearest validation moment in Tim's public narrative to date. Reacting on camera (not in writing) is the Category 21 imperative — and it's also the most native form in a category that IS mobile-first video."
+      "angle": "Piece-to-camera, 60 seconds, phone-shot, no edit. Tim direct to camera, outdoors, no jacket. Hook in 5 words ('Hollywood just licensed vertical drama.'). Three-beat time progression: '2 years ago / last year / this week \u2014 they stopped asking.' Forward close: 'I'm in LA next week. Guess what we're talking about.' This is the 'I told you so' moment done with operator confidence. Full script and beat sheet in content.json (id: cn_peacock_reaction_2605). Shoot Sat or Sun May 23-24.",
+      "why": "The Peacock/ReelShort deal is the clearest validation moment in Tim's public narrative to date. Reacting on camera (not in writing) is the Category 21 imperative \u2014 and it's also the most native form in a category that IS mobile-first video."
     },
     "bestCommentOpportunity": {
       "targetPostUrl": "https://techcrunch.com/2026/05/11/bravo-is-creating-unscripted-microdramas-for-the-peacock-app/",
-      "targetAuthor": "Lauren Forristal / TechCrunch — or any trade journalist who files a Peacock/ReelShort piece this week",
-      "suggestedComment": "The really interesting detail here isn't that Peacock is adding vertical video. It's that they're licensing from ReelShort — a microdrama-native platform — rather than commissioning in-house. That's a supply-chain decision. Peacock just told the market: there are specialists in vertical production who are better at this than a major streamer building from scratch. The next question is who else is watching that decision.",
-      "why": "Tim commenting on the TechCrunch or C21Media Peacock/ReelShort piece positions him as the operator who can explain the B2B dimension that the consumer-focused trade coverage misses. Short, specific, operator POV — not a retweet.",
-      "risk": "Low. The only risk is over-length — keep it under 150 words. One point, one implication. Do not mention COL by name in the comment (let Tim's profile do that work)."
+      "targetAuthor": "Lauren Forristal / TechCrunch \u2014 or any trade journalist who files a Peacock/ReelShort piece this week",
+      "suggestedComment": "The really interesting detail here isn't that Peacock is adding vertical video. It's that they're licensing from ReelShort \u2014 a microdrama-native platform \u2014 rather than commissioning in-house. That's a supply-chain decision. Peacock just told the market: there are specialists in vertical production who are better at this than a major streamer building from scratch. The next question is who else is watching that decision.",
+      "why": "Tim commenting on the TechCrunch or C21Media Peacock/ReelShort piece positions him as the operator who can explain the B2B dimension that the consumer-focused trade coverage misses. Short, specific, operator POV \u2014 not a retweet.",
+      "risk": "Low. The only risk is over-length \u2014 keep it under 150 words. One point, one implication. Do not mention COL by name in the comment (let Tim's profile do that work)."
     },
     "bestRelationshipMove": {
       "name": "Anna Saalfeld",
@@ -448,39 +702,44 @@
       "whyMatters": "P&G's 'The Golden Pear Affair' is the most documented FMCG microdrama entry yet. Saalfeld is the architect. This is the relationship that turns Tim from 'person who predicted brand entry' to 'person P&G calls when they want to scale'.",
       "source": "https://www.marketingdive.com/news/pg-native-to-debut-50-part-microdrama-series-as-genre-takes-off/807512/ | intelligence item int_pg_microdrama_2605",
       "timRelevance": "Tim's brand-entry thesis now has a named P&G lead. DM opens the COL-to-FMCG pipeline at the most valuable possible entry point.",
-      "colRelevance": "P&G is the world's largest advertiser. A COL partnership conversation — even a 15-min call — is a tier-1 commercial signal.",
-      "bestApproach": "LinkedIn DM after Tim's Peacock piece-to-camera posts this weekend. Message: 'Saw what you built with Native — the soap-opera heritage reframe is exactly right. If you're thinking about what this looks like at scale, happy to share what the distribution side looks like from inside the largest vertical catalogue.' No pitch. One observation, one offer.",
-      "publicMove": "Tim reposts the Marketing Dive P&G piece with a one-liner: 'P&G just proved what I've been saying for two years. Brands didn't adopt vertical — they came home to the format that always worked, just on the right screen.'",
+      "colRelevance": "P&G is the world's largest advertiser. A COL partnership conversation \u2014 even a 15-min call \u2014 is a tier-1 commercial signal.",
+      "bestApproach": "LinkedIn DM after Tim's Peacock piece-to-camera posts this weekend. Message: 'Saw what you built with Native \u2014 the soap-opera heritage reframe is exactly right. If you're thinking about what this looks like at scale, happy to share what the distribution side looks like from inside the largest vertical catalogue.' No pitch. One observation, one offer.",
+      "publicMove": "Tim reposts the Marketing Dive P&G piece with a one-liner: 'P&G just proved what I've been saying for two years. Brands didn't adopt vertical \u2014 they came home to the format that always worked, just on the right screen.'",
       "privateMove": "Stuart finds warm intro vector via Campaign Asia or Cannes Lions connections. DM goes after piece-to-camera posts (May 23-24 target).",
-      "risk": "Approaching as a vendor. Tim should lead as a peer — creative operator to creative operator. No COL product pitch in the opening DM.",
+      "risk": "Approaching as a vendor. Tim should lead as a peer \u2014 creative operator to creative operator. No COL product pitch in the opening DM.",
       "priority": "high"
     },
     "bestColOpportunity": {
       "title": "Peacock validation opens the door: pitch Microdrama-in-a-Box to the other major US streamers (Disney+, Max, Paramount+) before they replicate what Peacock just did in-house",
-      "why": "Peacock just demonstrated the model: license content from a vertical-native platform rather than build in-house. Every other major US streamer's content team is now having an internal meeting about this. The window to position COL/Microdrama-in-a-Box as the infrastructure layer — not just the content supplier — is open now. LA trip Jun 1–4 is the in-person window.",
+      "why": "Peacock just demonstrated the model: license content from a vertical-native platform rather than build in-house. Every other major US streamer's content team is now having an internal meeting about this. The window to position COL/Microdrama-in-a-Box as the infrastructure layer \u2014 not just the content supplier \u2014 is open now. LA trip Jun 1\u20134 is the in-person window.",
       "commercialUpside": "A white-label or content licensing deal with one additional major US streamer: multi-million-dollar recurring revenue, tier-1 PR moment, strengthens the COL narrative as the supply-chain standard. Even a 'watch list' meeting with Disney+ or Max is commercially significant.",
-      "nextStep": "Stuart + Tim build a one-page COL infrastructure brief specifically for US streamers by Wed May 27 — framing the Peacock deal as proof of model, and positioning COL as the platform that can replicate it for other streamers at scale. Tim brings to LA Jun 1 meetings. Target: SVP+ at Disney+ US, Max, Paramount+ and a Peacock follow-up."
+      "nextStep": "Stuart + Tim build a one-page COL infrastructure brief specifically for US streamers by Wed May 27 \u2014 framing the Peacock deal as proof of model, and positioning COL as the platform that can replicate it for other streamers at scale. Tim brings to LA Jun 1 meetings. Target: SVP+ at Disney+ US, Max, Paramount+ and a Peacock follow-up."
     },
     "risingTrend": {
-      "trend": "Brand advertisers are making vertical drama a formal budget line item. The 'brands are coming' prediction is now a documented fact: P&G, Unilever, Crocs, Shopee, Starbucks, Maybelline — six brands with confirmed vertical campaigns in 2025-2026.",
-      "evidence": "P&G 'The Golden Pear Affair' (Marketing Dive, May 2026) — 50-episode series, Dentsu Entertainment production. Starbucks and Maybelline confirmed via Marketing Brew (2026). Crocs and Shopee per STRATEGIC_PROFILE.md. Date checked: 2026-05-23.",
+      "trend": "Brand advertisers are making vertical drama a formal budget line item. The 'brands are coming' prediction is now a documented fact: P&G, Unilever, Crocs, Shopee, Starbucks, Maybelline \u2014 six brands with confirmed vertical campaigns in 2025-2026.",
+      "evidence": "P&G 'The Golden Pear Affair' (Marketing Dive, May 2026) \u2014 50-episode series, Dentsu Entertainment production. Starbucks and Maybelline confirmed via Marketing Brew (2026). Crocs and Shopee per STRATEGIC_PROFILE.md. Date checked: 2026-05-23.",
       "implication": "Tim's positioning should drift from 'microdrama operator explaining the format to Hollywood' to 'vertical infrastructure provider for brands who've already decided to enter the format.' The LA trip and NEM Dubrovnik both now include brand-CMO conversations as equally important as studio-exec conversations."
     },
     "thingToIgnore": {
-      "item": "Cannes Lions 2026 — the submission deadline was April 9, 2026. It has passed. The weekly focus entry 'Close Cannes Lions submission' is moot. Stuart should update settings.json to remove it and replace it with a Cannes Lions 2027 tracking note (PanelPicker and submission windows open Jan 2027). No action required or possible this cycle.",
+      "item": "Cannes Lions 2026 \u2014 the submission deadline was April 9, 2026. It has passed. The weekly focus entry 'Close Cannes Lions submission' is moot. Stuart should update settings.json to remove it and replace it with a Cannes Lions 2027 tracking note (PanelPicker and submission windows open Jan 2027). No action required or possible this cycle.",
       "why": "A team item that's already closed creates false urgency and dilutes focus on what's actually actionable. The three actionable items this week (Peacock piece-to-camera, StreamTV Awards, pre-LA piece-to-camera) are the right 3. Adding a fourth that can't be executed = the brief loses authority."
     },
     "reputationRisk": {
-      "risk": "Two critical framings are live this week and will surface at NEM Dubrovnik and LA meetings: (1) Yale Journal 'micro-drama as soft power' — framing COL/ReelShort as Chinese cultural infrastructure, which could trigger US regulatory concern or Hollywood reticence; (2) The Wrap 'dark underbelly' — labour rates, AI consent violations, racial homogeneity of US microdrama productions. Tim will be asked about both in LA and at NEM. Without prepared responses, he risks either dismissing legitimate criticisms (undermining his 'I say it as it is' brand) or over-defending (looking scared).",
-      "mitigation": "Prepare two sharp one-liners this week. On soft power: 'COL builds platforms that serve local audiences with global IP. We're not exporting ideology — we're exporting infrastructure. There's a difference.' On The Wrap: 'They're describing the floor of the market. We're building the ceiling — 180 FlareFlow originals in 2026, $45M investment, productions in Singapore, the US, and with talent from 10+ territories.' Stuart builds the Q&A brief for Tim's LA meetings by Thu May 29."
+      "risk": "Two critical framings are live this week and will surface at NEM Dubrovnik and LA meetings: (1) Yale Journal 'micro-drama as soft power' \u2014 framing COL/ReelShort as Chinese cultural infrastructure, which could trigger US regulatory concern or Hollywood reticence; (2) The Wrap 'dark underbelly' \u2014 labour rates, AI consent violations, racial homogeneity of US microdrama productions. Tim will be asked about both in LA and at NEM. Without prepared responses, he risks either dismissing legitimate criticisms (undermining his 'I say it as it is' brand) or over-defending (looking scared).",
+      "mitigation": "Prepare two sharp one-liners this week. On soft power: 'COL builds platforms that serve local audiences with global IP. We're not exporting ideology \u2014 we're exporting infrastructure. There's a difference.' On The Wrap: 'They're describing the floor of the market. We're building the ceiling \u2014 180 FlareFlow originals in 2026, $45M investment, productions in Singapore, the US, and with talent from 10+ territories.' Stuart builds the Q&A brief for Tim's LA meetings by Thu May 29."
     },
     "suggestedAction": {
       "for": "Stuart",
-      "action": "This weekend (May 23-24): help Tim record + post the Peacock reaction piece-to-camera (content.json: cn_peacock_reaction_2605) — ~25 min total, highest leverage piece this cycle. By Mon May 26: draft Belloni pitch with Peacock news peg, send Tue May 27. By Tue May 27: begin StreamTV Awards submission assembly — Jun 15 deadline, Tim has all the receipts, ~90 min to file. Update settings.json: remove 'Close Cannes Lions submission' from weeklyFocus (deadline passed April 9). By Thu May 29: build LA crisis Q&A brief for Tim (soft power + ethics framings). Pre-LA piece-to-camera (already drafted): shoot + post Sat May 30.",
+      "action": "This weekend (May 23-24): help Tim record + post the Peacock reaction piece-to-camera (content.json: cn_peacock_reaction_2605) \u2014 ~25 min total, highest leverage piece this cycle. By Mon May 26: draft Belloni pitch with Peacock news peg, send Tue May 27. By Tue May 27: begin StreamTV Awards submission assembly \u2014 Jun 15 deadline, Tim has all the receipts, ~90 min to file. Update settings.json: remove 'Close Cannes Lions submission' from weeklyFocus (deadline passed April 9). By Thu May 29: build LA crisis Q&A brief for Tim (soft power + ethics framings). Pre-LA piece-to-camera (already drafted): shoot + post Sat May 30.",
       "urgency": "this-week"
     },
     "model": "claude-sonnet-4-6",
-    "tokens": { "input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0 },
+    "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheRead": 0,
+      "cacheWrite": 0
+    },
     "createdAt": "2026-05-23T08:30:00.000Z"
   }
 ]

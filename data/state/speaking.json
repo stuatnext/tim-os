@@ -10,7 +10,7 @@
     "role": "Speaker",
     "status": "done",
     "fitScore": 78,
-    "fitRationale": "Enterprise tech + Singapore home market. Tim covered microdrama distribution, original IP, platform-led digital storytelling. Not previously tracked — added from web intel this run.",
+    "fitRationale": "Enterprise tech + Singapore home market. Tim covered microdrama distribution, original IP, platform-led digital storytelling. Not previously tracked \u2014 added from web intel this run.",
     "notes": "May 20-22, 2026. Singapore EXPO. Confirmed speaker per public speaker page. Post-event recap opportunity."
   },
   {
@@ -20,21 +20,23 @@
     "startsAt": "2026-06-01T00:00:00.000Z",
     "endsAt": "2026-06-04T00:00:00.000Z",
     "role": "Attendee",
-    "status": "confirmed",
+    "status": "done",
     "fitScore": 80,
-    "fitRationale": "Not a speaking event. Platforms, producers, creators, studios, brands. Document with daily LinkedIn posts."
+    "fitRationale": "Not a speaking event. Platforms, producers, creators, studios, brands. Document with daily LinkedIn posts.",
+    "notes": "Trip period (Jun 1-4) has passed. No public record of specific meeting outcomes found via web search this run \u2014 expected, since these were private meetings by design. No confirmed evidence the drafted LA piece-to-camera / daily vlog content was shot or posted; corresponding content.json drafts marked dismissed this run rather than assumed posted."
   },
   {
     "id": "seed-nem-dubrovnik-new-europe-market",
-    "name": "NEM Dubrovnik — New Europe Market",
+    "name": "NEM Dubrovnik \u2014 New Europe Market",
     "organizer": "NEM Dubrovnik",
     "location": "Dubrovnik, Croatia",
     "startsAt": "2026-06-08T00:00:00.000Z",
     "endsAt": "2026-06-11T00:00:00.000Z",
     "role": "Panellist",
-    "status": "confirmed",
+    "status": "done",
     "fitScore": 90,
-    "fitRationale": "'Microdrama: risky business or industry's next guilty pleasure?' with Maria Rua Aguete, Cassandra Yang, Lukasz Wysocki."
+    "fitRationale": "'Microdrama: risky business or industry's next guilty pleasure?' with Maria Rua Aguete, Cassandra Yang, Lukasz Wysocki.",
+    "notes": "Panel took place as scheduled. Omdia's Maria Rua Aguete presented updated $14B/$3B-outside-China market sizing and flagged CEE/Poland as an underrated opportunity (see intelligence.json int_nem_dubrovnik_outcome_2026). No confirmed evidence the drafted pre-panel piece-to-camera or daily vlog beats were shot or posted."
   },
   {
     "id": "seed-apos-bali",
@@ -44,9 +46,10 @@
     "startsAt": "2026-06-16T00:00:00.000Z",
     "endsAt": "2026-06-18T00:00:00.000Z",
     "role": "Speaker",
-    "status": "confirmed",
+    "status": "done",
     "fitScore": 92,
-    "fitRationale": "Confirmed on speaker slate. Mansha Daswani on site."
+    "fitRationale": "Confirmed on speaker slate. Mansha Daswani on site.",
+    "notes": "Single biggest event of this cycle. FlareFlow x Neymar Jr. World Cup Vertical 2.0 microdrama franchise unveiled here (16 titles, first wave launched Jun 19-22) \u2014 Tim quoted calling it 'the true dawn of our Vertical 2.0 strategy.' COL Group also announced a Southeast Asia brand-funded microdrama partnership with VIRTUE Asia/V47 Entertainment on the sidelines. See intelligence.json int_neymar_flareflow_wc_2026 and int_virtue_asia_col_brand_partnership_2026."
   },
   {
     "id": "seed-mipcom-cannes-2026",
@@ -88,11 +91,12 @@
     "organizer": "SXSW",
     "location": "Austin, USA",
     "startsAt": "2027-03-12T00:00:00.000Z",
-    "cfpDeadline": "2026-07-21T00:00:00.000Z",
+    "cfpDeadline": "2026-07-26T00:00:00.000Z",
     "role": "Panellist",
     "status": "identified",
     "fitScore": 78,
-    "fitRationale": "PanelPicker opens summer 2026. Vertical 2.0 + creator-economy crossover."
+    "fitRationale": "PanelPicker opens summer 2026. Vertical 2.0 + creator-economy crossover.",
+    "notes": "CONFIRMED via sxsw.com (2026-07-06): PanelPicker entry window June 23 - July 26, 2026 (corrected from prior July 21 estimate). Community voting Aug 5-23. Submit Vertical 2.0 + creator-economy crossover panel abstract before July 26."
   },
   {
     "id": "seed-cairns-crocodiles-presented-by-pinterest-",

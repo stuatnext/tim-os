@@ -1,5 +1,5 @@
 {
-  "weeklyFocus": "Shoot trifecta piece-to-camera THIS WEEKEND (Netflix + Amazon + Disney all in vertical — biggest validation moment yet). Send Belloni / The Town pitch before LA. LA trip Jun 1-4 — set narrative before landing. MARKETING-INTERACTIVE Marketing Excellence Awards SG deadline Jun 12. NEM Dubrovnik Jun 8-11 — shoot pre-panel piece-to-camera Thu/Fri May 28-29. [Cannes Lions 2027 — track from Jan 2027. StreamTV Awards 2026 — CLOSED, finalists announced May 12. Campaign Asia 40 Under 40 2026 — CLOSED, deadline was April 17.]",
+  "weeklyFocus": "Ship the China-regulation piece-to-camera before the NRTA public-comment window closes July 23 — ties Tim's 'Built to Last' thesis to a live news hook. Start the AACA Best Micro-Drama entry now (deadline Aug 1 — do not repeat the pattern of missed award windows from prior cycles). Refresh and send the Belloni/The Town pitch — the Neymar/FlareFlow World Cup deal, the new VIRTUE Asia Southeast Asia brand partnership, and the DramaBox/Trade Desk competitive gap all sharpen the story since the last pitch draft went unconfirmed. [~6-week gap since the last routine run — LA trip (Jun 1-4), NEM Dubrovnik (Jun 8-11) and APOS Bali (Jun 16-18) have all passed; all stale content.json drafts tied to those windows were dismissed rather than assumed posted. Campaign Asia Media Awards / PR Awards — WebSearch this run could not confirm the July 14 deadlines against a primary source; verify directly before treating as actionable. MIPCOM Cannes Oct 12-15 — track CFP. RSS feeds remain fully blocked (networkPolicyBlocked: true, same as every run since May 23) — this needs Stuart to fix the environment network policy, not another routine run.]",
   "voiceTuning": "",
   "campaignGoals": {
     "twelveMonth": [
@@ -17,5 +17,5 @@
       "Cement Vertical 2.0 framing in press"
     ]
   },
-  "updatedAt": "2026-05-26T22:15:00.000Z"
+  "updatedAt": "2026-07-06T09:30:00.000Z"
 }
