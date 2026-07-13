@@ -1,5 +1,249 @@
 [
   {
+    "id": "br_2607_w1",
+    "weekOf": "2026-07-13T00:00:00.000Z",
+    "headline": "FlareFlow signed a World Cup superstar to a fully-licensed AI deal three weeks ago. Tim hasn't said a word about it on camera yet.",
+    "whatChanged": "This brief covers a 7-week gap since the last run (2026-05-26 to 2026-07-13) — the routine did not fire on its normal weekly cadence. RSS feeds remain fully blocked (22/22 denied, networkPolicyBlocked: true, unchanged from every prior run) — the environment allowlist fix from knowledge/OPPORTUNITY_RADAR.md still hasn't landed. To cover a gap this large, this run dispatched five parallel web-research sweeps instead of a single pass. The single biggest finding: COL's own FlareFlow signed a 16-title AI-powered microdrama franchise licensing Neymar Jr.'s AI likeness for the World Cup (announced at APOS Bali, Jun 16-18; first six titles launched Jun 19) — Tim was quoted in trade press calling it 'the true dawn of our Vertical 2.0 strategy', but has not addressed it on camera or in his own LinkedIn voice since. The same APOS window produced two competitor deals from ReelShort (Globe Telecom Philippines, Showbox Korea co-production) and a new COL brand-infrastructure partnership (V47 Entertainment/VIRTUE Asia) that also hasn't been announced in Tim's own voice. All three previously-scheduled events in the gap — the LA trip (Jun 1-4), NEM Dubrovnik (Jun 8-11), and APOS Bali (Jun 16-18) — are confirmed to have happened, though the LA trip's outcome is entirely unconfirmed: no public coverage, no evidence the planned daily vlogs were shot. Two significant corrections: Campaign Asia Media Awards and Campaign Asia PR Awards, both tracked in state as having a July 14, 2026 deadline, are in fact already closed — the Media Awards concluded June 16, the PR Awards ceremony was June 9 — and neither was submitted for. That means at least two of the quarter's 'Submit 5+ award entries' opportunities have now lapsed with zero action taken since they were first tracked across three prior briefs, a process gap worth fixing (see suggestedAction). Separately, the MARKETING-INTERACTIVE Marketing Excellence Awards SG deadline is genuinely ambiguous across the awards site's own pages (5 Jun / 26 Jun / 17 Jul all cited) and needs direct verification today rather than being assumed closed or already submitted. Other developments this run surfaced: China's NRTA escalated its microdrama crackdown into a formal, permanent regulatory framework (draft rules published Jun 24, comment period to Jul 23); India's vertical-drama market scaled past 100M users on a single platform (JioHotstar's Tadka) within one quarter; Google Pixel became the first major tech brand to enter microdrama; and Cineverse became the first traditional player to visibly retreat from a microdrama bet, in contrast to Fox and Versant Media both deepening theirs in the same window. Categories that produced nothing this run despite explicit searching: MENA/Saudi vertical-specific localisation, hardware-partner (Samsung/OPPO/Xiaomi) and music-label sync deals, out-of-the-box stunts (no Vertical Wrapped, pop-up, or parody activations found), and any confirmed outcome from Tim's LA trip meetings. Reputation watch is clean — no negative coverage naming Tim, COL, ReelShort or FlareFlow was found anywhere in the gap period, and none of the ongoing 'soft power' / 'AI slop' / 'dark underbelly' narratives escalated or named COL specifically. Eight stale content drafts tied to now-passed event windows (the LA trip, the trifecta reaction, the Peacock reaction, the NEM vlogs) were marked dismissed rather than left stale in 'draft'; three fresh drafts were added, including the mandatory visual piece.",
+    "topOpportunities": [
+      {
+        "title": "Verify MARKETING-INTERACTIVE Marketing Excellence Awards SG deadline today — submit if still open",
+        "type": "award",
+        "why": "Deadline is conflicting across the awards site itself (5 Jun / 26 Jun / 17 Jul all cited) and no finalists have been announced anywhere — consistent with the window still being open. No record exists that the June 12 'act now' recommendation from 7 weeks ago was ever executed. ~15 min to check the live entry page; if open, ~90 min to assemble + file using the fresh proof points (10M downloads, 177 markets, 180 originals).",
+        "source": "https://awards.marketing-interactive.com/marketing-excellence-sg/entry-submission/ | data/state/awards.json — seed-marketing-interactive-marketing-excellence-awards-sg",
+        "dateChecked": "2026-07-13",
+        "scores": {
+          "timAuthorityFit": 4,
+          "colCommercialUpside": 4,
+          "microdramaRelevance": 3,
+          "mediaCoveragePotential": 3,
+          "relationshipValue": 2,
+          "personalityFit": 2,
+          "timeliness": 5,
+          "evidenceStrength": 3,
+          "easeOfAction": 5,
+          "reputationRisk": 1
+        },
+        "action": "Act now",
+        "evidence": "moderate"
+      },
+      {
+        "title": "Shoot the Neymar/FlareFlow AI-likeness reaction piece-to-camera this week",
+        "type": "visual content / on-camera",
+        "why": "COL's own biggest news in months — a fully licensed AI-likeness deal with a World Cup superstar — has had zero on-camera reaction from Tim in the three-plus weeks since it launched. It also gives Tim a clean, non-defensive way to engage the AI-consent criticism dogging the category. Draft at content.json (id: cn_neymar_ai_licensed_2607). ~25 min: 15 to record, 5 to select, 5 to caption + post.",
+        "source": "https://deadline.com/2026/06/neymar-jr-microdrama-flareflow-world-cup-2026-1236950043/ | intelligence item int_neymar_flareflow_ai_2607",
+        "dateChecked": "2026-07-13",
+        "scores": {
+          "timAuthorityFit": 5,
+          "colCommercialUpside": 5,
+          "microdramaRelevance": 5,
+          "mediaCoveragePotential": 4,
+          "relationshipValue": 2,
+          "personalityFit": 5,
+          "timeliness": 4,
+          "evidenceStrength": 5,
+          "easeOfAction": 5,
+          "reputationRisk": 2
+        },
+        "action": "Post",
+        "evidence": "strong"
+      },
+      {
+        "title": "Pitch Patrick Frater & Janine Stein's new 'Two The Point' podcast — via the Janine relationship",
+        "type": "podcast / media pitch",
+        "why": "New podcast co-hosted by Tim's warmest existing media relationship (Janine Stein) plus Variety's Asia bureau chief — the lowest-friction podcast target on file because it doesn't require a cold pitch. Ready-made episode topic: COL's June news cycle (Neymar deal, competitor telco deals). ~20 min to draft a short pitch to Janine directly.",
+        "source": "data/state/media.json — seed-two-the-point-podcast | intelligence item int_frater_stein_podcast_2607",
+        "dateChecked": "2026-07-13",
+        "scores": {
+          "timAuthorityFit": 4,
+          "colCommercialUpside": 3,
+          "microdramaRelevance": 5,
+          "mediaCoveragePotential": 4,
+          "relationshipValue": 5,
+          "personalityFit": 4,
+          "timeliness": 4,
+          "evidenceStrength": 4,
+          "easeOfAction": 5,
+          "reputationRisk": 1
+        },
+        "action": "Pitch",
+        "evidence": "moderate"
+      },
+      {
+        "title": "Begin assembling FlareFlow title submissions for AACA Best Micro-Drama (deadline Aug 1)",
+        "type": "award",
+        "why": "Confirmed-accurate deadline (Aug 1 eligibility close, Dec 3 ceremony), $299 fee, home-market (Singapore) event, world's first dedicated micro-drama award category. Three weeks out — right time to start shortlisting 3-5 FlareFlow titles rather than scrambling in late July. Parked this week to respect the 3-item action cap.",
+        "source": "data/state/awards.json — seed-aaca-best-micro-drama",
+        "dateChecked": "2026-07-13",
+        "scores": {
+          "timAuthorityFit": 4,
+          "colCommercialUpside": 4,
+          "microdramaRelevance": 5,
+          "mediaCoveragePotential": 3,
+          "relationshipValue": 2,
+          "personalityFit": 3,
+          "timeliness": 3,
+          "evidenceStrength": 5,
+          "easeOfAction": 3,
+          "reputationRisk": 1
+        },
+        "action": "Park",
+        "evidence": "strong"
+      },
+      {
+        "title": "Track LA Vertical Drama Market third edition (Nov 5-7) for a Tim speaking slot",
+        "type": "speaking / out-of-the-box",
+        "why": "Confirmed Nov 5-7 dates (corrected from a prior September assumption); hosts the inaugural IAVA Apollo Awards — Hollywood home turf for the category. Outreach lead time means this is a Watch this week, a Pitch-ready item in 6-8 weeks.",
+        "source": "data/state/speaking.json — seed-lavdm-third-edition | intelligence item int_lavdm_third_edition_2607",
+        "dateChecked": "2026-07-13",
+        "scores": {
+          "timAuthorityFit": 5,
+          "colCommercialUpside": 3,
+          "microdramaRelevance": 5,
+          "mediaCoveragePotential": 4,
+          "relationshipValue": 4,
+          "personalityFit": 5,
+          "timeliness": 2,
+          "evidenceStrength": 4,
+          "easeOfAction": 4,
+          "reputationRisk": 1
+        },
+        "action": "Watch",
+        "evidence": "moderate"
+      }
+    ],
+    "topPeople": [
+      {
+        "name": "Janine Stein",
+        "role": "Founder & Editorial Director",
+        "organisation": "ContentAsia",
+        "whyMatters": "Most consistent APAC media amplifier, and now co-hosts a new podcast ('Two The Point') with Patrick Frater — the actual person to contact this week to open the podcast door.",
+        "source": "data/state/contacts.json — seed-janine-stein | data/state/media.json — seed-two-the-point-podcast",
+        "timRelevance": "Direct ask: would Tim make sense as a Two The Point guest, given COL's Neymar deal and telco-partnership news cycle this quarter?",
+        "colRelevance": "Keeps COL in ContentAsia's regular coverage rhythm and opens a second outlet (the podcast) through one existing relationship.",
+        "bestApproach": "Email or LinkedIn DM — warm, direct, specific ask, reference the podcast by name.",
+        "publicMove": "None required.",
+        "privateMove": "Send this week.",
+        "risk": "Low.",
+        "priority": "high"
+      },
+      {
+        "name": "Patrick Frater",
+        "role": "Asia Bureau Chief; co-host, Two The Point podcast",
+        "organisation": "Variety",
+        "whyMatters": "New podcast (co-hosted with Janine Stein) plus his own 'Micro Dramas' Substack franchise puts Frater on two active outlets simultaneously — an existing named journalist on Tim's beat, now with more real estate to fill.",
+        "source": "data/state/contacts.json — seed-patrick-frater | intelligence item int_frater_stein_podcast_2607",
+        "timRelevance": "A guest appearance gives Tim two outlets in one conversation — the podcast episode and a likely Substack mention. COL's June news is a ready episode hook.",
+        "colRelevance": "Trade-press visibility with Asia's most connected micro-drama bureau chief, at zero pitch-cold-start cost.",
+        "bestApproach": "Route the ask through Janine Stein first, who can make a warm two-line introduction for the podcast.",
+        "publicMove": "None needed before the private ask.",
+        "privateMove": "Follows from the Janine Stein outreach this week.",
+        "risk": "Low — this is upside with almost no downside; worst case is a polite no.",
+        "priority": "high"
+      },
+      {
+        "name": "Maria Rua Aguete",
+        "role": "Global Head of Media & Entertainment",
+        "organisation": "Omdia",
+        "whyMatters": "Just shared a NEM Dubrovnik stage with Tim (Jun 8-11) — good relationship hygiene to follow up now the panel is done, especially since her $14B/2026 market figure supersedes the $11B number Tim has been using publicly.",
+        "source": "data/state/speaking.json — seed-nem-dubrovnik-new-europe-market | intelligence item int_nem_dubrovnik_recap_2607",
+        "timRelevance": "Thank-you note plus alignment on using her updated $14B figure going forward in Tim's own materials.",
+        "colRelevance": "Keeps the data-anchor relationship warm ahead of future panels and press.",
+        "bestApproach": "WhatsApp or LinkedIn DM — light touch, not transactional.",
+        "publicMove": "Could repost any of her post-NEM content with a one-line addition.",
+        "privateMove": "Send a short thank-you and figure-alignment note this week.",
+        "risk": "Very low.",
+        "priority": "medium"
+      },
+      {
+        "name": "Anna Saalfeld",
+        "role": "Head of P&G Studios",
+        "organisation": "Procter & Gamble",
+        "whyMatters": "Still an open loop from 7 weeks ago — the May brief recommended a DM after Tim's Peacock reaction piece posted, but no evidence the DM was ever sent, and P&G has since shipped further branded microdrama activity. The window to be first to reach out is closing.",
+        "source": "data/state/intelligence.json — int_pg_microdrama_2605",
+        "timRelevance": "P&G's continued investment in branded microdrama makes this the second consecutive brief flagging the same unsent DM.",
+        "colRelevance": "P&G is the world's largest advertiser; any conversation is a tier-1 commercial signal.",
+        "bestApproach": "LinkedIn DM, peer-to-peer register, referencing P&G's specific microdrama work.",
+        "publicMove": "None yet.",
+        "privateMove": "Send this week — this has now been 'pending' across two consecutive briefs.",
+        "risk": "Approaching as a vendor rather than a peer — same risk flagged in May, still applies.",
+        "priority": "high"
+      },
+      {
+        "name": "Cassandra Yang",
+        "role": "Founder",
+        "organisation": "RisingJoy",
+        "whyMatters": "Co-panellist at NEM Dubrovnik; RisingJoy also backs the AACA Best Micro-Drama category (deadline Aug 1) — a natural person to loop in on COL's award submission plans.",
+        "source": "data/state/contacts.json — seed-cassandra-yang | data/state/awards.json — seed-aaca-best-micro-drama",
+        "timRelevance": "Post-NEM follow-up plus a natural conversation starter about the AACA category her company sponsors.",
+        "colRelevance": "Peer relationship with a company that sponsors a category COL wants to win.",
+        "bestApproach": "LinkedIn DM, casual, post-panel tone.",
+        "publicMove": "None required.",
+        "privateMove": "Fold into the same NEM follow-up round as Maria Rua Aguete.",
+        "risk": "Low.",
+        "priority": "medium"
+      }
+    ],
+    "bestMediaAngle": {
+      "angle": "Tim as a Two The Point guest, hook: COL's fully-licensed AI-likeness approach (Neymar/FlareFlow) as a case study in doing AI production the right way, set against a category facing more AI-consent scandals and heavier regulation everywhere else.",
+      "targetOutlet": "Two The Point (Patrick Frater & Janine Stein)",
+      "why": "Lowest-friction podcast opportunity currently available — routes through an existing warm relationship rather than a cold pitch, and there's a ready-made news hook.",
+      "evidence": "Podcast's existence confirmed via Variety's author page; exact launch date not independently confirmed — verify before pitching. Date checked: 2026-07-13."
+    },
+    "bestLinkedInAngle": {
+      "hook": "We just licensed an AI likeness. Properly.",
+      "angle": "Piece-to-camera reacting to the Neymar/FlareFlow deal, contrasted against the industry's AI-consent scandals. Full script at content.json (cn_neymar_ai_licensed_2607).",
+      "why": "COL's biggest news in months has gone unaddressed by Tim on camera for three-plus weeks — the highest-authenticity, lowest-invented-content option available this week."
+    },
+    "bestCommentOpportunity": {
+      "targetPostUrl": "https://deadline.com/2026/06/microdrama-cineverse-shifts-joint-venture-lloyd-braun-minority-stake-1236968597/",
+      "targetAuthor": "Whoever shares or discusses the Cineverse MicroCo story on LinkedIn (Deadline's own account, or any trade journalist posting about it)",
+      "suggestedComment": "Someone pulling back from microdrama isn't the category cooling off — it's the category getting hard enough that half-committed joint ventures can't just coast. In the same few weeks, Fox deepened its stake in a microdrama platform and Versant Media took a new one in another. Running an actual production slate is a different job than signing a JV. Not everyone who wanted the headline wanted the job.",
+      "why": "Positions Tim as the operator with the pattern-recognition to read one company's retreat against two others' expansion — Category 22 discipline (co-opt, don't defend) without being defensive, since Tim isn't the one under criticism here.",
+      "risk": "Keep it under 150 words, don't name Cineverse pejoratively, don't gloat."
+    },
+    "bestRelationshipMove": {
+      "name": "Janine Stein",
+      "role": "Founder & Editorial Director",
+      "organisation": "ContentAsia",
+      "whyMatters": "Most consistent APAC media amplifier, and now co-hosts a new podcast ('Two The Point') with Patrick Frater — the actual person to contact this week to open the podcast door.",
+      "source": "data/state/contacts.json — seed-janine-stein | data/state/media.json — seed-two-the-point-podcast",
+      "timRelevance": "Direct ask: would Tim make sense as a Two The Point guest, given COL's Neymar deal and telco-partnership news cycle this quarter?",
+      "colRelevance": "Keeps COL in ContentAsia's regular coverage rhythm and opens a second outlet (the podcast) through one existing relationship.",
+      "bestApproach": "Email or LinkedIn DM — warm, direct, specific ask, reference the podcast by name.",
+      "publicMove": "None required.",
+      "privateMove": "Send this week.",
+      "risk": "Low.",
+      "priority": "high"
+    },
+    "bestColOpportunity": {
+      "title": "Formalise a 'Vertical Talent Licensing' pitch to talent agencies, using the Neymar deal as proof of model",
+      "why": "FlareFlow's Neymar deal proves COL can execute a fully licensed celebrity AI-likeness franchise at scale. Only one Hollywood agency (Eris Talent Agency) currently has a dedicated vertical-drama practice — there's a window to become the production partner agencies route celebrity clients through, before competitors copy the model.",
+      "commercialUpside": "A single additional celebrity AI-likeness or vertical-drama licensing deal, sourced through an agency partnership rather than one-off outreach, would compound COL's talent pipeline and give Microdrama-in-a-Box a marquee-name flywheel.",
+      "nextStep": "Stuart + Tim scope a one-page 'Vertical Talent Licensing' brief referencing the Neymar deal's structure (contract, fee, usage limits) as the template, and identify who at Eris Talent Agency (or a comparable practice at UTA/CAA/WME) to approach first."
+    },
+    "risingTrend": {
+      "trend": "The category is bifurcating into operators building infrastructure (COL/FlareFlow, Fox/Holywater, Versant/GammaTime, India's telco platforms) and traditional players stepping back (Cineverse) — while China's regulatory pressure formalises into permanent rules and AI-native companies (Character.ai) try to become producers rather than tool vendors.",
+      "evidence": "Neymar/FlareFlow deal (Deadline, Jun 19); Fox/Holywater 'Farmer Wants a Wife' adaptation (Jun 9); Versant/GammaTime stake (Jun); Cineverse MicroCo retreat (Jun); NRTA draft regulation (Jun 24, comment period to Jul 23); Character.ai microdrama launch (Jul 9). Date checked: 2026-07-13.",
+      "implication": "Tim's 'Built to Last' framing is more relevant now than when it was coined — the operators who built real infrastructure early, COL among them, are pulling further ahead of both the AI-native entrants and the traditional-media dabblers."
+    },
+    "thingToIgnore": {
+      "item": "Piling onto every individual brand-microdrama story (Google Pixel/Alex Cooper, P&G/Albertsons retail-media tie-in, Crocs TikTok Shop integration) with a separate LinkedIn reaction.",
+      "why": "Three-plus new brand entries surfaced in this sweep alone, on top of the seven already tracked. Reacting to each individually dilutes the brand-spectrum thesis and burns the weekly content budget on repetitive posts. Better to let them accumulate and do one sharp, consolidated 'brand spectrum' post in a future run — a refreshed version covering the full ten-plus-brand list is the right future move, not several separate reactions now (the prior luxury/FMCG version of this post was dismissed this run as stale)."
+    },
+    "reputationRisk": {
+      "risk": "Two live risk vectors: (1) the Neymar/FlareFlow AI-likeness deal, despite being fully licensed, could get lumped into AI-consent criticism narratives by a reporter who doesn't check the difference; (2) China's regulatory escalation (NRTA campaign plus draft measures) could be misread by Western press as applying to COL's international distribution business rather than the domestic Chinese short-video ecosystem it actually targets.",
+      "mitigation": "Prepare two one-liners: on AI licensing — 'Every likeness we use is contracted, paid, and scoped by the person who owns it — that's the opposite of the uncredited cases making headlines.' On China regulation — 'COL's business is international distribution and licensing, not the domestic short-video ecosystem currently under review by Chinese regulators — different business, different rules.' Have both ready before the next press conversation or panel."
+    },
+    "suggestedAction": {
+      "for": "Stuart",
+      "action": "This week: (1) verify the MARKETING-INTERACTIVE deadline directly today — submit if still open, using the fresh 10M-download/177-market/180-original figures; (2) help Tim shoot the Neymar/FlareFlow reaction piece-to-camera (content.json: cn_neymar_ai_licensed_2607); (3) reach out to Janine Stein proposing Tim as a Two The Point guest; (4) confirm with Tim whether the May Belloni/Puck pitch was ever actually sent — close that loop one way or the other; (5) confirm whether any LA trip (Jun 1-4) meeting outcomes exist that should be added to state; (6) start a lightweight habit of moving an award's status to 'drafted' the moment work begins, so a missed deadline surfaces immediately rather than being discovered 7 weeks later, as happened with two Campaign Asia award cycles this run.",
+      "urgency": "this-week"
+    },
+    "model": "claude-sonnet-5",
+    "tokens": { "input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0 },
+    "createdAt": "2026-07-13T08:35:00.000Z"
+  },
+  {
     "id": "br_2605_week2",
     "weekOf": "2026-05-25T00:00:00.000Z",
     "headline": "Hollywood IS vertical. Netflix + Amazon + Disney confirmed the trifecta this fortnight. LA in 6 days — the conversations just changed.",

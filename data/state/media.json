@@ -6,9 +6,9 @@
     "contact": "matthew@puck.news",
     "tier": 1,
     "beat": "Entertainment business",
-    "pitchAngle": "B2B distribution counterpart to DramaBox. Tim has the rails Hollywood is about to need.",
+    "pitchAngle": "B2B distribution counterpart to DramaBox. Tim has the rails Hollywood is about to need. Now has a fresher hook: the Neymar/FlareFlow AI-likeness deal + ReelShort's Globe/Showbox telco deals (all June 2026) update the 'infrastructure' story with concrete new receipts.",
     "status": "identified",
-    "notes": "Highest-priority single pitch. Send this week."
+    "notes": "OPEN LOOP: the 2026-05-26 brief recommended sending this pitch by Wed May 27/Thu May 28. No Puck newsletter or 'The Town' episode covering COL/vertical drama has been found through 2026-07-13, and no record exists in this file of the pitch actually being sent. Stuart should confirm: was it sent? If yes, did Belloni respond? If no, the pitch is now ~7 weeks stale and should be refreshed with the June news before resending."
   },
   {
     "id": "seed-puck",
@@ -148,5 +148,15 @@
     "beat": "Asia tech / business",
     "pitchAngle": "Singapore-based; 500+ eps. East-West translation story.",
     "status": "identified"
+  },
+  {
+    "id": "seed-two-the-point-podcast",
+    "outlet": "Two The Point",
+    "journalist": "Patrick Frater (Variety) & Janine Stein (ContentAsia)",
+    "tier": 1,
+    "beat": "Vertical drama / microdrama trade podcast",
+    "pitchAngle": "New podcast (2026) co-hosted by Tim's warmest existing media relationship (Janine Stein, ContentAsia — broke the CMO appointment news) and Variety's Asia bureau chief (Patrick Frater, who also runs his own 'Micro Dramas' Substack franchise). Ready-made episode topic: COL's June news cycle — the Neymar/FlareFlow AI-likeness deal, ReelShort's Globe/Showbox telco deals, and the brand-vertical convergence story.",
+    "status": "identified",
+    "notes": "Lowest-friction podcast target on the list because it routes through an existing warm relationship rather than a cold pitch. Approach via Janine Stein directly. Source: variety.com/author/patrick-frater. Date checked: 2026-07-13."
   }
 ]

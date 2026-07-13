@@ -20,9 +20,10 @@
     "startsAt": "2026-06-01T00:00:00.000Z",
     "endsAt": "2026-06-04T00:00:00.000Z",
     "role": "Attendee",
-    "status": "confirmed",
+    "status": "done",
     "fitScore": 80,
-    "fitRationale": "Not a speaking event. Platforms, producers, creators, studios, brands. Document with daily LinkedIn posts."
+    "fitRationale": "Not a speaking event. Platforms, producers, creators, studios, brands. Document with daily LinkedIn posts.",
+    "notes": "No public coverage or announced outcome found for this trip as of 2026-07-13. Unknown whether daily vlog posts (content.json cn1lpgxh9v8k3p9q) were actually shot/posted, and unknown whether any studio meeting produced a follow-on deal. Stuart should confirm what actually happened — treat as an open loop, not a completed success."
   },
   {
     "id": "seed-nem-dubrovnik-new-europe-market",
@@ -32,9 +33,10 @@
     "startsAt": "2026-06-08T00:00:00.000Z",
     "endsAt": "2026-06-11T00:00:00.000Z",
     "role": "Panellist",
-    "status": "confirmed",
+    "status": "done",
     "fitScore": 90,
-    "fitRationale": "'Microdrama: risky business or industry's next guilty pleasure?' with Maria Rua Aguete, Cassandra Yang, Lukasz Wysocki."
+    "fitRationale": "'Micro-drama in CEE: Safe Bet or Risky Business?' with Maria Rua Aguete, Cassandra Yang, Lukasz Wysocki.",
+    "notes": "Confirmed via Señal News coverage — panel ran as planned. Panel title corrected from state's prior tracking ('risky business or industry's next guilty pleasure') to the actual title above. Aguete cited $14B global 2026 market / $3B outside China. Source: https://senalnews.com/en/events/nem-dubrovnik-2026-ma-ai-and-microdramas-lead-industry-trends/amp. Date checked: 2026-07-13."
   },
   {
     "id": "seed-apos-bali",
@@ -44,9 +46,10 @@
     "startsAt": "2026-06-16T00:00:00.000Z",
     "endsAt": "2026-06-18T00:00:00.000Z",
     "role": "Speaker",
-    "status": "confirmed",
+    "status": "done",
     "fitScore": 92,
-    "fitRationale": "Confirmed on speaker slate. Mansha Daswani on site."
+    "fitRationale": "Confirmed on speaker slate. Mansha Daswani on site.",
+    "notes": "Session confirmed as 'Building the Vertical Stack in Asia' (Variety APOS takeaways piece). Same event window: FlareFlow's Neymar Jr. AI-likeness deal and ReelShort's Globe/Showbox partnership news all broke around APOS — COL's most productive single event of this reporting period. Source: https://variety.com/2026/tv/news/apos-2026-takeaways-ip-sport-ai-asia-new-content-era-1236785762/. Date checked: 2026-07-13."
   },
   {
     "id": "seed-mipcom-cannes-2026",
@@ -58,7 +61,21 @@
     "role": "Panellist",
     "status": "identified",
     "fitScore": 95,
-    "fitRationale": "Natural progression from MIP London. Anne Chan can broker. Pitch Vertical 2.0 keynote."
+    "fitRationale": "Natural progression from MIP London. Anne Chan can broker. Pitch Vertical 2.0 keynote.",
+    "notes": "Not yet confirmed — no press or program mention of Tim Oh found as of 2026-07-13. Still just a target, not a booking. Anne Chan (AR Asia Production, represents COL at MIPCOM) is the broker to activate."
+  },
+  {
+    "id": "seed-lavdm-third-edition",
+    "name": "LA Vertical Drama Market — third edition",
+    "organizer": "LAVDM / FAB Factory Entertainment",
+    "location": "Hollywood, Los Angeles, USA",
+    "startsAt": "2026-11-05T00:00:00.000Z",
+    "endsAt": "2026-11-07T00:00:00.000Z",
+    "role": "Prospective speaker",
+    "status": "identified",
+    "fitScore": 85,
+    "fitRationale": "The Hollywood home turf for vertical drama specifically — a speaking slot here builds Tim's B-roll recognisability in LA in a way trade-marketing conferences don't. Also hosts the IAVA Apollo Awards (see awards.json).",
+    "notes": "Third edition dates confirmed Nov 5-7, 2026 (previously assumed September). No confirmed Tim/COL involvement yet in prior editions. Outreach lead time is good — pursue an organizer introduction in Sep/Oct. Source: https://www.real-reel.com/la-vertical-drama-market-2026-recap/. Date checked: 2026-07-13."
   },
   {
     "id": "seed-contentasia-summit-2026",

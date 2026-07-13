@@ -1,5 +1,15 @@
 [
   {
+    "id": "rn_2607_w1",
+    "agent": "weekly-brief",
+    "status": "success",
+    "startedAt": "2026-07-13T06:00:00.000Z",
+    "finishedAt": "2026-07-13T08:40:00.000Z",
+    "itemsCreated": 16,
+    "itemsUpdated": 19,
+    "metadata": "Catch-up weekly brief covering a 7-week gap (2026-05-26 to 2026-07-13) — the routine did not fire on its normal cadence. npm run feeds hung for ~14 minutes before completing with networkPolicyBlocked: true (22/22 RSS sources denied, unchanged from every prior run). Compensated with five parallel web-research agents covering: (1) industry/competitor/streamer/regulatory signals, (2) brand entry + AI production, (3) awards/conferences/podcast verification, (4) Tim/COL reputation and direct coverage, (5) Asia flow + out-of-the-box + partner discovery. 16 new intelligence items added (relevance 55-98), all reviewed and scored. Key finding: FlareFlow's own Neymar Jr. AI-likeness deal (Jun 19) is COL's biggest news of the gap and has had zero on-camera reaction from Tim. Two award-deadline corrections: Campaign Asia Media Awards and Campaign Asia PR Awards were both tracked with a July 14 deadline but are in fact already closed (concluded June 9 and June 16) — no submission was made for either, a process gap flagged in the brief. MARKETING-INTERACTIVE deadline found genuinely ambiguous (conflicting site info) — flagged for direct verification rather than assumed closed. speaking.json updated: LA trip, NEM Dubrovnik, and APOS Bali all confirmed to have happened (status -> done), NEM panel title and market-sizing figure corrected, APOS session name added, new LAVDM third-edition (Nov 5-7) entry added. media.json: added Two The Point podcast target (Patrick Frater + Janine Stein); flagged the May Belloni/Puck pitch as an unconfirmed open loop. contacts.json: added Patrick Frater. content.json: 8 stale drafts tied to now-passed event windows marked dismissed (with notes); 3 fresh drafts added, including the mandatory visual piece-to-camera reacting to the Neymar/FlareFlow deal. settings.json weeklyFocus fully rewritten. All 24 OPPORTUNITY_RADAR categories walked; categories producing nothing this run: MENA/Saudi vertical-specific localisation, hardware-partner and music-label sync deals, out-of-the-box stunts, and confirmed LA-trip outcomes — all explicitly surfaced in the brief's whatChanged."
+  },
+  {
     "id": "rn_2605_week2",
     "agent": "weekly-brief",
     "status": "success",

@@ -22,7 +22,8 @@
     "body": "[SHOOT INSTRUCTIONS]\nLocation: Singapore daylight, somewhere with depth in the background — not a desk, not a logo wall. A street, a hotel lobby, the FlareFlow studio entrance.\nWardrobe: white tee or open-collar shirt. NO suit jacket. NO tie.\nPhone at chest height, vertical, native camera app. Single take. Allow 3–4 attempts.\nAudio: phone mic is fine. If outdoors, find a wall to break wind noise.\n\n[ON-CAMERA SCRIPT — ~60 seconds total]\n\n(Direct, energy, half a beat more confident than written-Tim. No 'hey everyone'. No 'so'.)\n\nNine days. LA. Five questions.\n\n(Beat.)\n\nOne. Which production execs are quietly piloting vertical right now — and which are still pretending not to.\n\nTwo. Which agencies have a real creator-vertical strategy that isn't just \"we'll repackage TikTok talent.\"\n\nThree. Which brand CMOs are buying vertical drama as a media line item — not a one-off stunt.\n\n(Two more in the caption.)\n\nI'm not coming to LA to sell anything. I'm coming to find out what people are actually doing when nobody's posting about it.\n\nI'll tell you what I find.\n\n[CAPTION TEXT — for LinkedIn / X post body]\n\nNine days. LA. Five questions I'm going to ask everyone.\n\n1. Which production execs are quietly piloting vertical right now — and which are still pretending not to?\n\n2. Which agencies have a real creator-vertical strategy, not just \"we'll repackage TikTok talent\"?\n\n3. Which brand CMOs are buying vertical drama as a media line item — not a one-off stunt?\n\n4. Which platforms are licensing vertical IP vs commissioning it?\n\n5. What does the next CAA / WME signing in vertical look like — and from where?\n\nWho should I be asking?",
     "rationale": "Hook in 5 words — passes the VOICE.md on-camera test. Outdoor, phone, no jacket — passes the 'not a corporate piece' test. Specific questions with named institutions (CAA, WME, brand CMOs) — passes the 'no fluff' test. Forward close ('I'll tell you what I find') sets up the LA daily vlog series — building cadence. Generates inbound from the caption's closing question. This replaces last week's written version of the same idea.",
     "predictedEngagement": "high",
-    "status": "draft",
+    "status": "dismissed",
+    "notes": "Window closed — this was a pre-trip piece for the Jun 1-4 LA trip, now ~6 weeks past. No evidence it was ever shot/posted. Dismissed 2026-07-13 rather than left stale in 'draft'.",
     "createdAt": "2026-05-23T06:46:00.000Z"
   },
   {
@@ -49,7 +50,8 @@
     "body": "[BEAT SHEET — not a script. Tim improvises within the structure each day.]\n\nDAY 1 — JUN 1 (record between landing + first meeting)\n\nLocation options (pick what feels native): LAX exit (the wheelchair luggage moment), arriving at the hotel, Sunset Blvd walking shot, studio lot gates (if visiting one).\n\nOpening: 'Day one. LA. Here's the list.'\n\nMeetings to name (Stuart confirms permission for each name on the morning of Jun 1):\n  • Meeting 1 — [name / role] (or fallback: 'studio exec at [studio]')\n  • Meeting 2 — [name / role] (or fallback: 'agency partner')\n  • Meeting 3 — [name / role] (or fallback: 'investor — consumer + China thesis')\n\nQuestion for the day (Tim picks ONE the night before):\n  • Option A: 'What does a brand CMO want from vertical that they're not getting?'\n  • Option B: 'Which agency has a vertical-native creator desk first — and what would they want from us?'\n  • Option C: 'What's the moment Hollywood actually says yes to vertical at scale?'\n\nOverheard / first impression:\n  • Whatever lands. Authentic > clever.\n\nClose: 'Tomorrow.' One word. Cut.\n\n[DAY 2 — JUN 2]\nSame structure. New meetings. New question (don't repeat).\nLocation: morning coffee, between two meetings, Beverly Hills sidewalk — wherever.\n\n[DAY 3 — JUN 3]\nSame structure. By now Tim should be naming patterns ('Three people have asked me the same question. That tells me...'). Higher value than Day 1.\n\n[DAY 4 — JUN 4]\nFinal day = recap variant. 'Four days, fifteen meetings, here's what changed my mind.' Slightly longer (~75 sec OK). This is the post that gets reposted — make it the sharpest.\n\n[CAPTION TEMPLATE — same for each day]\n\nDay [N] in LA. Today's question: [the question]. Met: [up to 3 names if cleared].\n\n[One-line observation, copied from the video close.]\n\nDay [N+1] tomorrow.\n\n[POSTING CADENCE]\nDaily, between 6pm–9pm LA time (which is the LinkedIn-APAC-morning sweet spot for Tim's home audience + still primetime in US). Stuart edits captions + posts; Tim's only job is to film 60 seconds per day.",
     "rationale": "Beat sheet, not a script — Tim improvises within structure, which is more native to vertical-creator energy. Forces ONE question per day = surfaces the LA conversation as it unfolds. Daily cadence = compounding visibility, not one-off. Caption template + clearance protocol = removes Stuart-side friction during the actual trip. Day 4 designed as the share-able recap. This is the kind of asset that makes Tim recognisable in Hollywood B-roll — Category 21 in practice.",
     "predictedEngagement": "high",
-    "status": "draft",
+    "status": "dismissed",
+    "notes": "Window closed — the LA trip (Jun 1-4) is ~6 weeks past. No evidence any daily vlog beat was shot or posted. Dismissed 2026-07-13.",
     "createdAt": "2026-05-23T06:47:00.000Z"
   },
   {
@@ -125,7 +127,8 @@
     "rationale": "Hook is 5 words — passes VOICE.md on-camera test. Outdoor, phone, no jacket. The three-beat time progression ('two years / last year / this week') is Tim's natural rhetorical rhythm. Forward close ('I'm in LA next week') sets up the LA trip narrative without explicitly selling. Caption reinforces the supply-chain frame for the LinkedIn audience who watches on mute. This is the highest-leverage single piece Tim can shoot this weekend.",
     "predictedEngagement": "high",
     "sourceItemId": "int_peacock_reelshort_license_2605",
-    "status": "draft",
+    "status": "dismissed",
+    "notes": "News cycle has moved on — Peacock/ReelShort is now ~2 months old and superseded by COL's own bigger news (Neymar/FlareFlow deal, June 2026). Dismissed 2026-07-13.",
     "createdAt": "2026-05-23T08:15:00.000Z"
   },
   {
@@ -150,7 +153,8 @@
     "rationale": "Opens with warmth and specificity — Tim's signature register. Names both hires and their previous companies (institutional credibility via association). Includes the $2M TikTok revenue proof point and the 1,700 titles figure. Ends with a forward close that ties to the LA trip without announcing the trip. No hashtags, no 'excited to announce', no 'thrilled to welcome'. One idea per sentence.",
     "predictedEngagement": "high",
     "sourceItemId": "int_col_new_hires_2605",
-    "status": "draft",
+    "status": "dismissed",
+    "notes": "Forward close references the Jun 1-4 LA trip, now ~6 weeks past, and no evidence this was ever posted. Dismissed 2026-07-13 — a fresh version could still be written but this draft's timing hook is dead.",
     "createdAt": "2026-05-23T08:16:00.000Z"
   },
   {
@@ -178,7 +182,8 @@
     "rationale": "Beat sheet format (not script) — Tim improvises, which is more native. Day 1 deliberately withholds the panel question answer as a hook for Day 2 viewership. Pre-panel 30-sec is the most repostable format at conferences. NEM is under-tapped for Tim's European MIPCOM positioning — building a presence here now makes MIPCOM October easier. This is Category 21 (visual / travel vlog) and Category 11 (conference) combined.",
     "predictedEngagement": "medium",
     "sourceItemId": "int_col_new_hires_2605",
-    "status": "draft",
+    "status": "dismissed",
+    "notes": "NEM Dubrovnik (Jun 8-11) is ~5 weeks past. Panel confirmed to have happened (see intelligence.json int_nem_dubrovnik_recap_2607) but no evidence any daily vlog beat was shot. Dismissed 2026-07-13.",
     "createdAt": "2026-05-23T08:17:00.000Z"
   },
   {
@@ -205,7 +210,8 @@
     "rationale": "Hook: three nouns, three seconds — the strongest possible opener because no setup needed. 'Three is a supply-chain decision' is Tim's sharpest framing of the validation moment — operator insight, not cheerleading. Forward close ties to LA trip without pitching it. Caption 'Who should I be talking to?' generates inbound from LA contacts. Outdoor, phone, no jacket — native to the format Tim is arguing for. This supersedes the Peacock piece in urgency but Tim can still shoot both: Peacock piece (the original prediction validated) + Trifecta piece (the industry-wide confirmation). If only one gets shot this weekend, it is this one.",
     "predictedEngagement": "high",
     "sourceItemId": "int_trifecta_vertical_2605",
-    "status": "draft",
+    "status": "dismissed",
+    "notes": "Window closed — forward close references the Jun 1-4 LA trip, now ~6 weeks past. The trifecta news itself is stale, superseded by COL's own bigger June news. Dismissed 2026-07-13.",
     "createdAt": "2026-05-26T22:10:00.000Z"
   },
   {
@@ -231,7 +237,8 @@
     "rationale": "Opens with two sharp, specific images — Tim's trademark. Receipts > rhetoric: seven named brands, four product names. 'Same format. Completely different creative muscle.' is the operator insight that proves Tim understands both ends of the spectrum. Closes quietly with the COL implication. One idea per sentence. No hashtags. The post lands best Wednesday or Thursday of the LA trip week when Tim is in brand CMO meetings — posting it live in LA is the strongest version.",
     "predictedEngagement": "high",
     "sourceItemId": "int_marc_jacobs_luxury_microdrama_2605",
-    "status": "draft",
+    "status": "dismissed",
+    "notes": "Timing hook (LA trip week) is ~6 weeks past, and the brand list has grown further since (Google Pixel is now the first tech entrant — see int_google_pixel_moving_on_2607). A refreshed version of this post is a good candidate for a future run, not this draft as-is. Dismissed 2026-07-13.",
     "createdAt": "2026-05-26T22:11:00.000Z"
   },
   {
@@ -257,7 +264,86 @@
     "body": "[SHOOT INSTRUCTIONS]\nLocation: Outdoors with natural light and depth. Singapore daylight, street or terrace, NOT a desk.\nWardrobe: Clean shirt, no jacket.\nPhone vertical, 3–4 attempts, pick best take.\nAudio: phone mic. Outdoors OK.\nShoot Thursday or Friday May 28-29. Post Friday May 29 evening (hits European Monday morning).\n\n[ON-CAMERA SCRIPT — ~60 seconds]\n\nThirteen days. Dubrovnik. One question.\n\n(Beat.)\n\nThe panel question is: is microdrama risky business — or just the industry's next guilty pleasure?\n\n(Slight pause, then the punchline.)\n\nThis week, Netflix, Amazon, and Disney all launched vertical video feeds.\n\nDoes that sound risky to you?\n\n(Hold. Don't explain it. Let the audience sit with it for two seconds.)\n\nI'm on stage with Maria Rua Aguete — she runs media and entertainment research at Omdia. Between her data and my receipts from the field, we're going to answer a question the European market has been circling for two years.\n\nIf you're in Dubrovnik, I'll see you there.\n\nIf you're not — I'll bring you in.\n\nJune 8.\n\n[CAPTION TEXT]\n\nNEM Dubrovnik. June 8-11.\n\n'Microdrama: risky business or the industry's next guilty pleasure?'\n\nThis week, Netflix launched a vertical feed. Then Amazon. Disney has been running vertical since February.\n\nThat is not a guilty pleasure. That is infrastructure.\n\nMaria Rua Aguete (Omdia) and I are on stage in Dubrovnik to answer the question the European market keeps asking.\n\nSee you there — or I'll bring you in from the room.",
     "rationale": "Hook in 5 words — passes VOICE.md test. The rhetorical structure (state the panel question → answer it with the trifecta) is confident without arrogance. Naming Maria Rua Aguete builds the 'Tim knows the people who have the data' credibility. 'I'll bring you in from the room' is the hook for the NEM vlog series — audience investment before Tim lands. Posts Friday before LA trip: live during LA, hits European media Monday morning. Outdoor, phone, no jacket — native to the category Tim represents.",
     "predictedEngagement": "medium",
-    "status": "draft",
+    "status": "dismissed",
+    "notes": "NEM Dubrovnik (Jun 8-11) is ~5 weeks past — the panel happened (see int_nem_dubrovnik_recap_2607) but this pre-panel piece's window is closed. Dismissed 2026-07-13.",
     "createdAt": "2026-05-26T22:12:00.000Z"
+  },
+  {
+    "id": "cn_neymar_ai_licensed_2607",
+    "platform": "linkedin",
+    "format": "piece-to-camera",
+    "title": "Neymar AI-likeness reaction — 'We licensed it. Properly.'",
+    "hook": "We just licensed an AI likeness. Properly.",
+    "coreArgument": "FlareFlow's Neymar Jr. AI-likeness deal is a fully licensed, contracted, consensual use of AI — the direct opposite of the uncredited-likeness scandals that have been damaging trust in AI-generated microdrama.",
+    "whyNow": "Deal announced June 19, 2026 at APOS Bali — recent enough for an authentic reaction, and it gives Tim a way to engage the AI-consent criticism (Category 22) without ever naming a specific accused competitor.",
+    "sourceEvidence": "Neymar/FlareFlow deal: Deadline https://deadline.com/2026/06/neymar-jr-microdrama-flareflow-world-cup-2026-1236950043/ | Variety | Hollywood Reporter. AI-consent controversy context: Hong Kong Free Press 'Clearly me' https://hongkongfp.com/2026/05/02/clearly-me-chinese-ai-drama-accused-of-stealing-faces/ | The Wrap 'dark underbelly' piece. Date checked: 2026-07-13.",
+    "timPOV": "Everyone's scared of AI in this category because of the wrong examples. We just did the right one — a real athlete, a signed contract, a fee, and control over how his likeness gets used. That's not a loophole. That's the actual business.",
+    "colRelevance": "Positions COL/FlareFlow as the operator doing AI-likeness deals the correct, contracted way — a direct talking point for B2B partners (studios, agencies, brand clients) deciding who to trust with AI-driven production, right as Character.ai and others try to become content producers too.",
+    "supportingPoints": [
+      "**Open (0-3 sec):** Tim direct to camera, outdoors, no jacket. 'We just licensed an AI likeness.' Beat. 'Properly.'",
+      "**Beat 1 (3-20 sec):** 'Neymar. World Cup. Sixteen titles. Every one of them covered by a contract he signed, for a fee he agreed to, with limits he controls.' Precise, no adjectives.",
+      "**Beat 2 (20-40 sec):** 'Look at what's happening everywhere else in this category — real people's faces turning up in AI content they never agreed to. That's not innovation. That's theft with better software.'",
+      "**Beat 3 (40-55 sec):** 'The difference between us and that isn't the technology. It's the paperwork nobody wants to talk about.'",
+      "**Close (55-62 sec):** 'This is what built to last actually looks like. More on this soon.' Cut. No sign-off.",
+      "**Caption (~80 words):** Name the deal facts — Neymar, 16 titles, World Cup timing, launched via FlareFlow + Xiaohongshu. One sentence on the contrast with uncredited-likeness cases elsewhere in the category, without naming anyone. Close with 'Built to last.'"
+    ],
+    "risk": "Sounding defensive about an issue nobody has specifically accused COL of. Mitigation: frame as forward-looking standard-setting, not a rebuttal — never name a competitor or a specific accused platform on camera or in the caption.",
+    "body": "[SHOOT INSTRUCTIONS]\nLocation: Outdoors, natural light, depth behind Tim — street, terrace, FlareFlow studio entrance. NOT a desk, NOT a logo wall.\nWardrobe: Clean shirt, no jacket.\nPhone vertical, 3-4 takes, pick the best.\nAudio: phone mic, find a quiet outdoor space.\n\n[ON-CAMERA SCRIPT — ~60 seconds]\n\nWe just licensed an AI likeness.\n\n(Beat.)\n\nProperly.\n\nNeymar. World Cup. Sixteen titles. Every one of them covered by a contract he signed, for a fee he agreed to, with limits he controls.\n\n(Pause.)\n\nLook at what's happening everywhere else in this category. Real people's faces turning up in AI content they never agreed to.\n\nThat's not innovation. That's theft with better software.\n\nThe difference between us and that isn't the technology.\n\nIt's the paperwork nobody wants to talk about.\n\n(Hold.)\n\nThis is what built to last actually looks like.\n\nMore on this soon.\n\n[CAPTION TEXT]\n\nWe licensed an AI likeness this month. Properly.\n\nNeymar Jr., sixteen titles, timed to the World Cup, live now on FlareFlow and Xiaohongshu. Every title covered by a contract he signed, for a fee he agreed to, with limits he controls.\n\nElsewhere in this category, real people's faces are turning up in AI content they never agreed to. That's not the same business. That's not even the same ethics.\n\nBuilt to last.",
+    "rationale": "Hook is under 14 words and lands in under 5 seconds — passes the VOICE.md on-camera test. Directly engages the AI-consent criticism (Category 22) without naming or attacking a specific competitor — contrasts practice, not company. Uses the existing 'Built to Last' seed phrase from VOICE.md. This is COL's own news, delivered on camera, addressing a live industry anxiety — high authenticity if shot with the audience-forward framing in the notes above.",
+    "predictedEngagement": "high",
+    "sourceItemId": "int_neymar_flareflow_ai_2607",
+    "status": "draft",
+    "createdAt": "2026-07-13T07:00:00.000Z"
+  },
+  {
+    "id": "cn_india_vertical_scaling_2607",
+    "platform": "linkedin",
+    "format": "post",
+    "title": "India just added 100 million reasons the vertical bet was right",
+    "hook": "JioHotstar's microdrama app just hit 100 million users.",
+    "coreArgument": "India's vertical drama market scaled to 100M+ users in under three months via telco-backed distribution (JioHotstar's Tadka), proving Tim's Asia-bridge thesis and revealing a market COL doesn't yet have a headline presence in.",
+    "whyNow": "JioHotstar's Tadka passed 100M users in June 2026, four months after an April launch — the fastest national vertical-market build-out observed to date. ZEE5 and Amazon have already launched rivals, meaning the window to enter with a first-mover partnership is closing.",
+    "sourceEvidence": "The Hollywood Reporter https://www.hollywoodreporter.com/business/business-news/jiohotstar-tadka-100-million-users-india-microdrama-market-1236619270/ Date checked: 2026-07-13.",
+    "timPOV": "I've spent two years saying the future of this category is Asia-to-global, not China-to-West. India just proved the 'to-global' part can happen inside Asia, in months, without anyone in Hollywood noticing yet.",
+    "colRelevance": "Flags a genuine gap — COL doesn't have a headline India play. Sets up an internal conversation about whether to build or partner before ZEE5, Amazon and JioHotstar's own scale locks out newcomers.",
+    "supportingPoints": [
+      "JioHotstar's Tadka launched April 2026, passed 100M users by June.",
+      "ZEE5 launched a rival ('Bullet'), Amazon added 'Fatafat' — three major platforms in one market within one quarter.",
+      "Yash Raj Films committed roughly $18M to microdrama production — legacy Bollywood money moving in.",
+      "BDO India projects the market could reach 300-500M daily viewers.",
+      "COL doesn't have a headline India presence yet — worth asking why not, out loud."
+    ],
+    "risk": "Sounding like Tim is only reacting to competitors' territory rather than building COL's own. Mitigation: frame as market observation plus an open question, not 'we're behind.'",
+    "body": "JioHotstar's microdrama app just hit 100 million users.\n\nFour months after launch.\n\nI've spent two years telling anyone who'd listen that the real story in this category isn't China exporting to the West. It's Asia building for Asia, at a speed nobody outside the region is watching closely enough.\n\nIndia just proved it.\n\nTadka launched in April. ZEE5 launched a rival called Bullet within weeks. Amazon added Fatafat. Yash Raj Films — actual Bollywood money — committed close to $18M to microdrama production. One analyst estimate puts India's eventual daily audience at 300 to 500 million viewers.\n\nThree major platforms, one market, one quarter.\n\nWe don't have a headline presence in India yet. I'm not going to pretend that's not worth asking about, out loud, in public.\n\nWho's building the India play nobody's talking about yet?",
+    "rationale": "Opens with the number, per VOICE.md style rule. Honest admission of a gap — Tim's 'I say things as they are' brand, and avoids overclaiming COL's position (hard guardrail). Ends with a question to drive comments/DMs. Names specific companies and dollar figures — receipts over rhetoric.",
+    "predictedEngagement": "high",
+    "sourceItemId": "int_india_vertical_scaling_2607",
+    "status": "draft",
+    "createdAt": "2026-07-13T07:05:00.000Z"
+  },
+  {
+    "id": "cn_cineverse_retreat_reaction_2607",
+    "platform": "linkedin",
+    "format": "reaction",
+    "title": "Cineverse just walked away from microdrama — and that's good news",
+    "hook": "Someone just quit microdrama. Good.",
+    "coreArgument": "Cineverse scaling back its MicroCo joint venture isn't proof the category is failing — it's proof the category has gotten serious enough that half-committed players can't just coast, which validates rather than undermines COL's 'Built to Last' approach.",
+    "whyNow": "Deadline reported the retreat in June 2026, in the same window Fox deepened its Holywater stake and Versant Media took a new stake in GammaTime — a live, citable contrast between operators doubling down and operators pulling back.",
+    "sourceEvidence": "Deadline https://deadline.com/2026/06/microdrama-cineverse-shifts-joint-venture-lloyd-braun-minority-stake-1236968597/ Date checked: 2026-07-13.",
+    "timPOV": "Every format has a moment where the tourists leave and the operators stay. Being a 50/50 joint venture is easy when the category is a headline. Running production, distribution and a real slate is a different job, and not everyone signed up for that job.",
+    "colRelevance": "Reinforces the differentiation between COL (three years of dedicated infrastructure, 180 originals, 10M+ downloads) and opportunistic joint ventures — a talking point for B2B pitches to studios/streamers deciding who to trust with content supply.",
+    "supportingPoints": [
+      "Cineverse cut its 50/50 MicroCo stake with Banyan Ventures down to a passive minority position, rebranded 'Twist.'",
+      "Same month: Fox deepened its Holywater/My Drama stake (adapted 'Farmer Wants a Wife' into 101 episodes); Versant Media took a new stake in GammaTime.",
+      "Pattern: serious operators are consolidating, not diversifying away.",
+      "COL's own signal in the same window: FlareFlow's 16-title Neymar franchise, ReelShort's Globe/Showbox deals — building, not retreating."
+    ],
+    "risk": "Sounding like Tim is dunking on a named competitor's business decision. Mitigation: don't gloat, frame as an industry-maturity observation, never use the word 'failure.'",
+    "body": "Someone just quit microdrama.\n\nGood.\n\nCineverse scaled its microdrama joint venture down to a passive stake this month. Deadline called it a retreat. I'd call it something else: proof the category got real.\n\nIn the same few weeks, Fox deepened its stake in a microdrama platform. Versant Media took a new one in another. Different companies, opposite decision.\n\nHere's the difference. A joint venture is easy to sign when the category is a headline. Running an actual production slate — casting, guild contracts, a release calendar, a distribution network — is a different job. Not everyone who signed up for the headline signed up for the job.\n\nWe built the job first. 180 originals this year. Three years of infrastructure before anyone asked us to build it.\n\nBuilt to last was never a slogan. It was a filter for who stays.",
+    "rationale": "Co-opts a competitor's retreat as validation rather than ignoring it — Category 22 discipline (steelman, don't defend). Uses the 'Built to Last' seed phrase from VOICE.md. Doesn't name Cineverse pejoratively, frames as structural observation. Ends on a sharp, quotable line.",
+    "predictedEngagement": "medium",
+    "sourceItemId": "int_cineverse_microco_retreat_2607",
+    "status": "draft",
+    "createdAt": "2026-07-13T07:10:00.000Z"
   }
 ]
